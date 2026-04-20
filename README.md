@@ -47,6 +47,72 @@ import * as serviceTags from './ServiceTags_Public.bicep'
 
 Adapt the import path to match where you have placed `ServiceTags_Public.bicep` relative to your template.
 
+## Using the modules from the registry
+
+The Bicep files are published to the **GitHub Container Registry (GHCR)** as OCI artifacts after every update, so you can consume them directly from the registry without copying any files into your project.
+
+### Available modules
+
+| Module | Registry reference |
+|--------|--------------------|
+| Azure Public Cloud | `br:ghcr.io/rdeveen/azure-ip-addresses-bicep/servicetags-public:latest` |
+| Azure China Cloud | `br:ghcr.io/rdeveen/azure-ip-addresses-bicep/servicetags-china:latest` |
+| Azure US Government Cloud | `br:ghcr.io/rdeveen/azure-ip-addresses-bicep/servicetags-azuregovernment:latest` |
+| Azure Germany Cloud | `br:ghcr.io/rdeveen/azure-ip-addresses-bicep/servicetags-azuregermany:latest` |
+
+Modules are also tagged by date (`YYYYMMDD`) for pinning to a specific release, e.g. `servicetags-public:20260420`.
+
+### Prerequisites
+
+- **Bicep CLI ≥ 0.21** — required for `import` support and OCI registry consumption.
+- The packages are public, so **no credentials are required** to pull them. You can reference these modules directly without any extra configuration.
+- Optionally, add `ghcr.io` as a trusted registry in a `bicepconfig.json` (see the alias example below) to enable shorter import paths.
+
+### Simple example
+
+Consume the Public Cloud module directly from the registry — no local file copy needed:
+
+```bicep
+// main.bicep
+module publicTags 'br:ghcr.io/rdeveen/azure-ip-addresses-bicep/servicetags-public:latest' = {
+  name: 'publicTags'
+  params: {}
+}
+
+// Access a service-tag variable via the module outputs
+// NOTE: Because the Bicep files use 'var' (not 'output'), wrap the variable
+// in an intermediate module or use the import pattern below.
+```
+
+The recommended approach for Bicep ≥ 0.21 is the `import` syntax. First, define an alias in `bicepconfig.json`:
+
+```json
+// bicepconfig.json
+{
+  "moduleAliases": {
+    "br": {
+      "azureIpAddresses": {
+        "registry": "ghcr.io",
+        "modulePath": "rdeveen/azure-ip-addresses-bicep"
+      }
+    }
+  }
+}
+```
+
+Then import the module using the alias:
+
+```bicep
+// With alias defined in bicepconfig.json:
+import * as serviceTags from 'br/azureIpAddresses:servicetags-public:latest'
+
+var allowedRanges = serviceTags.AzureMonitor
+```
+
+### How it works (registry)
+
+The GitHub Actions workflow re-publishes updated modules to GHCR automatically each week, right after committing the refreshed Bicep files. The `latest` tag always points to the most recent build, while dated tags (e.g. `20260420`) allow you to pin to a specific release for reproducible deployments.
+
 ## Sample — Logic App (Consumption) with firewall and IP whitelisting
 
 This example deploys a Logic App (Consumption) inside an App Service Environment-style access restriction. An **IP restriction** on the Logic App allows inbound calls only from the Azure **LogicApps** service-tag prefixes (e.g. managed connector infrastructure) and from **AzureMonitor** (for alert webhooks). All other traffic is denied.
@@ -103,6 +169,7 @@ The workflow file [`.github/workflows/update-servicetags.yml`](.github/workflows
 2. Fetches the latest Service Tags JSON for each cloud from the Microsoft Download Center.
 3. Calls [`scripts/convert-to-bicep.py`](scripts/convert-to-bicep.py) to convert each JSON file into a Bicep variable file.
 4. Commits and pushes any updated files back to the repository.
+5. Publishes the four Bicep modules to GHCR as OCI artifacts (tagged with the current date and `latest`).
 
 ## Generating files locally
 

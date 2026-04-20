@@ -8,6 +8,7 @@ on:
 
 permissions:
   contents: write
+  packages: write
 
 jobs:
   update-bicep:
@@ -131,3 +132,48 @@ jobs:
             git commit -m "chore: update Azure Service Tags Bicep files [skip ci]"
             git push
           fi
+
+      # -----------------------------------------------------------------------
+      # Publish Bicep modules to GHCR
+      # -----------------------------------------------------------------------
+      - name: Install Bicep CLI
+        run: |
+          curl -Lo bicep https://github.com/Azure/bicep/releases/latest/download/bicep-linux-x64
+          chmod +x bicep
+          sudo mv bicep /usr/local/bin/bicep
+
+      - name: Log in to GitHub Container Registry
+        run: |
+          echo "${{ secrets.GITHUB_TOKEN }}" | docker login ghcr.io -u ${{ github.actor }} --password-stdin
+
+      - name: Publish Bicep modules to GHCR
+        run: |
+          VERSION=$(date -u +%Y%m%d)
+
+          bicep publish ServiceTags_Public.bicep \
+            --target br:ghcr.io/rdeveen/azure-ip-addresses-bicep/servicetags-public:${VERSION} \
+            --force
+          bicep publish ServiceTags_Public.bicep \
+            --target br:ghcr.io/rdeveen/azure-ip-addresses-bicep/servicetags-public:latest \
+            --force
+
+          bicep publish ServiceTags_China.bicep \
+            --target br:ghcr.io/rdeveen/azure-ip-addresses-bicep/servicetags-china:${VERSION} \
+            --force
+          bicep publish ServiceTags_China.bicep \
+            --target br:ghcr.io/rdeveen/azure-ip-addresses-bicep/servicetags-china:latest \
+            --force
+
+          bicep publish ServiceTags_AzureGovernment.bicep \
+            --target br:ghcr.io/rdeveen/azure-ip-addresses-bicep/servicetags-azuregovernment:${VERSION} \
+            --force
+          bicep publish ServiceTags_AzureGovernment.bicep \
+            --target br:ghcr.io/rdeveen/azure-ip-addresses-bicep/servicetags-azuregovernment:latest \
+            --force
+
+          bicep publish ServiceTags_AzureGermany.bicep \
+            --target br:ghcr.io/rdeveen/azure-ip-addresses-bicep/servicetags-azuregermany:${VERSION} \
+            --force
+          bicep publish ServiceTags_AzureGermany.bicep \
+            --target br:ghcr.io/rdeveen/azure-ip-addresses-bicep/servicetags-azuregermany:latest \
+            --force
