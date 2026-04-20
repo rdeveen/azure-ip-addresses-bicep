@@ -120,7 +120,7 @@ jobs:
       # -----------------------------------------------------------------------
       - name: Commit and push updated Bicep files
         run: |
-          git config user.name  "github-actions[bot]"
+          git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add azure-public/ azure-china/ azure-government/ azure-germany/
           if git diff --cached --quiet; then
