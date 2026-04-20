@@ -142,7 +142,7 @@ jobs:
       - name: Publish Bicep modules to GHCR  
         run: |
           VERSION=$(date -u +%Y%m%d)
-          REGISTRY="ghcr.io/${{ github.actor }}/azure-ip-addresses-bicep"
+          REGISTRY="ghcr.io/${{ github.actor }}/${{ github.repository }}"
           echo "${{ secrets.GITHUB_TOKEN }}" | docker login ghcr.io -u ${{ github.actor }} --password-stdin
 
           # Convert a PascalCase/mixed service-tag name to kebab-case
@@ -165,7 +165,7 @@ jobs:
               [ -f "$bicep_file" ] || continue
               filename=$(basename "$bicep_file" .bicep)
               module_name=$(to_module_name "$filename")
-              module_path="${cloud_dir}/${module_name}"
+              module_path="${cloud_dir}__${module_name}"
               echo "Publishing ${module_path} to ${REGISTRY}"
 
               bicep publish "$bicep_file" \
