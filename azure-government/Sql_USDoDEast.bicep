@@ -1,9 +1,9 @@
 // Auto-generated file – do not edit manually.
-// Generated at : 2026-04-20T18:10:19Z
+// Generated at : 2026-04-20T18:42:21Z
 // Source file  : ServiceTags_AzureGovernment.json
 // Cloud        : AzureGovernment
 // Change number: 390
-// Service tag  : Sql_USDoDEast
+// Service tag  : Sql.USDoDEast
 
 var Sql_USDoDEast = [
   '20.140.68.192/26'

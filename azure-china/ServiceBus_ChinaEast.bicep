@@ -1,9 +1,9 @@
 // Auto-generated file – do not edit manually.
-// Generated at : 2026-04-20T18:10:19Z
+// Generated at : 2026-04-20T18:42:21Z
 // Source file  : ServiceTags_China.json
 // Cloud        : China
 // Change number: 391
-// Service tag  : ServiceBus_ChinaEast
+// Service tag  : ServiceBus.ChinaEast
 
 var ServiceBus_ChinaEast = [
   '40.72.168.128/26'

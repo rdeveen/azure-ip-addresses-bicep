@@ -1,9 +1,9 @@
 // Auto-generated file – do not edit manually.
-// Generated at : 2026-04-20T18:10:19Z
+// Generated at : 2026-04-20T18:42:22Z
 // Source file  : ServiceTags_AzureGermany.json
 // Cloud        : AzureGermany
 // Change number: 193
-// Service tag  : AzureFrontDoor_Backend
+// Service tag  : AzureFrontDoor.Backend
 
 var AzureFrontDoor_Backend = [
   '51.4.86.64/26'

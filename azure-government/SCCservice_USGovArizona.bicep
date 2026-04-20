@@ -1,9 +1,9 @@
 // Auto-generated file – do not edit manually.
-// Generated at : 2026-04-20T18:10:19Z
+// Generated at : 2026-04-20T18:42:21Z
 // Source file  : ServiceTags_AzureGovernment.json
 // Cloud        : AzureGovernment
 // Change number: 390
-// Service tag  : SCCservice_USGovArizona
+// Service tag  : SCCservice.USGovArizona
 
 var SCCservice_USGovArizona = [
   '20.158.112.16/28'

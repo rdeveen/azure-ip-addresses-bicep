@@ -1,9 +1,9 @@
 // Auto-generated file – do not edit manually.
-// Generated at : 2026-04-20T18:10:18Z
+// Generated at : 2026-04-20T18:42:19Z
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Change number: 396
-// Service tag  : PowerPlatformPlex_GermanyNorth
+// Service tag  : PowerPlatformPlex.GermanyNorth
 
 var PowerPlatformPlex_GermanyNorth = [
   '4.184.2.8/29'

@@ -1,9 +1,9 @@
 // Auto-generated file – do not edit manually.
-// Generated at : 2026-04-20T18:10:18Z
+// Generated at : 2026-04-20T18:42:19Z
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Change number: 396
-// Service tag  : AzureArcInfrastructure_IsraelCentral
+// Service tag  : AzureArcInfrastructure.IsraelCentral
 
 var AzureArcInfrastructure_IsraelCentral = [
   '20.217.9.46/31'

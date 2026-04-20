@@ -1,9 +1,9 @@
 // Auto-generated file – do not edit manually.
-// Generated at : 2026-04-20T18:10:19Z
+// Generated at : 2026-04-20T18:42:21Z
 // Source file  : ServiceTags_AzureGovernment.json
 // Cloud        : AzureGovernment
 // Change number: 390
-// Service tag  : ActionGroup_USDoDCentral
+// Service tag  : ActionGroup.USDoDCentral
 
 var ActionGroup_USDoDCentral = [
   '52.126.248.144/30'

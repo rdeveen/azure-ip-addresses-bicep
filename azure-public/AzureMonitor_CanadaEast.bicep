@@ -1,9 +1,9 @@
 // Auto-generated file – do not edit manually.
-// Generated at : 2026-04-20T18:10:18Z
+// Generated at : 2026-04-20T18:42:19Z
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Change number: 396
-// Service tag  : AzureMonitor_CanadaEast
+// Service tag  : AzureMonitor.CanadaEast
 
 var AzureMonitor_CanadaEast = [
   '4.239.77.0/26'

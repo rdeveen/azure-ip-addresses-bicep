@@ -1,9 +1,9 @@
 // Auto-generated file – do not edit manually.
-// Generated at : 2026-04-20T18:10:18Z
+// Generated at : 2026-04-20T18:42:19Z
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Change number: 396
-// Service tag  : ServiceFabric_EastUSSTG
+// Service tag  : ServiceFabric.EastUSSTG
 
 var ServiceFabric_EastUSSTG = [
   '20.49.82.4/30'

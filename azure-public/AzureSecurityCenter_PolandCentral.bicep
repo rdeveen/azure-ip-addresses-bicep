@@ -1,9 +1,9 @@
 // Auto-generated file – do not edit manually.
-// Generated at : 2026-04-20T18:10:18Z
+// Generated at : 2026-04-20T18:42:19Z
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Change number: 396
-// Service tag  : AzureSecurityCenter_PolandCentral
+// Service tag  : AzureSecurityCenter.PolandCentral
 
 var AzureSecurityCenter_PolandCentral = [
   '20.215.122.24/30'

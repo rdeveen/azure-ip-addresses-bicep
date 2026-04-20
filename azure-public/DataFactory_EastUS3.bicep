@@ -1,9 +1,9 @@
 // Auto-generated file – do not edit manually.
-// Generated at : 2026-04-20T18:10:18Z
+// Generated at : 2026-04-20T18:42:19Z
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Change number: 396
-// Service tag  : DataFactory_EastUS3
+// Service tag  : DataFactory.EastUS3
 
 var DataFactory_EastUS3 = [
   '51.57.137.192/28'

@@ -1,9 +1,9 @@
 // Auto-generated file – do not edit manually.
-// Generated at : 2026-04-20T18:10:18Z
+// Generated at : 2026-04-20T18:42:19Z
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Change number: 396
-// Service tag  : AzureConnectors_SouthAfricaWest
+// Service tag  : AzureConnectors.SouthAfricaWest
 
 var AzureConnectors_SouthAfricaWest = [
   '20.87.176.165/32'

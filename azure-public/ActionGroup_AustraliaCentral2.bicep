@@ -1,9 +1,9 @@
 // Auto-generated file – do not edit manually.
-// Generated at : 2026-04-20T18:10:18Z
+// Generated at : 2026-04-20T18:42:19Z
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Change number: 396
-// Service tag  : ActionGroup_AustraliaCentral2
+// Service tag  : ActionGroup.AustraliaCentral2
 
 var ActionGroup_AustraliaCentral2 = [
   '20.53.62.100/31'

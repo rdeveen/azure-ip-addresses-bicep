@@ -1,9 +1,9 @@
 // Auto-generated file – do not edit manually.
-// Generated at : 2026-04-20T18:10:18Z
+// Generated at : 2026-04-20T18:42:19Z
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Change number: 396
-// Service tag  : BatchNodeManagement_NorwayEast
+// Service tag  : BatchNodeManagement.NorwayEast
 
 var BatchNodeManagement_NorwayEast = [
   '51.120.41.192/27'

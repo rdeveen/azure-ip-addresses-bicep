@@ -1,9 +1,9 @@
 // Auto-generated file – do not edit manually.
-// Generated at : 2026-04-20T18:10:18Z
+// Generated at : 2026-04-20T18:42:19Z
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Change number: 396
-// Service tag  : ApiManagement_BelgiumCentral
+// Service tag  : ApiManagement.BelgiumCentral
 
 var ApiManagement_BelgiumCentral = [
   '9.160.43.176/28'

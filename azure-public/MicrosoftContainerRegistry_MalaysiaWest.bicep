@@ -1,9 +1,9 @@
 // Auto-generated file – do not edit manually.
-// Generated at : 2026-04-20T18:10:18Z
+// Generated at : 2026-04-20T18:42:19Z
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Change number: 396
-// Service tag  : MicrosoftContainerRegistry_MalaysiaWest
+// Service tag  : MicrosoftContainerRegistry.MalaysiaWest
 
 var MicrosoftContainerRegistry_MalaysiaWest = [
   '20.17.130.0/29'

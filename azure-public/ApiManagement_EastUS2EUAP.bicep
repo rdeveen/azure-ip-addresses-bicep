@@ -1,9 +1,9 @@
 // Auto-generated file – do not edit manually.
-// Generated at : 2026-04-20T18:10:18Z
+// Generated at : 2026-04-20T18:42:19Z
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Change number: 396
-// Service tag  : ApiManagement_EastUS2EUAP
+// Service tag  : ApiManagement.EastUS2EUAP
 
 var ApiManagement_EastUS2EUAP = [
   '20.47.232.184/31'

@@ -1,9 +1,9 @@
 // Auto-generated file – do not edit manually.
-// Generated at : 2026-04-20T18:10:18Z
+// Generated at : 2026-04-20T18:42:19Z
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Change number: 396
-// Service tag  : AzureContainerRegistry_TaiwanNorthwest
+// Service tag  : AzureContainerRegistry.TaiwanNorthwest
 
 var AzureContainerRegistry_TaiwanNorthwest = [
   '51.53.143.64/26'

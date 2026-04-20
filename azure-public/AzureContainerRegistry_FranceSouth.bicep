@@ -1,9 +1,9 @@
 // Auto-generated file – do not edit manually.
-// Generated at : 2026-04-20T18:10:18Z
+// Generated at : 2026-04-20T18:42:19Z
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Change number: 396
-// Service tag  : AzureContainerRegistry_FranceSouth
+// Service tag  : AzureContainerRegistry.FranceSouth
 
 var AzureContainerRegistry_FranceSouth = [
   '20.111.77.0/26'

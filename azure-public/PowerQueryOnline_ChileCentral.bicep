@@ -1,9 +1,9 @@
 // Auto-generated file – do not edit manually.
-// Generated at : 2026-04-20T18:10:18Z
+// Generated at : 2026-04-20T18:42:19Z
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Change number: 396
-// Service tag  : PowerQueryOnline_ChileCentral
+// Service tag  : PowerQueryOnline.ChileCentral
 
 var PowerQueryOnline_ChileCentral = [
   '68.211.19.176/29'
