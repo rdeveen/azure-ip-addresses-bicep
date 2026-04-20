@@ -1,0 +1,19 @@
+// Auto-generated file – do not edit manually.
+// Generated at : 2026-04-20T18:10:18Z
+// Source file  : ServiceTags_Public.json
+// Cloud        : Public
+// Change number: 396
+// Service tag  : AzureArcInfrastructure_NorthEurope
+
+var AzureArcInfrastructure_NorthEurope = [
+  '4.208.114.163/32'
+  '13.69.239.84/30'
+  '13.69.239.88/32'
+  '13.74.107.94/31'
+  '20.38.87.188/30'
+  '52.138.229.96/31'
+  '52.146.130.180/30'
+  '68.219.196.6/31'
+  '68.219.197.8/29'
+  '2603:1020:5:1b::5f4/128'
+]

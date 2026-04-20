@@ -1,0 +1,19 @@
+// Auto-generated file – do not edit manually.
+// Generated at : 2026-04-20T18:10:18Z
+// Source file  : ServiceTags_Public.json
+// Cloud        : Public
+// Change number: 396
+// Service tag  : AzureResourceManager_WestUS
+
+var AzureResourceManager_WestUS = [
+  '4.150.240.0/23'
+  '13.86.219.80/28'
+  '13.86.222.0/24'
+  '20.66.0.0/23'
+  '20.189.168.0/24'
+  '2603:1030:a07::6c0/122'
+  '2603:1030:a07:9::200/120'
+  '2603:1030:a07:402::900/122'
+  '2603:1030:a0b::/48'
+  '2603:1030:a0c::/48'
+]

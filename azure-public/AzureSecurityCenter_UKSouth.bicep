@@ -1,0 +1,18 @@
+// Auto-generated file – do not edit manually.
+// Generated at : 2026-04-20T18:10:18Z
+// Source file  : ServiceTags_Public.json
+// Cloud        : Public
+// Change number: 396
+// Service tag  : AzureSecurityCenter_UKSouth
+
+var AzureSecurityCenter_UKSouth = [
+  '51.140.149.96/27'
+  '74.177.248.224/27'
+  '74.177.250.0/23'
+  '74.177.252.0/24'
+  '74.177.253.0/25'
+  '85.210.104.0/24'
+  '85.210.105.0/26'
+  '85.210.197.0/25'
+  '85.210.198.0/23'
+]

@@ -1,0 +1,25 @@
+// Auto-generated file – do not edit manually.
+// Generated at : 2026-04-20T18:10:18Z
+// Source file  : ServiceTags_Public.json
+// Cloud        : Public
+// Change number: 396
+// Service tag  : AzureMachineLearning_WestCentralUS
+
+var AzureMachineLearning_WestCentralUS = [
+  '13.71.194.240/28'
+  '20.69.1.240/28'
+  '48.194.152.22/31'
+  '48.194.152.24/30'
+  '48.194.152.28/32'
+  '48.194.152.128/27'
+  '48.194.152.160/28'
+  '52.150.136.80/28'
+  '52.253.131.79/32'
+  '52.253.131.198/32'
+  '2603:1030:b04::300/122'
+  '2603:1030:b04:f::540/123'
+  '2603:1030:b04:f::560/124'
+  '2603:1030:b04:f::570/126'
+  '2603:1030:b04:f::574/127'
+  '2603:1030:b04:f::576/128'
+]

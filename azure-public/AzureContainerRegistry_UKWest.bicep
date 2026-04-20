@@ -1,0 +1,19 @@
+// Auto-generated file – do not edit manually.
+// Generated at : 2026-04-20T18:10:18Z
+// Source file  : ServiceTags_Public.json
+// Cloud        : Public
+// Change number: 396
+// Service tag  : AzureContainerRegistry_UKWest
+
+var AzureContainerRegistry_UKWest = [
+  '51.11.97.128/26'
+  '51.137.166.192/26'
+  '51.140.210.192/29'
+  '51.140.215.0/25'
+  '172.186.31.64/26'
+  '2603:1020:605:3::280/122'
+  '2603:1020:605:402::90/125'
+  '2603:1020:605:402::340/122'
+  '2603:1020:605:402::580/122'
+  '2603:1020:605:402::600/121'
+]

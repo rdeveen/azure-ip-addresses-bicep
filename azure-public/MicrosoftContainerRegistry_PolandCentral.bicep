@@ -1,0 +1,15 @@
+// Auto-generated file – do not edit manually.
+// Generated at : 2026-04-20T18:10:18Z
+// Source file  : ServiceTags_Public.json
+// Cloud        : Public
+// Change number: 396
+// Service tag  : MicrosoftContainerRegistry_PolandCentral
+
+var MicrosoftContainerRegistry_PolandCentral = [
+  '20.215.18.64/29'
+  '20.215.26.64/29'
+  '20.215.154.64/29'
+  '2603:1020:1302:400::40/125'
+  '2603:1020:1302:800::40/125'
+  '2603:1020:1302:c00::40/125'
+]

@@ -1,0 +1,13 @@
+// Auto-generated file – do not edit manually.
+// Generated at : 2026-04-20T18:10:18Z
+// Source file  : ServiceTags_Public.json
+// Cloud        : Public
+// Change number: 396
+// Service tag  : BatchNodeManagement_EastUSSTG
+
+var BatchNodeManagement_EastUSSTG = [
+  '20.49.83.64/27'
+  '40.67.49.160/27'
+  '40.67.60.0/27'
+  '2603:1030:104:1::340/122'
+]

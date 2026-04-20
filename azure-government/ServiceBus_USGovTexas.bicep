@@ -1,0 +1,15 @@
+// Auto-generated file – do not edit manually.
+// Generated at : 2026-04-20T18:10:19Z
+// Source file  : ServiceTags_AzureGovernment.json
+// Cloud        : AzureGovernment
+// Change number: 390
+// Service tag  : ServiceBus_USGovTexas
+
+var ServiceBus_USGovTexas = [
+  '20.140.146.128/26'
+  '52.127.34.64/28'
+  '62.11.94.0/25'
+  '2001:489a:3403::220/123'
+  '2001:489a:3403:1::700/120'
+  '2001:489a:3403:402::170/125'
+]

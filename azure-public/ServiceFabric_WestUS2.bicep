@@ -1,0 +1,19 @@
+// Auto-generated file – do not edit manually.
+// Generated at : 2026-04-20T18:10:18Z
+// Source file  : ServiceTags_Public.json
+// Cloud        : Public
+// Change number: 396
+// Service tag  : ServiceFabric_WestUS2
+
+var ServiceFabric_WestUS2 = [
+  '13.66.140.152/29'
+  '13.66.167.194/32'
+  '13.66.226.151/32'
+  '40.78.245.192/30'
+  '40.78.253.64/30'
+  '52.151.38.144/32'
+  '52.158.236.247/32'
+  '2603:1030:c06:400::898/125'
+  '2603:1030:c06:802::98/125'
+  '2603:1030:c06:c02::98/125'
+]

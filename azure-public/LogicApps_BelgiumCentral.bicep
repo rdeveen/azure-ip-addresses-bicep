@@ -1,0 +1,13 @@
+// Auto-generated file – do not edit manually.
+// Generated at : 2026-04-20T18:10:18Z
+// Source file  : ServiceTags_Public.json
+// Cloud        : Public
+// Change number: 396
+// Service tag  : LogicApps_BelgiumCentral
+
+var LogicApps_BelgiumCentral = [
+  '9.160.56.240/28'
+  '9.160.57.192/27'
+  '2603:1020:1502:3::440/124'
+  '2603:1020:1502:3::460/123'
+]

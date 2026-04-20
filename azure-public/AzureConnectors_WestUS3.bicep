@@ -1,0 +1,18 @@
+// Auto-generated file – do not edit manually.
+// Generated at : 2026-04-20T18:10:18Z
+// Source file  : ServiceTags_Public.json
+// Cloud        : Public
+// Change number: 396
+// Service tag  : AzureConnectors_WestUS3
+
+var AzureConnectors_WestUS3 = [
+  '20.106.70.224/32'
+  '20.106.71.20/32'
+  '20.106.81.187/32'
+  '20.106.81.220/32'
+  '20.150.129.176/28'
+  '20.150.129.192/27'
+  '20.150.170.240/28'
+  '20.150.173.64/26'
+  '2603:1030:504:c02::80/122'
+]

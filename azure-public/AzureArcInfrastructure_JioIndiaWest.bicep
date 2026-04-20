@@ -1,0 +1,19 @@
+// Auto-generated file – do not edit manually.
+// Generated at : 2026-04-20T18:10:18Z
+// Source file  : ServiceTags_Public.json
+// Cloud        : Public
+// Change number: 396
+// Service tag  : AzureArcInfrastructure_JioIndiaWest
+
+var AzureArcInfrastructure_JioIndiaWest = [
+  '20.192.164.176/30'
+  '20.193.160.230/32'
+  '20.244.194.6/31'
+  '20.244.194.8/29'
+  '20.244.209.210/32'
+  '135.235.45.41/32'
+  '135.235.45.48/30'
+  '2603:1040:d04:6::5a4/127'
+  '2603:1040:d04:6::5a6/128'
+  '2603:1040:d04:7::2a8/128'
+]

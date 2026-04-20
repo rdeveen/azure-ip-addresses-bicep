@@ -1,0 +1,18 @@
+// Auto-generated file – do not edit manually.
+// Generated at : 2026-04-20T18:10:18Z
+// Source file  : ServiceTags_Public.json
+// Cloud        : Public
+// Change number: 396
+// Service tag  : Sql_KoreaSouth
+
+var Sql_KoreaSouth = [
+  '20.200.165.192/26'
+  '52.147.112.160/27'
+  '52.231.144.0/27'
+  '52.231.145.0/27'
+  '52.231.151.88/29'
+  '52.231.151.96/27'
+  '2603:1040:e05::/123'
+  '2603:1040:e05:6::440/122'
+  '2603:1040:e05:6::480/121'
+]

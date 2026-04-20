@@ -1,0 +1,20 @@
+// Auto-generated file – do not edit manually.
+// Generated at : 2026-04-20T18:10:18Z
+// Source file  : ServiceTags_Public.json
+// Cloud        : Public
+// Change number: 396
+// Service tag  : AzureBackup_CentralUS
+
+var AzureBackup_CentralUS = [
+  '13.89.171.128/26'
+  '13.89.171.192/27'
+  '20.40.229.128/25'
+  '20.44.8.32/27'
+  '20.44.8.64/26'
+  '52.182.139.64/27'
+  '52.182.139.128/26'
+  '2603:1030:10:20::300/121'
+  '2603:1030:10:402::200/121'
+  '2603:1030:10:802::180/121'
+  '2603:1030:10:c02::180/121'
+]

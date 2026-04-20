@@ -1,0 +1,22 @@
+// Auto-generated file – do not edit manually.
+// Generated at : 2026-04-20T18:10:18Z
+// Source file  : ServiceTags_Public.json
+// Cloud        : Public
+// Change number: 396
+// Service tag  : ServiceBus_GermanyWestCentral
+
+var ServiceBus_GermanyWestCentral = [
+  '4.182.46.0/24'
+  '20.52.64.64/26'
+  '20.52.91.128/25'
+  '51.116.154.72/29'
+  '51.116.242.128/29'
+  '51.116.246.128/26'
+  '51.116.250.128/29'
+  '51.116.253.192/26'
+  '2603:1020:c04::700/120'
+  '2603:1020:c04:1::220/123'
+  '2603:1020:c04:402::170/125'
+  '2603:1020:c04:802::150/125'
+  '2603:1020:c04:c02::150/125'
+]

@@ -1,0 +1,18 @@
+// Auto-generated file – do not edit manually.
+// Generated at : 2026-04-20T18:10:18Z
+// Source file  : ServiceTags_Public.json
+// Cloud        : Public
+// Change number: 396
+// Service tag  : AzureSecurityCenter_NorthEurope
+
+var AzureSecurityCenter_NorthEurope = [
+  '4.207.250.0/24'
+  '4.207.251.0/26'
+  '13.69.233.64/27'
+  '48.209.132.128/25'
+  '48.209.134.0/23'
+  '132.164.130.32/27'
+  '132.164.130.128/25'
+  '132.164.132.0/23'
+  '132.164.134.0/24'
+]

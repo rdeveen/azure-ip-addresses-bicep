@@ -1,0 +1,20 @@
+// Auto-generated file – do not edit manually.
+// Generated at : 2026-04-20T18:10:18Z
+// Source file  : ServiceTags_Public.json
+// Cloud        : Public
+// Change number: 396
+// Service tag  : ServiceBus_JioIndiaWest
+
+var ServiceBus_JioIndiaWest = [
+  '20.192.160.40/29'
+  '20.193.199.0/25'
+  '20.193.204.104/29'
+  '20.193.204.112/28'
+  '2603:1040:d04::220/123'
+  '2603:1040:d04:2::400/120'
+  '2603:1040:d04:800::e0/124'
+  '2603:1040:d04:800::f0/125'
+  '2603:1040:d04:800::358/125'
+  '2603:1040:d04:800::3c0/125'
+  '2603:1040:d04:800::3e8/125'
+]

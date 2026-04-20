@@ -1,0 +1,24 @@
+// Auto-generated file – do not edit manually.
+// Generated at : 2026-04-20T18:10:18Z
+// Source file  : ServiceTags_Public.json
+// Cloud        : Public
+// Change number: 396
+// Service tag  : AzureMachineLearning_JapanWest
+
+var AzureMachineLearning_JapanWest = [
+  '20.189.229.176/28'
+  '20.210.146.32/27'
+  '40.74.100.176/28'
+  '40.80.57.176/28'
+  '40.80.60.224/27'
+  '40.80.61.0/30'
+  '40.80.61.4/31'
+  '172.192.187.211/32'
+  '172.192.187.240/28'
+  '2603:1040:606::300/122'
+  '2603:1040:606:b::69e/127'
+  '2603:1040:606:b::730/124'
+  '2603:1040:606:b::740/123'
+  '2603:1040:606:b::760/126'
+  '2603:1040:606:b::764/128'
+]

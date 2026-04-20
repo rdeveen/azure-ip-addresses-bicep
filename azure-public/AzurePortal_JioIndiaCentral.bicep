@@ -1,0 +1,13 @@
+// Auto-generated file – do not edit manually.
+// Generated at : 2026-04-20T18:10:18Z
+// Source file  : ServiceTags_Public.json
+// Cloud        : Public
+// Change number: 396
+// Service tag  : AzurePortal_JioIndiaCentral
+
+var AzurePortal_JioIndiaCentral = [
+  '20.192.228.128/27'
+  '20.192.230.0/30'
+  '20.192.230.112/29'
+  '2603:1040:1104::780/121'
+]

@@ -1,0 +1,19 @@
+// Auto-generated file – do not edit manually.
+// Generated at : 2026-04-20T18:10:19Z
+// Source file  : ServiceTags_AzureGovernment.json
+// Cloud        : AzureGovernment
+// Change number: 390
+// Service tag  : AppService_USDoDEast
+
+var AppService_USDoDEast = [
+  '20.140.65.96/27'
+  '20.141.17.224/27'
+  '20.141.18.0/26'
+  '20.141.18.64/27'
+  '52.126.202.96/27'
+  '52.181.160.209/32'
+  '2001:489a:3303:2::500/120'
+  '2001:489a:3303:402::a0/123'
+  '2001:489a:3303:802::a0/123'
+  '2001:489a:3303:c02::20/123'
+]

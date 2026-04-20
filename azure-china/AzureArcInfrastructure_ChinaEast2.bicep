@@ -1,0 +1,19 @@
+// Auto-generated file – do not edit manually.
+// Generated at : 2026-04-20T18:10:19Z
+// Source file  : ServiceTags_China.json
+// Cloud        : China
+// Change number: 391
+// Service tag  : AzureArcInfrastructure_ChinaEast2
+
+var AzureArcInfrastructure_ChinaEast2 = [
+  '40.162.171.184/32'
+  '52.130.2.224/30'
+  '52.130.5.196/30'
+  '52.130.120.6/32'
+  '52.130.120.180/30'
+  '52.130.121.0/29'
+  '163.228.195.208/29'
+  '163.228.195.216/31'
+  '2404:7940:301:3::260/124'
+  '2404:7940:301:3::2e6/128'
+]

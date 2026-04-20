@@ -1,0 +1,20 @@
+// Auto-generated file – do not edit manually.
+// Generated at : 2026-04-20T18:10:18Z
+// Source file  : ServiceTags_Public.json
+// Cloud        : Public
+// Change number: 396
+// Service tag  : AzureKeyVault_SwedenCentral
+
+var AzureKeyVault_SwedenCentral = [
+  '51.12.25.204/30'
+  '51.12.28.32/29'
+  '51.12.98.0/30'
+  '51.12.229.24/30'
+  '51.12.237.24/30'
+  '2603:1020:1004::10c/126'
+  '2603:1020:1004::110/125'
+  '2603:1020:1004:1::1f8/125'
+  '2603:1020:1004:400::80/125'
+  '2603:1020:1004:400::2f8/125'
+  '2603:1020:1004:800::140/125'
+]

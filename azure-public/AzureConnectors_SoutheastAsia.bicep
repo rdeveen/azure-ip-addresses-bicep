@@ -1,0 +1,20 @@
+// Auto-generated file – do not edit manually.
+// Generated at : 2026-04-20T18:10:18Z
+// Source file  : ServiceTags_Public.json
+// Cloud        : Public
+// Change number: 396
+// Service tag  : AzureConnectors_SoutheastAsia
+
+var AzureConnectors_SoutheastAsia = [
+  '13.67.8.240/28'
+  '13.67.15.32/27'
+  '20.195.82.240/28'
+  '20.195.83.0/27'
+  '20.198.148.72/32'
+  '20.198.213.242/32'
+  '20.198.215.60/32'
+  '20.205.248.224/32'
+  '52.187.68.19/32'
+  '52.187.147.27/32'
+  '2603:1040:5:402::180/122'
+]

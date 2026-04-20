@@ -1,0 +1,14 @@
+// Auto-generated file – do not edit manually.
+// Generated at : 2026-04-20T18:10:18Z
+// Source file  : ServiceTags_Public.json
+// Cloud        : Public
+// Change number: 396
+// Service tag  : ApiManagement_WestCentralUS
+
+var ApiManagement_WestCentralUS = [
+  '13.71.194.116/31'
+  '13.71.196.32/28'
+  '52.253.135.58/32'
+  '128.24.200.144/28'
+  '2603:1030:b04:402::140/124'
+]

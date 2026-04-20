@@ -1,0 +1,16 @@
+// Auto-generated file – do not edit manually.
+// Generated at : 2026-04-20T18:10:18Z
+// Source file  : ServiceTags_Public.json
+// Cloud        : Public
+// Change number: 396
+// Service tag  : Storage_DenmarkEast
+
+var Storage_DenmarkEast = [
+  '20.153.21.0/24'
+  '20.153.33.0/24'
+  '57.150.199.0/24'
+  '57.150.200.0/22'
+  '57.163.24.0/23'
+  '145.190.168.0/24'
+  '2603:1020:1603::/48'
+]

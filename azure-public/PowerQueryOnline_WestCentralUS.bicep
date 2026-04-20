@@ -1,0 +1,16 @@
+// Auto-generated file – do not edit manually.
+// Generated at : 2026-04-20T18:10:18Z
+// Source file  : ServiceTags_Public.json
+// Cloud        : Public
+// Change number: 396
+// Service tag  : PowerQueryOnline_WestCentralUS
+
+var PowerQueryOnline_WestCentralUS = [
+  '20.69.8.120/29'
+  '40.67.122.228/31'
+  '52.150.139.72/30'
+  '172.208.172.80/28'
+  '172.208.172.96/29'
+  '2603:1030:b04::200/123'
+  '2603:1030:b04:402::160/125'
+]

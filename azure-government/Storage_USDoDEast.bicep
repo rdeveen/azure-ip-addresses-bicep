@@ -1,0 +1,19 @@
+// Auto-generated file – do not edit manually.
+// Generated at : 2026-04-20T18:10:19Z
+// Source file  : ServiceTags_AzureGovernment.json
+// Cloud        : AzureGovernment
+// Change number: 390
+// Service tag  : Storage_USDoDEast
+
+var Storage_USDoDEast = [
+  '20.141.0.0/24'
+  '20.141.3.0/24'
+  '51.55.100.0/23'
+  '52.127.101.0/24'
+  '52.181.112.16/28'
+  '52.181.112.32/28'
+  '52.181.112.64/27'
+  '52.181.112.112/28'
+  '52.181.112.128/28'
+  '2001:489a:3305::/48'
+]

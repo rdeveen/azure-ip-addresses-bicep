@@ -1,0 +1,13 @@
+// Auto-generated file – do not edit manually.
+// Generated at : 2026-04-20T18:10:19Z
+// Source file  : ServiceTags_AzureGovernment.json
+// Cloud        : AzureGovernment
+// Change number: 390
+// Service tag  : ActionGroup_USGovTexas
+
+var ActionGroup_USGovTexas = [
+  '20.140.138.56/30'
+  '20.159.104.0/30'
+  '2001:489a:3403:2::27c/126'
+  '2001:489a:3403:402::178/125'
+]

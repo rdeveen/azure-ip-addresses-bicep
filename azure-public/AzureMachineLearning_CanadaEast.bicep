@@ -1,0 +1,22 @@
+// Auto-generated file – do not edit manually.
+// Generated at : 2026-04-20T18:10:18Z
+// Source file  : ServiceTags_Public.json
+// Cloud        : Public
+// Change number: 396
+// Service tag  : AzureMachineLearning_CanadaEast
+
+var AzureMachineLearning_CanadaEast = [
+  '20.200.34.124/30'
+  '20.200.34.224/27'
+  '20.200.35.0/28'
+  '20.200.35.16/31'
+  '20.200.35.18/32'
+  '40.69.106.224/28'
+  '40.89.17.208/28'
+  '2603:1030:1005::300/122'
+  '2603:1030:1005:c::3e0/123'
+  '2603:1030:1005:c::480/124'
+  '2603:1030:1005:c::490/126'
+  '2603:1030:1005:c::494/127'
+  '2603:1030:1005:c::496/128'
+]

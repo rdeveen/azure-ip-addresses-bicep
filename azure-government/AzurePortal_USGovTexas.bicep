@@ -1,0 +1,20 @@
+// Auto-generated file – do not edit manually.
+// Generated at : 2026-04-20T18:10:19Z
+// Source file  : ServiceTags_AzureGovernment.json
+// Cloud        : AzureGovernment
+// Change number: 390
+// Service tag  : AzurePortal_USGovTexas
+
+var AzurePortal_USGovTexas = [
+  '20.140.57.96/29'
+  '20.140.57.116/30'
+  '20.140.57.120/30'
+  '20.140.57.124/31'
+  '20.140.144.48/29'
+  '20.140.144.56/31'
+  '20.159.108.32/28'
+  '20.159.108.64/28'
+  '52.245.146.0/32'
+  '62.11.95.32/27'
+  '2001:489a:3403::700/121'
+]

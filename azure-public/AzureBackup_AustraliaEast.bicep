@@ -1,0 +1,22 @@
+// Auto-generated file – do not edit manually.
+// Generated at : 2026-04-20T18:10:18Z
+// Source file  : ServiceTags_Public.json
+// Cloud        : Public
+// Change number: 396
+// Service tag  : AzureBackup_AustraliaEast
+
+var AzureBackup_AustraliaEast = [
+  '13.70.73.192/27'
+  '13.70.74.0/26'
+  '20.53.47.128/26'
+  '40.79.162.128/27'
+  '40.79.162.192/26'
+  '40.79.170.64/26'
+  '40.79.170.128/27'
+  '40.79.171.32/27'
+  '48.215.77.0/26'
+  '2603:1010:6:f::200/121'
+  '2603:1010:6:402::200/121'
+  '2603:1010:6:802::180/121'
+  '2603:1010:6:c02::180/121'
+]

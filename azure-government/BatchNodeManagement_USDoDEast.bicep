@@ -1,0 +1,15 @@
+// Auto-generated file – do not edit manually.
+// Generated at : 2026-04-20T18:10:19Z
+// Source file  : ServiceTags_AzureGovernment.json
+// Cloud        : AzureGovernment
+// Change number: 390
+// Service tag  : BatchNodeManagement_USDoDEast
+
+var BatchNodeManagement_USDoDEast = [
+  '20.140.65.64/27'
+  '52.126.203.32/27'
+  '52.181.160.13/32'
+  '52.181.160.36/32'
+  '52.181.167.253/32'
+  '2001:489a:3303::340/122'
+]

@@ -1,0 +1,19 @@
+// Auto-generated file – do not edit manually.
+// Generated at : 2026-04-20T18:10:19Z
+// Source file  : ServiceTags_AzureGermany.json
+// Cloud        : AzureGermany
+// Change number: 193
+// Service tag  : Storage_GermanyNorthEast
+
+var Storage_GermanyNorthEast = [
+  '51.5.168.64/28'
+  '51.5.168.96/28'
+  '51.5.168.128/27'
+  '51.5.248.64/27'
+  '51.5.248.112/28'
+  '51.5.248.128/28'
+  '51.5.248.160/27'
+  '51.8.144.64/26'
+  '51.8.147.0/25'
+  '51.8.151.0/24'
+]

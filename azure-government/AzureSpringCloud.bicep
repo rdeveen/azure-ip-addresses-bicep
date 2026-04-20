@@ -1,0 +1,17 @@
+// Auto-generated file – do not edit manually.
+// Generated at : 2026-04-20T18:10:19Z
+// Source file  : ServiceTags_AzureGovernment.json
+// Cloud        : AzureGovernment
+// Change number: 390
+// Service tag  : AzureSpringCloud
+
+var AzureSpringCloud = [
+  '20.141.14.0/24'
+  '20.158.155.0/24'
+  '62.11.91.0/24'
+  '2001:489a:3103:1::200/120'
+  '2001:489a:3203:1::/120'
+  '2001:489a:3303:1::200/120'
+  '2001:489a:3403:1::/120'
+  '2001:489a:3604:1::200/120'
+]

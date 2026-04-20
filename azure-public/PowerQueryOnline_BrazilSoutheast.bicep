@@ -1,0 +1,16 @@
+// Auto-generated file – do not edit manually.
+// Generated at : 2026-04-20T18:10:18Z
+// Source file  : ServiceTags_Public.json
+// Cloud        : Public
+// Change number: 396
+// Service tag  : PowerQueryOnline_BrazilSoutheast
+
+var PowerQueryOnline_BrazilSoutheast = [
+  '20.206.4.72/29'
+  '108.140.6.112/28'
+  '108.140.24.152/29'
+  '191.233.8.20/31'
+  '191.237.224.234/31'
+  '2603:1050:403::200/123'
+  '2603:1050:403:400::88/125'
+]

@@ -1,0 +1,16 @@
+// Auto-generated file – do not edit manually.
+// Generated at : 2026-04-20T18:10:18Z
+// Source file  : ServiceTags_Public.json
+// Cloud        : Public
+// Change number: 396
+// Service tag  : PowerBI_BelgiumCentral
+
+var PowerBI_BelgiumCentral = [
+  '9.160.51.240/31'
+  '9.160.51.244/30'
+  '9.160.51.248/29'
+  '9.160.65.80/28'
+  '9.160.65.96/28'
+  '2603:1020:1502:2::1a0/123'
+  '2603:1020:1502:2::300/122'
+]

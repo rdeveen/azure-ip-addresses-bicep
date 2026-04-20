@@ -1,0 +1,20 @@
+// Auto-generated file – do not edit manually.
+// Generated at : 2026-04-20T18:10:18Z
+// Source file  : ServiceTags_Public.json
+// Cloud        : Public
+// Change number: 396
+// Service tag  : AzureContainerRegistry_FranceSouth
+
+var AzureContainerRegistry_FranceSouth = [
+  '20.111.77.0/26'
+  '20.111.79.0/26'
+  '40.79.178.80/29'
+  '51.138.160.128/26'
+  '51.138.161.64/26'
+  '51.138.162.0/25'
+  '2603:1020:905::128/125'
+  '2603:1020:905:402::90/125'
+  '2603:1020:905:402::340/122'
+  '2603:1020:905:402::580/122'
+  '2603:1020:905:402::600/121'
+]

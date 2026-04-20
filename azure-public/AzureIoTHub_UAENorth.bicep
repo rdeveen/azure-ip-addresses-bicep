@@ -1,0 +1,17 @@
+// Auto-generated file – do not edit manually.
+// Generated at : 2026-04-20T18:10:18Z
+// Source file  : ServiceTags_Public.json
+// Cloud        : Public
+// Change number: 396
+// Service tag  : AzureIoTHub_UAENorth
+
+var AzureIoTHub_UAENorth = [
+  '20.38.139.128/25'
+  '20.38.140.0/27'
+  '20.38.155.224/27'
+  '40.120.75.160/27'
+  '65.52.252.160/27'
+  '2603:1040:904:402::300/123'
+  '2603:1040:904:802::240/123'
+  '2603:1040:904:c02::240/123'
+]

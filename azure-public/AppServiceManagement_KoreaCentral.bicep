@@ -1,0 +1,17 @@
+// Auto-generated file – do not edit manually.
+// Generated at : 2026-04-20T18:10:18Z
+// Source file  : ServiceTags_Public.json
+// Cloud        : Public
+// Change number: 396
+// Service tag  : AppServiceManagement_KoreaCentral
+
+var AppServiceManagement_KoreaCentral = [
+  '4.217.136.64/29'
+  '20.200.196.64/28'
+  '52.231.18.64/26'
+  '52.231.32.117/32'
+  '2603:1040:f05:3::100/123'
+  '2603:1040:f05:402::100/122'
+  '2603:1040:f05:802::100/122'
+  '2603:1040:f05:c02::100/122'
+]

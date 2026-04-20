@@ -1,0 +1,12 @@
+// Auto-generated file – do not edit manually.
+// Generated at : 2026-04-20T18:10:18Z
+// Source file  : ServiceTags_Public.json
+// Cloud        : Public
+// Change number: 396
+// Service tag  : ActionGroup_AustraliaEast
+
+var ActionGroup_AustraliaEast = [
+  '68.218.131.40/30'
+  '2603:1010:6:1::10c/126'
+  '2603:1010:6:402::178/125'
+]

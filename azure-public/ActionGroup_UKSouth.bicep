@@ -1,0 +1,14 @@
+// Auto-generated file – do not edit manually.
+// Generated at : 2026-04-20T18:10:18Z
+// Source file  : ServiceTags_Public.json
+// Cloud        : Public
+// Change number: 396
+// Service tag  : ActionGroup_UKSouth
+
+var ActionGroup_UKSouth = [
+  '20.117.193.34/31'
+  '51.104.9.100/30'
+  '172.187.67.44/30'
+  '2603:1020:705:3::234/126'
+  '2603:1020:705:402::178/125'
+]

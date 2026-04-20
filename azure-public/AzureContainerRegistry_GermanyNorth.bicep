@@ -1,0 +1,19 @@
+// Auto-generated file – do not edit manually.
+// Generated at : 2026-04-20T18:10:18Z
+// Source file  : ServiceTags_Public.json
+// Cloud        : Public
+// Change number: 396
+// Service tag  : AzureContainerRegistry_GermanyNorth
+
+var AzureContainerRegistry_GermanyNorth = [
+  '20.52.72.128/26'
+  '20.52.73.0/26'
+  '20.113.252.128/26'
+  '20.170.175.128/26'
+  '51.116.58.24/29'
+  '2603:1020:d04:1::4b0/125'
+  '2603:1020:d04:5::780/122'
+  '2603:1020:d04:402::90/125'
+  '2603:1020:d04:402::340/122'
+  '2603:1020:d04:402::580/122'
+]

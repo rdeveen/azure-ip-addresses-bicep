@@ -1,0 +1,16 @@
+// Auto-generated file – do not edit manually.
+// Generated at : 2026-04-20T18:10:19Z
+// Source file  : ServiceTags_AzureGovernment.json
+// Cloud        : AzureGovernment
+// Change number: 390
+// Service tag  : PowerBI_USDoDCentral
+
+var PowerBI_USDoDCentral = [
+  '20.140.72.118/31'
+  '20.140.72.136/30'
+  '20.140.72.144/29'
+  '20.140.77.232/30'
+  '20.159.234.240/28'
+  '2001:489a:3203::620/123'
+  '2001:489a:3203::640/122'
+]

@@ -1,0 +1,19 @@
+// Auto-generated file – do not edit manually.
+// Generated at : 2026-04-20T18:10:19Z
+// Source file  : ServiceTags_China.json
+// Cloud        : China
+// Change number: 391
+// Service tag  : AzureAttestation
+
+var AzureAttestation = [
+  '40.162.60.0/28'
+  '40.162.75.0/28'
+  '52.130.40.28/30'
+  '52.130.112.132/30'
+  '52.130.120.84/30'
+  '52.130.128.84/30'
+  '52.131.16.44/30'
+  '52.131.144.44/30'
+  '2406:e500:2402:1::1a0/124'
+  '2406:e500:2602:1::1a0/124'
+]

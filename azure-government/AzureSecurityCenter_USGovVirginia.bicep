@@ -1,0 +1,13 @@
+// Auto-generated file – do not edit manually.
+// Generated at : 2026-04-20T18:10:19Z
+// Source file  : ServiceTags_AzureGovernment.json
+// Cloud        : AzureGovernment
+// Change number: 390
+// Service tag  : AzureSecurityCenter_USGovVirginia
+
+var AzureSecurityCenter_USGovVirginia = [
+  '20.140.200.32/27'
+  '51.54.148.0/23'
+  '62.10.80.0/24'
+  '62.10.81.0/26'
+]

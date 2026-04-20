@@ -1,0 +1,20 @@
+// Auto-generated file – do not edit manually.
+// Generated at : 2026-04-20T18:10:18Z
+// Source file  : ServiceTags_Public.json
+// Cloud        : Public
+// Change number: 396
+// Service tag  : AzureCosmosDB_UAECentral
+
+var AzureCosmosDB_UAECentral = [
+  '20.37.68.160/27'
+  '20.37.75.128/26'
+  '20.37.84.77/32'
+  '20.37.84.143/32'
+  '20.37.84.166/32'
+  '20.203.91.0/26'
+  '20.203.91.84/30'
+  '20.203.92.0/25'
+  '20.203.92.128/26'
+  '2603:1040:b04:2::600/123'
+  '2603:1040:b04:402::c0/122'
+]

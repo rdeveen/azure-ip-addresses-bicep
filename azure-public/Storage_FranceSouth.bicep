@@ -1,0 +1,18 @@
+// Auto-generated file – do not edit manually.
+// Generated at : 2026-04-20T18:10:18Z
+// Source file  : ServiceTags_Public.json
+// Cloud        : Public
+// Change number: 396
+// Service tag  : Storage_FranceSouth
+
+var Storage_FranceSouth = [
+  '20.47.28.0/24'
+  '20.60.11.0/24'
+  '20.60.188.0/23'
+  '20.150.19.0/24'
+  '20.157.156.0/24'
+  '52.239.135.0/26'
+  '52.239.196.0/24'
+  '57.150.21.0/24'
+  '2603:1020:906::/48'
+]

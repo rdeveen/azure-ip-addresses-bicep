@@ -1,0 +1,20 @@
+// Auto-generated file – do not edit manually.
+// Generated at : 2026-04-20T18:10:18Z
+// Source file  : ServiceTags_Public.json
+// Cloud        : Public
+// Change number: 396
+// Service tag  : PowerQueryOnline_SouthAfricaNorth
+
+var PowerQueryOnline_SouthAfricaNorth = [
+  '4.222.196.32/29'
+  '4.222.196.48/28'
+  '20.87.82.200/29'
+  '102.37.72.202/31'
+  '102.133.127.114/31'
+  '102.133.216.70/31'
+  '102.133.254.218/31'
+  '2603:1000:104:1::200/123'
+  '2603:1000:104:402::160/125'
+  '2603:1000:104:802::140/125'
+  '2603:1000:104:c00::20/125'
+]

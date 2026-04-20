@@ -1,0 +1,15 @@
+// Auto-generated file – do not edit manually.
+// Generated at : 2026-04-20T18:10:18Z
+// Source file  : ServiceTags_Public.json
+// Cloud        : Public
+// Change number: 396
+// Service tag  : PowerQueryOnline_UKWest
+
+var PowerQueryOnline_UKWest = [
+  '20.90.38.56/29'
+  '51.137.160.68/31'
+  '172.186.6.128/29'
+  '172.186.7.0/28'
+  '2603:1020:605::200/123'
+  '2603:1020:605:402::168/126'
+]

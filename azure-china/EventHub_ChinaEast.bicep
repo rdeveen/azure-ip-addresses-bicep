@@ -1,0 +1,17 @@
+// Auto-generated file – do not edit manually.
+// Generated at : 2026-04-20T18:10:19Z
+// Source file  : ServiceTags_China.json
+// Cloud        : China
+// Change number: 391
+// Service tag  : EventHub_ChinaEast
+
+var EventHub_ChinaEast = [
+  '40.72.168.64/26'
+  '42.159.132.40/32'
+  '42.159.146.225/32'
+  '42.159.197.206/32'
+  '52.130.113.64/26'
+  '139.217.168.32/27'
+  '2404:7940:201:1::600/120'
+  '2404:7940:201:402::1c0/123'
+]

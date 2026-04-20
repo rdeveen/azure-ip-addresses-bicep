@@ -1,0 +1,18 @@
+// Auto-generated file – do not edit manually.
+// Generated at : 2026-04-20T18:10:18Z
+// Source file  : ServiceTags_Public.json
+// Cloud        : Public
+// Change number: 396
+// Service tag  : PowerPlatformPlex_NorwayWest
+
+var PowerPlatformPlex_NorwayWest = [
+  '4.220.137.8/29'
+  '4.220.138.96/29'
+  '4.220.152.8/29'
+  '4.220.213.0/25'
+  '51.120.176.192/29'
+  '51.120.176.220/30'
+  '51.120.176.232/30'
+  '51.120.184.144/28'
+  '2603:1061:2004:1100::/57'
+]

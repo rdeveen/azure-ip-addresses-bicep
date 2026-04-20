@@ -1,0 +1,21 @@
+// Auto-generated file – do not edit manually.
+// Generated at : 2026-04-20T18:10:18Z
+// Source file  : ServiceTags_Public.json
+// Cloud        : Public
+// Change number: 396
+// Service tag  : PowerBI_SwedenCentral
+
+var PowerBI_SwedenCentral = [
+  '20.91.151.0/28'
+  '20.91.154.144/28'
+  '51.12.25.8/29'
+  '51.12.29.30/31'
+  '51.12.46.230/31'
+  '51.12.47.28/30'
+  '51.12.72.216/30'
+  '51.12.73.88/30'
+  '2603:1020:1004::5e0/123'
+  '2603:1020:1004::600/122'
+  '2603:1020:1004:1::/122'
+  '2603:1020:1004:1::40/123'
+]

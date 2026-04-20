@@ -1,0 +1,14 @@
+// Auto-generated file – do not edit manually.
+// Generated at : 2026-04-20T18:10:19Z
+// Source file  : ServiceTags_AzureGermany.json
+// Cloud        : AzureGermany
+// Change number: 193
+// Service tag  : AzureCosmosDB
+
+var AzureCosmosDB = [
+  '51.4.145.23/32'
+  '51.5.144.198/32'
+  '51.8.234.0/27'
+  '51.8.242.80/29'
+  '51.8.250.112/29'
+]

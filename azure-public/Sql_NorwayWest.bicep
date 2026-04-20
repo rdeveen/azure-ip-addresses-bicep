@@ -1,0 +1,20 @@
+// Auto-generated file – do not edit manually.
+// Generated at : 2026-04-20T18:10:18Z
+// Source file  : ServiceTags_Public.json
+// Cloud        : Public
+// Change number: 396
+// Service tag  : Sql_NorwayWest
+
+var Sql_NorwayWest = [
+  '51.13.136.224/27'
+  '51.13.137.0/27'
+  '51.13.137.64/26'
+  '51.120.181.0/25'
+  '51.120.216.0/27'
+  '51.120.217.0/27'
+  '51.120.217.32/29'
+  '2603:1020:f04::280/123'
+  '2603:1020:f04:1::200/121'
+  '2603:1020:f04:3::600/121'
+  '2603:1020:f04:400::/123'
+]

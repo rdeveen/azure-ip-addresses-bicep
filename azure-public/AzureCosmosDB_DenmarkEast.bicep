@@ -1,0 +1,12 @@
+// Auto-generated file – do not edit manually.
+// Generated at : 2026-04-20T18:10:18Z
+// Source file  : ServiceTags_Public.json
+// Cloud        : Public
+// Change number: 396
+// Service tag  : AzureCosmosDB_DenmarkEast
+
+var AzureCosmosDB_DenmarkEast = [
+  '9.205.35.0/26'
+  '9.205.49.224/27'
+  '2603:1020:1602::1e0/123'
+]

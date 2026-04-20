@@ -1,0 +1,27 @@
+// Auto-generated file – do not edit manually.
+// Generated at : 2026-04-20T18:10:18Z
+// Source file  : ServiceTags_Public.json
+// Cloud        : Public
+// Change number: 396
+// Service tag  : PowerPlatformInfra_GermanyNorth
+
+var PowerPlatformInfra_GermanyNorth = [
+  '4.184.2.208/28'
+  '4.184.3.0/26'
+  '4.184.3.128/25'
+  '20.170.254.128/25'
+  '51.116.1.237/32'
+  '51.116.2.101/32'
+  '51.116.2.239/32'
+  '51.116.3.16/32'
+  '51.116.3.73/32'
+  '51.116.3.87/32'
+  '51.116.3.102/32'
+  '51.116.50.128/26'
+  '51.116.50.192/27'
+  '51.116.51.184/29'
+  '51.116.74.96/27'
+  '51.116.74.128/26'
+  '51.116.75.64/29'
+  '2603:1061:2002:5000::/57'
+]

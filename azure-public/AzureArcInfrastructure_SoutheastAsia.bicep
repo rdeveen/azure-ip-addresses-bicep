@@ -1,0 +1,19 @@
+// Auto-generated file – do not edit manually.
+// Generated at : 2026-04-20T18:10:18Z
+// Source file  : ServiceTags_Public.json
+// Cloud        : Public
+// Change number: 396
+// Service tag  : AzureArcInfrastructure_SoutheastAsia
+
+var AzureArcInfrastructure_SoutheastAsia = [
+  '4.145.20.102/32'
+  '4.145.72.0/29'
+  '4.145.72.8/31'
+  '13.67.15.1/32'
+  '13.67.15.124/30'
+  '23.98.86.58/31'
+  '23.98.104.12/30'
+  '23.98.108.32/30'
+  '40.78.239.96/31'
+  '2603:1040:5:16::42e/128'
+]

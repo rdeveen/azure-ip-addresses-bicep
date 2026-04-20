@@ -1,0 +1,22 @@
+// Auto-generated file – do not edit manually.
+// Generated at : 2026-04-20T18:10:18Z
+// Source file  : ServiceTags_Public.json
+// Cloud        : Public
+// Change number: 396
+// Service tag  : AzureBackup_BrazilSouth
+
+var AzureBackup_BrazilSouth = [
+  '191.233.204.0/26'
+  '191.233.204.64/27'
+  '191.234.147.80/28'
+  '191.234.147.128/26'
+  '191.234.149.160/27'
+  '191.234.155.80/28'
+  '191.234.155.128/26'
+  '191.234.157.64/27'
+  '191.238.72.0/26'
+  '2603:1050:6:c::280/121'
+  '2603:1050:6:402::200/121'
+  '2603:1050:6:802::180/121'
+  '2603:1050:6:c02::180/121'
+]

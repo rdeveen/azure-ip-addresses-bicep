@@ -1,0 +1,13 @@
+// Auto-generated file – do not edit manually.
+// Generated at : 2026-04-20T18:10:18Z
+// Source file  : ServiceTags_Public.json
+// Cloud        : Public
+// Change number: 396
+// Service tag  : AzureAttestation_EastAsia
+
+var AzureAttestation_EastAsia = [
+  '4.144.15.72/29'
+  '20.187.197.228/30'
+  '104.214.164.108/30'
+  '2603:1040:207:1::4c0/124'
+]

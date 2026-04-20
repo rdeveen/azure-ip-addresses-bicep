@@ -1,0 +1,18 @@
+// Auto-generated file – do not edit manually.
+// Generated at : 2026-04-20T18:10:18Z
+// Source file  : ServiceTags_Public.json
+// Cloud        : Public
+// Change number: 396
+// Service tag  : GatewayManager_CentralUSEUAP
+
+var GatewayManager_CentralUSEUAP = [
+  '20.45.192.72/29'
+  '20.46.13.128/26'
+  '40.78.202.112/29'
+  '52.180.182.210/32'
+  '52.253.157.2/32'
+  '52.253.159.209/32'
+  '52.253.232.235/32'
+  '52.253.239.162/32'
+  '2603:1030:f:1::40/122'
+]

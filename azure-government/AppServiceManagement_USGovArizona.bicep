@@ -1,0 +1,18 @@
+// Auto-generated file – do not edit manually.
+// Generated at : 2026-04-20T18:10:19Z
+// Source file  : ServiceTags_AzureGovernment.json
+// Cloud        : AzureGovernment
+// Change number: 390
+// Service tag  : AppServiceManagement_USGovArizona
+
+var AppServiceManagement_USGovArizona = [
+  '52.127.15.64/26'
+  '52.127.23.0/26'
+  '52.244.14.15/32'
+  '52.244.14.79/32'
+  '52.244.79.34/32'
+  '52.244.206.254/32'
+  '2001:489a:3604:402::100/122'
+  '2001:489a:3604:802::100/122'
+  '2001:489a:3604:c02::80/122'
+]
