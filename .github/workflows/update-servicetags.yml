@@ -122,11 +122,6 @@ jobs:
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          # Remove old monolithic files if they still exist
-          git rm --ignore-unmatch ServiceTags_Public.bicep \
-                                  ServiceTags_China.bicep \
-                                  ServiceTags_AzureGovernment.bicep \
-                                  ServiceTags_AzureGermany.bicep
           git add azure-public/ azure-china/ azure-government/ azure-germany/
           if git diff --cached --quiet; then
             echo "No changes to commit – Bicep files are already up to date."
@@ -140,13 +135,13 @@ jobs:
       # -----------------------------------------------------------------------
       - name: Install Bicep CLI
         run: |
-          curl -Lo bicep https://github.com/Azure/bicep/releases/latest/download/bicep-linux-x64
+          curl -Los bicep https://github.com/Azure/bicep/releases/latest/download/bicep-linux-x64
           chmod +x bicep
           sudo mv bicep /usr/local/bin/bicep
 
       - name: Log in to GitHub Container Registry
         run: |
-          # echo "${{ secrets.GITHUB_TOKEN }}" | docker login ghcr.io -u ${{ github.actor }} --password-stdin
+          echo "${{ secrets.GITHUB_TOKEN }}" | docker login ghcr.io -u ${{ github.actor }} --password-stdin
 
       - name: Publish Bicep modules to GHCR  
         env:
