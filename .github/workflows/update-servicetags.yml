@@ -171,6 +171,7 @@ jobs:
               filename=$(basename "$bicep_file" .bicep)
               module_name=$(to_module_name "$filename")
               module_path="${cloud_dir}/${module_name}"
+              echo "Publishing ${module_path} to ${REGISTRY}"
 
               bicep publish "$bicep_file" \
                 --target "br:${REGISTRY}/${module_path}:${VERSION}" \
