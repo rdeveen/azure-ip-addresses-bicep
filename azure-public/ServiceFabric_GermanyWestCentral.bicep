@@ -1,0 +1,16 @@
+// Auto-generated file – do not edit manually.
+// Generated at : 2026-04-20T18:10:18Z
+// Source file  : ServiceTags_Public.json
+// Cloud        : Public
+// Change number: 396
+// Service tag  : ServiceFabric_GermanyWestCentral
+
+var ServiceFabric_GermanyWestCentral = [
+  '51.116.155.104/29'
+  '51.116.232.27/32'
+  '51.116.245.160/30'
+  '51.116.253.128/30'
+  '2603:1020:c04:402::98/125'
+  '2603:1020:c04:802::98/125'
+  '2603:1020:c04:c02::98/125'
+]

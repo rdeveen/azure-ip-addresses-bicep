@@ -1,0 +1,20 @@
+// Auto-generated file – do not edit manually.
+// Generated at : 2026-04-20T18:10:18Z
+// Source file  : ServiceTags_Public.json
+// Cloud        : Public
+// Change number: 396
+// Service tag  : AzureKeyVault_JapanWest
+
+var AzureKeyVault_JapanWest = [
+  '4.190.147.140/30'
+  '20.18.178.76/30'
+  '20.189.228.136/29'
+  '20.189.228.208/30'
+  '40.74.100.48/30'
+  '2603:1040:606::100/125'
+  '2603:1040:606::108/126'
+  '2603:1040:606::2a0/125'
+  '2603:1040:606:402::80/125'
+  '2603:1040:606:800::2e0/125'
+  '2603:1040:606:c00::e0/125'
+]

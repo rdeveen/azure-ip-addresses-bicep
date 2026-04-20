@@ -1,0 +1,17 @@
+// Auto-generated file – do not edit manually.
+// Generated at : 2026-04-20T18:10:18Z
+// Source file  : ServiceTags_Public.json
+// Cloud        : Public
+// Change number: 396
+// Service tag  : LogicApps_CentralUSEUAP
+
+var LogicApps_CentralUSEUAP = [
+  '20.45.245.152/29'
+  '20.45.245.160/28'
+  '20.45.245.176/29'
+  '40.78.204.208/28'
+  '40.78.204.224/27'
+  '172.215.35.112/28'
+  '2603:1030:f:400::bc0/124'
+  '2603:1030:f:400::be0/123'
+]

@@ -1,0 +1,14 @@
+// Auto-generated file – do not edit manually.
+// Generated at : 2026-04-20T18:10:19Z
+// Source file  : ServiceTags_AzureGovernment.json
+// Cloud        : AzureGovernment
+// Change number: 390
+// Service tag  : AzureDataExplorerManagement_USDoDCentral
+
+var AzureDataExplorerManagement_USDoDCentral = [
+  '20.158.154.96/28'
+  '52.127.59.144/28'
+  '52.182.33.66/32'
+  '2001:489a:3203:1::580/121'
+  '2001:489a:3203:402::150/124'
+]

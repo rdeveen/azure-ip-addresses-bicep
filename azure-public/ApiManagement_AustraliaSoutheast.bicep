@@ -1,0 +1,16 @@
+// Auto-generated file – do not edit manually.
+// Generated at : 2026-04-20T18:10:18Z
+// Source file  : ServiceTags_Public.json
+// Cloud        : Public
+// Change number: 396
+// Service tag  : ApiManagement_AustraliaSoutheast
+
+var ApiManagement_AustraliaSoutheast = [
+  '4.199.83.96/28'
+  '13.77.50.68/31'
+  '13.77.52.224/28'
+  '20.40.160.107/32'
+  '20.92.3.250/31'
+  '2603:1010:101:402::140/124'
+  '2603:1010:207::3c0/124'
+]

@@ -1,0 +1,17 @@
+// Auto-generated file – do not edit manually.
+// Generated at : 2026-04-20T18:10:18Z
+// Source file  : ServiceTags_Public.json
+// Cloud        : Public
+// Change number: 396
+// Service tag  : LogicApps_IsraelNorthwest
+
+var LogicApps_IsraelNorthwest = [
+  '51.4.138.16/28'
+  '51.4.138.32/27'
+  '51.4.164.32/28'
+  '51.4.164.64/27'
+  '2603:1040:1702:3::480/124'
+  '2603:1040:1702:3::4a0/123'
+  '2603:1040:1702:400::330/124'
+  '2603:1040:1702:400::340/123'
+]

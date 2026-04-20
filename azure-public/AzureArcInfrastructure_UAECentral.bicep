@@ -1,0 +1,15 @@
+// Auto-generated file – do not edit manually.
+// Generated at : 2026-04-20T18:10:18Z
+// Source file  : ServiceTags_Public.json
+// Cloud        : Public
+// Change number: 396
+// Service tag  : AzureArcInfrastructure_UAECentral
+
+var AzureArcInfrastructure_UAECentral = [
+  '20.37.66.52/30'
+  '20.203.93.28/31'
+  '20.203.93.80/29'
+  '20.216.93.140/32'
+  '40.120.8.184/30'
+  '2603:1040:b04:8::4f6/128'
+]

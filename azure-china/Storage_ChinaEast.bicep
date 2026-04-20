@@ -1,0 +1,17 @@
+// Auto-generated file – do not edit manually.
+// Generated at : 2026-04-20T18:10:19Z
+// Source file  : ServiceTags_China.json
+// Cloud        : China
+// Change number: 391
+// Service tag  : Storage_ChinaEast
+
+var Storage_ChinaEast = [
+  '40.72.193.0/24'
+  '40.126.88.64/28'
+  '40.126.88.144/28'
+  '40.126.88.160/28'
+  '42.159.140.0/26'
+  '42.159.208.64/26'
+  '139.217.160.32/28'
+  '2404:7940:203::/48'
+]

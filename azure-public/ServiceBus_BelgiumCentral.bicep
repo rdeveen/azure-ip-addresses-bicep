@@ -1,0 +1,12 @@
+// Auto-generated file – do not edit manually.
+// Generated at : 2026-04-20T18:10:18Z
+// Source file  : ServiceTags_Public.json
+// Cloud        : Public
+// Change number: 396
+// Service tag  : ServiceBus_BelgiumCentral
+
+var ServiceBus_BelgiumCentral = [
+  '9.160.46.0/25'
+  '9.160.80.16/29'
+  '2603:1020:1502::780/121'
+]

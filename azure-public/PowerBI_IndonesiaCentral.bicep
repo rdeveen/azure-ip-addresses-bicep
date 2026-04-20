@@ -1,0 +1,18 @@
+// Auto-generated file – do not edit manually.
+// Generated at : 2026-04-20T18:10:18Z
+// Source file  : ServiceTags_Public.json
+// Cloud        : Public
+// Change number: 396
+// Service tag  : PowerBI_IndonesiaCentral
+
+var PowerBI_IndonesiaCentral = [
+  '70.153.64.48/28'
+  '70.153.64.64/28'
+  '70.153.165.90/31'
+  '70.153.165.92/30'
+  '70.153.165.104/29'
+  '70.153.173.120/29'
+  '70.153.173.128/27'
+  '2603:1040:1802:2::a0/123'
+  '2603:1040:1802:2::c0/122'
+]

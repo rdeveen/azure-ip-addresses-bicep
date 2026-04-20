@@ -1,0 +1,19 @@
+// Auto-generated file – do not edit manually.
+// Generated at : 2026-04-20T18:10:18Z
+// Source file  : ServiceTags_Public.json
+// Cloud        : Public
+// Change number: 396
+// Service tag  : AzureKeyVault_ItalyNorth
+
+var AzureKeyVault_ItalyNorth = [
+  '4.232.30.216/29'
+  '4.232.106.124/30'
+  '4.232.122.76/30'
+  '4.232.194.76/30'
+  '2603:1020:1204:1::208/125'
+  '2603:1020:1204:3::540/125'
+  '2603:1020:1204:3::548/126'
+  '2603:1020:1204:400::3c8/125'
+  '2603:1020:1204:800::2b0/125'
+  '2603:1020:1204:c00::2b0/125'
+]

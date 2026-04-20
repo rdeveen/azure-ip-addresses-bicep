@@ -1,0 +1,15 @@
+// Auto-generated file – do not edit manually.
+// Generated at : 2026-04-20T18:10:19Z
+// Source file  : ServiceTags_China.json
+// Cloud        : China
+// Change number: 391
+// Service tag  : AzureDataExplorerManagement_ChinaNorth2
+
+var AzureDataExplorerManagement_ChinaNorth2 = [
+  '40.73.6.21/32'
+  '40.73.139.176/28'
+  '52.131.66.200/29'
+  '139.217.60.6/32'
+  '2404:7940:101:1::500/121'
+  '2404:7940:101:402::950/124'
+]

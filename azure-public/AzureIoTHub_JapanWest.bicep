@@ -1,0 +1,20 @@
+// Auto-generated file – do not edit manually.
+// Generated at : 2026-04-20T18:10:18Z
+// Source file  : ServiceTags_Public.json
+// Cloud        : Public
+// Change number: 396
+// Service tag  : AzureIoTHub_JapanWest
+
+var AzureIoTHub_JapanWest = [
+  '4.190.144.224/27'
+  '20.18.179.160/27'
+  '23.100.105.192/32'
+  '40.74.66.139/32'
+  '40.74.125.44/32'
+  '40.80.62.64/27'
+  '40.80.62.128/25'
+  '40.80.176.64/27'
+  '2603:1040:606:402::300/123'
+  '2603:1040:606:800::120/123'
+  '2603:1040:606:c00::c0/123'
+]

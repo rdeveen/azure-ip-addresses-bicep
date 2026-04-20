@@ -1,0 +1,15 @@
+// Auto-generated file – do not edit manually.
+// Generated at : 2026-04-20T18:10:19Z
+// Source file  : ServiceTags_AzureGovernment.json
+// Cloud        : AzureGovernment
+// Change number: 390
+// Service tag  : PowerPlatformPlex_USDoDEast
+
+var PowerPlatformPlex_USDoDEast = [
+  '20.140.104.24/29'
+  '20.140.109.160/29'
+  '20.141.18.124/30'
+  '20.141.19.44/30'
+  '52.181.66.128/25'
+  '2001:489a:2102:3880::/58'
+]

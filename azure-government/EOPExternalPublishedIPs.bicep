@@ -1,0 +1,18 @@
+// Auto-generated file – do not edit manually.
+// Generated at : 2026-04-20T18:10:19Z
+// Source file  : ServiceTags_AzureGovernment.json
+// Cloud        : AzureGovernment
+// Change number: 390
+// Service tag  : EOPExternalPublishedIPs
+
+var EOPExternalPublishedIPs = [
+  '23.103.191.0/24'
+  '23.103.199.0/24'
+  '23.103.204.0/22'
+  '23.103.208.0/22'
+  '62.10.128.0/19'
+  '2001:489a:2202::/48'
+  '2001:489a:2207::/61'
+  '2001:489a:2400:10::/60'
+  '2001:489a:2400:20::/60'
+]

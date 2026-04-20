@@ -1,0 +1,19 @@
+// Auto-generated file – do not edit manually.
+// Generated at : 2026-04-20T18:10:18Z
+// Source file  : ServiceTags_Public.json
+// Cloud        : Public
+// Change number: 396
+// Service tag  : PowerQueryOnline_EastUSSTG
+
+var PowerQueryOnline_EastUSSTG = [
+  '20.49.84.146/31'
+  '20.99.25.158/31'
+  '20.99.25.160/29'
+  '20.99.31.232/29'
+  '40.67.48.120/31'
+  '40.67.72.130/31'
+  '40.67.88.192/28'
+  '2603:1030:104:1::200/123'
+  '2603:1030:104:402::708/125'
+  '2603:1030:104:802::1a8/125'
+]

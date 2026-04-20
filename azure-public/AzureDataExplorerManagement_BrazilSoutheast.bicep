@@ -1,0 +1,13 @@
+// Auto-generated file – do not edit manually.
+// Generated at : 2026-04-20T18:10:18Z
+// Source file  : ServiceTags_Public.json
+// Cloud        : Public
+// Change number: 396
+// Service tag  : AzureDataExplorerManagement_BrazilSoutheast
+
+var AzureDataExplorerManagement_BrazilSoutheast = [
+  '108.140.7.144/28'
+  '191.233.50.208/28'
+  '2603:1050:403:1::400/121'
+  '2603:1050:403:400::2b0/124'
+]

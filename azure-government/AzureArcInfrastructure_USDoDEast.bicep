@@ -1,0 +1,14 @@
+// Auto-generated file – do not edit manually.
+// Generated at : 2026-04-20T18:10:19Z
+// Source file  : ServiceTags_AzureGovernment.json
+// Cloud        : AzureGovernment
+// Change number: 390
+// Service tag  : AzureArcInfrastructure_USDoDEast
+
+var AzureArcInfrastructure_USDoDEast = [
+  '20.140.65.44/30'
+  '20.140.66.136/30'
+  '20.141.20.134/31'
+  '20.141.20.152/29'
+  '52.126.205.62/32'
+]

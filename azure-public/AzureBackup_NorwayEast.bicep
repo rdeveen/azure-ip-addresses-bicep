@@ -1,0 +1,22 @@
+// Auto-generated file – do not edit manually.
+// Generated at : 2026-04-20T18:10:18Z
+// Source file  : ServiceTags_Public.json
+// Cloud        : Public
+// Change number: 396
+// Service tag  : AzureBackup_NorwayEast
+
+var AzureBackup_NorwayEast = [
+  '51.120.99.96/27'
+  '51.120.99.128/26'
+  '51.120.107.80/28'
+  '51.120.107.128/26'
+  '51.120.110.128/27'
+  '51.120.211.80/28'
+  '51.120.211.128/26'
+  '51.120.214.64/27'
+  '51.120.233.192/26'
+  '2603:1020:e04:3::200/121'
+  '2603:1020:e04:402::200/121'
+  '2603:1020:e04:802::180/121'
+  '2603:1020:e04:c02::180/121'
+]

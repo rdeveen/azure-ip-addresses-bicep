@@ -1,0 +1,21 @@
+// Auto-generated file – do not edit manually.
+// Generated at : 2026-04-20T18:10:18Z
+// Source file  : ServiceTags_Public.json
+// Cloud        : Public
+// Change number: 396
+// Service tag  : AzureBackup_CanadaCentral
+
+var AzureBackup_CanadaCentral = [
+  '4.172.96.192/26'
+  '13.71.172.0/26'
+  '13.71.172.64/27'
+  '20.38.147.0/27'
+  '20.38.147.64/26'
+  '20.48.197.0/26'
+  '52.246.155.0/27'
+  '52.246.155.64/26'
+  '2603:1030:f05:e::380/121'
+  '2603:1030:f05:402::200/121'
+  '2603:1030:f05:802::180/121'
+  '2603:1030:f05:c02::180/121'
+]

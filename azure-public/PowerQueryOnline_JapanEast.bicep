@@ -1,0 +1,20 @@
+// Auto-generated file – do not edit manually.
+// Generated at : 2026-04-20T18:10:18Z
+// Source file  : ServiceTags_Public.json
+// Cloud        : Public
+// Change number: 396
+// Service tag  : PowerQueryOnline_JapanEast
+
+var PowerQueryOnline_JapanEast = [
+  '20.43.64.70/31'
+  '20.89.1.18/31'
+  '20.194.129.116/31'
+  '20.210.69.168/29'
+  '20.222.128.114/31'
+  '172.207.65.120/29'
+  '172.207.65.224/28'
+  '2603:1040:407:1::200/123'
+  '2603:1040:407:402::160/125'
+  '2603:1040:407:802::140/125'
+  '2603:1040:407:c00::20/125'
+]

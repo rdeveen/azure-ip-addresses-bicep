@@ -1,0 +1,18 @@
+// Auto-generated file – do not edit manually.
+// Generated at : 2026-04-20T18:10:18Z
+// Source file  : ServiceTags_Public.json
+// Cloud        : Public
+// Change number: 396
+// Service tag  : ServiceFabric_SouthAfricaNorth
+
+var ServiceFabric_SouthAfricaNorth = [
+  '102.37.48.12/32'
+  '102.133.126.144/30'
+  '102.133.155.24/29'
+  '102.133.160.28/32'
+  '102.133.235.169/32'
+  '102.133.251.216/30'
+  '2603:1000:104:402::98/125'
+  '2603:1000:104:802::98/125'
+  '2603:1000:104:c02::98/125'
+]

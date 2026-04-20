@@ -1,0 +1,20 @@
+// Auto-generated file – do not edit manually.
+// Generated at : 2026-04-20T18:10:18Z
+// Source file  : ServiceTags_Public.json
+// Cloud        : Public
+// Change number: 396
+// Service tag  : AzureCosmosDB_QatarCentral
+
+var AzureCosmosDB_QatarCentral = [
+  '4.171.24.128/25'
+  '4.171.25.0/26'
+  '20.21.34.160/27'
+  '20.21.42.0/26'
+  '20.21.66.0/26'
+  '20.21.74.0/26'
+  '20.21.85.192/26'
+  '2603:1040:1002::740/123'
+  '2603:1040:1002:400::/122'
+  '2603:1040:1002:800::/122'
+  '2603:1040:1002:c00::/122'
+]

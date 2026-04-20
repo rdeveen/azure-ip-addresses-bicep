@@ -1,0 +1,22 @@
+// Auto-generated file – do not edit manually.
+// Generated at : 2026-04-20T18:10:18Z
+// Source file  : ServiceTags_Public.json
+// Cloud        : Public
+// Change number: 396
+// Service tag  : AzureMachineLearning_NorwayWest
+
+var AzureMachineLearning_NorwayWest = [
+  '4.220.241.41/32'
+  '4.220.241.138/31'
+  '4.220.241.140/30'
+  '4.220.241.144/28'
+  '4.220.241.192/27'
+  '51.120.219.80/28'
+  '51.120.227.80/28'
+  '2603:1020:f04::300/122'
+  '2603:1020:f04:9::660/123'
+  '2603:1020:f04:9::680/124'
+  '2603:1020:f04:9::690/126'
+  '2603:1020:f04:9::694/127'
+  '2603:1020:f04:9::696/128'
+]

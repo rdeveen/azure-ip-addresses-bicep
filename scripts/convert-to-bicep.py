@@ -1,9 +1,13 @@
 #!/usr/bin/env python3
 """
-Convert an Azure Service Tags JSON file into a Bicep variable file.
+Convert an Azure Service Tags JSON file into per-tag Bicep variable files.
+
+Each service tag is written to its own .bicep file inside *output_dir*,
+keeping the number of variables per file at exactly one and avoiding the
+Bicep compiler limit of 512 variables per file.
 
 Usage:
-    python convert-to-bicep.py <input.json> <output.bicep>
+    python convert-to-bicep.py <input.json> <output_dir>
 """
 
 import json
@@ -29,7 +33,27 @@ def to_bicep_identifier(name: str) -> str:
     return sanitized or "_"
 
 
-def json_to_bicep(input_path: str, output_path: str) -> None:
+def to_module_name(name: str) -> str:
+    """Convert a service tag name to a kebab-case registry module name.
+
+    Examples:
+        ActionGroup          -> action-group
+        AzureActiveDirectory -> azure-active-directory
+        Sql.EastUS           -> sql-east-us
+    """
+    # Replace non-alphanumeric characters with hyphens
+    clean = re.sub(r"[^A-Za-z0-9]", "-", name)
+    # Insert a hyphen between a lowercase/digit character and an uppercase character
+    clean = re.sub(r"([a-z0-9])([A-Z])", r"\1-\2", clean)
+    # Insert a hyphen between a run of uppercase characters and the last uppercase+lowercase pair
+    clean = re.sub(r"([A-Z]+)([A-Z][a-z])", r"\1-\2", clean)
+    # Lowercase, deduplicate hyphens, strip leading/trailing hyphens
+    clean = clean.lower()
+    clean = re.sub(r"-+", "-", clean).strip("-")
+    return clean
+
+
+def json_to_bicep(input_path: str, output_dir: str) -> None:
     with open(input_path, "r", encoding="utf-8") as f:
         data = json.load(f)
 
@@ -40,14 +64,7 @@ def json_to_bicep(input_path: str, output_path: str) -> None:
     source_filename = os.path.basename(input_path)
     generated_at = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
 
-    lines = [
-        "// Auto-generated file – do not edit manually.",
-        f"// Generated at : {generated_at}",
-        f"// Source file  : {source_filename}",
-        f"// Cloud        : {cloud}",
-        f"// Change number: {change_number}",
-        "",
-    ]
+    os.makedirs(output_dir, exist_ok=True)
 
     for entry in values:
         name = entry.get("name", "")
@@ -56,21 +73,31 @@ def json_to_bicep(input_path: str, output_path: str) -> None:
 
         safe_name = to_bicep_identifier(name)
 
-        lines.append(f"var {safe_name} = [")
+        lines = [
+            "// Auto-generated file – do not edit manually.",
+            f"// Generated at : {generated_at}",
+            f"// Source file  : {source_filename}",
+            f"// Cloud        : {cloud}",
+            f"// Change number: {change_number}",
+            f"// Service tag  : {name}",
+            "",
+            f"var {safe_name} = [",
+        ]
         for prefix in prefixes:
             lines.append(f"  '{prefix}'")
         lines.append("]")
         lines.append("")
 
-    with open(output_path, "w", encoding="utf-8", newline="\n") as f:
-        f.write("\n".join(lines))
+        output_path = os.path.join(output_dir, f"{safe_name}.bicep")
+        with open(output_path, "w", encoding="utf-8", newline="\n") as f:
+            f.write("\n".join(lines))
 
-    print(f"Written {len(values)} service-tag variables to {output_path}")
+    print(f"Written {len(values)} service-tag files to {output_dir}/")
 
 
 if __name__ == "__main__":
     if len(sys.argv) != 3:
-        print("Usage: convert-to-bicep.py <input.json> <output.bicep>", file=sys.stderr)
+        print("Usage: convert-to-bicep.py <input.json> <output_dir>", file=sys.stderr)
         sys.exit(1)
 
     json_to_bicep(sys.argv[1], sys.argv[2])

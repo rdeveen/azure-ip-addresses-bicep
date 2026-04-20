@@ -1,0 +1,13 @@
+// Auto-generated file – do not edit manually.
+// Generated at : 2026-04-20T18:10:18Z
+// Source file  : ServiceTags_Public.json
+// Cloud        : Public
+// Change number: 396
+// Service tag  : AzureSignalR_SwedenCentral
+
+var AzureSignalR_SwedenCentral = [
+  '51.12.46.192/27'
+  '51.12.101.192/27'
+  '135.225.177.32/27'
+  '2603:1020:1004:2::600/120'
+]

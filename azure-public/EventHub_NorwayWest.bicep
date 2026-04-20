@@ -1,0 +1,14 @@
+// Auto-generated file – do not edit manually.
+// Generated at : 2026-04-20T18:10:18Z
+// Source file  : ServiceTags_Public.json
+// Cloud        : Public
+// Change number: 396
+// Service tag  : EventHub_NorwayWest
+
+var EventHub_NorwayWest = [
+  '51.13.140.0/24'
+  '51.120.218.160/27'
+  '2603:1020:f04::240/122'
+  '2603:1020:f04:3::/120'
+  '2603:1020:f04:402::1c0/123'
+]

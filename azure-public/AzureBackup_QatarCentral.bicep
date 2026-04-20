@@ -1,0 +1,17 @@
+// Auto-generated file – do not edit manually.
+// Generated at : 2026-04-20T18:10:18Z
+// Source file  : ServiceTags_Public.json
+// Cloud        : Public
+// Change number: 396
+// Service tag  : AzureBackup_QatarCentral
+
+var AzureBackup_QatarCentral = [
+  '20.21.36.128/26'
+  '20.21.43.64/26'
+  '20.21.67.0/26'
+  '20.21.75.0/26'
+  '2603:1040:1002:1::100/121'
+  '2603:1040:1002:400::100/121'
+  '2603:1040:1002:800::100/121'
+  '2603:1040:1002:c00::100/121'
+]

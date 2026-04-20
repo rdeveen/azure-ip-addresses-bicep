@@ -1,0 +1,15 @@
+// Auto-generated file – do not edit manually.
+// Generated at : 2026-04-20T18:10:19Z
+// Source file  : ServiceTags_AzureGovernment.json
+// Cloud        : AzureGovernment
+// Change number: 390
+// Service tag  : AppServiceManagement_USGovTexas
+
+var AppServiceManagement_USGovTexas = [
+  '20.140.147.112/28'
+  '52.238.74.16/32'
+  '62.11.95.64/26'
+  '2001:489a:3403:1::6e0/123'
+  '2001:489a:3403:6::700/122'
+  '2001:489a:3403:402::100/122'
+]

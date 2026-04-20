@@ -1,0 +1,16 @@
+// Auto-generated file – do not edit manually.
+// Generated at : 2026-04-20T18:10:18Z
+// Source file  : ServiceTags_Public.json
+// Cloud        : Public
+// Change number: 396
+// Service tag  : PowerPlatformInfra_IndonesiaCentral
+
+var PowerPlatformInfra_IndonesiaCentral = [
+  '70.153.65.180/30'
+  '70.153.65.184/29'
+  '70.153.65.224/28'
+  '70.153.65.240/31'
+  '70.153.66.64/26'
+  '70.153.66.128/26'
+  '2603:1061:2002:b800::/57'
+]

@@ -44,7 +44,7 @@ jobs:
         run: |
           python scripts/convert-to-bicep.py \
             /tmp/ServiceTags_Public.json \
-            ServiceTags_Public.bicep
+            azure-public
 
       # -----------------------------------------------------------------------
       # China Cloud
@@ -67,7 +67,7 @@ jobs:
         run: |
           python scripts/convert-to-bicep.py \
             /tmp/ServiceTags_China.json \
-            ServiceTags_China.bicep
+            azure-china
 
       # -----------------------------------------------------------------------
       # Azure Government Cloud
@@ -90,7 +90,7 @@ jobs:
         run: |
           python scripts/convert-to-bicep.py \
             /tmp/ServiceTags_AzureGovernment.json \
-            ServiceTags_AzureGovernment.bicep
+            azure-government
 
       # -----------------------------------------------------------------------
       # Azure Germany Cloud
@@ -113,7 +113,7 @@ jobs:
         run: |
           python scripts/convert-to-bicep.py \
             /tmp/ServiceTags_AzureGermany.json \
-            ServiceTags_AzureGermany.bicep
+            azure-germany
 
       # -----------------------------------------------------------------------
       # Commit & push if anything changed
@@ -122,10 +122,12 @@ jobs:
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add ServiceTags_Public.bicep \
-                  ServiceTags_China.bicep \
-                  ServiceTags_AzureGovernment.bicep \
-                  ServiceTags_AzureGermany.bicep
+          # Remove old monolithic files if they still exist
+          git rm --ignore-unmatch ServiceTags_Public.bicep \
+                                  ServiceTags_China.bicep \
+                                  ServiceTags_AzureGovernment.bicep \
+                                  ServiceTags_AzureGermany.bicep
+          git add azure-public/ azure-china/ azure-government/ azure-germany/
           if git diff --cached --quiet; then
             echo "No changes to commit – Bicep files are already up to date."
           else
@@ -149,31 +151,35 @@ jobs:
       - name: Publish Bicep modules to GHCR
         run: |
           VERSION=$(date -u +%Y%m%d)
+          REGISTRY="ghcr.io/rdeveen/azure-ip-addresses-bicep"
 
-          bicep publish ServiceTags_Public.bicep \
-            --target br:ghcr.io/rdeveen/azure-ip-addresses-bicep/servicetags-public:${VERSION} \
-            --force
-          bicep publish ServiceTags_Public.bicep \
-            --target br:ghcr.io/rdeveen/azure-ip-addresses-bicep/servicetags-public:latest \
-            --force
+          # Convert a PascalCase/mixed service-tag name to kebab-case
+          to_module_name() {
+            python3 -c "
+import re, sys
+name = sys.argv[1]
+clean = re.sub(r'[^A-Za-z0-9]', '-', name)
+clean = re.sub(r'([a-z0-9])([A-Z])', r'\1-\2', clean)
+clean = re.sub(r'([A-Z]+)([A-Z][a-z])', r'\1-\2', clean)
+clean = clean.lower()
+clean = re.sub(r'-+', '-', clean).strip('-')
+print(clean)
+" "$1"
+          }
 
-          bicep publish ServiceTags_China.bicep \
-            --target br:ghcr.io/rdeveen/azure-ip-addresses-bicep/servicetags-china:${VERSION} \
-            --force
-          bicep publish ServiceTags_China.bicep \
-            --target br:ghcr.io/rdeveen/azure-ip-addresses-bicep/servicetags-china:latest \
-            --force
+          for cloud_dir in azure-public azure-china azure-government azure-germany; do
+            [ -d "$cloud_dir" ] || continue
+            for bicep_file in "$cloud_dir"/*.bicep; do
+              [ -f "$bicep_file" ] || continue
+              filename=$(basename "$bicep_file" .bicep)
+              module_name=$(to_module_name "$filename")
+              module_path="${cloud_dir}/${module_name}"
 
-          bicep publish ServiceTags_AzureGovernment.bicep \
-            --target br:ghcr.io/rdeveen/azure-ip-addresses-bicep/servicetags-azuregovernment:${VERSION} \
-            --force
-          bicep publish ServiceTags_AzureGovernment.bicep \
-            --target br:ghcr.io/rdeveen/azure-ip-addresses-bicep/servicetags-azuregovernment:latest \
-            --force
-
-          bicep publish ServiceTags_AzureGermany.bicep \
-            --target br:ghcr.io/rdeveen/azure-ip-addresses-bicep/servicetags-azuregermany:${VERSION} \
-            --force
-          bicep publish ServiceTags_AzureGermany.bicep \
-            --target br:ghcr.io/rdeveen/azure-ip-addresses-bicep/servicetags-azuregermany:latest \
-            --force
+              bicep publish "$bicep_file" \
+                --target "br:${REGISTRY}/${module_path}:${VERSION}" \
+                --force
+              bicep publish "$bicep_file" \
+                --target "br:${REGISTRY}/${module_path}:latest" \
+                --force
+            done
+          done

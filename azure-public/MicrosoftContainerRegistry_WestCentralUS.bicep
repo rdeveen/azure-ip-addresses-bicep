@@ -1,0 +1,15 @@
+// Auto-generated file – do not edit manually.
+// Generated at : 2026-04-20T18:10:18Z
+// Source file  : ServiceTags_Public.json
+// Cloud        : Public
+// Change number: 396
+// Service tag  : MicrosoftContainerRegistry_WestCentralUS
+
+var MicrosoftContainerRegistry_WestCentralUS = [
+  '13.71.194.120/29'
+  '57.151.152.0/29'
+  '172.215.202.0/29'
+  '2603:1030:b04:402::88/125'
+  '2603:1030:b04:800::/125'
+  '2603:1030:b04:c00::/125'
+]

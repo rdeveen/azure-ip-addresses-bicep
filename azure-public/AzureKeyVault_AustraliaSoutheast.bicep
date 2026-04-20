@@ -1,0 +1,20 @@
+// Auto-generated file – do not edit manually.
+// Generated at : 2026-04-20T18:10:18Z
+// Source file  : ServiceTags_Public.json
+// Cloud        : Public
+// Change number: 396
+// Service tag  : AzureKeyVault_AustraliaSoutheast
+
+var AzureKeyVault_AustraliaSoutheast = [
+  '4.199.88.12/30'
+  '13.77.50.64/30'
+  '48.215.144.12/30'
+  '104.46.179.244/30'
+  '104.46.183.152/29'
+  '2603:1010:101::100/125'
+  '2603:1010:101::108/126'
+  '2603:1010:101::2a0/125'
+  '2603:1010:101:402::80/125'
+  '2603:1010:101:800::18/125'
+  '2603:1010:207:400::18/125'
+]

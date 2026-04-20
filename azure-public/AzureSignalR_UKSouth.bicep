@@ -1,0 +1,13 @@
+// Auto-generated file – do not edit manually.
+// Generated at : 2026-04-20T18:10:18Z
+// Source file  : ServiceTags_Public.json
+// Cloud        : Public
+// Change number: 396
+// Service tag  : AzureSignalR_UKSouth
+
+var AzureSignalR_UKSouth = [
+  '51.104.9.64/27'
+  '51.143.212.128/27'
+  '74.177.80.160/27'
+  '2603:1020:705:2::500/120'
+]

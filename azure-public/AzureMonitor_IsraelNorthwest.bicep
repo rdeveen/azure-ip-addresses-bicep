@@ -1,0 +1,22 @@
+// Auto-generated file – do not edit manually.
+// Generated at : 2026-04-20T18:10:18Z
+// Source file  : ServiceTags_Public.json
+// Cloud        : Public
+// Change number: 396
+// Service tag  : AzureMonitor_IsraelNorthwest
+
+var AzureMonitor_IsraelNorthwest = [
+  '51.4.131.242/31'
+  '51.4.133.208/29'
+  '51.4.133.216/30'
+  '51.4.136.0/26'
+  '51.4.150.240/28'
+  '51.4.154.48/28'
+  '51.4.154.64/26'
+  '51.4.164.48/29'
+  '51.4.164.96/28'
+  '2603:1040:1701:d::d/128'
+  '2603:1040:1702:2::480/121'
+  '2603:1040:1702:2::500/120'
+  '2603:1040:1702:4::6e0/123'
+]

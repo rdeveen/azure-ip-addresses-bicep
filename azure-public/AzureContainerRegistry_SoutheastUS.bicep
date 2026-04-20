@@ -1,0 +1,20 @@
+// Auto-generated file – do not edit manually.
+// Generated at : 2026-04-20T18:10:18Z
+// Source file  : ServiceTags_Public.json
+// Cloud        : Public
+// Change number: 396
+// Service tag  : AzureContainerRegistry_SoutheastUS
+
+var AzureContainerRegistry_SoutheastUS = [
+  '57.151.210.128/26'
+  '68.154.136.64/26'
+  '68.154.137.128/25'
+  '68.154.145.64/26'
+  '2603:1030:902::560/125'
+  '2603:1030:902:4::180/121'
+  '2603:1030:902:4::660/123'
+  '2603:1030:902:4::700/124'
+  '2603:1030:902:4::710/125'
+  '2603:1030:902:400::8/125'
+  '2603:1030:902:400::100/121'
+]

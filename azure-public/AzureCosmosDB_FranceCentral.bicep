@@ -1,0 +1,25 @@
+// Auto-generated file – do not edit manually.
+// Generated at : 2026-04-20T18:10:18Z
+// Source file  : ServiceTags_Public.json
+// Cloud        : Public
+// Change number: 396
+// Service tag  : AzureCosmosDB_FranceCentral
+
+var AzureCosmosDB_FranceCentral = [
+  '20.19.28.128/26'
+  '20.19.30.128/25'
+  '20.19.31.0/26'
+  '20.40.139.237/32'
+  '20.40.141.72/32'
+  '20.43.46.0/27'
+  '40.79.130.0/28'
+  '40.79.138.48/28'
+  '40.79.142.64/26'
+  '40.79.146.48/28'
+  '40.79.149.128/26'
+  '51.11.192.192/26'
+  '51.103.6.27/32'
+  '2603:1020:805:402::c0/122'
+  '2603:1020:805:802::c0/122'
+  '2603:1020:805:c02::c0/122'
+]

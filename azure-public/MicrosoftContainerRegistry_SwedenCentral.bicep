@@ -1,0 +1,16 @@
+// Auto-generated file – do not edit manually.
+// Generated at : 2026-04-20T18:10:18Z
+// Source file  : ServiceTags_Public.json
+// Cloud        : Public
+// Change number: 396
+// Service tag  : MicrosoftContainerRegistry_SwedenCentral
+
+var MicrosoftContainerRegistry_SwedenCentral = [
+  '51.12.98.16/29'
+  '51.12.226.136/29'
+  '51.12.234.136/29'
+  '2603:1020:1004:400::88/125'
+  '2603:1020:1004:400::3b0/125'
+  '2603:1020:1004:800::148/125'
+  '2603:1020:1004:c02::1a8/125'
+]

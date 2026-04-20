@@ -1,0 +1,15 @@
+// Auto-generated file – do not edit manually.
+// Generated at : 2026-04-20T18:10:18Z
+// Source file  : ServiceTags_Public.json
+// Cloud        : Public
+// Change number: 396
+// Service tag  : AzureSecurityCenter_AustraliaCentral
+
+var AzureSecurityCenter_AustraliaCentral = [
+  '4.199.157.0/24'
+  '4.199.158.0/23'
+  '4.199.160.0/22'
+  '4.199.164.0/26'
+  '4.199.164.64/27'
+  '20.53.0.64/27'
+]

@@ -1,0 +1,15 @@
+// Auto-generated file – do not edit manually.
+// Generated at : 2026-04-20T18:10:18Z
+// Source file  : ServiceTags_Public.json
+// Cloud        : Public
+// Change number: 396
+// Service tag  : AzureResourceManager_WestIndia
+
+var AzureResourceManager_WestIndia = [
+  '20.38.128.32/28'
+  '20.38.130.0/23'
+  '52.136.54.0/23'
+  '2603:1040:806::6c0/122'
+  '2603:1040:806:3::500/120'
+  '2603:1040:806:402::280/122'
+]

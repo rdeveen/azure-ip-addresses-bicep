@@ -1,0 +1,14 @@
+// Auto-generated file – do not edit manually.
+// Generated at : 2026-04-20T18:10:18Z
+// Source file  : ServiceTags_Public.json
+// Cloud        : Public
+// Change number: 396
+// Service tag  : ApiManagement_SwitzerlandNorth
+
+var ApiManagement_SwitzerlandNorth = [
+  '51.107.0.91/32'
+  '51.107.59.0/28'
+  '51.107.246.176/28'
+  '2603:1020:a04:2::510/124'
+  '2603:1020:a04:402::140/124'
+]

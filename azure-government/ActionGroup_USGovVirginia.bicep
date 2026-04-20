@@ -1,0 +1,14 @@
+// Auto-generated file – do not edit manually.
+// Generated at : 2026-04-20T18:10:19Z
+// Source file  : ServiceTags_AzureGovernment.json
+// Cloud        : AzureGovernment
+// Change number: 390
+// Service tag  : ActionGroup_USGovVirginia
+
+var ActionGroup_USGovVirginia = [
+  '13.72.19.232/32'
+  '20.159.4.244/30'
+  '52.235.253.236/31'
+  '2001:489a:3103:2::7a4/126'
+  '2001:489a:3103:402::178/125'
+]

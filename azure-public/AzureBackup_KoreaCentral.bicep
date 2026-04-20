@@ -1,0 +1,20 @@
+// Auto-generated file – do not edit manually.
+// Generated at : 2026-04-20T18:10:18Z
+// Source file  : ServiceTags_Public.json
+// Cloud        : Public
+// Change number: 396
+// Service tag  : AzureBackup_KoreaCentral
+
+var AzureBackup_KoreaCentral = [
+  '20.44.27.128/27'
+  '20.44.31.192/26'
+  '20.194.66.192/26'
+  '20.194.67.0/27'
+  '20.194.74.0/26'
+  '52.231.19.0/26'
+  '52.231.19.64/27'
+  '2603:1040:f05:2::/121'
+  '2603:1040:f05:402::200/121'
+  '2603:1040:f05:802::180/121'
+  '2603:1040:f05:c02::180/121'
+]

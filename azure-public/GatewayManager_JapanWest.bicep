@@ -1,0 +1,18 @@
+// Auto-generated file – do not edit manually.
+// Generated at : 2026-04-20T18:10:18Z
+// Source file  : ServiceTags_Public.json
+// Cloud        : Public
+// Change number: 396
+// Service tag  : GatewayManager_JapanWest
+
+var GatewayManager_JapanWest = [
+  '20.189.194.192/27'
+  '20.210.145.192/26'
+  '40.74.100.168/29'
+  '40.80.56.72/29'
+  '40.81.180.83/32'
+  '40.81.182.82/32'
+  '40.81.189.24/32'
+  '40.81.189.42/32'
+  '2603:1040:606::40/122'
+]

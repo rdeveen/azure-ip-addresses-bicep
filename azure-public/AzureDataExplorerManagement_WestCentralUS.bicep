@@ -1,0 +1,14 @@
+// Auto-generated file – do not edit manually.
+// Generated at : 2026-04-20T18:10:18Z
+// Source file  : ServiceTags_Public.json
+// Cloud        : Public
+// Change number: 396
+// Service tag  : AzureDataExplorerManagement_WestCentralUS
+
+var AzureDataExplorerManagement_WestCentralUS = [
+  '13.71.196.64/28'
+  '20.51.53.160/28'
+  '52.159.55.120/32'
+  '2603:1030:b04:1::380/121'
+  '2603:1030:b04:402::150/124'
+]

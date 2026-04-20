@@ -1,0 +1,21 @@
+// Auto-generated file – do not edit manually.
+// Generated at : 2026-04-20T18:10:18Z
+// Source file  : ServiceTags_Public.json
+// Cloud        : Public
+// Change number: 396
+// Service tag  : Sql_BrazilSoutheast
+
+var Sql_BrazilSoutheast = [
+  '20.195.146.0/26'
+  '20.206.7.128/25'
+  '191.233.15.160/27'
+  '191.233.15.192/27'
+  '191.233.48.0/27'
+  '191.233.48.32/29'
+  '191.233.49.0/27'
+  '2603:1050:403:1::200/123'
+  '2603:1050:403:1::280/121'
+  '2603:1050:403:2::680/121'
+  '2603:1050:403:402::/123'
+  '2603:1050:403:403::/123'
+]

@@ -1,0 +1,16 @@
+// Auto-generated file – do not edit manually.
+// Generated at : 2026-04-20T18:10:19Z
+// Source file  : ServiceTags_AzureGovernment.json
+// Cloud        : AzureGovernment
+// Change number: 390
+// Service tag  : ServiceBus_USDoDEast
+
+var ServiceBus_USDoDEast = [
+  '20.141.17.0/26'
+  '52.126.202.48/29'
+  '2001:489a:3303::220/123'
+  '2001:489a:3303:2::100/120'
+  '2001:489a:3303:402::170/125'
+  '2001:489a:3303:802::150/125'
+  '2001:489a:3303:c02::d0/125'
+]

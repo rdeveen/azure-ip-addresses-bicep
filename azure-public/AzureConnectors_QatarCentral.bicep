@@ -1,0 +1,17 @@
+// Auto-generated file – do not edit manually.
+// Generated at : 2026-04-20T18:10:18Z
+// Source file  : ServiceTags_Public.json
+// Cloud        : Public
+// Change number: 396
+// Service tag  : AzureConnectors_QatarCentral
+
+var AzureConnectors_QatarCentral = [
+  '4.171.26.0/26'
+  '20.21.43.0/26'
+  '20.21.205.90/32'
+  '20.21.210.110/32'
+  '20.21.210.196/32'
+  '20.173.2.102/32'
+  '2603:1040:1002:5::380/122'
+  '2603:1040:1002:400::c0/122'
+]

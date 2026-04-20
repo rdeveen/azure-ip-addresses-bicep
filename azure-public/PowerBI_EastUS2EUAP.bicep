@@ -1,0 +1,23 @@
+// Auto-generated file – do not edit manually.
+// Generated at : 2026-04-20T18:10:18Z
+// Source file  : ServiceTags_Public.json
+// Cloud        : Public
+// Change number: 396
+// Service tag  : PowerBI_EastUS2EUAP
+
+var PowerBI_EastUS2EUAP = [
+  '20.39.11.26/31'
+  '20.39.11.28/30'
+  '20.39.11.48/28'
+  '20.47.233.72/29'
+  '20.51.21.160/29'
+  '20.51.21.176/29'
+  '20.51.21.240/29'
+  '20.252.214.232/30'
+  '20.252.215.11/32'
+  '20.252.215.12/31'
+  '48.223.1.96/28'
+  '68.220.126.32/27'
+  '2603:1030:40b:1::5e0/123'
+  '2603:1030:40b:1::600/122'
+]

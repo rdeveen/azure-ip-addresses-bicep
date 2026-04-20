@@ -1,0 +1,15 @@
+// Auto-generated file – do not edit manually.
+// Generated at : 2026-04-20T18:10:19Z
+// Source file  : ServiceTags_AzureGovernment.json
+// Cloud        : AzureGovernment
+// Change number: 390
+// Service tag  : AzureResourceManager_USDoDEast
+
+var AzureResourceManager_USDoDEast = [
+  '20.140.70.0/23'
+  '52.126.203.144/28'
+  '52.126.206.0/23'
+  '2001:489a:3303:1::180/122'
+  '2001:489a:3303:1::400/120'
+  '2001:489a:3303:402::280/122'
+]

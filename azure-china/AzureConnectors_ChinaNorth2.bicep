@@ -1,0 +1,18 @@
+// Auto-generated file – do not edit manually.
+// Generated at : 2026-04-20T18:10:19Z
+// Source file  : ServiceTags_China.json
+// Cloud        : China
+// Change number: 391
+// Service tag  : AzureConnectors_ChinaNorth2
+
+var AzureConnectors_ChinaNorth2 = [
+  '40.73.136.224/28'
+  '40.73.141.192/27'
+  '52.130.147.101/32'
+  '52.130.147.117/32'
+  '52.131.65.160/27'
+  '52.131.65.192/28'
+  '139.217.103.102/32'
+  '139.217.114.96/32'
+  '2404:7940:101:402::980/122'
+]

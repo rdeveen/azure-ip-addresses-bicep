@@ -1,0 +1,25 @@
+// Auto-generated file – do not edit manually.
+// Generated at : 2026-04-20T18:10:18Z
+// Source file  : ServiceTags_Public.json
+// Cloud        : Public
+// Change number: 396
+// Service tag  : Storage_GermanyWestCentral
+
+var Storage_GermanyWestCentral = [
+  '20.33.182.0/24'
+  '20.33.238.0/24'
+  '20.38.118.0/24'
+  '20.47.27.0/24'
+  '20.60.22.0/23'
+  '20.150.54.0/24'
+  '20.150.125.0/24'
+  '20.153.119.0/24'
+  '20.157.160.0/24'
+  '20.157.183.0/24'
+  '20.209.32.0/23'
+  '20.209.176.0/23'
+  '20.209.242.0/23'
+  '57.150.218.0/23'
+  '135.130.200.0/23'
+  '2603:1020:c05::/48'
+]

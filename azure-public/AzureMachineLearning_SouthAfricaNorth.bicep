@@ -1,0 +1,25 @@
+// Auto-generated file – do not edit manually.
+// Generated at : 2026-04-20T18:10:18Z
+// Source file  : ServiceTags_Public.json
+// Cloud        : Public
+// Change number: 396
+// Service tag  : AzureMachineLearning_SouthAfricaNorth
+
+var AzureMachineLearning_SouthAfricaNorth = [
+  '4.221.233.3/32'
+  '4.221.233.178/31'
+  '4.221.233.180/30'
+  '4.221.234.32/27'
+  '4.221.234.64/28'
+  '20.164.158.240/28'
+  '102.37.163.32/28'
+  '102.133.122.224/27'
+  '102.133.155.32/28'
+  '102.133.251.64/28'
+  '2603:1000:104:1::2c0/122'
+  '2603:1000:104:b::dd/128'
+  '2603:1000:104:b::de/127'
+  '2603:1000:104:b::170/124'
+  '2603:1000:104:b::180/123'
+  '2603:1000:104:b::1a0/126'
+]

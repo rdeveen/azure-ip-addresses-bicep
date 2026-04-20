@@ -1,0 +1,19 @@
+// Auto-generated file – do not edit manually.
+// Generated at : 2026-04-20T18:10:18Z
+// Source file  : ServiceTags_Public.json
+// Cloud        : Public
+// Change number: 396
+// Service tag  : ServiceBus_WestUS
+
+var ServiceBus_WestUS = [
+  '20.66.6.128/25'
+  '20.168.162.80/29'
+  '20.168.162.96/28'
+  '40.112.242.128/28'
+  '57.154.142.64/26'
+  '57.154.142.128/25'
+  '57.154.143.0/24'
+  '2603:1030:a07::220/123'
+  '2603:1030:a07:1::500/120'
+  '2603:1030:a07:402::8f0/125'
+]

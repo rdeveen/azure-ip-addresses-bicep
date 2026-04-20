@@ -1,0 +1,13 @@
+// Auto-generated file – do not edit manually.
+// Generated at : 2026-04-20T18:10:19Z
+// Source file  : ServiceTags_China.json
+// Cloud        : China
+// Change number: 391
+// Service tag  : PowerPlatformPlex_ChinaEast3
+
+var PowerPlatformPlex_ChinaEast3 = [
+  '163.228.59.40/29'
+  '163.228.70.128/26'
+  '163.228.99.248/29'
+  '2406:e500:5501:1100::/58'
+]

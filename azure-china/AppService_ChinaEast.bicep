@@ -1,0 +1,15 @@
+// Auto-generated file – do not edit manually.
+// Generated at : 2026-04-20T18:10:19Z
+// Source file  : ServiceTags_China.json
+// Cloud        : China
+// Change number: 391
+// Service tag  : AppService_ChinaEast
+
+var AppService_ChinaEast = [
+  '42.159.132.179/32'
+  '42.159.197.98/32'
+  '52.130.9.32/27'
+  '139.217.168.128/27'
+  '139.219.195.254/32'
+  '2404:7940:201:402::a0/123'
+]

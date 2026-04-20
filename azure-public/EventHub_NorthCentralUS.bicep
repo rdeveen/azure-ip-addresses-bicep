@@ -1,0 +1,16 @@
+// Auto-generated file – do not edit manually.
+// Generated at : 2026-04-20T18:10:18Z
+// Source file  : ServiceTags_Public.json
+// Cloud        : Public
+// Change number: 396
+// Service tag  : EventHub_NorthCentralUS
+
+var EventHub_NorthCentralUS = [
+  '20.51.3.0/24'
+  '20.125.171.64/26'
+  '20.125.203.64/26'
+  '52.162.106.64/26'
+  '2603:1030:608::240/122'
+  '2603:1030:608:1::600/120'
+  '2603:1030:608:402::1c0/123'
+]

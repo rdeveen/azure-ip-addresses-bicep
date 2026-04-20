@@ -1,0 +1,22 @@
+// Auto-generated file – do not edit manually.
+// Generated at : 2026-04-20T18:10:18Z
+// Source file  : ServiceTags_Public.json
+// Cloud        : Public
+// Change number: 396
+// Service tag  : DataFactory_IndonesiaCentral
+
+var DataFactory_IndonesiaCentral = [
+  '70.153.168.0/23'
+  '70.153.173.16/28'
+  '70.153.173.64/27'
+  '70.153.177.112/28'
+  '70.153.202.176/28'
+  '70.153.218.176/28'
+  '2603:1040:1802:2::98/125'
+  '2603:1040:1802:2::100/121'
+  '2603:1040:1802:2::4b0/124'
+  '2603:1040:1802:5::700/121'
+  '2603:1040:1802:400::f0/124'
+  '2603:1040:1802:800::70/124'
+  '2603:1040:1802:c00::70/124'
+]

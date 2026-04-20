@@ -1,0 +1,18 @@
+// Auto-generated file – do not edit manually.
+// Generated at : 2026-04-20T18:10:18Z
+// Source file  : ServiceTags_Public.json
+// Cloud        : Public
+// Change number: 396
+// Service tag  : PowerQueryOnline_SoutheastAsia
+
+var PowerQueryOnline_SoutheastAsia = [
+  '13.67.15.208/30'
+  '20.43.128.70/31'
+  '20.195.87.112/29'
+  '20.205.192.106/31'
+  '57.155.34.128/29'
+  '2603:1040:5:1::200/123'
+  '2603:1040:5:402::160/125'
+  '2603:1040:5:802::140/125'
+  '2603:1040:5:c00::20/125'
+]

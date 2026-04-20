@@ -1,0 +1,20 @@
+// Auto-generated file – do not edit manually.
+// Generated at : 2026-04-20T18:10:19Z
+// Source file  : ServiceTags_AzureGovernment.json
+// Cloud        : AzureGovernment
+// Change number: 390
+// Service tag  : Sql_USDoDCentral
+
+var Sql_USDoDCentral = [
+  '20.140.76.192/26'
+  '20.140.77.0/26'
+  '52.127.56.0/27'
+  '52.127.57.0/27'
+  '52.127.57.32/29'
+  '52.182.88.34/31'
+  '52.182.88.36/32'
+  '2001:489a:3203::280/123'
+  '2001:489a:3203:1::380/121'
+  '2001:489a:3203:400::/123'
+  '2001:489a:3203:401::/123'
+]

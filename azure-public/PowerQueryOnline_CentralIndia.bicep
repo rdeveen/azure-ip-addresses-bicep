@@ -1,0 +1,20 @@
+// Auto-generated file – do not edit manually.
+// Generated at : 2026-04-20T18:10:18Z
+// Source file  : ServiceTags_Public.json
+// Cloud        : Public
+// Change number: 396
+// Service tag  : PowerQueryOnline_CentralIndia
+
+var PowerQueryOnline_CentralIndia = [
+  '4.213.28.120/29'
+  '4.213.29.128/28'
+  '20.43.126.196/31'
+  '20.192.102.110/31'
+  '20.204.193.0/29'
+  '40.80.54.56/31'
+  '52.140.104.70/31'
+  '2603:1040:a06:1::200/123'
+  '2603:1040:a06:402::160/125'
+  '2603:1040:a06:802::140/125'
+  '2603:1040:a06:c00::20/125'
+]

@@ -1,0 +1,23 @@
+// Auto-generated file – do not edit manually.
+// Generated at : 2026-04-20T18:10:18Z
+// Source file  : ServiceTags_Public.json
+// Cloud        : Public
+// Change number: 396
+// Service tag  : AzureCosmosDB_BrazilSouth
+
+var AzureCosmosDB_BrazilSouth = [
+  '20.195.200.1/32'
+  '20.195.200.28/32'
+  '20.226.208.0/26'
+  '20.226.210.0/25'
+  '20.226.210.128/26'
+  '191.233.204.128/27'
+  '191.234.138.160/27'
+  '191.234.146.0/26'
+  '191.234.154.0/26'
+  '191.234.179.157/32'
+  '191.234.206.81/32'
+  '2603:1050:6:402::c0/122'
+  '2603:1050:6:802::c0/122'
+  '2603:1050:6:c02::c0/122'
+]

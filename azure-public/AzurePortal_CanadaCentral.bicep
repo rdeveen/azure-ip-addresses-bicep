@@ -1,0 +1,16 @@
+// Auto-generated file – do not edit manually.
+// Generated at : 2026-04-20T18:10:18Z
+// Source file  : ServiceTags_Public.json
+// Cloud        : Public
+// Change number: 396
+// Service tag  : AzurePortal_CanadaCentral
+
+var AzurePortal_CanadaCentral = [
+  '20.38.149.208/28'
+  '20.48.193.48/29'
+  '52.228.83.160/27'
+  '52.228.84.84/30'
+  '52.228.84.96/28'
+  '2603:1030:f05::100/121'
+  '2603:1030:f05:1::680/121'
+]

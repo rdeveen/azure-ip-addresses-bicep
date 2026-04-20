@@ -1,0 +1,18 @@
+// Auto-generated file – do not edit manually.
+// Generated at : 2026-04-20T18:10:18Z
+// Source file  : ServiceTags_Public.json
+// Cloud        : Public
+// Change number: 396
+// Service tag  : GatewayManager_WestCentralUS
+
+var GatewayManager_WestCentralUS = [
+  '13.71.194.232/29'
+  '20.69.5.224/27'
+  '48.194.149.96/27'
+  '52.148.30.6/32'
+  '52.150.136.72/29'
+  '52.159.19.113/32'
+  '52.159.20.67/32'
+  '52.159.21.124/32'
+  '2603:1030:b04::40/122'
+]

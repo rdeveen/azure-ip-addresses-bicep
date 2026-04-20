@@ -1,0 +1,22 @@
+// Auto-generated file – do not edit manually.
+// Generated at : 2026-04-20T18:10:18Z
+// Source file  : ServiceTags_Public.json
+// Cloud        : Public
+// Change number: 396
+// Service tag  : AzureConnectors_UKSouth
+
+var AzureConnectors_UKSouth = [
+  '20.90.124.134/32'
+  '20.90.125.211/32'
+  '20.90.129.0/27'
+  '20.90.129.32/28'
+  '51.105.77.96/27'
+  '51.132.211.6/32'
+  '51.132.211.28/32'
+  '51.140.61.124/32'
+  '51.140.74.150/32'
+  '51.140.77.227/32'
+  '51.140.80.51/32'
+  '51.140.148.0/28'
+  '2603:1020:705:402::180/122'
+]

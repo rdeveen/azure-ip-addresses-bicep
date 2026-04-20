@@ -1,0 +1,18 @@
+// Auto-generated file – do not edit manually.
+// Generated at : 2026-04-20T18:10:18Z
+// Source file  : ServiceTags_Public.json
+// Cloud        : Public
+// Change number: 396
+// Service tag  : AppServiceManagement_UAENorth
+
+var AppServiceManagement_UAENorth = [
+  '40.120.74.128/26'
+  '40.120.87.208/28'
+  '40.123.229.242/32'
+  '65.52.250.128/26'
+  '74.162.170.64/29'
+  '2603:1040:904:2::500/123'
+  '2603:1040:904:402::100/122'
+  '2603:1040:904:802::100/122'
+  '2603:1040:904:c02::100/122'
+]

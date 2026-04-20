@@ -1,0 +1,19 @@
+// Auto-generated file – do not edit manually.
+// Generated at : 2026-04-20T18:10:18Z
+// Source file  : ServiceTags_Public.json
+// Cloud        : Public
+// Change number: 396
+// Service tag  : AzureConnectors_KoreaSouth
+
+var AzureConnectors_KoreaSouth = [
+  '52.147.117.32/27'
+  '52.147.117.64/28'
+  '52.231.147.0/28'
+  '52.231.148.224/27'
+  '52.231.155.183/32'
+  '52.231.160.99/32'
+  '52.231.163.10/32'
+  '52.231.195.195/32'
+  '52.231.201.173/32'
+  '2603:1040:e05:5::7c0/122'
+]

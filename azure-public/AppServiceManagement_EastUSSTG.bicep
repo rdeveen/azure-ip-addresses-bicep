@@ -1,0 +1,14 @@
+// Auto-generated file – do not edit manually.
+// Generated at : 2026-04-20T18:10:18Z
+// Source file  : ServiceTags_Public.json
+// Cloud        : Public
+// Change number: 396
+// Service tag  : AppServiceManagement_EastUSSTG
+
+var AppServiceManagement_EastUSSTG = [
+  '20.99.24.16/28'
+  '2603:1030:104:2::c0/123'
+  '2603:1030:104:402::100/122'
+  '2603:1030:104:402::600/122'
+  '2603:1030:104:802::c0/122'
+]

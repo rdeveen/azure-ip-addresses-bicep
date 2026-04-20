@@ -1,0 +1,16 @@
+// Auto-generated file – do not edit manually.
+// Generated at : 2026-04-20T18:10:18Z
+// Source file  : ServiceTags_Public.json
+// Cloud        : Public
+// Change number: 396
+// Service tag  : AzurePortal_WestCentralUS
+
+var AzurePortal_WestCentralUS = [
+  '40.67.121.128/28'
+  '52.150.139.224/27'
+  '52.150.140.216/30'
+  '52.150.152.16/28'
+  '52.150.152.224/27'
+  '52.150.156.232/29'
+  '2603:1030:b04::700/121'
+]

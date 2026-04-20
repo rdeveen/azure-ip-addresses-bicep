@@ -1,0 +1,18 @@
+// Auto-generated file – do not edit manually.
+// Generated at : 2026-04-20T18:10:18Z
+// Source file  : ServiceTags_Public.json
+// Cloud        : Public
+// Change number: 396
+// Service tag  : BatchNodeManagement_WestCentralUS
+
+var BatchNodeManagement_WestCentralUS = [
+  '13.71.195.160/27'
+  '13.78.145.2/32'
+  '13.78.145.73/32'
+  '13.78.150.134/32'
+  '13.78.187.18/32'
+  '52.150.140.128/27'
+  '52.161.95.12/32'
+  '52.161.107.48/32'
+  '2603:1030:b04::400/122'
+]

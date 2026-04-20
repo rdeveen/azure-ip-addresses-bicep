@@ -1,0 +1,19 @@
+// Auto-generated file – do not edit manually.
+// Generated at : 2026-04-20T18:10:18Z
+// Source file  : ServiceTags_Public.json
+// Cloud        : Public
+// Change number: 396
+// Service tag  : AzureMonitor_SouthCentralUSSTG
+
+var AzureMonitor_SouthCentralUSSTG = [
+  '20.44.3.48/28'
+  '23.100.208.80/28'
+  '23.100.218.160/27'
+  '23.100.223.32/27'
+  '23.100.223.64/26'
+  '2603:1030:302:1::/122'
+  '2603:1030:302:1::c0/123'
+  '2603:1030:302:1::100/122'
+  '2603:1030:302:402::80/123'
+  '2603:1030:302:402::100/121'
+]
