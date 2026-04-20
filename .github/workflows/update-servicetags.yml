@@ -139,11 +139,14 @@ jobs:
           chmod +x bicep
           sudo mv bicep /usr/local/bin/bicep
 
+      - name: Log in to GitHub Container Registry
+        run: |
+          echo "${{ secrets.GITHUB_TOKEN }}" | docker login ghcr.io -u ${{ github.actor }} --password-stdin
+
       - name: Publish Bicep modules to GHCR  
         run: |
           VERSION=$(date -u +%Y%m%d)
           REGISTRY="ghcr.io/${{ github.repository }}"
-          echo "${{ secrets.GITHUB_TOKEN }}" | docker login ghcr.io -u ${{ github.actor }} --password-stdin
 
           # Convert a PascalCase/mixed service-tag name to kebab-case
           to_module_name() {
