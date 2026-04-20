@@ -7,6 +7,12 @@ Azure IP Addresses in Bicep format — automatically kept up to date.
 This repository contains Bicep variable files that list every Azure IP address prefix, grouped by [Azure Service Tag](https://learn.microsoft.com/azure/virtual-network/service-tags-overview).  
 The files are re-generated automatically each week as Microsoft publishes updated Service Tag lists.
 
+> **Important:** These are **variable library files**, not stand-alone deployable Bicep templates. They must be consumed by your own Bicep templates as described in [How to use the Bicep files](#how-to-use-the-bicep-files).
+
+## Prerequisites
+
+- **Bicep CLI ≥ 0.21** — required for compile-time `import` support.
+
 ## Generated files
 
 | File | Source cloud |
@@ -16,7 +22,7 @@ The files are re-generated automatically each week as Microsoft publishes update
 | `ServiceTags_AzureGovernment.bicep` | Azure US Government Cloud |
 | `ServiceTags_AzureGermany.bicep` | Azure Germany Cloud |
 
-Each file contains one Bicep `var` per service tag.  The variable name is the
+Each file contains one Bicep `var` per service tag. The variable name is the
 service-tag name (dots and hyphens replaced by underscores) and its value is an
 array of CIDR address prefixes, for example:
 
@@ -27,6 +33,67 @@ var AzureActiveDirectory = [
   // …
 ]
 ```
+
+## How to use the Bicep files
+
+These files are **variable library files** — they contain only `var` declarations and are not deployable on their own. Import a file directly into your Bicep template using the compile-time `import` syntax and reference any variable by name.
+
+```bicep
+import * as serviceTags from './ServiceTags_Public.bicep'
+
+// serviceTags.<VariableName> is an array of CIDR strings, e.g.:
+// serviceTags.LogicApps  →  [ '13.65.86.0/24', '13.65.93.0/24', … ]
+```
+
+Adapt the import path to match where you have placed `ServiceTags_Public.bicep` relative to your template.
+
+## Sample — Logic App (Consumption) with firewall and IP whitelisting
+
+This example deploys a Logic App (Consumption) inside an App Service Environment-style access restriction. An **IP restriction** on the Logic App allows inbound calls only from the Azure **LogicApps** service-tag prefixes (e.g. managed connector infrastructure) and from **AzureMonitor** (for alert webhooks). All other traffic is denied.
+
+```bicep
+import * as serviceTags from './ServiceTags_Public.bicep'
+
+param location string = resourceGroup().location
+param logicAppName string = 'my-logic-app'
+
+// Combine the IP ranges you want to whitelist
+var allowedPrefixes = concat(serviceTags.LogicApps, serviceTags.AzureMonitor)
+
+// Build the ipSecurityRestrictions array from the combined prefix list
+var ipRestrictions = [for (prefix, i) in allowedPrefixes: {
+  ipAddress: prefix
+  action: 'Allow'
+  priority: 100 + i
+  name: 'Allow-${i}'
+}]
+
+resource logicAppPlan 'Microsoft.Web/serverfarms@2023-01-01' = {
+  name: '${logicAppName}-plan'
+  location: location
+  sku: {
+    name: 'WS1'
+    tier: 'WorkflowStandard'
+  }
+  properties: {}
+}
+
+resource logicApp 'Microsoft.Web/sites@2023-01-01' = {
+  name: logicAppName
+  location: location
+  kind: 'functionapp,workflowapp'
+  properties: {
+    serverFarmId: logicAppPlan.id
+    siteConfig: {
+      // Deny all traffic that does not match an Allow rule
+      ipSecurityRestrictionsDefaultAction: 'Deny'
+      ipSecurityRestrictions: ipRestrictions
+    }
+  }
+}
+```
+
+> **Tip:** Replace `serviceTags.LogicApps` and `serviceTags.AzureMonitor` with whichever service-tag variables your scenario requires. All available variable names match the Azure Service Tag names (dots and hyphens replaced by underscores).
 
 ## How it works
 
