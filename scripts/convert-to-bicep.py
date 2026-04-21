@@ -73,14 +73,15 @@ def json_to_bicep(input_path: str, output_dir: str) -> None:
 
         safe_name = to_bicep_identifier(name)
 
-        # Region-specific tags contain an underscore (e.g. ActionGroup_WestEurope).
+        # Region-specific tags contain a dot (e.g. ActionGroup.WestEurope).
         # Write those into a subfolder named after the base tag in kebab-case.
-        if "_" in name:
-            base_tag = name.split("_")[0]
+        if "." in name:
+            base_tag = name.split(".")[0]
             subfolder = to_module_name(base_tag)
-            file_dir = os.path.join(output_dir, subfolder)
+            file_dir = os.path.join(output_dir, subfolder, "region")
         else:
-            file_dir = output_dir
+            subfolder = to_module_name(name)
+            file_dir = os.path.join(output_dir, subfolder)
 
         os.makedirs(file_dir, exist_ok=True)
 
