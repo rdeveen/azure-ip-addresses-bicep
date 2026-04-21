@@ -126,7 +126,7 @@ jobs:
           if git diff --cached --quiet; then
             echo "No changes to commit – Bicep files are already up to date."
           else
-            git commit -m "chore: update Azure Service Tags Bicep files [skip ci]"
+            git commit -m "Update Azure Service Tags Bicep files ($(date -u +%F)) [skip ci]"
             git push
           fi
 
