@@ -116,6 +116,13 @@ jobs:
             azure-germany
 
       # -----------------------------------------------------------------------
+      # Generate README files for all modules
+      # -----------------------------------------------------------------------
+      - name: Generate README.md files for all modules
+        run: |
+          python scripts/generate-readme.py
+
+      # -----------------------------------------------------------------------
       # Commit & push if anything changed
       # -----------------------------------------------------------------------
       - name: Commit and push updated Bicep files
