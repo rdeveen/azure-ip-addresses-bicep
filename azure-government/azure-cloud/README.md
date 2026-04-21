@@ -1,0 +1,60 @@
+# AzureCloud Bicep Module
+
+Azure service tag: **AzureCloud**
+
+## Overview
+
+This directory contains Bicep variable files for the **AzureCloud** service tag in the **Azure US Government Cloud**.
+
+These files contain IP address ranges published by Microsoft Azure for this service tag and cloud region.
+
+## Files
+
+- **AzureCloud.bicep** - Global/cloud-wide IP address ranges
+- **region/AzureCloud_*.bicep** - Regional-specific IP address ranges
+
+## How to Use
+
+### Global Service Tag
+
+Import the global AzureCloud module to access all IP ranges for this service tag:
+
+```bicep
+import * as azurecloud from './AzureCloud.bicep'
+
+// Use the variable in your template
+var allowedIPs = azurecloud.AzureCloud
+```
+
+### Regional Variants
+
+For region-specific IP ranges, import the regional variant:
+
+```bicep
+import * as azurecloudEastUS from './region/AzureCloud_EastUS.bicep'
+
+// Use the regional variable
+var eastUSIPs = azurecloudEastUS.AzureCloud_EastUS
+```
+
+## Available Regions
+
+This module includes regional variants for the following Azure regions:
+
+- `usdodcentral`
+- `usdodeast`
+- `usgovarizona`
+- `usgoviowa`
+- `usgovtexas`
+- `usgovvirginia`
+
+Total regional variants: 6
+
+
+## Generated Information
+
+These files are automatically generated and updated regularly. They contain IP address ranges published by Microsoft for the specified service tag in this cloud region.
+
+- **Cloud**: Azure US Government Cloud
+- **Service Tag**: AzureCloud
+- **Module Directory**: azure-cloud
