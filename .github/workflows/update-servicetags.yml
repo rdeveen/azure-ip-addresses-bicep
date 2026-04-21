@@ -164,11 +164,17 @@ jobs:
 
           for cloud_dir in azure-public azure-china azure-government azure-germany; do
             [ -d "$cloud_dir" ] || continue
-            for bicep_file in "$cloud_dir"/*.bicep; do
+            while IFS= read -r bicep_file; do
               [ -f "$bicep_file" ] || continue
               filename=$(basename "$bicep_file" .bicep)
               module_name=$(to_module_name "$filename")
-              module_path="${cloud_dir}/${module_name}"
+              # Determine path relative to cloud_dir (empty for root-level files)
+              rel_dir=$(dirname "$bicep_file" | sed "s|^${cloud_dir}||" | sed "s|^/||")
+              if [ -n "$rel_dir" ]; then
+                module_path="${cloud_dir}/${rel_dir}/${module_name}"
+              else
+                module_path="${cloud_dir}/${module_name}"
+              fi
               echo "Publishing ${module_path} to ${REGISTRY}"
 
               bicep publish "$bicep_file" \
@@ -177,5 +183,5 @@ jobs:
               bicep publish "$bicep_file" \
                 --target "br:${REGISTRY}/${module_path}:latest" \
                 --force
-            done
+            done < <(find "$cloud_dir" -name "*.bicep" -type f | sort)
           done
