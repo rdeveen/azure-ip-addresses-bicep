@@ -140,11 +140,9 @@ jobs:
       # -----------------------------------------------------------------------
       # Publish Bicep modules to GHCR
       # -----------------------------------------------------------------------
-      - name: Install Bicep CLI
+      - name: Install Bicep via Azure CLI
         run: |
-          curl -sLo bicep https://github.com/Azure/bicep/releases/latest/download/bicep-linux-x64
-          chmod +x bicep
-          sudo mv bicep /usr/local/bin/bicep
+          az bicep install
 
       - name: Log in to GitHub Container Registry
         run: |
@@ -184,10 +182,12 @@ jobs:
               fi
               echo "Publishing ${module_path} to ${REGISTRY}"
 
-              bicep publish "$bicep_file" \
+              az bicep publish \
+                --file "$bicep_file" \
                 --target "br:${REGISTRY}/${module_path}:${VERSION}" \
                 --force
-              bicep publish "$bicep_file" \
+              az bicep publish \
+                --file "$bicep_file" \
                 --target "br:${REGISTRY}/${module_path}:latest" \
                 --force
             done < <(find "$cloud_dir" -name "*.bicep" -type f | sort)
