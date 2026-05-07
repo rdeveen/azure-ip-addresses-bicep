@@ -3,10 +3,11 @@
 // Generated at : 2026-05-07
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
-// Change number: 398
+// Change number: 399
 // Service tag  : PowerBI.UAENorth
 
 var PowerBI_UAENorth = [
+  '4.161.21.112/29'
   '20.38.136.70/31'
   '20.38.136.208/30'
   '20.38.136.216/29'

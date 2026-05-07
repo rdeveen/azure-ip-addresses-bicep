@@ -3,7 +3,7 @@
 // Generated at : 2026-05-07
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
-// Change number: 398
+// Change number: 399
 // Service tag  : AzureCloud.germanywc
 
 var AzureCloud_germanywc = [
@@ -123,6 +123,7 @@ var AzureCloud_germanywc = [
   '57.150.218.0/23'
   '57.157.60.0/24'
   '57.157.61.0/27'
+  '57.157.61.32/31'
   '70.152.12.0/24'
   '72.144.0.0/16'
   '98.67.128.0/17'

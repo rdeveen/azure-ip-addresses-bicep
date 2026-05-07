@@ -3,7 +3,7 @@
 // Generated at : 2026-05-07
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
-// Change number: 398
+// Change number: 399
 // Service tag  : AzureCloud.switzerlandw
 
 var AzureCloud_switzerlandw = [
@@ -67,6 +67,7 @@ var AzureCloud_switzerlandw = [
   '70.152.30.0/24'
   '74.242.0.0/18'
   '74.242.64.0/21'
+  '145.190.175.0/24'
   '2603:1020:b00::/47'
   '2603:1020:b03::/48'
   '2603:1020:b04::/47'

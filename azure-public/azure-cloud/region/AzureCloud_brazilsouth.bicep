@@ -3,7 +3,7 @@
 // Generated at : 2026-05-07
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
-// Change number: 398
+// Change number: 399
 // Service tag  : AzureCloud.brazilsouth
 
 var AzureCloud_brazilsouth = [
@@ -17,7 +17,12 @@ var AzureCloud_brazilsouth = [
   '4.238.128.0/17'
   '13.105.52.80/28'
   '13.105.52.128/26'
-  '20.20.96.0/24'
+  '20.20.96.0/25'
+  '20.20.96.128/26'
+  '20.20.96.192/30'
+  '20.20.96.228/30'
+  '20.20.96.232/29'
+  '20.20.96.240/28'
   '20.20.97.0/25'
   '20.20.97.128/27'
   '20.20.97.160/28'

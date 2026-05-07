@@ -3,7 +3,7 @@
 // Generated at : 2026-05-07
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
-// Change number: 398
+// Change number: 399
 // Service tag  : PowerBI.UKSouth
 
 var PowerBI_UKSouth = [
@@ -20,6 +20,7 @@ var PowerBI_UKSouth = [
   '74.177.108.64/26'
   '131.145.145.192/27'
   '172.165.73.32/27'
+  '172.167.62.96/27'
   '172.187.71.96/27'
   '2603:1020:705::/122'
   '2603:1020:705::40/123'

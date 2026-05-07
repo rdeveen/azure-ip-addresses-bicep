@@ -3,7 +3,7 @@
 // Generated at : 2026-05-07
 // Source file  : ServiceTags_China.json
 // Cloud        : China
-// Change number: 393
+// Change number: 394
 // Service tag  : AzureMachineLearning.ChinaNorth2
 
 var AzureMachineLearning_ChinaNorth2 = [

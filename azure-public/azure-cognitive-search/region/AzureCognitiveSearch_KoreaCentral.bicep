@@ -3,11 +3,10 @@
 // Generated at : 2026-05-07
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
-// Change number: 398
+// Change number: 399
 // Service tag  : AzureCognitiveSearch.KoreaCentral
 
 var AzureCognitiveSearch_KoreaCentral = [
   '20.41.65.64/26'
-  '40.82.155.65/32'
   '2603:1040:f05:1::180/121'
 ]

@@ -3,7 +3,7 @@
 // Generated at : 2026-05-07
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
-// Change number: 398
+// Change number: 399
 // Service tag  : PowerBI.PolandCentral
 
 var PowerBI_PolandCentral = [
@@ -16,6 +16,7 @@ var PowerBI_PolandCentral = [
   '20.215.173.96/28'
   '20.215.174.0/30'
   '134.112.169.96/29'
+  '134.112.194.112/29'
   '2603:1020:1302:1::1e0/123'
   '2603:1020:1302:1::280/122'
 ]

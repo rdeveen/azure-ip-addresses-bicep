@@ -3,12 +3,13 @@
 // Generated at : 2026-05-07
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
-// Change number: 398
+// Change number: 399
 // Service tag  : PowerBI.EastAsia
 
 var PowerBI_EastAsia = [
   '4.191.89.64/26'
   '4.192.250.208/28'
+  '20.6.243.0/26'
   '20.189.104.70/31'
   '20.189.106.224/27'
   '20.189.108.0/27'

@@ -3,11 +3,12 @@
 // Generated at : 2026-05-07
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
-// Change number: 398
+// Change number: 399
 // Service tag  : PowerBI.BrazilSouth
 
 var PowerBI_BrazilSouth = [
   '4.202.254.192/28'
+  '4.228.174.128/26'
   '20.206.178.24/29'
   '20.206.178.48/29'
   '20.206.178.64/27'

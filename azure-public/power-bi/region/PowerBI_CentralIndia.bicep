@@ -3,10 +3,11 @@
 // Generated at : 2026-05-07
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
-// Change number: 398
+// Change number: 399
 // Service tag  : PowerBI.CentralIndia
 
 var PowerBI_CentralIndia = [
+  '4.188.30.192/27'
   '4.247.186.224/28'
   '4.247.187.0/26'
   '20.192.47.128/30'

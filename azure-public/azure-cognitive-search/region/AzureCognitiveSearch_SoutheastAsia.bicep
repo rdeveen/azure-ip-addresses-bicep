@@ -3,11 +3,10 @@
 // Generated at : 2026-05-07
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
-// Change number: 398
+// Change number: 399
 // Service tag  : AzureCognitiveSearch.SoutheastAsia
 
 var AzureCognitiveSearch_SoutheastAsia = [
   '20.43.130.128/26'
-  '40.65.175.228/32'
   '2603:1040:5:1::180/121'
 ]

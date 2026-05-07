@@ -3,13 +3,10 @@
 // Generated at : 2026-05-07
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
-// Change number: 398
+// Change number: 399
 // Service tag  : AzureCognitiveSearch.NorthEurope
 
 var AzureCognitiveSearch_NorthEurope = [
   '20.38.84.0/26'
-  '52.155.216.245/32'
-  '52.155.221.250/32'
-  '52.155.222.56/32'
   '2603:1020:5:1::180/121'
 ]

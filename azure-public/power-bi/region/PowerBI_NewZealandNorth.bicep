@@ -3,11 +3,12 @@
 // Generated at : 2026-05-07
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
-// Change number: 398
+// Change number: 399
 // Service tag  : PowerBI.NewZealandNorth
 
 var PowerBI_NewZealandNorth = [
   '172.196.59.232/29'
+  '172.196.77.40/29'
   '172.204.165.78/31'
   '172.204.165.120/30'
   '172.204.166.64/29'

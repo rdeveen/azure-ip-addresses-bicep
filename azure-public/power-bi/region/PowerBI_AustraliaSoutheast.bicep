@@ -3,7 +3,7 @@
 // Generated at : 2026-05-07
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
-// Change number: 398
+// Change number: 399
 // Service tag  : PowerBI.AustraliaSoutheast
 
 var PowerBI_AustraliaSoutheast = [
@@ -11,6 +11,7 @@ var PowerBI_AustraliaSoutheast = [
   '4.199.114.160/27'
   '4.199.115.0/25'
   '20.11.219.128/26'
+  '20.11.223.192/26'
   '20.42.224.122/31'
   '20.42.227.16/28'
   '20.42.227.32/29'

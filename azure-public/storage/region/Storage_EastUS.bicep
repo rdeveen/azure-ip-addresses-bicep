@@ -3,7 +3,7 @@
 // Generated at : 2026-05-07
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
-// Change number: 398
+// Change number: 399
 // Service tag  : Storage.EastUS
 
 var Storage_EastUS = [
@@ -131,6 +131,7 @@ var Storage_EastUS = [
   '145.190.144.0/24'
   '145.190.155.0/24'
   '145.190.169.0/24'
+  '145.190.173.0/24'
   '168.62.32.0/26'
   '168.62.32.192/26'
   '168.62.33.128/26'

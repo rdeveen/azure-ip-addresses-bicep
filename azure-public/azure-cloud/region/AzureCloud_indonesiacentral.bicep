@@ -3,7 +3,7 @@
 // Generated at : 2026-05-07
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
-// Change number: 398
+// Change number: 399
 // Service tag  : AzureCloud.indonesiacentral
 
 var AzureCloud_indonesiacentral = [
@@ -81,6 +81,7 @@ var AzureCloud_indonesiacentral = [
   '2603:1061:2010:43::/64'
   '2603:1061:2011:43::/64'
   '2603:1063:137::/56'
+  '2603:1063:639::/56'
   '2603:1063:2202:60::/64'
   '2603:1063:2436::/48'
   '2603:1063:2636::/48'

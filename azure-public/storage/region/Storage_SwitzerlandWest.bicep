@@ -3,7 +3,7 @@
 // Generated at : 2026-05-07
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
-// Change number: 398
+// Change number: 399
 // Service tag  : Storage.SwitzerlandWest
 
 var Storage_SwitzerlandWest = [
@@ -14,5 +14,6 @@ var Storage_SwitzerlandWest = [
   '20.157.133.0/24'
   '52.239.250.0/24'
   '57.150.22.0/24'
+  '145.190.175.0/24'
   '2603:1020:b05::/48'
 ]

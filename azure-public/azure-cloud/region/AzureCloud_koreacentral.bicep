@@ -3,7 +3,7 @@
 // Generated at : 2026-05-07
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
-// Change number: 398
+// Change number: 399
 // Service tag  : AzureCloud.koreacentral
 
 var AzureCloud_koreacentral = [
@@ -123,7 +123,7 @@ var AzureCloud_koreacentral = [
   '52.253.173.0/24'
   '52.253.174.0/24'
   '57.157.88.0/25'
-  '57.157.88.128/28'
+  '57.157.88.128/27'
   '70.152.15.0/24'
   '72.155.0.0/17'
   '74.227.136.0/21'

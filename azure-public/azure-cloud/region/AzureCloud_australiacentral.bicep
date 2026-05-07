@@ -3,7 +3,7 @@
 // Generated at : 2026-05-07
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
-// Change number: 398
+// Change number: 399
 // Service tag  : AzureCloud.australiacentral
 
 var AzureCloud_australiacentral = [
@@ -66,6 +66,7 @@ var AzureCloud_australiacentral = [
   '2603:1061:1725::/48'
   '2603:1061:2010:23::/64'
   '2603:1061:2011:23::/64'
+  '2603:1063:637::/56'
   '2603:1063:2202:c::/64'
   '2603:1063:2423::/48'
   '2603:1063:2623::/48'

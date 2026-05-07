@@ -3,7 +3,7 @@
 // Generated at : 2026-05-07
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
-// Change number: 398
+// Change number: 399
 // Service tag  : PowerBI.NorthCentralUS
 
 var PowerBI_NorthCentralUS = [
@@ -13,6 +13,7 @@ var PowerBI_NorthCentralUS = [
   '20.51.5.4/30'
   '20.51.5.192/26'
   '20.66.132.0/26'
+  '20.66.142.192/26'
   '40.80.184.70/31'
   '40.80.188.48/28'
   '40.80.188.64/27'

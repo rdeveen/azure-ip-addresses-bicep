@@ -3,7 +3,7 @@
 // Generated at : 2026-05-07
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
-// Change number: 398
+// Change number: 399
 // Service tag  : AzureCloud.chilec
 
 var AzureCloud_chilec = [
@@ -74,6 +74,7 @@ var AzureCloud_chilec = [
   '2603:1061:2010:7::/64'
   '2603:1061:2011:7::/64'
   '2603:1063:136::/56'
+  '2603:1063:638::/56'
   '2603:1063:2204:10::/64'
   '2603:1063:2435::/48'
   '2603:1063:2635::/48'

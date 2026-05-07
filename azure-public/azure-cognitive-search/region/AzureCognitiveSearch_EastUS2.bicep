@@ -3,12 +3,11 @@
 // Generated at : 2026-05-07
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
-// Change number: 398
+// Change number: 399
 // Service tag  : AzureCognitiveSearch.EastUS2
 
 var AzureCognitiveSearch_EastUS2 = [
   '20.41.4.128/26'
-  '20.44.76.61/32'
   '172.193.3.128/25'
   '2603:1030:40c:1::180/121'
   '2603:1030:40c:20::200/122'

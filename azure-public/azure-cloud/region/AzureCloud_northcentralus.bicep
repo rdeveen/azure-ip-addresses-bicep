@@ -3,7 +3,7 @@
 // Generated at : 2026-05-07
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
-// Change number: 398
+// Change number: 399
 // Service tag  : AzureCloud.northcentralus
 
 var AzureCloud_northcentralus = [
@@ -183,10 +183,9 @@ var AzureCloud_northcentralus = [
   '57.150.66.0/23'
   '57.150.102.0/23'
   '57.157.64.0/24'
-  '57.157.65.0/26'
-  '57.157.65.64/27'
-  '57.157.65.96/30'
-  '57.157.65.100/31'
+  '57.157.65.0/25'
+  '57.157.65.128/28'
+  '57.157.65.144/31'
   '64.236.128.0/17'
   '65.52.0.0/19'
   '65.52.48.0/20'

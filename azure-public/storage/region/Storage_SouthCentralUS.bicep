@@ -3,7 +3,7 @@
 // Generated at : 2026-05-07
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
-// Change number: 398
+// Change number: 399
 // Service tag  : Storage.SouthCentralUS
 
 var Storage_SouthCentralUS = [
@@ -98,6 +98,7 @@ var Storage_SouthCentralUS = [
   '135.130.233.128/25'
   '135.130.234.0/24'
   '145.190.142.0/24'
+  '145.190.174.0/24'
   '168.62.128.128/26'
   '2603:1030:80b::/49'
   '2603:1030:80b:8000::/58'
