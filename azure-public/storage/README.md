@@ -85,6 +85,7 @@ This module includes regional variants for the following Azure regions:
 - `NorthCentralUS`
 - `NorthCentralUSStage`
 - `NorthEurope`
+- `NortheastUS5`
 - `NorwayEast`
 - `NorwayWest`
 - `PolandCentral`
@@ -116,7 +117,7 @@ This module includes regional variants for the following Azure regions:
 - `WestUS2`
 - `WestUS3`
 
-Total regional variants: 74
+Total regional variants: 75
 
 
 ## Generated Information
