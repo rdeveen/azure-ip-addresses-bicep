@@ -46,6 +46,7 @@ This module includes regional variants for the following Azure regions:
 - `AustraliaEast`
 - `AustraliaSoutheast`
 - `AustriaEast`
+- `BelgiumCentral`
 - `BrazilSouth`
 - `BrazilSoutheast`
 - `CanadaCentral`
@@ -53,6 +54,7 @@ This module includes regional variants for the following Azure regions:
 - `CentralIndia`
 - `CentralUS`
 - `CentralUSEUAP`
+- `ChileCentral`
 - `EastAsia`
 - `EastUS`
 - `EastUS2`
@@ -103,7 +105,7 @@ This module includes regional variants for the following Azure regions:
 - `WestUS2`
 - `WestUS3`
 
-Total regional variants: 61
+Total regional variants: 63
 
 
 ## Generated Information
