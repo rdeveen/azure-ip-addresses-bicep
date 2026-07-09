@@ -186,10 +186,10 @@ jobs:
               fi
               echo "Publishing ${module_path} to ${REGISTRY}"
 
-              bicep --oci-enabled publish "$bicep_file" \
+              bicep publish "$bicep_file" \
                 --target "br:${REGISTRY}/${module_path}:${VERSION}" \
                 --force
-              bicep --oci-enabled publish "$bicep_file" \
+              bicep publish "$bicep_file" \
                 --target "br:${REGISTRY}/${module_path}:latest" \
                 --force
             done < <(find "$cloud_dir" -name "*.bicep" -type f | sort)
