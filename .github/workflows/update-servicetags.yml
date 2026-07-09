@@ -140,11 +140,8 @@ jobs:
       # -----------------------------------------------------------------------
       # Publish Bicep modules to GHCR
       # -----------------------------------------------------------------------
-      - name: Install Bicep CLI
-        run: |
-          curl -sLo bicep https://github.com/Azure/bicep/releases/latest/download/bicep-linux-x64
-          chmod +x bicep
-          sudo mv bicep /usr/local/bin/bicep
+      - name: Install Bicep nightly CLI
+        run: bash <(curl -Ls https://aka.ms/bicep/nightly-cli.sh) --run-id 29027717723
 
       - name: Log in to GitHub Container Registry
         run: |
