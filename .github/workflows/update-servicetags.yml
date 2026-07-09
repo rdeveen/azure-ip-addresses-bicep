@@ -152,6 +152,7 @@ jobs:
       - name: Publish Bicep modules to GHCR  
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          DOCKER_REGISTRY: ghcr.io
         run: |
           VERSION=$(date -u +%Y%m%d)
           REGISTRY="ghcr.io/${{ github.repository }}"
@@ -185,10 +186,10 @@ jobs:
               fi
               echo "Publishing ${module_path} to ${REGISTRY}"
 
-              bicep --oci-enabled publish "$bicep_file" \
+              bicep publish "$bicep_file" \
                 --target "br:${REGISTRY}/${module_path}:${VERSION}" \
                 --force
-              bicep --oci-enabled publish "$bicep_file" \
+              bicep publish "$bicep_file" \
                 --target "br:${REGISTRY}/${module_path}:latest" \
                 --force
             done < <(find "$cloud_dir" -name "*.bicep" -type f | sort)
