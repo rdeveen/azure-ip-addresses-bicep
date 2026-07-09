@@ -60,6 +60,7 @@ This module includes regional variants for the following Azure regions:
 - `SoutheastAsia`
 - `SwedenCentral`
 - `SwedenSouth`
+- `UAECentral`
 - `UAENorth`
 - `UKSouth`
 - `UKWest`
@@ -69,7 +70,7 @@ This module includes regional variants for the following Azure regions:
 - `WestUS2`
 - `WestUS3`
 
-Total regional variants: 27
+Total regional variants: 28
 
 
 ## Generated Information

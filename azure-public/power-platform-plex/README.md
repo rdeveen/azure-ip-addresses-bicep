@@ -43,12 +43,15 @@ This module includes regional variants for the following Azure regions:
 
 - `AustraliaEast`
 - `AustraliaSoutheast`
+- `AustriaEast`
 - `BrazilSouth`
 - `BrazilSoutheast`
 - `CanadaCentral`
 - `CanadaEast`
 - `CentralIndia`
 - `CentralUS`
+- `ChileCentral`
+- `DenmarkEast`
 - `EastAsia`
 - `EastUS`
 - `EastUS2`
@@ -58,11 +61,15 @@ This module includes regional variants for the following Azure regions:
 - `GermanyWestCentral`
 - `IndonesiaCentral`
 - `IsraelCentral`
+- `IsraelNorthwest`
 - `ItalyNorth`
 - `JapanEast`
 - `JapanWest`
 - `KoreaCentral`
 - `KoreaSouth`
+- `MalaysiaSouth`
+- `MalaysiaWest`
+- `MexicoCentral`
 - `NewZealandNorth`
 - `NorthEurope`
 - `NorwayEast`
@@ -78,6 +85,8 @@ This module includes regional variants for the following Azure regions:
 - `SwedenCentral`
 - `SwitzerlandNorth`
 - `SwitzerlandWest`
+- `TaiwanNorth`
+- `TaiwanNorthwest`
 - `UAECentral`
 - `UAENorth`
 - `UKSouth`
@@ -85,7 +94,7 @@ This module includes regional variants for the following Azure regions:
 - `WestEurope`
 - `WestUS`
 
-Total regional variants: 43
+Total regional variants: 52
 
 
 ## Generated Information

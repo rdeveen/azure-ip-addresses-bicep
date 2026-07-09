@@ -65,6 +65,7 @@ This module includes regional variants for the following Azure regions:
 - `FranceSouth`
 - `GermanyNorth`
 - `GermanyWestCentral`
+- `IndiaSouthCentral`
 - `IndonesiaCentral`
 - `IsraelCentral`
 - `IsraelNorthwest`
@@ -109,7 +110,7 @@ This module includes regional variants for the following Azure regions:
 - `WestUS2`
 - `WestUS3`
 
-Total regional variants: 67
+Total regional variants: 68
 
 
 ## Generated Information

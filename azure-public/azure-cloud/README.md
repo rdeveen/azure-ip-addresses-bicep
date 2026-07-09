@@ -65,6 +65,7 @@ This module includes regional variants for the following Azure regions:
 - `eastus3`
 - `germanyn`
 - `germanywc`
+- `indiasouthcentral`
 - `indonesiacentral`
 - `israelcentral`
 - `israelnorthwest`
@@ -80,6 +81,7 @@ This module includes regional variants for the following Azure regions:
 - `mexicocentral`
 - `newzealandnorth`
 - `northcentralus`
+- `northeastus5`
 - `northeurope`
 - `northeurope2`
 - `norwaye`
@@ -115,7 +117,7 @@ This module includes regional variants for the following Azure regions:
 - `westus2`
 - `westus3`
 
-Total regional variants: 73
+Total regional variants: 75
 
 
 ## Generated Information
