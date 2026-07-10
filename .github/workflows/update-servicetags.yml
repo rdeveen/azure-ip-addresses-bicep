@@ -130,6 +130,25 @@ jobs:
       - name: Detect meaningful Bicep changes
         id: detect_changes
         run: |
+          declare -a cloud_dirs=(azure-public azure-china azure-government azure-germany)
+          declare -a cloud_paths=("${cloud_dirs[@]/%//}")
+
+          is_known_cloud_dir() {
+            local target="$1"
+            local cloud_dir
+            for cloud_dir in "${cloud_dirs[@]}"; do
+              if [ "$cloud_dir" = "$target" ]; then
+                return 0
+              fi
+            done
+            return 1
+          }
+
+          array_has_values() {
+            local -n items_ref="$1"
+            [ ${#items_ref[@]} -gt 0 ] && [ -n "${items_ref[0]}" ]
+          }
+
           module_dir_for_path() {
             local file="$1"
             IFS='/' read -r cloud_dir module_dir _ <<< "$file"
@@ -137,13 +156,10 @@ jobs:
               echo "::error::Unexpected module file path: $file" >&2
               exit 1
             fi
-            case "$cloud_dir" in
-              azure-public|azure-china|azure-government|azure-germany) ;;
-              *)
-                echo "::error::Unexpected cloud directory for module file path: $file" >&2
-                exit 1
-                ;;
-            esac
+            if ! is_known_cloud_dir "$cloud_dir"; then
+              echo "::error::Unexpected cloud directory for module file path: $file" >&2
+              exit 1
+            fi
             printf '%s/%s\n' "$cloud_dir" "$module_dir"
           }
 
@@ -159,7 +175,7 @@ jobs:
             return 1
           }
 
-          git add azure-public/ azure-china/ azure-government/ azure-germany/
+          git add "${cloud_paths[@]}"
 
           has_changes=false
           declare -a changed_modules=()
@@ -168,7 +184,7 @@ jobs:
             exit 1
           fi
           readarray -t bicep_files <<< "$bicep_files_output"
-          if [ ${#bicep_files[@]} -eq 0 ] || [ -z "${bicep_files[0]}" ]; then
+          if ! array_has_values bicep_files; then
             echo "No Bicep files changed."
           else
             for file in "${bicep_files[@]}"; do
@@ -196,7 +212,8 @@ jobs:
               diff_content=$(git diff --cached --unified=0 -- "$file")
               date_line_changes=$(printf '%s\n' "$diff_content" | grep -Ec "$DATE_PATTERN" || true)
 
-              # Date-only churn is exactly one removed line and one added line.
+              # Date-only churn is exactly one removed line and one added line,
+              # so the generated-at line appears twice in the diff (removal + addition).
               if [ "${added:-0}" -eq 1 ] && [ "${removed:-0}" -eq 1 ] \
                 && [ "${date_line_changes:-0}" -eq 2 ]; then
                 git restore --staged --worktree -- "$file"
@@ -212,13 +229,13 @@ jobs:
             readarray -t changed_modules_sorted < <(printf '%s\n' "${changed_modules[@]}" | sort -u)
           fi
 
-          if ! staged_files_output=$(git diff --cached --name-only -- azure-public/ azure-china/ azure-government/ azure-germany/ 2>&1); then
+          if ! staged_files_output=$(git diff --cached --name-only -- "${cloud_paths[@]}" 2>&1); then
             echo "::error::Unable to inspect staged module files: $staged_files_output" >&2
             exit 1
           fi
           readarray -t staged_files <<< "$staged_files_output"
           declare -a staged_modules=()
-          if [ ${#staged_files[@]} -gt 0 ] && [ -n "${staged_files[0]}" ]; then
+          if array_has_values staged_files; then
             for file in "${staged_files[@]}"; do
               [ -n "$file" ] || continue
               staged_modules+=("$(module_dir_for_path "$file")")
