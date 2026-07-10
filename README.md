@@ -178,8 +178,8 @@ The workflow file [`.github/workflows/update-servicetags.yml`](.github/workflows
 1. Runs every **Monday at 06:00 UTC** (and can be triggered manually).
 2. Fetches the latest Service Tags JSON for each cloud from the Microsoft Download Center.
 3. Calls [`scripts/convert-to-bicep.py`](scripts/convert-to-bicep.py) to convert each JSON file into per-tag Bicep variable files inside a cloud-specific directory.
-4. Commits and pushes any updated files back to the repository.
-5. Publishes every per-tag Bicep module to GHCR as an OCI artifact (tagged with the current date and `latest`).
+4. Commits and pushes only the updated module files back to the repository.
+5. Publishes only the updated per-tag Bicep modules to GHCR as OCI artifacts (tagged with the current date and `latest`).
 
 ## Generating files locally
 

@@ -130,9 +130,32 @@ jobs:
       - name: Detect meaningful Bicep changes
         id: detect_changes
         run: |
+          module_dir_for_path() {
+            local file="$1"
+            IFS='/' read -r cloud_dir module_dir _ <<< "$file"
+            if [ -z "$cloud_dir" ] || [ -z "$module_dir" ]; then
+              echo "::error::Unexpected module file path: $file" >&2
+              exit 1
+            fi
+            printf '%s/%s\n' "$cloud_dir" "$module_dir"
+          }
+
+          module_in_list() {
+            local target="$1"
+            shift
+            local module
+            for module in "$@"; do
+              if [ "$module" = "$target" ]; then
+                return 0
+              fi
+            done
+            return 1
+          }
+
           git add azure-public/ azure-china/ azure-government/ azure-germany/
 
           has_changes=false
+          declare -a changed_modules=()
           if ! bicep_files_output=$(git diff --cached --name-only -- '*.bicep' 2>&1); then
             echo "::error::Unable to inspect staged Bicep files: $bicep_files_output" >&2
             exit 1
@@ -171,16 +194,52 @@ jobs:
                 && [ "${date_line_changes:-0}" -eq 2 ]; then
                 git restore --staged --worktree -- "$file"
               else
+                changed_modules+=("$(module_dir_for_path "$file")")
                 has_changes=true
+              fi
+            done
+          fi
+
+          declare -a changed_modules_sorted=()
+          if [ ${#changed_modules[@]} -gt 0 ]; then
+            readarray -t changed_modules_sorted < <(printf '%s\n' "${changed_modules[@]}" | sort -u)
+          fi
+
+          if ! staged_files_output=$(git diff --cached --name-only -- azure-public/ azure-china/ azure-government/ azure-germany/ 2>&1); then
+            echo "::error::Unable to inspect staged module files: $staged_files_output" >&2
+            exit 1
+          fi
+          readarray -t staged_files <<< "$staged_files_output"
+          declare -a staged_modules=()
+          for file in "${staged_files[@]}"; do
+            [ -n "$file" ] || continue
+            staged_modules+=("$(module_dir_for_path "$file")")
+          done
+
+          if [ ${#staged_modules[@]} -gt 0 ]; then
+            readarray -t staged_modules_sorted < <(printf '%s\n' "${staged_modules[@]}" | sort -u)
+            for module_dir in "${staged_modules_sorted[@]}"; do
+              if ! module_in_list "$module_dir" "${changed_modules_sorted[@]}"; then
+                git restore --staged --worktree -- "$module_dir"
               fi
             done
           fi
 
           if [ "$has_changes" = true ]; then
             echo "has_changes=true" >> "$GITHUB_OUTPUT"
+            {
+              echo "changed_modules<<EOF"
+              printf '%s\n' "${changed_modules_sorted[@]}"
+              echo "EOF"
+            } >> "$GITHUB_OUTPUT"
             echo "Meaningful Bicep changes detected."
+            printf 'Changed modules:\n%s\n' "${changed_modules_sorted[@]}"
           else
             echo "has_changes=false" >> "$GITHUB_OUTPUT"
+            {
+              echo "changed_modules<<EOF"
+              echo "EOF"
+            } >> "$GITHUB_OUTPUT"
             echo "No meaningful Bicep changes detected."
           fi
 
@@ -231,12 +290,13 @@ jobs:
             " "$1"
           }
 
-          for cloud_dir in azure-public azure-china azure-government azure-germany; do
-            [ -d "$cloud_dir" ] || continue
+          while IFS= read -r module_dir; do
+            [ -n "$module_dir" ] || continue
             while IFS= read -r bicep_file; do
               [ -f "$bicep_file" ] || continue
               filename=$(basename "$bicep_file" .bicep)
               module_name=$(to_module_name "$filename")
+              cloud_dir=${module_dir%%/*}
               # Determine path relative to cloud_dir (empty for root-level files)
               rel_dir=$(dirname "$bicep_file" | sed "s|^${cloud_dir}||" | sed "s|^/||")
               if [ -n "$rel_dir" ]; then
@@ -252,5 +312,5 @@ jobs:
               bicep publish "$bicep_file" \
                 --target "br:${REGISTRY}/${module_path}:latest" \
                 --force
-            done < <(find "$cloud_dir" -name "*.bicep" -type f | sort)
-          done
+            done < <(find "$module_dir" -name "*.bicep" -type f | sort)
+          done <<< "${{ steps.detect_changes.outputs.changed_modules }}"
