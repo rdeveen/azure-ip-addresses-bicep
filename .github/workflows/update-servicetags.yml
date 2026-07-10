@@ -188,9 +188,15 @@ jobs:
             " "$1"
           }
 
-          mapfile -t changed_bicep_files < <(
-            git show --pretty=format: --name-only --diff-filter=ACMR HEAD | grep -E '\.bicep$' | sort
-          )
+          if git rev-parse --verify HEAD^ >/dev/null 2>&1; then
+            mapfile -t changed_bicep_files < <(
+              git diff-tree --no-commit-id --name-only -r HEAD^ HEAD -- | grep -E '\.bicep$' | sort
+            )
+          else
+            mapfile -t changed_bicep_files < <(
+              git ls-files | grep -E '\.bicep$' | sort
+            )
+          fi
 
           if [ ${#changed_bicep_files[@]} -eq 0 ]; then
             echo "No Bicep module changes in this commit; skipping GHCR publish."
@@ -198,15 +204,19 @@ jobs:
           fi
 
           for bicep_file in "${changed_bicep_files[@]}"; do
-            [ -f "$bicep_file" ] || continue
+            if [ ! -f "$bicep_file" ]; then
+              echo "Skipping missing Bicep file: $bicep_file"
+              continue
+            fi
 
             case "$bicep_file" in
               */*)
                 cloud_dir=${bicep_file%%/*}
                 ;;
               *)
-                continue
-                ;;
+               echo "Skipping root-level Bicep file: $bicep_file"
+               continue
+               ;;
             esac
             case "$cloud_dir" in
               azure-public|azure-china|azure-government|azure-germany)
