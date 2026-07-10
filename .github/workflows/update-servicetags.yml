@@ -155,6 +155,7 @@ jobs:
           DOCKER_REGISTRY: ghcr.io
           DOCKER_USERNAME: ${{ github.actor }}
           DOCKER_PASSWORD: ${{ secrets.GITHUB_TOKEN }}
+          BICEP_TRACING_ENABLED: true
         run: |
           VERSION=$(date -u +%Y%m%d)
           REGISTRY="ghcr.io/${{ github.repository }}"
