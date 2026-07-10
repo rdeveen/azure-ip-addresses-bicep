@@ -149,11 +149,27 @@ jobs:
             git push
           fi
 
-      # -----------------------------------------------------------------------
-      # Publish Bicep modules to GHCR
-      # -----------------------------------------------------------------------
+  publish-bicep:
+    needs: update-bicep
+    if: github.ref_name == 'main'
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        cloud_dir:
+          - azure-public
+          - azure-china
+          - azure-government
+          - azure-germany
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
+          fetch-depth: 0
+
       - name: Install Bicep nightly CLI
-        if: github.ref_name == 'main'
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
@@ -161,16 +177,17 @@ jobs:
           echo "$HOME/.azure/bin" >> "$GITHUB_PATH"
 
       - name: Log in to GitHub Container Registry
-        if: github.ref_name == 'main'
         run: |
           echo "${{ secrets.GITHUB_TOKEN }}" | docker login ghcr.io -u ${{ github.actor }} --password-stdin
 
-      - name: Publish Bicep modules to GHCR  
-        if: github.ref_name == 'main'
+      - name: Publish Bicep modules to GHCR
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           DOCKER_REGISTRY: ghcr.io
+          CLOUD_DIR: ${{ matrix.cloud_dir }}
         run: |
+          set -euo pipefail
+
           VERSION=$(date -u +%Y%m%d)
           REGISTRY="ghcr.io/${{ github.repository }}"
 
@@ -188,52 +205,42 @@ jobs:
             " "$1"
           }
 
-          if git rev-parse --verify HEAD^ >/dev/null 2>&1; then
-            mapfile -t changed_bicep_files < <(
-              git diff-tree --no-commit-id --name-only -r HEAD^ HEAD -- | grep -E '\.bicep$' | sort
-            )
-          else
-            mapfile -t changed_bicep_files < <(
-              git ls-files | grep -E '\.bicep$' | sort
-            )
-          fi
-
-          if [ ${#changed_bicep_files[@]} -eq 0 ]; then
-            echo "No Bicep module changes in this commit; skipping GHCR publish."
+          if [ ! -d "$CLOUD_DIR" ]; then
+            echo "Cloud directory '$CLOUD_DIR' not found; skipping."
             exit 0
           fi
 
-          for bicep_file in "${changed_bicep_files[@]}"; do
-            if [ ! -f "$bicep_file" ]; then
-              echo "Skipping missing Bicep file: $bicep_file"
-              continue
-            fi
+          if git rev-parse --verify HEAD^ >/dev/null 2>&1; then
+            mapfile -t bicep_files < <(
+              git diff-tree --no-commit-id --name-only -r HEAD^ HEAD -- "$CLOUD_DIR" | grep -E '\.bicep$' | sort
+            )
+          else
+            mapfile -t bicep_files < <(
+              find "$CLOUD_DIR" -name '*.bicep' -type f | sort
+            )
+          fi
 
-            case "$bicep_file" in
-              */*)
-                cloud_dir=${bicep_file%%/*}
-                ;;
-              *)
-               echo "Skipping root-level Bicep file: $bicep_file"
-               continue
-               ;;
-            esac
-            case "$cloud_dir" in
-              azure-public|azure-china|azure-government|azure-germany)
-                ;;
-              *)
-                continue
-                ;;
-            esac
+          if [ ${#bicep_files[@]} -eq 0 ]; then
+            mapfile -t bicep_files < <(
+              find "$CLOUD_DIR" -name '*.bicep' -type f | sort
+            )
+          fi
+
+          if [ ${#bicep_files[@]} -eq 0 ]; then
+            echo "No Bicep module files found for ${CLOUD_DIR}; skipping."
+            exit 0
+          fi
+
+          for bicep_file in "${bicep_files[@]}"; do
+            [ -f "$bicep_file" ] || continue
 
             filename=$(basename "$bicep_file" .bicep)
             module_name=$(to_module_name "$filename")
-            # Determine path relative to cloud_dir (empty for root-level files)
-            rel_dir=$(dirname "$bicep_file" | sed "s|^${cloud_dir}||" | sed "s|^/||")
+            rel_dir=$(dirname "$bicep_file" | sed "s|^${CLOUD_DIR}||" | sed "s|^/||")
             if [ -n "$rel_dir" ]; then
-              module_path="${cloud_dir}/${rel_dir}/${module_name}"
+              module_path="${CLOUD_DIR}/${rel_dir}/${module_name}"
             else
-              module_path="${cloud_dir}/${module_name}"
+              module_path="${CLOUD_DIR}/${module_name}"
             fi
             echo "Publishing ${module_path} to ${REGISTRY}"
 
