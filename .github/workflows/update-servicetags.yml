@@ -137,6 +137,13 @@ jobs:
               echo "::error::Unexpected module file path: $file" >&2
               exit 1
             fi
+            case "$cloud_dir" in
+              azure-public|azure-china|azure-government|azure-germany) ;;
+              *)
+                echo "::error::Unexpected cloud directory for module file path: $file" >&2
+                exit 1
+                ;;
+            esac
             printf '%s/%s\n' "$cloud_dir" "$module_dir"
           }
 
@@ -161,7 +168,7 @@ jobs:
             exit 1
           fi
           readarray -t bicep_files <<< "$bicep_files_output"
-          if [ ${#bicep_files[@]} -eq 0 ]; then
+          if [ ${#bicep_files[@]} -eq 0 ] || [ -z "${bicep_files[0]}" ]; then
             echo "No Bicep files changed."
           else
             for file in "${bicep_files[@]}"; do
@@ -211,10 +218,12 @@ jobs:
           fi
           readarray -t staged_files <<< "$staged_files_output"
           declare -a staged_modules=()
-          for file in "${staged_files[@]}"; do
-            [ -n "$file" ] || continue
-            staged_modules+=("$(module_dir_for_path "$file")")
-          done
+          if [ ${#staged_files[@]} -gt 0 ] && [ -n "${staged_files[0]}" ]; then
+            for file in "${staged_files[@]}"; do
+              [ -n "$file" ] || continue
+              staged_modules+=("$(module_dir_for_path "$file")")
+            done
+          fi
 
           if [ ${#staged_modules[@]} -gt 0 ]; then
             readarray -t staged_modules_sorted < <(printf '%s\n' "${staged_modules[@]}" | sort -u)
