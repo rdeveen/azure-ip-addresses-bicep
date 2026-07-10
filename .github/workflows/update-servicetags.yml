@@ -189,7 +189,7 @@ jobs:
           }
 
           mapfile -t changed_bicep_files < <(
-            git diff-tree --root --no-commit-id --name-only -r HEAD -- | grep -E '\.bicep$' | sort
+            git show --pretty=format: --name-only --diff-filter=ACMR HEAD | grep -E '\.bicep$' | sort
           )
 
           if [ ${#changed_bicep_files[@]} -eq 0 ]; then
