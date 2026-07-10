@@ -37,6 +37,12 @@ import * as azuremachinelearninginferenceEastUS from './region/AzureMachineLearn
 var eastUSIPs = azuremachinelearninginferenceEastUS.AzureMachineLearningInference_EastUS
 ```
 
+### From GitHub Container Registry (GHCR)
+
+You can also import this module directly from GHCR:
+
+`br:ghcr.io/rdeveen/azure-ip-addresses-bicep/azure-public/azure-machine-learning-inference/azure-machine-learning-inference:latest`
+
 
 
 ## Generated Information

@@ -37,6 +37,15 @@ import * as azurebotserviceEastUS from './region/AzureBotService_EastUS.bicep'
 var eastUSIPs = azurebotserviceEastUS.AzureBotService_EastUS
 ```
 
+### From GitHub Container Registry (GHCR)
+
+You can also import this module directly from GHCR:
+
+`br:ghcr.io/rdeveen/azure-ip-addresses-bicep/azure-government/azure-bot-service/azure-bot-service:latest`
+
+Example regional module:
+`br:ghcr.io/rdeveen/azure-ip-addresses-bicep/azure-government/azure-bot-service/region/azure-bot-service-us-do-d-central:latest`
+
 ## Available Regions
 
 This module includes regional variants for the following Azure regions:

@@ -37,6 +37,12 @@ import * as azureactivedirectorydomainservicesEastUS from './region/AzureActiveD
 var eastUSIPs = azureactivedirectorydomainservicesEastUS.AzureActiveDirectoryDomainServices_EastUS
 ```
 
+### From GitHub Container Registry (GHCR)
+
+You can also import this module directly from GHCR:
+
+`br:ghcr.io/rdeveen/azure-ip-addresses-bicep/azure-public/azure-active-directory-domain-services/azure-active-directory-domain-services:latest`
+
 
 
 ## Generated Information

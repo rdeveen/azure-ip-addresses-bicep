@@ -37,6 +37,15 @@ import * as azurekeyvaultEastUS from './region/AzureKeyVault_EastUS.bicep'
 var eastUSIPs = azurekeyvaultEastUS.AzureKeyVault_EastUS
 ```
 
+### From GitHub Container Registry (GHCR)
+
+You can also import this module directly from GHCR:
+
+`br:ghcr.io/rdeveen/azure-ip-addresses-bicep/azure-china/azure-key-vault/azure-key-vault:latest`
+
+Example regional module:
+`br:ghcr.io/rdeveen/azure-ip-addresses-bicep/azure-china/azure-key-vault/region/azure-key-vault-china-east:latest`
+
 ## Available Regions
 
 This module includes regional variants for the following Azure regions:

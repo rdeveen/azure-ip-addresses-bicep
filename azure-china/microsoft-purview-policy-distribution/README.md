@@ -37,6 +37,12 @@ import * as microsoftpurviewpolicydistributionEastUS from './region/MicrosoftPur
 var eastUSIPs = microsoftpurviewpolicydistributionEastUS.MicrosoftPurviewPolicyDistribution_EastUS
 ```
 
+### From GitHub Container Registry (GHCR)
+
+You can also import this module directly from GHCR:
+
+`br:ghcr.io/rdeveen/azure-ip-addresses-bicep/azure-china/microsoft-purview-policy-distribution/microsoft-purview-policy-distribution:latest`
+
 
 
 ## Generated Information

@@ -37,6 +37,15 @@ import * as servicefabricEastUS from './region/ServiceFabric_EastUS.bicep'
 var eastUSIPs = servicefabricEastUS.ServiceFabric_EastUS
 ```
 
+### From GitHub Container Registry (GHCR)
+
+You can also import this module directly from GHCR:
+
+`br:ghcr.io/rdeveen/azure-ip-addresses-bicep/azure-public/service-fabric/service-fabric:latest`
+
+Example regional module:
+`br:ghcr.io/rdeveen/azure-ip-addresses-bicep/azure-public/service-fabric/region/service-fabric-australia-central:latest`
+
 ## Available Regions
 
 This module includes regional variants for the following Azure regions:

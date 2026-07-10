@@ -37,6 +37,15 @@ import * as windowsvirtualdesktopEastUS from './region/WindowsVirtualDesktop_Eas
 var eastUSIPs = windowsvirtualdesktopEastUS.WindowsVirtualDesktop_EastUS
 ```
 
+### From GitHub Container Registry (GHCR)
+
+You can also import this module directly from GHCR:
+
+`br:ghcr.io/rdeveen/azure-ip-addresses-bicep/azure-government/windows-virtual-desktop/windows-virtual-desktop:latest`
+
+Example regional module:
+`br:ghcr.io/rdeveen/azure-ip-addresses-bicep/azure-government/windows-virtual-desktop/region/windows-virtual-desktop-us-do-d-central:latest`
+
 ## Available Regions
 
 This module includes regional variants for the following Azure regions:

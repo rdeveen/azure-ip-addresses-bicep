@@ -37,6 +37,15 @@ import * as powerqueryonlineEastUS from './region/PowerQueryOnline_EastUS.bicep'
 var eastUSIPs = powerqueryonlineEastUS.PowerQueryOnline_EastUS
 ```
 
+### From GitHub Container Registry (GHCR)
+
+You can also import this module directly from GHCR:
+
+`br:ghcr.io/rdeveen/azure-ip-addresses-bicep/azure-government/power-query-online/power-query-online:latest`
+
+Example regional module:
+`br:ghcr.io/rdeveen/azure-ip-addresses-bicep/azure-government/power-query-online/region/power-query-online-us-do-d-central:latest`
+
 ## Available Regions
 
 This module includes regional variants for the following Azure regions:

@@ -37,6 +37,12 @@ import * as azuresiterecoveryEastUS from './region/AzureSiteRecovery_EastUS.bice
 var eastUSIPs = azuresiterecoveryEastUS.AzureSiteRecovery_EastUS
 ```
 
+### From GitHub Container Registry (GHCR)
+
+You can also import this module directly from GHCR:
+
+`br:ghcr.io/rdeveen/azure-ip-addresses-bicep/azure-germany/azure-site-recovery/azure-site-recovery:latest`
+
 
 
 ## Generated Information

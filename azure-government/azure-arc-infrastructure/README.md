@@ -37,6 +37,15 @@ import * as azurearcinfrastructureEastUS from './region/AzureArcInfrastructure_E
 var eastUSIPs = azurearcinfrastructureEastUS.AzureArcInfrastructure_EastUS
 ```
 
+### From GitHub Container Registry (GHCR)
+
+You can also import this module directly from GHCR:
+
+`br:ghcr.io/rdeveen/azure-ip-addresses-bicep/azure-government/azure-arc-infrastructure/azure-arc-infrastructure:latest`
+
+Example regional module:
+`br:ghcr.io/rdeveen/azure-ip-addresses-bicep/azure-government/azure-arc-infrastructure/region/azure-arc-infrastructure-us-do-d-central:latest`
+
 ## Available Regions
 
 This module includes regional variants for the following Azure regions:

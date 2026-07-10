@@ -37,6 +37,12 @@ import * as azuredeviceupdateEastUS from './region/AzureDeviceUpdate_EastUS.bice
 var eastUSIPs = azuredeviceupdateEastUS.AzureDeviceUpdate_EastUS
 ```
 
+### From GitHub Container Registry (GHCR)
+
+You can also import this module directly from GHCR:
+
+`br:ghcr.io/rdeveen/azure-ip-addresses-bicep/azure-public/azure-device-update/azure-device-update:latest`
+
 
 
 ## Generated Information

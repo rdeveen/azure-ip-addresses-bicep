@@ -37,6 +37,12 @@ import * as windowsadmincenterEastUS from './region/WindowsAdminCenter_EastUS.bi
 var eastUSIPs = windowsadmincenterEastUS.WindowsAdminCenter_EastUS
 ```
 
+### From GitHub Container Registry (GHCR)
+
+You can also import this module directly from GHCR:
+
+`br:ghcr.io/rdeveen/azure-ip-addresses-bicep/azure-public/windows-admin-center/windows-admin-center:latest`
+
 
 
 ## Generated Information

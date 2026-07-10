@@ -37,6 +37,15 @@ import * as azuredevopsEastUS from './region/AzureDevOps_EastUS.bicep'
 var eastUSIPs = azuredevopsEastUS.AzureDevOps_EastUS
 ```
 
+### From GitHub Container Registry (GHCR)
+
+You can also import this module directly from GHCR:
+
+`br:ghcr.io/rdeveen/azure-ip-addresses-bicep/azure-public/azure-dev-ops/azure-dev-ops:latest`
+
+Example regional module:
+`br:ghcr.io/rdeveen/azure-ip-addresses-bicep/azure-public/azure-dev-ops/region/azure-dev-ops-australia-east:latest`
+
 ## Available Regions
 
 This module includes regional variants for the following Azure regions:

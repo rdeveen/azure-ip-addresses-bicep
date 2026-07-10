@@ -37,6 +37,15 @@ import * as azuredatalakeEastUS from './region/AzureDataLake_EastUS.bicep'
 var eastUSIPs = azuredatalakeEastUS.AzureDataLake_EastUS
 ```
 
+### From GitHub Container Registry (GHCR)
+
+You can also import this module directly from GHCR:
+
+`br:ghcr.io/rdeveen/azure-ip-addresses-bicep/azure-public/azure-data-lake/azure-data-lake:latest`
+
+Example regional module:
+`br:ghcr.io/rdeveen/azure-ip-addresses-bicep/azure-public/azure-data-lake/region/azure-data-lake-australia-southeast:latest`
+
 ## Available Regions
 
 This module includes regional variants for the following Azure regions:
