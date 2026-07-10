@@ -203,7 +203,7 @@ jobs:
                 echo "::error::Unable to inspect numstat for $file: $numstat_output" >&2
                 exit 1
               fi
-              if ! IFS=$'\t' read -r added removed unused_path <<< "$numstat_output"; then
+              if ! IFS=$'\t' read -r added removed file_path <<< "$numstat_output"; then
                 echo "::error::Unexpected numstat output for $file: $numstat_output" >&2
                 exit 1
               fi
@@ -225,6 +225,7 @@ jobs:
               # so the generated-at line appears twice in the diff (removal + addition).
               if [ "${added:-0}" -eq 1 ] && [ "${removed:-0}" -eq 1 ] \
                 && [ "${date_line_changes:-0}" -eq 2 ]; then
+                # Drop files whose only change is refreshed generation metadata.
                 git restore --staged --worktree -- "$file"
               else
                 changed_modules+=("$(module_dir_for_path "$file")")
