@@ -3,7 +3,7 @@
 // Generated at : 2026-07-10
 // Source file  : ServiceTags_AzureGovernment.json
 // Cloud        : AzureGovernment
-// Change number: 399
+// Change number: 400
 // Service tag  : AzureCloud.usgovvirginia
 
 var AzureCloud_usgovvirginia = [
@@ -100,6 +100,7 @@ var AzureCloud_usgovvirginia = [
   '52.245.150.0/23'
   '52.245.192.0/18'
   '52.247.128.0/18'
+  '57.16.0.0/24'
   '62.10.0.0/17'
   '62.10.128.0/23'
   '62.10.132.0/24'

@@ -3,7 +3,7 @@
 // Generated at : 2026-07-10
 // Source file  : ServiceTags_AzureGovernment.json
 // Cloud        : AzureGovernment
-// Change number: 399
+// Change number: 400
 // Service tag  : AzureFrontDoor.Backend
 
 var AzureFrontDoor_Backend = [
@@ -22,6 +22,8 @@ var AzureFrontDoor_Backend = [
   '20.141.19.40/31'
   '20.141.161.179/32'
   '20.159.106.36/30'
+  '51.55.232.206/32'
+  '51.55.232.232/30'
   '52.127.49.68/30'
   '52.181.33.43/32'
   '52.181.33.45/32'
@@ -48,7 +50,9 @@ var AzureFrontDoor_Backend = [
   '52.227.227.34/32'
   '52.227.227.36/32'
   '52.235.253.112/29'
+  '52.243.15.3/32'
   '52.243.17.0/29'
+  '52.243.17.140/30'
   '52.243.152.69/32'
   '52.243.155.186/32'
   '52.243.156.42/32'

@@ -3,7 +3,7 @@
 // Generated at : 2026-07-10
 // Source file  : ServiceTags_AzureGovernment.json
 // Cloud        : AzureGovernment
-// Change number: 399
+// Change number: 400
 // Service tag  : AzureCloud.usgovtexas
 
 var AzureCloud_usgovtexas = [
@@ -88,6 +88,7 @@ var AzureCloud_usgovtexas = [
   '52.245.146.0/24'
   '52.245.160.0/19'
   '52.249.96.0/19'
+  '57.16.97.0/24'
   '57.16.225.0/24'
   '57.16.227.0/24'
   '62.10.146.0/23'

@@ -3,7 +3,7 @@
 // Generated at : 2026-07-10
 // Source file  : ServiceTags_AzureGovernment.json
 // Cloud        : AzureGovernment
-// Change number: 399
+// Change number: 400
 // Service tag  : AzureCloud.usgovarizona
 
 var AzureCloud_usgovarizona = [
@@ -71,7 +71,7 @@ var AzureCloud_usgovarizona = [
   '51.54.80.0/23'
   '51.54.224.0/19'
   '51.55.112.0/20'
-  '51.55.224.0/20'
+  '51.55.224.0/19'
   '52.108.140.0/24'
   '52.112.21.0/24'
   '52.114.117.0/24'
@@ -103,6 +103,7 @@ var AzureCloud_usgovarizona = [
   '52.245.6.0/24'
   '52.245.144.0/27'
   '52.245.148.0/23'
+  '57.16.96.0/24'
   '57.16.224.0/24'
   '57.16.226.0/24'
   '62.10.130.0/23'

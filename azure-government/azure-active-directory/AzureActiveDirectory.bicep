@@ -3,7 +3,7 @@
 // Generated at : 2026-07-10
 // Source file  : ServiceTags_AzureGovernment.json
 // Cloud        : AzureGovernment
-// Change number: 399
+// Change number: 400
 // Service tag  : AzureActiveDirectory
 
 var AzureActiveDirectory = [
@@ -26,6 +26,7 @@ var AzureActiveDirectory = [
   '52.127.55.208/29'
   '52.127.59.96/27'
   '52.127.176.0/21'
+  '52.181.56.128/28'
   '52.227.174.114/32'
   '52.227.221.146/32'
   '52.227.221.153/32'
@@ -40,5 +41,7 @@ var AzureActiveDirectory = [
   '52.244.71.138/32'
   '52.244.120.128/25'
   '62.11.192.0/20'
+  '2001:489a:3103:b::e0/124'
   '2001:489a:3500::/50'
+  '2001:489a:3604:a::750/124'
 ]

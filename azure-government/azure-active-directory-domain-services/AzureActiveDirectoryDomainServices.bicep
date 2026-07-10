@@ -3,7 +3,7 @@
 // Generated at : 2026-07-10
 // Source file  : ServiceTags_AzureGovernment.json
 // Cloud        : AzureGovernment
-// Change number: 399
+// Change number: 400
 // Service tag  : AzureActiveDirectoryDomainServices
 
 var AzureActiveDirectoryDomainServices = [
@@ -21,4 +21,6 @@ var AzureActiveDirectoryDomainServices = [
   '52.238.166.25/32'
   '52.244.67.230/32'
   '52.244.71.138/32'
+  '2001:489a:3103:b::e0/124'
+  '2001:489a:3604:a::750/124'
 ]
