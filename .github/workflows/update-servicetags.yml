@@ -132,8 +132,9 @@ jobs:
           git add azure-public/ azure-china/ azure-government/ azure-germany/
           git diff --cached --name-only -- '*.bicep' | while IFS= read -r file; do
             [ -n "$file" ] || continue
-            changes=$(git diff --cached --numstat -- "$file" | awk '{print $1 " " $2}')
-            if [ "$changes" = "1 1" ] \
+            IFS=$'\t' read -r added removed _ < <(git diff --cached --numstat -- "$file")
+            # Date-only churn is exactly one removed line and one added line.
+            if [ "${added:-0}" -eq 1 ] && [ "${removed:-0}" -eq 1 ] \
               && git diff --cached --unified=0 -- "$file" | grep -qE '^-// Generated at : [0-9]{4}-[0-9]{2}-[0-9]{2}$' \
               && git diff --cached --unified=0 -- "$file" | grep -qE '^\+// Generated at : [0-9]{4}-[0-9]{2}-[0-9]{2}$'; then
               # Restore both index and worktree so date-only churn is fully discarded.
