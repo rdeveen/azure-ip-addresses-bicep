@@ -37,6 +37,12 @@ import * as m365lighthouseprodEastUS from './region/M365LighthouseProd_EastUS.bi
 var eastUSIPs = m365lighthouseprodEastUS.M365LighthouseProd_EastUS
 ```
 
+### From GitHub Container Registry (GHCR)
+
+You can also import this module directly from GHCR:
+
+`br:ghcr.io/rdeveen/azure-ip-addresses-bicep/azure-public/m365-lighthouse-prod/m365-lighthouse-prod:latest`
+
 
 
 ## Generated Information

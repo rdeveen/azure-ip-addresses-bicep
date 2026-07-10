@@ -37,6 +37,12 @@ import * as azureloadtestinginstancemanagementEastUS from './region/AzureLoadTes
 var eastUSIPs = azureloadtestinginstancemanagementEastUS.AzureLoadTestingInstanceManagement_EastUS
 ```
 
+### From GitHub Container Registry (GHCR)
+
+You can also import this module directly from GHCR:
+
+`br:ghcr.io/rdeveen/azure-ip-addresses-bicep/azure-public/azure-load-testing-instance-management/azure-load-testing-instance-management:latest`
+
 
 
 ## Generated Information

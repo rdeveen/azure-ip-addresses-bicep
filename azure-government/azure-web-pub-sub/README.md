@@ -37,6 +37,12 @@ import * as azurewebpubsubEastUS from './region/AzureWebPubSub_EastUS.bicep'
 var eastUSIPs = azurewebpubsubEastUS.AzureWebPubSub_EastUS
 ```
 
+### From GitHub Container Registry (GHCR)
+
+You can also import this module directly from GHCR:
+
+`br:ghcr.io/rdeveen/azure-ip-addresses-bicep/azure-government/azure-web-pub-sub/azure-web-pub-sub:latest`
+
 
 
 ## Generated Information

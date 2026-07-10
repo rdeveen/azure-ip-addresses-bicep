@@ -37,6 +37,15 @@ import * as powerbiEastUS from './region/PowerBI_EastUS.bicep'
 var eastUSIPs = powerbiEastUS.PowerBI_EastUS
 ```
 
+### From GitHub Container Registry (GHCR)
+
+You can also import this module directly from GHCR:
+
+`br:ghcr.io/rdeveen/azure-ip-addresses-bicep/azure-government/power-bi/power-bi:latest`
+
+Example regional module:
+`br:ghcr.io/rdeveen/azure-ip-addresses-bicep/azure-government/power-bi/region/power-bi-us-do-d-central:latest`
+
 ## Available Regions
 
 This module includes regional variants for the following Azure regions:

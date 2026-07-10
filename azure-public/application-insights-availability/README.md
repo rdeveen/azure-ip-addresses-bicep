@@ -37,6 +37,12 @@ import * as applicationinsightsavailabilityEastUS from './region/ApplicationInsi
 var eastUSIPs = applicationinsightsavailabilityEastUS.ApplicationInsightsAvailability_EastUS
 ```
 
+### From GitHub Container Registry (GHCR)
+
+You can also import this module directly from GHCR:
+
+`br:ghcr.io/rdeveen/azure-ip-addresses-bicep/azure-public/application-insights-availability/application-insights-availability:latest`
+
 
 
 ## Generated Information

@@ -37,6 +37,12 @@ import * as marketplaceEastUS from './region/Marketplace_EastUS.bicep'
 var eastUSIPs = marketplaceEastUS.Marketplace_EastUS
 ```
 
+### From GitHub Container Registry (GHCR)
+
+You can also import this module directly from GHCR:
+
+`br:ghcr.io/rdeveen/azure-ip-addresses-bicep/azure-china/marketplace/marketplace:latest`
+
 
 
 ## Generated Information

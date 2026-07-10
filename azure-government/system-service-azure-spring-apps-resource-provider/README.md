@@ -37,6 +37,12 @@ import * as systemserviceazurespringappsresourceproviderEastUS from './region/Sy
 var eastUSIPs = systemserviceazurespringappsresourceproviderEastUS.SystemServiceAzureSpringAppsResourceProvider_EastUS
 ```
 
+### From GitHub Container Registry (GHCR)
+
+You can also import this module directly from GHCR:
+
+`br:ghcr.io/rdeveen/azure-ip-addresses-bicep/azure-government/system-service-azure-spring-apps-resource-provider/system-service-azure-spring-apps-resource-provider:latest`
+
 
 
 ## Generated Information

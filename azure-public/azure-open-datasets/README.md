@@ -37,6 +37,15 @@ import * as azureopendatasetsEastUS from './region/AzureOpenDatasets_EastUS.bice
 var eastUSIPs = azureopendatasetsEastUS.AzureOpenDatasets_EastUS
 ```
 
+### From GitHub Container Registry (GHCR)
+
+You can also import this module directly from GHCR:
+
+`br:ghcr.io/rdeveen/azure-ip-addresses-bicep/azure-public/azure-open-datasets/azure-open-datasets:latest`
+
+Example regional module:
+`br:ghcr.io/rdeveen/azure-ip-addresses-bicep/azure-public/azure-open-datasets/region/azure-open-datasets-australia-central:latest`
+
 ## Available Regions
 
 This module includes regional variants for the following Azure regions:

@@ -37,6 +37,15 @@ import * as azureresourcemanagerEastUS from './region/AzureResourceManager_EastU
 var eastUSIPs = azureresourcemanagerEastUS.AzureResourceManager_EastUS
 ```
 
+### From GitHub Container Registry (GHCR)
+
+You can also import this module directly from GHCR:
+
+`br:ghcr.io/rdeveen/azure-ip-addresses-bicep/azure-china/azure-resource-manager/azure-resource-manager:latest`
+
+Example regional module:
+`br:ghcr.io/rdeveen/azure-ip-addresses-bicep/azure-china/azure-resource-manager/region/azure-resource-manager-china-east:latest`
+
 ## Available Regions
 
 This module includes regional variants for the following Azure regions:

@@ -37,6 +37,12 @@ import * as cognitiveservicesfrontendEastUS from './region/CognitiveServicesFron
 var eastUSIPs = cognitiveservicesfrontendEastUS.CognitiveServicesFrontend_EastUS
 ```
 
+### From GitHub Container Registry (GHCR)
+
+You can also import this module directly from GHCR:
+
+`br:ghcr.io/rdeveen/azure-ip-addresses-bicep/azure-government/cognitive-services-frontend/cognitive-services-frontend:latest`
+
 
 
 ## Generated Information

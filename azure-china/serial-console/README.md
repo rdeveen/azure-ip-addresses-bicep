@@ -37,6 +37,12 @@ import * as serialconsoleEastUS from './region/SerialConsole_EastUS.bicep'
 var eastUSIPs = serialconsoleEastUS.SerialConsole_EastUS
 ```
 
+### From GitHub Container Registry (GHCR)
+
+You can also import this module directly from GHCR:
+
+`br:ghcr.io/rdeveen/azure-ip-addresses-bicep/azure-china/serial-console/serial-console:latest`
+
 
 
 ## Generated Information

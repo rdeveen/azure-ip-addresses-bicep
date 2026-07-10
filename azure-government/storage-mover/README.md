@@ -37,6 +37,12 @@ import * as storagemoverEastUS from './region/StorageMover_EastUS.bicep'
 var eastUSIPs = storagemoverEastUS.StorageMover_EastUS
 ```
 
+### From GitHub Container Registry (GHCR)
+
+You can also import this module directly from GHCR:
+
+`br:ghcr.io/rdeveen/azure-ip-addresses-bicep/azure-government/storage-mover/storage-mover:latest`
+
 
 
 ## Generated Information

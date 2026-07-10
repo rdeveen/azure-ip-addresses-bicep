@@ -37,6 +37,12 @@ import * as m365managementactivityapiEastUS from './region/M365ManagementActivit
 var eastUSIPs = m365managementactivityapiEastUS.M365ManagementActivityApi_EastUS
 ```
 
+### From GitHub Container Registry (GHCR)
+
+You can also import this module directly from GHCR:
+
+`br:ghcr.io/rdeveen/azure-ip-addresses-bicep/azure-government/m365-management-activity-api/m365-management-activity-api:latest`
+
 
 
 ## Generated Information

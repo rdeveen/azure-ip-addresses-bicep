@@ -37,6 +37,12 @@ import * as azuremonitorforsapEastUS from './region/AzureMonitorForSAP_EastUS.bi
 var eastUSIPs = azuremonitorforsapEastUS.AzureMonitorForSAP_EastUS
 ```
 
+### From GitHub Container Registry (GHCR)
+
+You can also import this module directly from GHCR:
+
+`br:ghcr.io/rdeveen/azure-ip-addresses-bicep/azure-public/azure-monitor-for-sap/azure-monitor-for-sap:latest`
+
 
 
 ## Generated Information

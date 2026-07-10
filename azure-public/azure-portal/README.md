@@ -37,6 +37,15 @@ import * as azureportalEastUS from './region/AzurePortal_EastUS.bicep'
 var eastUSIPs = azureportalEastUS.AzurePortal_EastUS
 ```
 
+### From GitHub Container Registry (GHCR)
+
+You can also import this module directly from GHCR:
+
+`br:ghcr.io/rdeveen/azure-ip-addresses-bicep/azure-public/azure-portal/azure-portal:latest`
+
+Example regional module:
+`br:ghcr.io/rdeveen/azure-ip-addresses-bicep/azure-public/azure-portal/region/azure-portal-australia-central:latest`
+
 ## Available Regions
 
 This module includes regional variants for the following Azure regions:

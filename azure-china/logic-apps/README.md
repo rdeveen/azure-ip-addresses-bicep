@@ -37,6 +37,15 @@ import * as logicappsEastUS from './region/LogicApps_EastUS.bicep'
 var eastUSIPs = logicappsEastUS.LogicApps_EastUS
 ```
 
+### From GitHub Container Registry (GHCR)
+
+You can also import this module directly from GHCR:
+
+`br:ghcr.io/rdeveen/azure-ip-addresses-bicep/azure-china/logic-apps/logic-apps:latest`
+
+Example regional module:
+`br:ghcr.io/rdeveen/azure-ip-addresses-bicep/azure-china/logic-apps/region/logic-apps-china-east:latest`
+
 ## Available Regions
 
 This module includes regional variants for the following Azure regions:

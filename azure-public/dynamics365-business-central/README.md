@@ -37,6 +37,12 @@ import * as dynamics365businesscentralEastUS from './region/Dynamics365BusinessC
 var eastUSIPs = dynamics365businesscentralEastUS.Dynamics365BusinessCentral_EastUS
 ```
 
+### From GitHub Container Registry (GHCR)
+
+You can also import this module directly from GHCR:
+
+`br:ghcr.io/rdeveen/azure-ip-addresses-bicep/azure-public/dynamics365-business-central/dynamics365-business-central:latest`
+
 
 
 ## Generated Information

@@ -37,6 +37,15 @@ import * as azuremonitorEastUS from './region/AzureMonitor_EastUS.bicep'
 var eastUSIPs = azuremonitorEastUS.AzureMonitor_EastUS
 ```
 
+### From GitHub Container Registry (GHCR)
+
+You can also import this module directly from GHCR:
+
+`br:ghcr.io/rdeveen/azure-ip-addresses-bicep/azure-china/azure-monitor/azure-monitor:latest`
+
+Example regional module:
+`br:ghcr.io/rdeveen/azure-ip-addresses-bicep/azure-china/azure-monitor/region/azure-monitor-china-east:latest`
+
 ## Available Regions
 
 This module includes regional variants for the following Azure regions:

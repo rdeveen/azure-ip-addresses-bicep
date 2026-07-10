@@ -37,6 +37,15 @@ import * as azurecosmosdbEastUS from './region/AzureCosmosDB_EastUS.bicep'
 var eastUSIPs = azurecosmosdbEastUS.AzureCosmosDB_EastUS
 ```
 
+### From GitHub Container Registry (GHCR)
+
+You can also import this module directly from GHCR:
+
+`br:ghcr.io/rdeveen/azure-ip-addresses-bicep/azure-china/azure-cosmos-db/azure-cosmos-db:latest`
+
+Example regional module:
+`br:ghcr.io/rdeveen/azure-ip-addresses-bicep/azure-china/azure-cosmos-db/region/azure-cosmos-db-china-east:latest`
+
 ## Available Regions
 
 This module includes regional variants for the following Azure regions:

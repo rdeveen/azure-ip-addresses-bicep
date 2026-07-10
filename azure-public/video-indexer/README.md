@@ -37,6 +37,12 @@ import * as videoindexerEastUS from './region/VideoIndexer_EastUS.bicep'
 var eastUSIPs = videoindexerEastUS.VideoIndexer_EastUS
 ```
 
+### From GitHub Container Registry (GHCR)
+
+You can also import this module directly from GHCR:
+
+`br:ghcr.io/rdeveen/azure-ip-addresses-bicep/azure-public/video-indexer/video-indexer:latest`
+
 
 
 ## Generated Information

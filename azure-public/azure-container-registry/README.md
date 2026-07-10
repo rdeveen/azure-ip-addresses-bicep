@@ -37,6 +37,15 @@ import * as azurecontainerregistryEastUS from './region/AzureContainerRegistry_E
 var eastUSIPs = azurecontainerregistryEastUS.AzureContainerRegistry_EastUS
 ```
 
+### From GitHub Container Registry (GHCR)
+
+You can also import this module directly from GHCR:
+
+`br:ghcr.io/rdeveen/azure-ip-addresses-bicep/azure-public/azure-container-registry/azure-container-registry:latest`
+
+Example regional module:
+`br:ghcr.io/rdeveen/azure-ip-addresses-bicep/azure-public/azure-container-registry/region/azure-container-registry-australia-central:latest`
+
 ## Available Regions
 
 This module includes regional variants for the following Azure regions:

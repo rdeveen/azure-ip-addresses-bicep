@@ -37,6 +37,12 @@ import * as datafactorymanagementEastUS from './region/DataFactoryManagement_Eas
 var eastUSIPs = datafactorymanagementEastUS.DataFactoryManagement_EastUS
 ```
 
+### From GitHub Container Registry (GHCR)
+
+You can also import this module directly from GHCR:
+
+`br:ghcr.io/rdeveen/azure-ip-addresses-bicep/azure-china/data-factory-management/data-factory-management:latest`
+
 
 
 ## Generated Information

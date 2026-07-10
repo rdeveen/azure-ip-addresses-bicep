@@ -37,6 +37,15 @@ import * as sccserviceEastUS from './region/SCCservice_EastUS.bicep'
 var eastUSIPs = sccserviceEastUS.SCCservice_EastUS
 ```
 
+### From GitHub Container Registry (GHCR)
+
+You can also import this module directly from GHCR:
+
+`br:ghcr.io/rdeveen/azure-ip-addresses-bicep/azure-government/sc-cservice/sc-cservice:latest`
+
+Example regional module:
+`br:ghcr.io/rdeveen/azure-ip-addresses-bicep/azure-government/sc-cservice/region/sc-cservice-us-do-d-central:latest`
+
 ## Available Regions
 
 This module includes regional variants for the following Azure regions:

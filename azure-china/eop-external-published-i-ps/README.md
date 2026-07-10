@@ -37,6 +37,12 @@ import * as eopexternalpublishedipsEastUS from './region/EOPExternalPublishedIPs
 var eastUSIPs = eopexternalpublishedipsEastUS.EOPExternalPublishedIPs_EastUS
 ```
 
+### From GitHub Container Registry (GHCR)
+
+You can also import this module directly from GHCR:
+
+`br:ghcr.io/rdeveen/azure-ip-addresses-bicep/azure-china/eop-external-published-i-ps/eop-external-published-i-ps:latest`
+
 
 
 ## Generated Information

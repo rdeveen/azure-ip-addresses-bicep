@@ -37,6 +37,12 @@ import * as onedscollectorEastUS from './region/OneDsCollector_EastUS.bicep'
 var eastUSIPs = onedscollectorEastUS.OneDsCollector_EastUS
 ```
 
+### From GitHub Container Registry (GHCR)
+
+You can also import this module directly from GHCR:
+
+`br:ghcr.io/rdeveen/azure-ip-addresses-bicep/azure-government/one-ds-collector/one-ds-collector:latest`
+
 
 
 ## Generated Information

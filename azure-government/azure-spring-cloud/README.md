@@ -37,6 +37,12 @@ import * as azurespringcloudEastUS from './region/AzureSpringCloud_EastUS.bicep'
 var eastUSIPs = azurespringcloudEastUS.AzureSpringCloud_EastUS
 ```
 
+### From GitHub Container Registry (GHCR)
+
+You can also import this module directly from GHCR:
+
+`br:ghcr.io/rdeveen/azure-ip-addresses-bicep/azure-government/azure-spring-cloud/azure-spring-cloud:latest`
+
 
 
 ## Generated Information
