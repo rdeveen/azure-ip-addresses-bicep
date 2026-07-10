@@ -203,7 +203,7 @@ jobs:
                 echo "::error::Unable to inspect numstat for $file: $numstat_output" >&2
                 exit 1
               fi
-              if ! IFS=$'\t' read -r added removed file_path <<< "$numstat_output"; then
+              if ! IFS=$'\t' read -r added removed unused_path <<< "$numstat_output"; then
                 echo "::error::Unexpected numstat output for $file: $numstat_output" >&2
                 exit 1
               fi
@@ -350,4 +350,4 @@ jobs:
                 --target "br:${REGISTRY}/${module_path}:latest" \
                 --force
             done < <(find "$module_dir" -name "*.bicep" -type f | sort)
-          done <<< "${{ steps.detect_changes.outputs.changed_modules }}"
+          done < <(printf '%s\n' "${{ steps.detect_changes.outputs.changed_modules }}")
