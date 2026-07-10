@@ -37,6 +37,12 @@ import * as azurehealthcareapisEastUS from './region/AzureHealthcareAPIs_EastUS.
 var eastUSIPs = azurehealthcareapisEastUS.AzureHealthcareAPIs_EastUS
 ```
 
+### From GitHub Container Registry (GHCR)
+
+You can also import this module directly from GHCR:
+
+`br:ghcr.io/rdeveen/azure-ip-addresses-bicep/azure-china/azure-healthcare-ap-is/azure-healthcare-ap-is:latest`
+
 
 
 ## Generated Information

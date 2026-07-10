@@ -37,6 +37,12 @@ import * as microsoftazurefluidrelayEastUS from './region/MicrosoftAzureFluidRel
 var eastUSIPs = microsoftazurefluidrelayEastUS.MicrosoftAzureFluidRelay_EastUS
 ```
 
+### From GitHub Container Registry (GHCR)
+
+You can also import this module directly from GHCR:
+
+`br:ghcr.io/rdeveen/azure-ip-addresses-bicep/azure-china/microsoft-azure-fluid-relay/microsoft-azure-fluid-relay:latest`
+
 
 
 ## Generated Information

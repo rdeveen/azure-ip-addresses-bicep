@@ -37,6 +37,15 @@ import * as azurecognitivesearchEastUS from './region/AzureCognitiveSearch_EastU
 var eastUSIPs = azurecognitivesearchEastUS.AzureCognitiveSearch_EastUS
 ```
 
+### From GitHub Container Registry (GHCR)
+
+You can also import this module directly from GHCR:
+
+`br:ghcr.io/rdeveen/azure-ip-addresses-bicep/azure-government/azure-cognitive-search/azure-cognitive-search:latest`
+
+Example regional module:
+`br:ghcr.io/rdeveen/azure-ip-addresses-bicep/azure-government/azure-cognitive-search/region/azure-cognitive-search-us-do-d-central:latest`
+
 ## Available Regions
 
 This module includes regional variants for the following Azure regions:

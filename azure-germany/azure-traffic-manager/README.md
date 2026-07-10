@@ -37,6 +37,12 @@ import * as azuretrafficmanagerEastUS from './region/AzureTrafficManager_EastUS.
 var eastUSIPs = azuretrafficmanagerEastUS.AzureTrafficManager_EastUS
 ```
 
+### From GitHub Container Registry (GHCR)
+
+You can also import this module directly from GHCR:
+
+`br:ghcr.io/rdeveen/azure-ip-addresses-bicep/azure-germany/azure-traffic-manager/azure-traffic-manager:latest`
+
 
 
 ## Generated Information

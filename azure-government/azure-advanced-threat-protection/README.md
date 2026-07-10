@@ -37,6 +37,12 @@ import * as azureadvancedthreatprotectionEastUS from './region/AzureAdvancedThre
 var eastUSIPs = azureadvancedthreatprotectionEastUS.AzureAdvancedThreatProtection_EastUS
 ```
 
+### From GitHub Container Registry (GHCR)
+
+You can also import this module directly from GHCR:
+
+`br:ghcr.io/rdeveen/azure-ip-addresses-bicep/azure-government/azure-advanced-threat-protection/azure-advanced-threat-protection:latest`
+
 
 
 ## Generated Information

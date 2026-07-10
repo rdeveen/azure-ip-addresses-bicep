@@ -37,6 +37,15 @@ import * as azuresecuritycenterEastUS from './region/AzureSecurityCenter_EastUS.
 var eastUSIPs = azuresecuritycenterEastUS.AzureSecurityCenter_EastUS
 ```
 
+### From GitHub Container Registry (GHCR)
+
+You can also import this module directly from GHCR:
+
+`br:ghcr.io/rdeveen/azure-ip-addresses-bicep/azure-government/azure-security-center/azure-security-center:latest`
+
+Example regional module:
+`br:ghcr.io/rdeveen/azure-ip-addresses-bicep/azure-government/azure-security-center/region/azure-security-center-us-do-d-central:latest`
+
 ## Available Regions
 
 This module includes regional variants for the following Azure regions:

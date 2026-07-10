@@ -37,6 +37,12 @@ import * as m365managementactivityapiwebhookEastUS from './region/M365Management
 var eastUSIPs = m365managementactivityapiwebhookEastUS.M365ManagementActivityApiWebhook_EastUS
 ```
 
+### From GitHub Container Registry (GHCR)
+
+You can also import this module directly from GHCR:
+
+`br:ghcr.io/rdeveen/azure-ip-addresses-bicep/azure-public/m365-management-activity-api-webhook/m365-management-activity-api-webhook:latest`
+
 
 
 ## Generated Information

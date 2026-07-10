@@ -37,6 +37,12 @@ import * as sqlmanagementEastUS from './region/SqlManagement_EastUS.bicep'
 var eastUSIPs = sqlmanagementEastUS.SqlManagement_EastUS
 ```
 
+### From GitHub Container Registry (GHCR)
+
+You can also import this module directly from GHCR:
+
+`br:ghcr.io/rdeveen/azure-ip-addresses-bicep/azure-government/sql-management/sql-management:latest`
+
 
 
 ## Generated Information

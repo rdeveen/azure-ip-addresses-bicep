@@ -37,6 +37,15 @@ import * as appserviceEastUS from './region/AppService_EastUS.bicep'
 var eastUSIPs = appserviceEastUS.AppService_EastUS
 ```
 
+### From GitHub Container Registry (GHCR)
+
+You can also import this module directly from GHCR:
+
+`br:ghcr.io/rdeveen/azure-ip-addresses-bicep/azure-public/app-service/app-service:latest`
+
+Example regional module:
+`br:ghcr.io/rdeveen/azure-ip-addresses-bicep/azure-public/app-service/region/app-service-australia-central:latest`
+
 ## Available Regions
 
 This module includes regional variants for the following Azure regions:

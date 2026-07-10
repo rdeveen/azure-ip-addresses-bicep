@@ -37,6 +37,15 @@ import * as sqlEastUS from './region/Sql_EastUS.bicep'
 var eastUSIPs = sqlEastUS.Sql_EastUS
 ```
 
+### From GitHub Container Registry (GHCR)
+
+You can also import this module directly from GHCR:
+
+`br:ghcr.io/rdeveen/azure-ip-addresses-bicep/azure-public/sql/sql:latest`
+
+Example regional module:
+`br:ghcr.io/rdeveen/azure-ip-addresses-bicep/azure-public/sql/region/sql-australia-central:latest`
+
 ## Available Regions
 
 This module includes regional variants for the following Azure regions:

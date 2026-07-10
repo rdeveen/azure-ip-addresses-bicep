@@ -37,6 +37,15 @@ import * as azureiothubEastUS from './region/AzureIoTHub_EastUS.bicep'
 var eastUSIPs = azureiothubEastUS.AzureIoTHub_EastUS
 ```
 
+### From GitHub Container Registry (GHCR)
+
+You can also import this module directly from GHCR:
+
+`br:ghcr.io/rdeveen/azure-ip-addresses-bicep/azure-public/azure-io-t-hub/azure-io-t-hub:latest`
+
+Example regional module:
+`br:ghcr.io/rdeveen/azure-ip-addresses-bicep/azure-public/azure-io-t-hub/region/azure-io-t-hub-australia-central:latest`
+
 ## Available Regions
 
 This module includes regional variants for the following Azure regions:

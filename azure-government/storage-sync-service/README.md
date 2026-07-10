@@ -37,6 +37,15 @@ import * as storagesyncserviceEastUS from './region/StorageSyncService_EastUS.bi
 var eastUSIPs = storagesyncserviceEastUS.StorageSyncService_EastUS
 ```
 
+### From GitHub Container Registry (GHCR)
+
+You can also import this module directly from GHCR:
+
+`br:ghcr.io/rdeveen/azure-ip-addresses-bicep/azure-government/storage-sync-service/storage-sync-service:latest`
+
+Example regional module:
+`br:ghcr.io/rdeveen/azure-ip-addresses-bicep/azure-government/storage-sync-service/region/storage-sync-service-us-do-d-central:latest`
+
 ## Available Regions
 
 This module includes regional variants for the following Azure regions:

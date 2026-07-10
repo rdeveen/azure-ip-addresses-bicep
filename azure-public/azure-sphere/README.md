@@ -37,6 +37,12 @@ import * as azuresphereEastUS from './region/AzureSphere_EastUS.bicep'
 var eastUSIPs = azuresphereEastUS.AzureSphere_EastUS
 ```
 
+### From GitHub Container Registry (GHCR)
+
+You can also import this module directly from GHCR:
+
+`br:ghcr.io/rdeveen/azure-ip-addresses-bicep/azure-public/azure-sphere/azure-sphere:latest`
+
 
 
 ## Generated Information

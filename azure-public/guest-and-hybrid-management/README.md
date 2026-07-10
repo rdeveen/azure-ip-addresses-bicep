@@ -37,6 +37,12 @@ import * as guestandhybridmanagementEastUS from './region/GuestAndHybridManageme
 var eastUSIPs = guestandhybridmanagementEastUS.GuestAndHybridManagement_EastUS
 ```
 
+### From GitHub Container Registry (GHCR)
+
+You can also import this module directly from GHCR:
+
+`br:ghcr.io/rdeveen/azure-ip-addresses-bicep/azure-public/guest-and-hybrid-management/guest-and-hybrid-management:latest`
+
 
 
 ## Generated Information

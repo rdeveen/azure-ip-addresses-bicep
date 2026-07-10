@@ -37,6 +37,15 @@ import * as apimanagementEastUS from './region/ApiManagement_EastUS.bicep'
 var eastUSIPs = apimanagementEastUS.ApiManagement_EastUS
 ```
 
+### From GitHub Container Registry (GHCR)
+
+You can also import this module directly from GHCR:
+
+`br:ghcr.io/rdeveen/azure-ip-addresses-bicep/azure-germany/api-management/api-management:latest`
+
+Example regional module:
+`br:ghcr.io/rdeveen/azure-ip-addresses-bicep/azure-germany/api-management/region/api-management-germany-central:latest`
+
 ## Available Regions
 
 This module includes regional variants for the following Azure regions:

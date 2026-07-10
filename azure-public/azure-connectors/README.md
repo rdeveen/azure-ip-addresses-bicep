@@ -37,6 +37,15 @@ import * as azureconnectorsEastUS from './region/AzureConnectors_EastUS.bicep'
 var eastUSIPs = azureconnectorsEastUS.AzureConnectors_EastUS
 ```
 
+### From GitHub Container Registry (GHCR)
+
+You can also import this module directly from GHCR:
+
+`br:ghcr.io/rdeveen/azure-ip-addresses-bicep/azure-public/azure-connectors/azure-connectors:latest`
+
+Example regional module:
+`br:ghcr.io/rdeveen/azure-ip-addresses-bicep/azure-public/azure-connectors/region/azure-connectors-australia-central:latest`
+
 ## Available Regions
 
 This module includes regional variants for the following Azure regions:

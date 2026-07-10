@@ -37,6 +37,15 @@ import * as powerplatforminfraEastUS from './region/PowerPlatformInfra_EastUS.bi
 var eastUSIPs = powerplatforminfraEastUS.PowerPlatformInfra_EastUS
 ```
 
+### From GitHub Container Registry (GHCR)
+
+You can also import this module directly from GHCR:
+
+`br:ghcr.io/rdeveen/azure-ip-addresses-bicep/azure-public/power-platform-infra/power-platform-infra:latest`
+
+Example regional module:
+`br:ghcr.io/rdeveen/azure-ip-addresses-bicep/azure-public/power-platform-infra/region/power-platform-infra-australia-east:latest`
+
 ## Available Regions
 
 This module includes regional variants for the following Azure regions:

@@ -37,6 +37,15 @@ import * as microsoftcloudappsecurityEastUS from './region/MicrosoftCloudAppSecu
 var eastUSIPs = microsoftcloudappsecurityEastUS.MicrosoftCloudAppSecurity_EastUS
 ```
 
+### From GitHub Container Registry (GHCR)
+
+You can also import this module directly from GHCR:
+
+`br:ghcr.io/rdeveen/azure-ip-addresses-bicep/azure-government/microsoft-cloud-app-security/microsoft-cloud-app-security:latest`
+
+Example regional module:
+`br:ghcr.io/rdeveen/azure-ip-addresses-bicep/azure-government/microsoft-cloud-app-security/region/microsoft-cloud-app-security-us-do-d-central:latest`
+
 ## Available Regions
 
 This module includes regional variants for the following Azure regions:
