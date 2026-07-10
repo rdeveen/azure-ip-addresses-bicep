@@ -58,7 +58,6 @@ def json_to_bicep(input_path: str, output_dir: str) -> None:
         data = json.load(f)
 
     cloud = data.get("cloud", "Unknown")
-    change_number = data.get("changeNumber", "Unknown")
     values = data.get("values", [])
 
     source_filename = os.path.basename(input_path)
@@ -91,7 +90,6 @@ def json_to_bicep(input_path: str, output_dir: str) -> None:
             f"// Generated at : {generated_at}",
             f"// Source file  : {source_filename}",
             f"// Cloud        : {cloud}",
-            f"// Change number: {change_number}",
             f"// Service tag  : {name}",
             "",
             f"var {safe_name} = [",

@@ -3,7 +3,6 @@
 // Generated at : 2026-07-10
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
-// Change number: 408
 // Service tag  : AzureEventGrid.WestUS3
 
 var AzureEventGrid_WestUS3 = [
