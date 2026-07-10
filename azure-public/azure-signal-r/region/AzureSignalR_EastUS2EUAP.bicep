@@ -3,7 +3,6 @@
 // Generated at : 2026-07-10
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
-// Change number: 408
 // Service tag  : AzureSignalR.EastUS2EUAP
 
 var AzureSignalR_EastUS2EUAP = [

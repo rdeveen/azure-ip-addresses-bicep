@@ -3,7 +3,6 @@
 // Generated at : 2026-07-10
 // Source file  : ServiceTags_AzureGovernment.json
 // Cloud        : AzureGovernment
-// Change number: 400
 // Service tag  : HDInsight.USGovTexas
 
 var HDInsight_USGovTexas = [
