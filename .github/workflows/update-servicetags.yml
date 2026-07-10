@@ -186,9 +186,8 @@ jobs:
           DOCKER_REGISTRY: ghcr.io
           CLOUD_DIR: ${{ matrix.cloud_dir }}
         run: |
-          set -euo pipefail
-
           VERSION=$(date -u +%Y%m%d)
+          set -euo pipefail
           REGISTRY="ghcr.io/${{ github.repository }}"
 
           # Convert a PascalCase/mixed service-tag name to kebab-case
@@ -210,21 +209,9 @@ jobs:
             exit 0
           fi
 
-          if git rev-parse --verify HEAD^ >/dev/null 2>&1; then
-            mapfile -t bicep_files < <(
-              git diff-tree --no-commit-id --name-only -r HEAD^ HEAD -- "$CLOUD_DIR" | grep -E '\.bicep$' | sort
-            )
-          else
-            mapfile -t bicep_files < <(
-              find "$CLOUD_DIR" -name '*.bicep' -type f | sort
-            )
-          fi
-
-          if [ ${#bicep_files[@]} -eq 0 ]; then
-            mapfile -t bicep_files < <(
-              find "$CLOUD_DIR" -name '*.bicep' -type f | sort
-            )
-          fi
+          mapfile -t bicep_files < <(
+            find "$CLOUD_DIR" -name '*.bicep' -type f | sort
+          )
 
           if [ ${#bicep_files[@]} -eq 0 ]; then
             echo "No Bicep module files found for ${CLOUD_DIR}; skipping."
