@@ -152,19 +152,8 @@ jobs:
       # -----------------------------------------------------------------------
       # Publish Bicep modules to GHCR
       # -----------------------------------------------------------------------
-      - name: Check branch for publishing
-        id: check-publishing
-        run: |
-          if [ "$GITHUB_REF_NAME" = "main" ]; then
-            echo "should_publish=true" >> "$GITHUB_OUTPUT"
-            echo "Running container registry publication from main branch."
-          else
-            echo "should_publish=false" >> "$GITHUB_OUTPUT"
-            echo "Skipping container registry publication because workflow is not running from the main branch."
-          fi
-
       - name: Install Bicep nightly CLI
-        if: steps.check-publishing.outputs.should_publish == 'true'
+        if: github.ref_name == 'main'
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
@@ -172,12 +161,12 @@ jobs:
           echo "$HOME/.azure/bin" >> "$GITHUB_PATH"
 
       - name: Log in to GitHub Container Registry
-        if: steps.check-publishing.outputs.should_publish == 'true'
+        if: github.ref_name == 'main'
         run: |
           echo "${{ secrets.GITHUB_TOKEN }}" | docker login ghcr.io -u ${{ github.actor }} --password-stdin
 
       - name: Publish Bicep modules to GHCR  
-        if: steps.check-publishing.outputs.should_publish == 'true'
+        if: github.ref_name == 'main'
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           DOCKER_REGISTRY: ghcr.io
