@@ -53,7 +53,7 @@ Adapt the import path to match where you have placed the files relative to your 
 
 ## Using the modules from the registry
 
-The Bicep files are published to the **GitHub Container Registry (GHCR)** as OCI artifacts after every update, so you can consume them directly from the registry without copying any files into your project.
+The Bicep files are published to the **GitHub Container Registry (GHCR)** as OCI artifacts after meaningful updates, so you can consume them directly from the registry without copying any files into your project.
 
 Each service tag has its own module in the registry. The module path follows the pattern:
 
@@ -120,7 +120,7 @@ var allowedRanges = concat(actionGroup.ActionGroup, azureMonitor.AzureMonitor)
 
 ### How it works (registry)
 
-The GitHub Actions workflow re-publishes updated modules to GHCR automatically each week, right after committing the refreshed Bicep files. The `latest` tag always points to the most recent build, while dated tags (e.g. `20260420`) allow you to pin to a specific release for reproducible deployments.
+The GitHub Actions workflow re-publishes updated modules to GHCR automatically each week, right after committing refreshed Bicep files when meaningful changes are present. The `latest` tag always points to the most recent build, while dated tags (e.g. `20260420`) allow you to pin to a specific release for reproducible deployments.
 
 ## Sample — Logic App (Consumption) with firewall and IP whitelisting
 
@@ -178,8 +178,8 @@ The workflow file [`.github/workflows/update-servicetags.yml`](.github/workflows
 1. Runs every **Monday at 06:00 UTC** (and can be triggered manually).
 2. Fetches the latest Service Tags JSON for each cloud from the Microsoft Download Center.
 3. Calls [`scripts/convert-to-bicep.py`](scripts/convert-to-bicep.py) to convert each JSON file into per-tag Bicep variable files inside a cloud-specific directory.
-4. Commits and pushes any updated files back to the repository.
-5. Publishes every per-tag Bicep module to GHCR as an OCI artifact (tagged with the current date and `latest`).
+4. Commits and pushes only the updated module files back to the repository.
+5. Publishes only the updated per-tag Bicep modules to GHCR as OCI artifacts (tagged with the current date and `latest`).
 
 ## Generating files locally
 
