@@ -193,15 +193,15 @@ jobs:
           # Convert a PascalCase/mixed service-tag name to kebab-case
           to_module_name() {
             python3 - "$1" <<'PY'
-import re, sys
-name = sys.argv[1]
-clean = re.sub(r'[^A-Za-z0-9]', '-', name)
-clean = re.sub(r'([a-z0-9])([A-Z])', r'\1-\2', clean)
-clean = re.sub(r'([A-Z]+)([A-Z][a-z])', r'\1-\2', clean)
-clean = clean.lower()
-clean = re.sub(r'-+', '-', clean).strip('-')
-print(clean)
-PY
+            import re, sys
+            name = sys.argv[1]
+            clean = re.sub(r'[^A-Za-z0-9]', '-', name)
+            clean = re.sub(r'([a-z0-9])([A-Z])', r'\1-\2', clean)
+            clean = re.sub(r'([A-Z]+)([A-Z][a-z])', r'\1-\2', clean)
+            clean = clean.lower()
+            clean = re.sub(r'-+', '-', clean).strip('-')
+            print(clean)
+            PY
           }
 
           if [ ! -d "$CLOUD_DIR" ]; then
