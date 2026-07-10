@@ -3,7 +3,6 @@
 // Generated at : 2026-07-10
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
-// Change number: 408
 // Service tag  : AppService.EastUS3
 
 var AppService_EastUS3 = [

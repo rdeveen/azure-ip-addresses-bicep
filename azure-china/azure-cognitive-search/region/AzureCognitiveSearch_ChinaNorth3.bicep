@@ -3,7 +3,6 @@
 // Generated at : 2026-07-10
 // Source file  : ServiceTags_China.json
 // Cloud        : China
-// Change number: 403
 // Service tag  : AzureCognitiveSearch.ChinaNorth3
 
 var AzureCognitiveSearch_ChinaNorth3 = [

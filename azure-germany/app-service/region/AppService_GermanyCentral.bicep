@@ -3,7 +3,6 @@
 // Generated at : 2026-07-10
 // Source file  : ServiceTags_AzureGermany.json
 // Cloud        : AzureGermany
-// Change number: 193
 // Service tag  : AppService.GermanyCentral
 
 var AppService_GermanyCentral = [
