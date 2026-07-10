@@ -201,7 +201,7 @@ jobs:
             clean = clean.lower()
             clean = re.sub(r'-+', '-', clean).strip('-')
             print(clean)
-            PY
+          PY
           }
 
           if [ ! -d "$CLOUD_DIR" ]; then
