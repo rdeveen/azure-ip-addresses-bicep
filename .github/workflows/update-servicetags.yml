@@ -13,6 +13,8 @@ permissions:
 jobs:
   update-bicep:
     runs-on: ubuntu-latest
+    env:
+      DATE_PATTERN: '^[+-]// Generated at : [0-9]{4}-[0-9]{2}-[0-9]{2}$'
 
     steps:
       - name: Checkout repository
@@ -123,36 +125,78 @@ jobs:
           python scripts/generate-readme.py
 
       # -----------------------------------------------------------------------
-      # Commit & push if anything changed
+      # Detect meaningful Bicep changes and commit/push them
       # -----------------------------------------------------------------------
+      - name: Detect meaningful Bicep changes
+        id: detect_changes
+        run: |
+          git add azure-public/ azure-china/ azure-government/ azure-germany/
+
+          has_changes=false
+          if ! bicep_files_output=$(git diff --cached --name-only -- '*.bicep' 2>&1); then
+            echo "::error::Unable to inspect staged Bicep files: $bicep_files_output" >&2
+            exit 1
+          fi
+          readarray -t bicep_files <<< "$bicep_files_output"
+          if [ ${#bicep_files[@]} -eq 0 ]; then
+            echo "No Bicep files changed."
+          else
+            for file in "${bicep_files[@]}"; do
+              [ -n "$file" ] || continue
+
+              if ! numstat_output=$(git diff --cached --numstat -- "$file" 2>&1); then
+                echo "::error::Unable to inspect numstat for $file: $numstat_output" >&2
+                exit 1
+              fi
+              if ! IFS=$'\t' read -r added removed unused_path <<< "$numstat_output"; then
+                echo "::error::Unexpected numstat output for $file: $numstat_output" >&2
+                exit 1
+              fi
+              case "$added" in ''|*[!0-9]*)
+                echo "::error::Unexpected numstat added count for $file: $added" >&2
+                exit 1
+                ;;
+              esac
+              case "$removed" in ''|*[!0-9]*)
+                echo "::error::Unexpected numstat removed count for $file: $removed" >&2
+                exit 1
+                ;;
+              esac
+
+              diff_content=$(git diff --cached --unified=0 -- "$file")
+              date_line_changes=$(printf '%s\n' "$diff_content" | grep -Ec "$DATE_PATTERN" || true)
+
+              # Date-only churn is exactly one removed line and one added line.
+              if [ "${added:-0}" -eq 1 ] && [ "${removed:-0}" -eq 1 ] \
+                && [ "${date_line_changes:-0}" -eq 2 ]; then
+                git restore --staged --worktree -- "$file"
+              else
+                has_changes=true
+              fi
+            done
+          fi
+
+          if [ "$has_changes" = true ]; then
+            echo "has_changes=true" >> "$GITHUB_OUTPUT"
+            echo "Meaningful Bicep changes detected."
+          else
+            echo "has_changes=false" >> "$GITHUB_OUTPUT"
+            echo "No meaningful Bicep changes detected."
+          fi
+
       - name: Commit and push updated Bicep files
+        if: steps.detect_changes.outputs.has_changes == 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add azure-public/ azure-china/ azure-government/ azure-germany/
-          git diff --cached --name-only -- '*.bicep' | while IFS= read -r file; do
-            [ -n "$file" ] || continue
-            IFS=$'\t' read -r added removed unused_path <<< "$(git diff --cached --numstat -- "$file")"
-            diff_content=$(git diff --cached --unified=0 -- "$file")
-            date_line_changes=$(printf '%s\n' "$diff_content" | grep -Ec '^[+-]// Generated at : [0-9]{4}-[0-9]{2}-[0-9]{2}$' || true)
-            # Date-only churn is exactly one removed line and one added line.
-            if [ "${added:-0}" -eq 1 ] && [ "${removed:-0}" -eq 1 ] \
-              && [ "${date_line_changes:-0}" -eq 2 ]; then
-              # Restore both index and worktree so date-only churn is fully discarded.
-              git restore --staged --worktree -- "$file"
-            fi
-          done
-          if git diff --cached --quiet; then
-            echo "No changes to commit – Bicep files are already up to date."
-          else
-            git commit -m "Update Azure Service Tags Bicep files ($(date -u +%F)) [skip ci]"
-            git push
-          fi
+          git commit -m "Update Azure Service Tags Bicep files ($(date -u +%F)) [skip ci]"
+          git push
 
       # -----------------------------------------------------------------------
       # Publish Bicep modules to GHCR
       # -----------------------------------------------------------------------
       - name: Install Bicep nightly CLI
+        if: steps.detect_changes.outputs.has_changes == 'true'
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
@@ -160,10 +204,12 @@ jobs:
           echo "$HOME/.azure/bin" >> "$GITHUB_PATH"
 
       - name: Log in to GitHub Container Registry
+        if: steps.detect_changes.outputs.has_changes == 'true'
         run: |
           echo "${{ secrets.GITHUB_TOKEN }}" | docker login ghcr.io -u ${{ github.actor }} --password-stdin
 
       - name: Publish Bicep modules to GHCR  
+        if: steps.detect_changes.outputs.has_changes == 'true'
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           DOCKER_REGISTRY: ghcr.io

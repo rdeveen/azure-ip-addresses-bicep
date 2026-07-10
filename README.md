@@ -53,7 +53,7 @@ Adapt the import path to match where you have placed the files relative to your 
 
 ## Using the modules from the registry
 
-The Bicep files are published to the **GitHub Container Registry (GHCR)** as OCI artifacts after every update, so you can consume them directly from the registry without copying any files into your project.
+The Bicep files are published to the **GitHub Container Registry (GHCR)** as OCI artifacts after meaningful updates, so you can consume them directly from the registry without copying any files into your project.
 
 Each service tag has its own module in the registry. The module path follows the pattern:
 
@@ -120,7 +120,7 @@ var allowedRanges = concat(actionGroup.ActionGroup, azureMonitor.AzureMonitor)
 
 ### How it works (registry)
 
-The GitHub Actions workflow re-publishes updated modules to GHCR automatically each week, right after committing the refreshed Bicep files. The `latest` tag always points to the most recent build, while dated tags (e.g. `20260420`) allow you to pin to a specific release for reproducible deployments.
+The GitHub Actions workflow re-publishes updated modules to GHCR automatically each week, right after committing refreshed Bicep files when meaningful changes are present. The `latest` tag always points to the most recent build, while dated tags (e.g. `20260420`) allow you to pin to a specific release for reproducible deployments.
 
 ## Sample — Logic App (Consumption) with firewall and IP whitelisting
 
