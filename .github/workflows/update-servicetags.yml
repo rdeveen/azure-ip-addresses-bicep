@@ -188,26 +188,42 @@ jobs:
             " "$1"
           }
 
-          for cloud_dir in azure-public azure-china azure-government azure-germany; do
-            [ -d "$cloud_dir" ] || continue
-            while IFS= read -r bicep_file; do
-              [ -f "$bicep_file" ] || continue
-              filename=$(basename "$bicep_file" .bicep)
-              module_name=$(to_module_name "$filename")
-              # Determine path relative to cloud_dir (empty for root-level files)
-              rel_dir=$(dirname "$bicep_file" | sed "s|^${cloud_dir}||" | sed "s|^/||")
-              if [ -n "$rel_dir" ]; then
-                module_path="${cloud_dir}/${rel_dir}/${module_name}"
-              else
-                module_path="${cloud_dir}/${module_name}"
-              fi
-              echo "Publishing ${module_path} to ${REGISTRY}"
+          mapfile -t changed_bicep_files < <(
+            git diff-tree --root --no-commit-id --name-only -r HEAD -- '*.bicep' | sort
+          )
 
-              bicep publish "$bicep_file" \
-                --target "br:${REGISTRY}/${module_path}:${VERSION}" \
-                --force
-              bicep publish "$bicep_file" \
-                --target "br:${REGISTRY}/${module_path}:latest" \
-                --force
-            done < <(find "$cloud_dir" -name "*.bicep" -type f | sort)
+          if [ ${#changed_bicep_files[@]} -eq 0 ]; then
+            echo "No Bicep module changes in this commit; skipping GHCR publish."
+            exit 0
+          fi
+
+          for bicep_file in "${changed_bicep_files[@]}"; do
+            [ -f "$bicep_file" ] || continue
+
+            cloud_dir=$(echo "$bicep_file" | cut -d/ -f1)
+            case "$cloud_dir" in
+              azure-public|azure-china|azure-government|azure-germany)
+                ;;
+              *)
+                continue
+                ;;
+            esac
+
+            filename=$(basename "$bicep_file" .bicep)
+            module_name=$(to_module_name "$filename")
+            # Determine path relative to cloud_dir (empty for root-level files)
+            rel_dir=$(dirname "$bicep_file" | sed "s|^${cloud_dir}||" | sed "s|^/||")
+            if [ -n "$rel_dir" ]; then
+              module_path="${cloud_dir}/${rel_dir}/${module_name}"
+            else
+              module_path="${cloud_dir}/${module_name}"
+            fi
+            echo "Publishing ${module_path} to ${REGISTRY}"
+
+            bicep publish "$bicep_file" \
+              --target "br:${REGISTRY}/${module_path}:${VERSION}" \
+              --force
+            bicep publish "$bicep_file" \
+              --target "br:${REGISTRY}/${module_path}:latest" \
+              --force
           done
