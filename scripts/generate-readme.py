@@ -31,6 +31,17 @@ CLOUDS = {
     }
 }
 
+GHCR_REGISTRY = 'ghcr.io/rdeveen/azure-ip-addresses-bicep'
+
+
+def to_kebab_case(name):
+    """Convert service tag/module names to kebab-case matching publish workflow."""
+    clean = re.sub(r'[^A-Za-z0-9]', '-', name)
+    clean = re.sub(r'([a-z0-9])([A-Z])', r'\1-\2', clean)
+    clean = re.sub(r'([A-Z]+)([A-Z][a-z])', r'\1-\2', clean)
+    clean = clean.lower()
+    return re.sub(r'-+', '-', clean).strip('-')
+
 
 def get_service_tag_from_bicep_file(module_path):
     """Derive the service tag name from the actual main .bicep filename in the module directory.
@@ -76,10 +87,20 @@ def get_regional_variants(module_path, service_tag):
     return variants
 
 
-def generate_readme_content(cloud_name, module_dir, service_tag, module_path):
+def generate_readme_content(cloud_name, cloud_dir, module_dir, service_tag, module_path):
     """Generate README.md content for a service tag module."""
     
     regional_variants = get_regional_variants(module_path, service_tag)
+    module_name = to_kebab_case(service_tag)
+    global_registry_ref = f"br:{GHCR_REGISTRY}/{cloud_dir}/{module_dir}/{module_name}:latest"
+    regional_registry_example = ""
+    if regional_variants:
+        sample_region = regional_variants[0][0]
+        regional_module_name = to_kebab_case(f"{service_tag}_{sample_region}")
+        regional_registry_example = (
+            f"\n\nExample regional module:\n"
+            f"`br:{GHCR_REGISTRY}/{cloud_dir}/{module_dir}/region/{regional_module_name}:latest`"
+        )
     
     # Format regional variants into a nice list
     regions_section = ""
@@ -131,6 +152,12 @@ import * as {service_tag.lower()}EastUS from './region/{service_tag}_EastUS.bice
 var eastUSIPs = {service_tag.lower()}EastUS.{service_tag}_EastUS
 ```
 
+### From GitHub Container Registry (GHCR)
+
+You can also import this module directly from GHCR:
+
+`{global_registry_ref}`{regional_registry_example}
+
 {regions_section}
 
 ## Generated Information
@@ -178,6 +205,7 @@ def create_readme_files():
             # Generate README content
             readme_content = generate_readme_content(
                 cloud_info['name'],
+                cloud_dir,
                 module_dir,
                 service_tag,
                 module_dir_path

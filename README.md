@@ -58,19 +58,19 @@ The Bicep files are published to the **GitHub Container Registry (GHCR)** as OCI
 Each service tag has its own module in the registry. The module path follows the pattern:
 
 ```
-br:ghcr.io/rdeveen/azure-ip-addresses-bicep/<cloud>/<service-tag-kebab>:latest
+br:ghcr.io/rdeveen/azure-ip-addresses-bicep/<cloud>/<module-dir>/<service-tag-kebab>:latest
 ```
 
-Where `<cloud>` is one of `azure-public`, `azure-china`, `azure-government`, or `azure-germany`, and `<service-tag-kebab>` is the service-tag name converted to kebab-case (e.g. `ActionGroup` → `action-group`).
+Where `<cloud>` is one of `azure-public`, `azure-china`, `azure-government`, or `azure-germany`, `<module-dir>` is the module directory name, and `<service-tag-kebab>` is the published module name in kebab-case (e.g. `ActionGroup` → `action-group`).
 
 ### Example registry references
 
 | Service tag | Registry reference |
 |------------|-------------------|
-| ActionGroup (Public) | `br:ghcr.io/rdeveen/azure-ip-addresses-bicep/azure-public/action-group:latest` |
-| AzureMonitor (Public) | `br:ghcr.io/rdeveen/azure-ip-addresses-bicep/azure-public/azure-monitor:latest` |
-| LogicApps (Public) | `br:ghcr.io/rdeveen/azure-ip-addresses-bicep/azure-public/logic-apps:latest` |
-| AzureActiveDirectory (Public) | `br:ghcr.io/rdeveen/azure-ip-addresses-bicep/azure-public/azure-active-directory:latest` |
+| ActionGroup (Public) | `br:ghcr.io/rdeveen/azure-ip-addresses-bicep/azure-public/action-group/action-group:latest` |
+| AzureMonitor (Public) | `br:ghcr.io/rdeveen/azure-ip-addresses-bicep/azure-public/azure-monitor/azure-monitor:latest` |
+| LogicApps (Public) | `br:ghcr.io/rdeveen/azure-ip-addresses-bicep/azure-public/logic-apps/logic-apps:latest` |
+| AzureActiveDirectory (Public) | `br:ghcr.io/rdeveen/azure-ip-addresses-bicep/azure-public/azure-active-directory/azure-active-directory:latest` |
 
 Modules are also tagged by date (`YYYYMMDD`) for pinning to a specific release, e.g. `action-group:20260420`.
 
@@ -86,8 +86,8 @@ Import individual service-tag modules directly from the registry:
 
 ```bicep
 // main.bicep
-import * as actionGroup from 'br:ghcr.io/rdeveen/azure-ip-addresses-bicep/azure-public/action-group:latest'
-import * as azureMonitor from 'br:ghcr.io/rdeveen/azure-ip-addresses-bicep/azure-public/azure-monitor:latest'
+import * as actionGroup from 'br:ghcr.io/rdeveen/azure-ip-addresses-bicep/azure-public/action-group/action-group:latest'
+import * as azureMonitor from 'br:ghcr.io/rdeveen/azure-ip-addresses-bicep/azure-public/azure-monitor/azure-monitor:latest'
 
 // actionGroup.ActionGroup and azureMonitor.AzureMonitor are arrays of CIDR strings
 ```
@@ -112,8 +112,8 @@ Then import the modules using the alias:
 
 ```bicep
 // With alias defined in bicepconfig.json:
-import * as actionGroup from 'br/azureIpAddresses:azure-public/action-group:latest'
-import * as azureMonitor from 'br/azureIpAddresses:azure-public/azure-monitor:latest'
+import * as actionGroup from 'br/azureIpAddresses:azure-public/action-group/action-group:latest'
+import * as azureMonitor from 'br/azureIpAddresses:azure-public/azure-monitor/azure-monitor:latest'
 
 var allowedRanges = concat(actionGroup.ActionGroup, azureMonitor.AzureMonitor)
 ```
@@ -127,8 +127,8 @@ The GitHub Actions workflow re-publishes updated modules to GHCR automatically e
 This example deploys a Logic App (Consumption) inside an App Service Environment-style access restriction. An **IP restriction** on the Logic App allows inbound calls only from the Azure **LogicApps** service-tag prefixes (e.g. managed connector infrastructure) and from **AzureMonitor** (for alert webhooks). All other traffic is denied.
 
 ```bicep
-import * as logicApps from 'br:ghcr.io/rdeveen/azure-ip-addresses-bicep/azure-public/logic-apps:latest'
-import * as azureMonitor from 'br:ghcr.io/rdeveen/azure-ip-addresses-bicep/azure-public/azure-monitor:latest'
+import * as logicApps from 'br:ghcr.io/rdeveen/azure-ip-addresses-bicep/azure-public/logic-apps/logic-apps:latest'
+import * as azureMonitor from 'br:ghcr.io/rdeveen/azure-ip-addresses-bicep/azure-public/azure-monitor/azure-monitor:latest'
 
 param location string = resourceGroup().location
 param logicAppName string = 'my-logic-app'
