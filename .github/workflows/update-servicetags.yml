@@ -14,6 +14,7 @@ jobs:
   update-bicep:
     runs-on: ubuntu-latest
     env:
+      # Match Generated at diff lines, including the leading +/- prefixes emitted by git diff.
       DATE_PATTERN: '^[+-]// Generated at : [0-9]{4}-[0-9]{2}-[0-9]{2}$'
 
     steps:
@@ -131,6 +132,7 @@ jobs:
         id: detect_changes
         run: |
           declare -a cloud_dirs=(azure-public azure-china azure-government azure-germany)
+          # Add trailing slashes so git treats these as directory pathspecs.
           declare -a cloud_paths=("${cloud_dirs[@]/%//}")
 
           is_known_cloud_dir() {
@@ -146,7 +148,13 @@ jobs:
 
           array_has_values() {
             local -n items_ref="$1"
-            [ ${#items_ref[@]} -gt 0 ] && [ -n "${items_ref[0]}" ]
+            local item
+            for item in "${items_ref[@]}"; do
+              if [ -n "$item" ]; then
+                return 0
+              fi
+            done
+            return 1
           }
 
           module_dir_for_path() {
@@ -194,7 +202,7 @@ jobs:
                 echo "::error::Unable to inspect numstat for $file: $numstat_output" >&2
                 exit 1
               fi
-              if ! IFS=$'\t' read -r added removed unused_path <<< "$numstat_output"; then
+              if ! IFS=$'\t' read -r added removed discarded_path <<< "$numstat_output"; then
                 echo "::error::Unexpected numstat output for $file: $numstat_output" >&2
                 exit 1
               fi
