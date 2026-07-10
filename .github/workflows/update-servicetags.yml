@@ -189,7 +189,7 @@ jobs:
           }
 
           mapfile -t changed_bicep_files < <(
-            git diff-tree --root --no-commit-id --name-only -r HEAD -- '*.bicep' | sort
+            git diff-tree --root --no-commit-id --name-only -r HEAD -- | grep -E '\.bicep$' | sort
           )
 
           if [ ${#changed_bicep_files[@]} -eq 0 ]; then
@@ -200,7 +200,14 @@ jobs:
           for bicep_file in "${changed_bicep_files[@]}"; do
             [ -f "$bicep_file" ] || continue
 
-            cloud_dir=$(echo "$bicep_file" | cut -d/ -f1)
+            case "$bicep_file" in
+              */*)
+                cloud_dir=${bicep_file%%/*}
+                ;;
+              *)
+                continue
+                ;;
+            esac
             case "$cloud_dir" in
               azure-public|azure-china|azure-government|azure-germany)
                 ;;
