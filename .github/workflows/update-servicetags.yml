@@ -169,11 +169,10 @@ jobs:
           ref: ${{ github.ref_name }}
           fetch-depth: 0
 
-      - name: Install Azure CLI and Bicep
+      - name: Upgrade Bicep
         run: |
           az bicep upgrade
           az bicep version
-          exit 1;
 
       - name: Log in to GitHub Container Registry
         run: |
