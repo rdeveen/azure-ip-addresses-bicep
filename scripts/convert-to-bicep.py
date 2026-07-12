@@ -91,7 +91,12 @@ def json_to_bicep(input_path: str, output_dir: str) -> None:
             f"// Source file  : {source_filename}",
             f"// Cloud        : {cloud}",
             f"// Service tag  : {name}",
+            f"metadata name = '{name}'",
+            f"metadata description = 'This module contains all the service tag IP addresses of {name} for {cloud}.'",
+            f"metadata author = ''",
+            f"metadata author = ''",
             "",
+            f"@description('{name} service tag IP addresses for {cloud}')",
             "@export()",
             f"var {safe_name} = [",
         ]
