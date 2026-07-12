@@ -92,6 +92,7 @@ def json_to_bicep(input_path: str, output_dir: str) -> None:
             f"// Cloud        : {cloud}",
             f"// Service tag  : {name}",
             "",
+            "@export()",
             f"var {safe_name} = [",
         ]
         for prefix in prefixes:
