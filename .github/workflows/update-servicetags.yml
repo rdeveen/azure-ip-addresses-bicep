@@ -176,6 +176,9 @@ jobs:
           fi
           az version
           az bicep install
+          az bicep upgrade
+          az bicep version
+          exit 1;
 
       - name: Log in to GitHub Container Registry
         run: |
