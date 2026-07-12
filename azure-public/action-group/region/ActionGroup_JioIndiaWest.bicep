@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : ActionGroup.JioIndiaWest
+metadata name = 'ActionGroup.JioIndiaWest'
+metadata description = 'This module contains all the service tag IP addresses of ActionGroup.JioIndiaWest for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('ActionGroup.JioIndiaWest service tag IP addresses for Public')
 @export()
 var ActionGroup_JioIndiaWest = [
   '20.193.202.4/30'

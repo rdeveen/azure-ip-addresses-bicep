@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_AzureGovernment.json
 // Cloud        : AzureGovernment
 // Service tag  : PowerPlatformPlex.USGovTexas
+metadata name = 'PowerPlatformPlex.USGovTexas'
+metadata description = 'This module contains all the service tag IP addresses of PowerPlatformPlex.USGovTexas for AzureGovernment.'
+metadata author = ''
+metadata author = ''
 
+@description('PowerPlatformPlex.USGovTexas service tag IP addresses for AzureGovernment')
 @export()
 var PowerPlatformPlex_USGovTexas = [
   '20.140.147.220/30'

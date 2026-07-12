@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : MicrosoftCloudAppSecurity.EastAsia
+metadata name = 'MicrosoftCloudAppSecurity.EastAsia'
+metadata description = 'This module contains all the service tag IP addresses of MicrosoftCloudAppSecurity.EastAsia for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('MicrosoftCloudAppSecurity.EastAsia service tag IP addresses for Public')
 @export()
 var MicrosoftCloudAppSecurity_EastAsia = [
   '4.192.252.174/31'

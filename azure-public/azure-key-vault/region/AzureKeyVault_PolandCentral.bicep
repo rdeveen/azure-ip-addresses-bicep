@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : AzureKeyVault.PolandCentral
+metadata name = 'AzureKeyVault.PolandCentral'
+metadata description = 'This module contains all the service tag IP addresses of AzureKeyVault.PolandCentral for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureKeyVault.PolandCentral service tag IP addresses for Public')
 @export()
 var AzureKeyVault_PolandCentral = [
   '20.215.7.32/29'

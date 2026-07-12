@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : WindowsVirtualDesktop.IsraelNorthwest
+metadata name = 'WindowsVirtualDesktop.IsraelNorthwest'
+metadata description = 'This module contains all the service tag IP addresses of WindowsVirtualDesktop.IsraelNorthwest for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('WindowsVirtualDesktop.IsraelNorthwest service tag IP addresses for Public')
 @export()
 var WindowsVirtualDesktop_IsraelNorthwest = [
   '2603:1061:2010:44::/117'

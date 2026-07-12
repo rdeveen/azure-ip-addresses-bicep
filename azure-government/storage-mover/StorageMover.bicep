@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_AzureGovernment.json
 // Cloud        : AzureGovernment
 // Service tag  : StorageMover
+metadata name = 'StorageMover'
+metadata description = 'This module contains all the service tag IP addresses of StorageMover for AzureGovernment.'
+metadata author = ''
+metadata author = ''
 
+@description('StorageMover service tag IP addresses for AzureGovernment')
 @export()
 var StorageMover = [
   '20.159.234.6/31'

@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : HDInsight.QatarCentral
+metadata name = 'HDInsight.QatarCentral'
+metadata description = 'This module contains all the service tag IP addresses of HDInsight.QatarCentral for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('HDInsight.QatarCentral service tag IP addresses for Public')
 @export()
 var HDInsight_QatarCentral = [
   '20.21.37.56/29'

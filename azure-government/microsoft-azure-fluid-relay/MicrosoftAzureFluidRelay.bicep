@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_AzureGovernment.json
 // Cloud        : AzureGovernment
 // Service tag  : MicrosoftAzureFluidRelay
+metadata name = 'MicrosoftAzureFluidRelay'
+metadata description = 'This module contains all the service tag IP addresses of MicrosoftAzureFluidRelay for AzureGovernment.'
+metadata author = ''
+metadata author = ''
 
+@description('MicrosoftAzureFluidRelay service tag IP addresses for AzureGovernment')
 @export()
 var MicrosoftAzureFluidRelay = [
   '20.141.9.192/29'

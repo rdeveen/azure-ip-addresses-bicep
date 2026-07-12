@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : GatewayManager.MexicoCentral
+metadata name = 'GatewayManager.MexicoCentral'
+metadata description = 'This module contains all the service tag IP addresses of GatewayManager.MexicoCentral for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('GatewayManager.MexicoCentral service tag IP addresses for Public')
 @export()
 var GatewayManager_MexicoCentral = [
   '158.23.96.64/26'

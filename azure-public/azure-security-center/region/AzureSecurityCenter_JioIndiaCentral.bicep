@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : AzureSecurityCenter.JioIndiaCentral
+metadata name = 'AzureSecurityCenter.JioIndiaCentral'
+metadata description = 'This module contains all the service tag IP addresses of AzureSecurityCenter.JioIndiaCentral for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureSecurityCenter.JioIndiaCentral service tag IP addresses for Public')
 @export()
 var AzureSecurityCenter_JioIndiaCentral = [
   '4.240.173.64/26'

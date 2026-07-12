@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : AzureArcInfrastructure.CentralUSEUAP
+metadata name = 'AzureArcInfrastructure.CentralUSEUAP'
+metadata description = 'This module contains all the service tag IP addresses of AzureArcInfrastructure.CentralUSEUAP for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureArcInfrastructure.CentralUSEUAP service tag IP addresses for Public')
 @export()
 var AzureArcInfrastructure_CentralUSEUAP = [
   '20.45.197.224/30'

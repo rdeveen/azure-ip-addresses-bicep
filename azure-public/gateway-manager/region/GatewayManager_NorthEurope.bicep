@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : GatewayManager.NorthEurope
+metadata name = 'GatewayManager.NorthEurope'
+metadata description = 'This module contains all the service tag IP addresses of GatewayManager.NorthEurope for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('GatewayManager.NorthEurope service tag IP addresses for Public')
 @export()
 var GatewayManager_NorthEurope = [
   '4.208.122.32/27'

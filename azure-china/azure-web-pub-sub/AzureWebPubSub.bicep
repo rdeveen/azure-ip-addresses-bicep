@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_China.json
 // Cloud        : China
 // Service tag  : AzureWebPubSub
+metadata name = 'AzureWebPubSub'
+metadata description = 'This module contains all the service tag IP addresses of AzureWebPubSub for China.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureWebPubSub service tag IP addresses for China')
 @export()
 var AzureWebPubSub = [
   '40.72.79.224/27'

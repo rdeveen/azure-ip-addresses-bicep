@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : AzurePortal.UKWest
+metadata name = 'AzurePortal.UKWest'
+metadata description = 'This module contains all the service tag IP addresses of AzurePortal.UKWest for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('AzurePortal.UKWest service tag IP addresses for Public')
 @export()
 var AzurePortal_UKWest = [
   '51.137.162.160/27'

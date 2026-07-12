@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_AzureGovernment.json
 // Cloud        : AzureGovernment
 // Service tag  : AzureKeyVault.USGovArizona
+metadata name = 'AzureKeyVault.USGovArizona'
+metadata description = 'This module contains all the service tag IP addresses of AzureKeyVault.USGovArizona for AzureGovernment.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureKeyVault.USGovArizona service tag IP addresses for AzureGovernment')
 @export()
 var AzureKeyVault_USGovArizona = [
   '20.140.225.8/30'

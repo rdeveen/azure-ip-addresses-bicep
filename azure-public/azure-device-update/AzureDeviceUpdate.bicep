@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : AzureDeviceUpdate
+metadata name = 'AzureDeviceUpdate'
+metadata description = 'This module contains all the service tag IP addresses of AzureDeviceUpdate for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureDeviceUpdate service tag IP addresses for Public')
 @export()
 var AzureDeviceUpdate = [
   '20.37.71.192/28'

@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_AzureGovernment.json
 // Cloud        : AzureGovernment
 // Service tag  : AzurePortal.AzureAppServiceUx
+metadata name = 'AzurePortal.AzureAppServiceUx'
+metadata description = 'This module contains all the service tag IP addresses of AzurePortal.AzureAppServiceUx for AzureGovernment.'
+metadata author = ''
+metadata author = ''
 
+@description('AzurePortal.AzureAppServiceUx service tag IP addresses for AzureGovernment')
 @export()
 var AzurePortal_AzureAppServiceUx = [
   '52.245.146.0/32'

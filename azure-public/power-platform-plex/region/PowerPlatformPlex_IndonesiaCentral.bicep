@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : PowerPlatformPlex.IndonesiaCentral
+metadata name = 'PowerPlatformPlex.IndonesiaCentral'
+metadata description = 'This module contains all the service tag IP addresses of PowerPlatformPlex.IndonesiaCentral for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('PowerPlatformPlex.IndonesiaCentral service tag IP addresses for Public')
 @export()
 var PowerPlatformPlex_IndonesiaCentral = [
   '70.153.66.0/26'

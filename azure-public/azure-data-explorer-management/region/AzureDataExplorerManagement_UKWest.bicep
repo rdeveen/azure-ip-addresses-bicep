@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : AzureDataExplorerManagement.UKWest
+metadata name = 'AzureDataExplorerManagement.UKWest'
+metadata description = 'This module contains all the service tag IP addresses of AzureDataExplorerManagement.UKWest for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureDataExplorerManagement.UKWest service tag IP addresses for Public')
 @export()
 var AzureDataExplorerManagement_UKWest = [
   '40.81.122.39/32'

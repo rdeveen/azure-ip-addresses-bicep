@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : GatewayManager.MalaysiaWest
+metadata name = 'GatewayManager.MalaysiaWest'
+metadata description = 'This module contains all the service tag IP addresses of GatewayManager.MalaysiaWest for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('GatewayManager.MalaysiaWest service tag IP addresses for Public')
 @export()
 var GatewayManager_MalaysiaWest = [
   '20.17.112.64/26'

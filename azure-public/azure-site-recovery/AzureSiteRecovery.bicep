@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : AzureSiteRecovery
+metadata name = 'AzureSiteRecovery'
+metadata description = 'This module contains all the service tag IP addresses of AzureSiteRecovery for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureSiteRecovery service tag IP addresses for Public')
 @export()
 var AzureSiteRecovery = [
   '4.145.0.80/28'

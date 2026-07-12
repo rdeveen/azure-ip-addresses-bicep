@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_China.json
 // Cloud        : China
 // Service tag  : PowerPlatformPlex.ChinaEast2
+metadata name = 'PowerPlatformPlex.ChinaEast2'
+metadata description = 'This module contains all the service tag IP addresses of PowerPlatformPlex.ChinaEast2 for China.'
+metadata author = ''
+metadata author = ''
 
+@description('PowerPlatformPlex.ChinaEast2 service tag IP addresses for China')
 @export()
 var PowerPlatformPlex_ChinaEast2 = [
   '52.131.194.252/30'

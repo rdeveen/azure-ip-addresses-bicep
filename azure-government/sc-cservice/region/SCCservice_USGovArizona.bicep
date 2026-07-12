@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_AzureGovernment.json
 // Cloud        : AzureGovernment
 // Service tag  : SCCservice.USGovArizona
+metadata name = 'SCCservice.USGovArizona'
+metadata description = 'This module contains all the service tag IP addresses of SCCservice.USGovArizona for AzureGovernment.'
+metadata author = ''
+metadata author = ''
 
+@description('SCCservice.USGovArizona service tag IP addresses for AzureGovernment')
 @export()
 var SCCservice_USGovArizona = [
   '20.158.112.16/28'

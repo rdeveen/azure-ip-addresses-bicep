@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : AzureMonitor.UAENorth
+metadata name = 'AzureMonitor.UAENorth'
+metadata description = 'This module contains all the service tag IP addresses of AzureMonitor.UAENorth for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureMonitor.UAENorth service tag IP addresses for Public')
 @export()
 var AzureMonitor_UAENorth = [
   '4.161.10.112/28'

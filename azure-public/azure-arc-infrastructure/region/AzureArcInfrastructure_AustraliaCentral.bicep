@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : AzureArcInfrastructure.AustraliaCentral
+metadata name = 'AzureArcInfrastructure.AustraliaCentral'
+metadata description = 'This module contains all the service tag IP addresses of AzureArcInfrastructure.AustraliaCentral for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureArcInfrastructure.AustraliaCentral service tag IP addresses for Public')
 @export()
 var AzureArcInfrastructure_AustraliaCentral = [
   '20.37.226.52/30'

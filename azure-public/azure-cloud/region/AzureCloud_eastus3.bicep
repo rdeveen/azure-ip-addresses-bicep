@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : AzureCloud.eastus3
+metadata name = 'AzureCloud.eastus3'
+metadata description = 'This module contains all the service tag IP addresses of AzureCloud.eastus3 for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureCloud.eastus3 service tag IP addresses for Public')
 @export()
 var AzureCloud_eastus3 = [
   '13.104.128.128/25'

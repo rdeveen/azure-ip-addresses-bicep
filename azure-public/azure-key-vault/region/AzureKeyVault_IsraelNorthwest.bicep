@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : AzureKeyVault.IsraelNorthwest
+metadata name = 'AzureKeyVault.IsraelNorthwest'
+metadata description = 'This module contains all the service tag IP addresses of AzureKeyVault.IsraelNorthwest for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureKeyVault.IsraelNorthwest service tag IP addresses for Public')
 @export()
 var AzureKeyVault_IsraelNorthwest = [
   '20.217.255.24/30'

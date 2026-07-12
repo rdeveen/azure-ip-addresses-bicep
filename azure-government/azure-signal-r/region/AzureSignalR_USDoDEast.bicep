@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_AzureGovernment.json
 // Cloud        : AzureGovernment
 // Service tag  : AzureSignalR.USDoDEast
+metadata name = 'AzureSignalR.USDoDEast'
+metadata description = 'This module contains all the service tag IP addresses of AzureSignalR.USDoDEast for AzureGovernment.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureSignalR.USDoDEast service tag IP addresses for AzureGovernment')
 @export()
 var AzureSignalR_USDoDEast = [
   '2001:489a:3303:2::300/120'

@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : AzureEventGrid.CentralUSEUAP
+metadata name = 'AzureEventGrid.CentralUSEUAP'
+metadata description = 'This module contains all the service tag IP addresses of AzureEventGrid.CentralUSEUAP for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureEventGrid.CentralUSEUAP service tag IP addresses for Public')
 @export()
 var AzureEventGrid_CentralUSEUAP = [
   '20.45.195.0/25'

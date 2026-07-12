@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : AzureMonitor.CentralUSEUAP
+metadata name = 'AzureMonitor.CentralUSEUAP'
+metadata description = 'This module contains all the service tag IP addresses of AzureMonitor.CentralUSEUAP for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureMonitor.CentralUSEUAP service tag IP addresses for Public')
 @export()
 var AzureMonitor_CentralUSEUAP = [
   '20.45.208.32/29'

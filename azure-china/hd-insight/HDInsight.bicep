@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_China.json
 // Cloud        : China
 // Service tag  : HDInsight
+metadata name = 'HDInsight'
+metadata description = 'This module contains all the service tag IP addresses of HDInsight for China.'
+metadata author = ''
+metadata author = ''
 
+@description('HDInsight service tag IP addresses for China')
 @export()
 var HDInsight = [
   '40.72.75.160/29'

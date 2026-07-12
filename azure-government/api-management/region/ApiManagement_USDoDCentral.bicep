@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_AzureGovernment.json
 // Cloud        : AzureGovernment
 // Service tag  : ApiManagement.USDoDCentral
+metadata name = 'ApiManagement.USDoDCentral'
+metadata description = 'This module contains all the service tag IP addresses of ApiManagement.USDoDCentral for AzureGovernment.'
+metadata author = ''
+metadata author = ''
 
+@description('ApiManagement.USDoDCentral service tag IP addresses for AzureGovernment')
 @export()
 var ApiManagement_USDoDCentral = [
   '52.182.32.132/32'

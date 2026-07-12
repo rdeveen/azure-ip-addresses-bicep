@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_China.json
 // Cloud        : China
 // Service tag  : WindowsVirtualDesktop.ChinaNorth
+metadata name = 'WindowsVirtualDesktop.ChinaNorth'
+metadata description = 'This module contains all the service tag IP addresses of WindowsVirtualDesktop.ChinaNorth for China.'
+metadata author = ''
+metadata author = ''
 
+@description('WindowsVirtualDesktop.ChinaNorth service tag IP addresses for China')
 @export()
 var WindowsVirtualDesktop_ChinaNorth = [
   '2406:e500:5510:1::/117'

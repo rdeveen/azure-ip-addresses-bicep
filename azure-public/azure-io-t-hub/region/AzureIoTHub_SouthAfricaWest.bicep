@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : AzureIoTHub.SouthAfricaWest
+metadata name = 'AzureIoTHub.SouthAfricaWest'
+metadata description = 'This module contains all the service tag IP addresses of AzureIoTHub.SouthAfricaWest for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureIoTHub.SouthAfricaWest service tag IP addresses for Public')
 @export()
 var AzureIoTHub_SouthAfricaWest = [
   '74.160.2.28/30'

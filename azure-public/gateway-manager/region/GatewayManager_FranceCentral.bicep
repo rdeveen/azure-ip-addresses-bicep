@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : GatewayManager.FranceCentral
+metadata name = 'GatewayManager.FranceCentral'
+metadata description = 'This module contains all the service tag IP addresses of GatewayManager.FranceCentral for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('GatewayManager.FranceCentral service tag IP addresses for Public')
 @export()
 var GatewayManager_FranceCentral = [
   '4.176.37.32/27'

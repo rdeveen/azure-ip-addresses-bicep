@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : Sql.QatarCentral
+metadata name = 'Sql.QatarCentral'
+metadata description = 'This module contains all the service tag IP addresses of Sql.QatarCentral for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('Sql.QatarCentral service tag IP addresses for Public')
 @export()
 var Sql_QatarCentral = [
   '4.171.24.0/25'

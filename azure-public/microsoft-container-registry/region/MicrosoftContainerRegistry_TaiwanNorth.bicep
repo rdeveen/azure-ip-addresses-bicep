@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : MicrosoftContainerRegistry.TaiwanNorth
+metadata name = 'MicrosoftContainerRegistry.TaiwanNorth'
+metadata description = 'This module contains all the service tag IP addresses of MicrosoftContainerRegistry.TaiwanNorth for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('MicrosoftContainerRegistry.TaiwanNorth service tag IP addresses for Public')
 @export()
 var MicrosoftContainerRegistry_TaiwanNorth = [
   '51.53.106.64/29'

@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : AzureCosmosDB.QatarCentral
+metadata name = 'AzureCosmosDB.QatarCentral'
+metadata description = 'This module contains all the service tag IP addresses of AzureCosmosDB.QatarCentral for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureCosmosDB.QatarCentral service tag IP addresses for Public')
 @export()
 var AzureCosmosDB_QatarCentral = [
   '4.171.24.128/25'

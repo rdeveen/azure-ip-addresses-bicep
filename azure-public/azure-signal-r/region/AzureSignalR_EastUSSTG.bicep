@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : AzureSignalR.EastUSSTG
+metadata name = 'AzureSignalR.EastUSSTG'
+metadata description = 'This module contains all the service tag IP addresses of AzureSignalR.EastUSSTG for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureSignalR.EastUSSTG service tag IP addresses for Public')
 @export()
 var AzureSignalR_EastUSSTG = [
   '2603:1030:104:2::400/120'

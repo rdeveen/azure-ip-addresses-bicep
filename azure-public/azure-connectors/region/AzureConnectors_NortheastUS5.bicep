@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : AzureConnectors.NortheastUS5
+metadata name = 'AzureConnectors.NortheastUS5'
+metadata description = 'This module contains all the service tag IP addresses of AzureConnectors.NortheastUS5 for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureConnectors.NortheastUS5 service tag IP addresses for Public')
 @export()
 var AzureConnectors_NortheastUS5 = [
   '172.194.76.192/26'

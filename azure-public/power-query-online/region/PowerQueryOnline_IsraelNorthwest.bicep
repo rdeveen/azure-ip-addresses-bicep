@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : PowerQueryOnline.IsraelNorthwest
+metadata name = 'PowerQueryOnline.IsraelNorthwest'
+metadata description = 'This module contains all the service tag IP addresses of PowerQueryOnline.IsraelNorthwest for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('PowerQueryOnline.IsraelNorthwest service tag IP addresses for Public')
 @export()
 var PowerQueryOnline_IsraelNorthwest = [
   '20.217.248.40/29'

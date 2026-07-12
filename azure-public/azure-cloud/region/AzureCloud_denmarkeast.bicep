@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : AzureCloud.denmarkeast
+metadata name = 'AzureCloud.denmarkeast'
+metadata description = 'This module contains all the service tag IP addresses of AzureCloud.denmarkeast for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureCloud.denmarkeast service tag IP addresses for Public')
 @export()
 var AzureCloud_denmarkeast = [
   '9.205.0.0/16'

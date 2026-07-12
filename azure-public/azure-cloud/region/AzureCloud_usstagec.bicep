@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : AzureCloud.usstagec
+metadata name = 'AzureCloud.usstagec'
+metadata description = 'This module contains all the service tag IP addresses of AzureCloud.usstagec for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureCloud.usstagec service tag IP addresses for Public')
 @export()
 var AzureCloud_usstagec = [
   '13.105.16.128/26'

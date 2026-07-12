@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : SCCservice.SwitzerlandNorth
+metadata name = 'SCCservice.SwitzerlandNorth'
+metadata description = 'This module contains all the service tag IP addresses of SCCservice.SwitzerlandNorth for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('SCCservice.SwitzerlandNorth service tag IP addresses for Public')
 @export()
 var SCCservice_SwitzerlandNorth = [
   '51.107.128.40/29'

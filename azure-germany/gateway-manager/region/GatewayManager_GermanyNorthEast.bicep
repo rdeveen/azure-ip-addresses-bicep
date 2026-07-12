@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_AzureGermany.json
 // Cloud        : AzureGermany
 // Service tag  : GatewayManager.GermanyNorthEast
+metadata name = 'GatewayManager.GermanyNorthEast'
+metadata description = 'This module contains all the service tag IP addresses of GatewayManager.GermanyNorthEast for AzureGermany.'
+metadata author = ''
+metadata author = ''
 
+@description('GatewayManager.GermanyNorthEast service tag IP addresses for AzureGermany')
 @export()
 var GatewayManager_GermanyNorthEast = [
   '51.5.144.201/32'

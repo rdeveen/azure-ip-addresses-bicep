@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : AppService.QatarCentral
+metadata name = 'AppService.QatarCentral'
+metadata description = 'This module contains all the service tag IP addresses of AppService.QatarCentral for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('AppService.QatarCentral service tag IP addresses for Public')
 @export()
 var AppService_QatarCentral = [
   '20.21.52.0/24'

@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : WindowsVirtualDesktop.DenmarkEast
+metadata name = 'WindowsVirtualDesktop.DenmarkEast'
+metadata description = 'This module contains all the service tag IP addresses of WindowsVirtualDesktop.DenmarkEast for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('WindowsVirtualDesktop.DenmarkEast service tag IP addresses for Public')
 @export()
 var WindowsVirtualDesktop_DenmarkEast = [
   '2603:1061:2010:45::/117'

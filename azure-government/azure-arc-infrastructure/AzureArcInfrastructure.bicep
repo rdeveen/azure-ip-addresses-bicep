@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_AzureGovernment.json
 // Cloud        : AzureGovernment
 // Service tag  : AzureArcInfrastructure
+metadata name = 'AzureArcInfrastructure'
+metadata description = 'This module contains all the service tag IP addresses of AzureArcInfrastructure for AzureGovernment.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureArcInfrastructure service tag IP addresses for AzureGovernment')
 @export()
 var AzureArcInfrastructure = [
   '20.140.48.252/30'

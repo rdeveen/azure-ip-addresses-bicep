@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_AzureGovernment.json
 // Cloud        : AzureGovernment
 // Service tag  : SCCservice.USDoDCentral
+metadata name = 'SCCservice.USDoDCentral'
+metadata description = 'This module contains all the service tag IP addresses of SCCservice.USDoDCentral for AzureGovernment.'
+metadata author = ''
+metadata author = ''
 
+@description('SCCservice.USDoDCentral service tag IP addresses for AzureGovernment')
 @export()
 var SCCservice_USDoDCentral = [
   '52.245.128.40/29'

@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : AzureArcInfrastructure.SwedenCentral
+metadata name = 'AzureArcInfrastructure.SwedenCentral'
+metadata description = 'This module contains all the service tag IP addresses of AzureArcInfrastructure.SwedenCentral for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureArcInfrastructure.SwedenCentral service tag IP addresses for Public')
 @export()
 var AzureArcInfrastructure_SwedenCentral = [
   '4.223.187.21/32'

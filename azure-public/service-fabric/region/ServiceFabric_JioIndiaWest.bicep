@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : ServiceFabric.JioIndiaWest
+metadata name = 'ServiceFabric.JioIndiaWest'
+metadata description = 'This module contains all the service tag IP addresses of ServiceFabric.JioIndiaWest for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('ServiceFabric.JioIndiaWest service tag IP addresses for Public')
 @export()
 var ServiceFabric_JioIndiaWest = [
   '20.193.202.24/29'

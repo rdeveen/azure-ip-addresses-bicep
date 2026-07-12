@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : AzureDataExplorerManagement.IsraelCentral
+metadata name = 'AzureDataExplorerManagement.IsraelCentral'
+metadata description = 'This module contains all the service tag IP addresses of AzureDataExplorerManagement.IsraelCentral for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureDataExplorerManagement.IsraelCentral service tag IP addresses for Public')
 @export()
 var AzureDataExplorerManagement_IsraelCentral = [
   '20.217.53.48/28'

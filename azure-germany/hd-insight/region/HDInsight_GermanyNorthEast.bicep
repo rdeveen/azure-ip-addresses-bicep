@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_AzureGermany.json
 // Cloud        : AzureGermany
 // Service tag  : HDInsight.GermanyNorthEast
+metadata name = 'HDInsight.GermanyNorthEast'
+metadata description = 'This module contains all the service tag IP addresses of HDInsight.GermanyNorthEast for AzureGermany.'
+metadata author = ''
+metadata author = ''
 
+@description('HDInsight.GermanyNorthEast service tag IP addresses for AzureGermany')
 @export()
 var HDInsight_GermanyNorthEast = [
   '51.5.144.101/32'

@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : GatewayManager.EastAsia
+metadata name = 'GatewayManager.EastAsia'
+metadata description = 'This module contains all the service tag IP addresses of GatewayManager.EastAsia for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('GatewayManager.EastAsia service tag IP addresses for Public')
 @export()
 var GatewayManager_EastAsia = [
   '13.75.36.8/29'

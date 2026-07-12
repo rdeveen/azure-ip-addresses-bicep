@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_China.json
 // Cloud        : China
 // Service tag  : AzureActiveDirectory.ServiceEndpoint
+metadata name = 'AzureActiveDirectory.ServiceEndpoint'
+metadata description = 'This module contains all the service tag IP addresses of AzureActiveDirectory.ServiceEndpoint for China.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureActiveDirectory.ServiceEndpoint service tag IP addresses for China')
 @export()
 var AzureActiveDirectory_ServiceEndpoint = [
   '40.72.70.0/28'

@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : AzureDigitalTwins.UAENorth
+metadata name = 'AzureDigitalTwins.UAENorth'
+metadata description = 'This module contains all the service tag IP addresses of AzureDigitalTwins.UAENorth for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureDigitalTwins.UAENorth service tag IP addresses for Public')
 @export()
 var AzureDigitalTwins_UAENorth = [
   '20.38.142.112/29'

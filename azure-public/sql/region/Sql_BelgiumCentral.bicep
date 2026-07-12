@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : Sql.BelgiumCentral
+metadata name = 'Sql.BelgiumCentral'
+metadata description = 'This module contains all the service tag IP addresses of Sql.BelgiumCentral for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('Sql.BelgiumCentral service tag IP addresses for Public')
 @export()
 var Sql_BelgiumCentral = [
   '9.160.56.96/27'

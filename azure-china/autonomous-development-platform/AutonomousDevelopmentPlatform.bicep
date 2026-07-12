@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_China.json
 // Cloud        : China
 // Service tag  : AutonomousDevelopmentPlatform
+metadata name = 'AutonomousDevelopmentPlatform'
+metadata description = 'This module contains all the service tag IP addresses of AutonomousDevelopmentPlatform for China.'
+metadata author = ''
+metadata author = ''
 
+@description('AutonomousDevelopmentPlatform service tag IP addresses for China')
 @export()
 var AutonomousDevelopmentPlatform = [
   '52.131.66.192/31'

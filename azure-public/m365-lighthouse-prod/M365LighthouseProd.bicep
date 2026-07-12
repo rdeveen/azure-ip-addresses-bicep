@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : M365LighthouseProd
+metadata name = 'M365LighthouseProd'
+metadata description = 'This module contains all the service tag IP addresses of M365LighthouseProd for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('M365LighthouseProd service tag IP addresses for Public')
 @export()
 var M365LighthouseProd = [
   '4.195.177.248/29'

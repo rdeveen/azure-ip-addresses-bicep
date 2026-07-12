@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : PowerPlatformInfra.WestCentralUS
+metadata name = 'PowerPlatformInfra.WestCentralUS'
+metadata description = 'This module contains all the service tag IP addresses of PowerPlatformInfra.WestCentralUS for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('PowerPlatformInfra.WestCentralUS service tag IP addresses for Public')
 @export()
 var PowerPlatformInfra_WestCentralUS = [
   '52.150.154.48/28'

@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : BatchNodeManagement.WestCentralUS
+metadata name = 'BatchNodeManagement.WestCentralUS'
+metadata description = 'This module contains all the service tag IP addresses of BatchNodeManagement.WestCentralUS for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('BatchNodeManagement.WestCentralUS service tag IP addresses for Public')
 @export()
 var BatchNodeManagement_WestCentralUS = [
   '13.71.195.160/27'

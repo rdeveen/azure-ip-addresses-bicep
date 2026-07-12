@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_China.json
 // Cloud        : China
 // Service tag  : EventHub.ChinaNorth3
+metadata name = 'EventHub.ChinaNorth3'
+metadata description = 'This module contains all the service tag IP addresses of EventHub.ChinaNorth3 for China.'
+metadata author = ''
+metadata author = ''
 
+@description('EventHub.ChinaNorth3 service tag IP addresses for China')
 @export()
 var EventHub_ChinaNorth3 = [
   '52.131.22.0/24'

@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_AzureGovernment.json
 // Cloud        : AzureGovernment
 // Service tag  : PowerBI.USDoDEast
+metadata name = 'PowerBI.USDoDEast'
+metadata description = 'This module contains all the service tag IP addresses of PowerBI.USDoDEast for AzureGovernment.'
+metadata author = ''
+metadata author = ''
 
+@description('PowerBI.USDoDEast service tag IP addresses for AzureGovernment')
 @export()
 var PowerBI_USDoDEast = [
   '20.140.64.118/31'

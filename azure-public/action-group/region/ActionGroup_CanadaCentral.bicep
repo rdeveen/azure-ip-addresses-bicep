@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : ActionGroup.CanadaCentral
+metadata name = 'ActionGroup.CanadaCentral'
+metadata description = 'This module contains all the service tag IP addresses of ActionGroup.CanadaCentral for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('ActionGroup.CanadaCentral service tag IP addresses for Public')
 @export()
 var ActionGroup_CanadaCentral = [
   '4.206.229.96/30'

@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_China.json
 // Cloud        : China
 // Service tag  : WindowsAdminCenter
+metadata name = 'WindowsAdminCenter'
+metadata description = 'This module contains all the service tag IP addresses of WindowsAdminCenter for China.'
+metadata author = ''
+metadata author = ''
 
+@description('WindowsAdminCenter service tag IP addresses for China')
 @export()
 var WindowsAdminCenter = [
   '52.131.18.136/29'

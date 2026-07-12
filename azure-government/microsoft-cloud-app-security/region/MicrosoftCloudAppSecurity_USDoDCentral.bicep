@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_AzureGovernment.json
 // Cloud        : AzureGovernment
 // Service tag  : MicrosoftCloudAppSecurity.USDoDCentral
+metadata name = 'MicrosoftCloudAppSecurity.USDoDCentral'
+metadata description = 'This module contains all the service tag IP addresses of MicrosoftCloudAppSecurity.USDoDCentral for AzureGovernment.'
+metadata author = ''
+metadata author = ''
 
+@description('MicrosoftCloudAppSecurity.USDoDCentral service tag IP addresses for AzureGovernment')
 @export()
 var MicrosoftCloudAppSecurity_USDoDCentral = [
   '20.158.152.128/31'

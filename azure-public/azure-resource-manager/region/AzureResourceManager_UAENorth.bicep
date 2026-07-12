@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : AzureResourceManager.UAENorth
+metadata name = 'AzureResourceManager.UAENorth'
+metadata description = 'This module contains all the service tag IP addresses of AzureResourceManager.UAENorth for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureResourceManager.UAENorth service tag IP addresses for Public')
 @export()
 var AzureResourceManager_UAENorth = [
   '40.120.80.0/23'

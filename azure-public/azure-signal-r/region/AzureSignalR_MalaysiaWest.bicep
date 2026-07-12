@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : AzureSignalR.MalaysiaWest
+metadata name = 'AzureSignalR.MalaysiaWest'
+metadata description = 'This module contains all the service tag IP addresses of AzureSignalR.MalaysiaWest for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureSignalR.MalaysiaWest service tag IP addresses for Public')
 @export()
 var AzureSignalR_MalaysiaWest = [
   '20.17.88.0/26'

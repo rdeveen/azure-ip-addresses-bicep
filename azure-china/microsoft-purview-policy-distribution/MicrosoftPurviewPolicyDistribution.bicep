@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_China.json
 // Cloud        : China
 // Service tag  : MicrosoftPurviewPolicyDistribution
+metadata name = 'MicrosoftPurviewPolicyDistribution'
+metadata description = 'This module contains all the service tag IP addresses of MicrosoftPurviewPolicyDistribution for China.'
+metadata author = ''
+metadata author = ''
 
+@description('MicrosoftPurviewPolicyDistribution service tag IP addresses for China')
 @export()
 var MicrosoftPurviewPolicyDistribution = [
   '40.162.70.188/30'

@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : MicrosoftContainerRegistry.IsraelNorthwest
+metadata name = 'MicrosoftContainerRegistry.IsraelNorthwest'
+metadata description = 'This module contains all the service tag IP addresses of MicrosoftContainerRegistry.IsraelNorthwest for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('MicrosoftContainerRegistry.IsraelNorthwest service tag IP addresses for Public')
 @export()
 var MicrosoftContainerRegistry_IsraelNorthwest = [
   '51.4.159.152/29'

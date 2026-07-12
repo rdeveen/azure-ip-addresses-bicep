@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : AzureDataExplorerManagement.NorthCentralUS
+metadata name = 'AzureDataExplorerManagement.NorthCentralUS'
+metadata description = 'This module contains all the service tag IP addresses of AzureDataExplorerManagement.NorthCentralUS for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureDataExplorerManagement.NorthCentralUS service tag IP addresses for Public')
 @export()
 var AzureDataExplorerManagement_NorthCentralUS = [
   '20.51.6.240/28'

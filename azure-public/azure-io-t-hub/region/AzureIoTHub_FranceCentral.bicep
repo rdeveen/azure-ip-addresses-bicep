@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : AzureIoTHub.FranceCentral
+metadata name = 'AzureIoTHub.FranceCentral'
+metadata description = 'This module contains all the service tag IP addresses of AzureIoTHub.FranceCentral for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureIoTHub.FranceCentral service tag IP addresses for Public')
 @export()
 var AzureIoTHub_FranceCentral = [
   '4.211.136.48/29'

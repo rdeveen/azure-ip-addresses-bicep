@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : AzureMachineLearning.KoreaCentral
+metadata name = 'AzureMachineLearning.KoreaCentral'
+metadata description = 'This module contains all the service tag IP addresses of AzureMachineLearning.KoreaCentral for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureMachineLearning.KoreaCentral service tag IP addresses for Public')
 @export()
 var AzureMachineLearning_KoreaCentral = [
   '4.230.126.142/31'

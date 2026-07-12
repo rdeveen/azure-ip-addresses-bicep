@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : AzureOpenDatasets.UAECentral
+metadata name = 'AzureOpenDatasets.UAECentral'
+metadata description = 'This module contains all the service tag IP addresses of AzureOpenDatasets.UAECentral for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureOpenDatasets.UAECentral service tag IP addresses for Public')
 @export()
 var AzureOpenDatasets_UAECentral = [
   '20.37.64.192/28'

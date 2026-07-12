@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : AzureIoTHub.CentralUSEUAP
+metadata name = 'AzureIoTHub.CentralUSEUAP'
+metadata description = 'This module contains all the service tag IP addresses of AzureIoTHub.CentralUSEUAP for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureIoTHub.CentralUSEUAP service tag IP addresses for Public')
 @export()
 var AzureIoTHub_CentralUSEUAP = [
   '20.45.198.32/27'

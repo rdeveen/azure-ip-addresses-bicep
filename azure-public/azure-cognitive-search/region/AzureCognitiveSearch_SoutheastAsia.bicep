@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : AzureCognitiveSearch.SoutheastAsia
+metadata name = 'AzureCognitiveSearch.SoutheastAsia'
+metadata description = 'This module contains all the service tag IP addresses of AzureCognitiveSearch.SoutheastAsia for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureCognitiveSearch.SoutheastAsia service tag IP addresses for Public')
 @export()
 var AzureCognitiveSearch_SoutheastAsia = [
   '20.43.130.128/26'

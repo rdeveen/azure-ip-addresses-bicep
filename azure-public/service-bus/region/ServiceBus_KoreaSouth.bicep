@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : ServiceBus.KoreaSouth
+metadata name = 'ServiceBus.KoreaSouth'
+metadata description = 'This module contains all the service tag IP addresses of ServiceBus.KoreaSouth for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('ServiceBus.KoreaSouth service tag IP addresses for Public')
 @export()
 var ServiceBus_KoreaSouth = [
   '4.243.45.192/26'

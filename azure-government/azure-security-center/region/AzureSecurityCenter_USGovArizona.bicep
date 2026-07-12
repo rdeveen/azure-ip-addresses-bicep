@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_AzureGovernment.json
 // Cloud        : AzureGovernment
 // Service tag  : AzureSecurityCenter.USGovArizona
+metadata name = 'AzureSecurityCenter.USGovArizona'
+metadata description = 'This module contains all the service tag IP addresses of AzureSecurityCenter.USGovArizona for AzureGovernment.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureSecurityCenter.USGovArizona service tag IP addresses for AzureGovernment')
 @export()
 var AzureSecurityCenter_USGovArizona = [
   '20.140.224.64/27'

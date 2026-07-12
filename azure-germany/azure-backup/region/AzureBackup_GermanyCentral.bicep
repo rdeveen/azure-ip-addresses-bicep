@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_AzureGermany.json
 // Cloud        : AzureGermany
 // Service tag  : AzureBackup.GermanyCentral
+metadata name = 'AzureBackup.GermanyCentral'
+metadata description = 'This module contains all the service tag IP addresses of AzureBackup.GermanyCentral for AzureGermany.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureBackup.GermanyCentral service tag IP addresses for AzureGermany')
 @export()
 var AzureBackup_GermanyCentral = [
   '51.8.235.0/26'

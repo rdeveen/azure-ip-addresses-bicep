@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : AzureInformationProtection
+metadata name = 'AzureInformationProtection'
+metadata description = 'This module contains all the service tag IP addresses of AzureInformationProtection for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureInformationProtection service tag IP addresses for Public')
 @export()
 var AzureInformationProtection = [
   '4.145.20.116/30'

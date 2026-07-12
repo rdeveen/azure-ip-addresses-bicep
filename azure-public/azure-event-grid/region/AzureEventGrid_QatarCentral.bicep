@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : AzureEventGrid.QatarCentral
+metadata name = 'AzureEventGrid.QatarCentral'
+metadata description = 'This module contains all the service tag IP addresses of AzureEventGrid.QatarCentral for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureEventGrid.QatarCentral service tag IP addresses for Public')
 @export()
 var AzureEventGrid_QatarCentral = [
   '4.244.56.0/21'

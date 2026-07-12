@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_China.json
 // Cloud        : China
 // Service tag  : AzureBackup.ChinaEast
+metadata name = 'AzureBackup.ChinaEast'
+metadata description = 'This module contains all the service tag IP addresses of AzureBackup.ChinaEast for China.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureBackup.ChinaEast service tag IP addresses for China')
 @export()
 var AzureBackup_ChinaEast = [
   '52.130.15.0/26'

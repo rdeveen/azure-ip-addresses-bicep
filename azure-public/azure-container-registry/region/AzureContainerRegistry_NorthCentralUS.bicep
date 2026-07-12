@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : AzureContainerRegistry.NorthCentralUS
+metadata name = 'AzureContainerRegistry.NorthCentralUS'
+metadata description = 'This module contains all the service tag IP addresses of AzureContainerRegistry.NorthCentralUS for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureContainerRegistry.NorthCentralUS service tag IP addresses for Public')
 @export()
 var AzureContainerRegistry_NorthCentralUS = [
   '20.49.115.0/26'

@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : StorageMover
+metadata name = 'StorageMover'
+metadata description = 'This module contains all the service tag IP addresses of StorageMover for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('StorageMover service tag IP addresses for Public')
 @export()
 var StorageMover = [
   '4.149.115.4/31'

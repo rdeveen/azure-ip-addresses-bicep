@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : MicrosoftContainerRegistry.SwedenSouth
+metadata name = 'MicrosoftContainerRegistry.SwedenSouth'
+metadata description = 'This module contains all the service tag IP addresses of MicrosoftContainerRegistry.SwedenSouth for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('MicrosoftContainerRegistry.SwedenSouth service tag IP addresses for Public')
 @export()
 var MicrosoftContainerRegistry_SwedenSouth = [
   '51.12.202.16/29'

@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : ServiceFabric.AustraliaCentral
+metadata name = 'ServiceFabric.AustraliaCentral'
+metadata description = 'This module contains all the service tag IP addresses of ServiceFabric.AustraliaCentral for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('ServiceFabric.AustraliaCentral service tag IP addresses for Public')
 @export()
 var ServiceFabric_AustraliaCentral = [
   '20.36.40.70/32'

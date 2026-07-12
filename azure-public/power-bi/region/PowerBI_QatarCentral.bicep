@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : PowerBI.QatarCentral
+metadata name = 'PowerBI.QatarCentral'
+metadata description = 'This module contains all the service tag IP addresses of PowerBI.QatarCentral for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('PowerBI.QatarCentral service tag IP addresses for Public')
 @export()
 var PowerBI_QatarCentral = [
   '4.171.26.72/29'

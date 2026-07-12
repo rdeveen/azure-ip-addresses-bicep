@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : AzureSignalR.QatarCentral
+metadata name = 'AzureSignalR.QatarCentral'
+metadata description = 'This module contains all the service tag IP addresses of AzureSignalR.QatarCentral for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureSignalR.QatarCentral service tag IP addresses for Public')
 @export()
 var AzureSignalR_QatarCentral = [
   '20.21.55.0/25'

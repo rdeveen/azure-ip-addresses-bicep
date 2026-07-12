@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_AzureGovernment.json
 // Cloud        : AzureGovernment
 // Service tag  : ServiceBus.USDoDCentral
+metadata name = 'ServiceBus.USDoDCentral'
+metadata description = 'This module contains all the service tag IP addresses of ServiceBus.USDoDCentral for AzureGovernment.'
+metadata author = ''
+metadata author = ''
 
+@description('ServiceBus.USDoDCentral service tag IP addresses for AzureGovernment')
 @export()
 var ServiceBus_USDoDCentral = [
   '20.158.159.128/25'

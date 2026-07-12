@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : AzureOpenDatasets.KoreaSouth
+metadata name = 'AzureOpenDatasets.KoreaSouth'
+metadata description = 'This module contains all the service tag IP addresses of AzureOpenDatasets.KoreaSouth for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureOpenDatasets.KoreaSouth service tag IP addresses for Public')
 @export()
 var AzureOpenDatasets_KoreaSouth = [
   '40.80.169.128/28'

@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : PowerQueryOnline.IndonesiaCentral
+metadata name = 'PowerQueryOnline.IndonesiaCentral'
+metadata description = 'This module contains all the service tag IP addresses of PowerQueryOnline.IndonesiaCentral for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('PowerQueryOnline.IndonesiaCentral service tag IP addresses for Public')
 @export()
 var PowerQueryOnline_IndonesiaCentral = [
   '70.153.90.96/27'

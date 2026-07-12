@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_China.json
 // Cloud        : China
 // Service tag  : AzureHealthcareAPIs
+metadata name = 'AzureHealthcareAPIs'
+metadata description = 'This module contains all the service tag IP addresses of AzureHealthcareAPIs for China.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureHealthcareAPIs service tag IP addresses for China')
 @export()
 var AzureHealthcareAPIs = [
   '52.131.20.224/27'

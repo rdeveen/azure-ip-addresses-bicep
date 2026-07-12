@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : BatchNodeManagement.JapanWest
+metadata name = 'BatchNodeManagement.JapanWest'
+metadata description = 'This module contains all the service tag IP addresses of BatchNodeManagement.JapanWest for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('BatchNodeManagement.JapanWest service tag IP addresses for Public')
 @export()
 var BatchNodeManagement_JapanWest = [
   '40.74.101.0/27'

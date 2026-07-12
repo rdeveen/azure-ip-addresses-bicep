@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : AzureDigitalTwins.CentralUSEUAP
+metadata name = 'AzureDigitalTwins.CentralUSEUAP'
+metadata description = 'This module contains all the service tag IP addresses of AzureDigitalTwins.CentralUSEUAP for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureDigitalTwins.CentralUSEUAP service tag IP addresses for Public')
 @export()
 var AzureDigitalTwins_CentralUSEUAP = [
   '20.46.10.56/29'

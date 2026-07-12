@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : PowerPlatformInfra.UAECentral
+metadata name = 'PowerPlatformInfra.UAECentral'
+metadata description = 'This module contains all the service tag IP addresses of PowerPlatformInfra.UAECentral for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('PowerPlatformInfra.UAECentral service tag IP addresses for Public')
 @export()
 var PowerPlatformInfra_UAECentral = [
   '20.37.68.48/28'

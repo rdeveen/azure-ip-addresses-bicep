@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : Sql.GermanyNorth
+metadata name = 'Sql.GermanyNorth'
+metadata description = 'This module contains all the service tag IP addresses of Sql.GermanyNorth for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('Sql.GermanyNorth service tag IP addresses for Public')
 @export()
 var Sql_GermanyNorth = [
   '20.113.249.128/25'

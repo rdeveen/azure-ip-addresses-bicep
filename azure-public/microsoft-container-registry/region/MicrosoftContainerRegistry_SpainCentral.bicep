@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : MicrosoftContainerRegistry.SpainCentral
+metadata name = 'MicrosoftContainerRegistry.SpainCentral'
+metadata description = 'This module contains all the service tag IP addresses of MicrosoftContainerRegistry.SpainCentral for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('MicrosoftContainerRegistry.SpainCentral service tag IP addresses for Public')
 @export()
 var MicrosoftContainerRegistry_SpainCentral = [
   '68.221.98.64/29'

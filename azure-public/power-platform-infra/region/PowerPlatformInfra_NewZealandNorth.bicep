@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : PowerPlatformInfra.NewZealandNorth
+metadata name = 'PowerPlatformInfra.NewZealandNorth'
+metadata description = 'This module contains all the service tag IP addresses of PowerPlatformInfra.NewZealandNorth for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('PowerPlatformInfra.NewZealandNorth service tag IP addresses for Public')
 @export()
 var PowerPlatformInfra_NewZealandNorth = [
   '172.204.240.90/31'

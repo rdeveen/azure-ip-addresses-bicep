@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : AzureDataExplorerManagement.CentralUSEUAP
+metadata name = 'AzureDataExplorerManagement.CentralUSEUAP'
+metadata description = 'This module contains all the service tag IP addresses of AzureDataExplorerManagement.CentralUSEUAP for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureDataExplorerManagement.CentralUSEUAP service tag IP addresses for Public')
 @export()
 var AzureDataExplorerManagement_CentralUSEUAP = [
   '20.46.13.240/28'

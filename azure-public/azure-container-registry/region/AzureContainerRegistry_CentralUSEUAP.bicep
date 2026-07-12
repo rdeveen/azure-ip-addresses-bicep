@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : AzureContainerRegistry.CentralUSEUAP
+metadata name = 'AzureContainerRegistry.CentralUSEUAP'
+metadata description = 'This module contains all the service tag IP addresses of AzureContainerRegistry.CentralUSEUAP for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureContainerRegistry.CentralUSEUAP service tag IP addresses for Public')
 @export()
 var AzureContainerRegistry_CentralUSEUAP = [
   '20.45.199.128/25'

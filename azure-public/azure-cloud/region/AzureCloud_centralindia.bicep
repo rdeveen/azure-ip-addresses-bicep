@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : AzureCloud.centralindia
+metadata name = 'AzureCloud.centralindia'
+metadata description = 'This module contains all the service tag IP addresses of AzureCloud.centralindia for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureCloud.centralindia service tag IP addresses for Public')
 @export()
 var AzureCloud_centralindia = [
   '4.186.0.0/16'

@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : Sql.CanadaEast
+metadata name = 'Sql.CanadaEast'
+metadata description = 'This module contains all the service tag IP addresses of Sql.CanadaEast for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('Sql.CanadaEast service tag IP addresses for Public')
 @export()
 var Sql_CanadaEast = [
   '4.239.76.68/30'

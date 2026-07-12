@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_China.json
 // Cloud        : China
 // Service tag  : ActionGroup
+metadata name = 'ActionGroup'
+metadata description = 'This module contains all the service tag IP addresses of ActionGroup for China.'
+metadata author = ''
+metadata author = ''
 
+@description('ActionGroup service tag IP addresses for China')
 @export()
 var ActionGroup = [
   '40.72.175.176/30'

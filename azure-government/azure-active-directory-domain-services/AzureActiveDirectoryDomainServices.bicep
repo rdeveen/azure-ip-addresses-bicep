@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_AzureGovernment.json
 // Cloud        : AzureGovernment
 // Service tag  : AzureActiveDirectoryDomainServices
+metadata name = 'AzureActiveDirectoryDomainServices'
+metadata description = 'This module contains all the service tag IP addresses of AzureActiveDirectoryDomainServices for AzureGovernment.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureActiveDirectoryDomainServices service tag IP addresses for AzureGovernment')
 @export()
 var AzureActiveDirectoryDomainServices = [
   '13.72.52.95/32'

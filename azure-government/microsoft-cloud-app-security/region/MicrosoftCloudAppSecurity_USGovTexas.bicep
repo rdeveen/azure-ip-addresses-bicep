@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_AzureGovernment.json
 // Cloud        : AzureGovernment
 // Service tag  : MicrosoftCloudAppSecurity.USGovTexas
+metadata name = 'MicrosoftCloudAppSecurity.USGovTexas'
+metadata description = 'This module contains all the service tag IP addresses of MicrosoftCloudAppSecurity.USGovTexas for AzureGovernment.'
+metadata author = ''
+metadata author = ''
 
+@description('MicrosoftCloudAppSecurity.USGovTexas service tag IP addresses for AzureGovernment')
 @export()
 var MicrosoftCloudAppSecurity_USGovTexas = [
   '20.141.96.40/32'

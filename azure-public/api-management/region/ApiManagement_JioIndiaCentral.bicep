@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : ApiManagement.JioIndiaCentral
+metadata name = 'ApiManagement.JioIndiaCentral'
+metadata description = 'This module contains all the service tag IP addresses of ApiManagement.JioIndiaCentral for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('ApiManagement.JioIndiaCentral service tag IP addresses for Public')
 @export()
 var ApiManagement_JioIndiaCentral = [
   '20.192.50.64/28'

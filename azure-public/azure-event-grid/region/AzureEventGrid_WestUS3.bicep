@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : AzureEventGrid.WestUS3
+metadata name = 'AzureEventGrid.WestUS3'
+metadata description = 'This module contains all the service tag IP addresses of AzureEventGrid.WestUS3 for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureEventGrid.WestUS3 service tag IP addresses for Public')
 @export()
 var AzureEventGrid_WestUS3 = [
   '20.150.164.0/25'

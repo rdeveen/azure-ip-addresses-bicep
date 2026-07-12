@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_China.json
 // Cloud        : China
 // Service tag  : Sql.ChinaEast
+metadata name = 'Sql.ChinaEast'
+metadata description = 'This module contains all the service tag IP addresses of Sql.ChinaEast for China.'
+metadata author = ''
+metadata author = ''
 
+@description('Sql.ChinaEast service tag IP addresses for China')
 @export()
 var Sql_ChinaEast = [
   '40.72.196.0/23'

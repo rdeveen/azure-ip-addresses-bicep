@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : HDInsight.TaiwanNorth
+metadata name = 'HDInsight.TaiwanNorth'
+metadata description = 'This module contains all the service tag IP addresses of HDInsight.TaiwanNorth for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('HDInsight.TaiwanNorth service tag IP addresses for Public')
 @export()
 var HDInsight_TaiwanNorth = [
   '51.53.30.168/29'

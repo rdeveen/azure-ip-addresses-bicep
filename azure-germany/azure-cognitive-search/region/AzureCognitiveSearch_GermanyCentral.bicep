@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_AzureGermany.json
 // Cloud        : AzureGermany
 // Service tag  : AzureCognitiveSearch.GermanyCentral
+metadata name = 'AzureCognitiveSearch.GermanyCentral'
+metadata description = 'This module contains all the service tag IP addresses of AzureCognitiveSearch.GermanyCentral for AzureGermany.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureCognitiveSearch.GermanyCentral service tag IP addresses for AzureGermany')
 @export()
 var AzureCognitiveSearch_GermanyCentral = [
   '51.18.32.96/28'

@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : Storage.NorwayWest
+metadata name = 'Storage.NorwayWest'
+metadata description = 'This module contains all the service tag IP addresses of Storage.NorwayWest for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('Storage.NorwayWest service tag IP addresses for Public')
 @export()
 var Storage_NorwayWest = [
   '20.33.170.0/24'

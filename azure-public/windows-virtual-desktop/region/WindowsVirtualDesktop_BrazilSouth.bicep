@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : WindowsVirtualDesktop.BrazilSouth
+metadata name = 'WindowsVirtualDesktop.BrazilSouth'
+metadata description = 'This module contains all the service tag IP addresses of WindowsVirtualDesktop.BrazilSouth for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('WindowsVirtualDesktop.BrazilSouth service tag IP addresses for Public')
 @export()
 var WindowsVirtualDesktop_BrazilSouth = [
   '40.64.144.224/29'

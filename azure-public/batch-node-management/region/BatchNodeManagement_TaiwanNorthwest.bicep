@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : BatchNodeManagement.TaiwanNorthwest
+metadata name = 'BatchNodeManagement.TaiwanNorthwest'
+metadata description = 'This module contains all the service tag IP addresses of BatchNodeManagement.TaiwanNorthwest for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('BatchNodeManagement.TaiwanNorthwest service tag IP addresses for Public')
 @export()
 var BatchNodeManagement_TaiwanNorthwest = [
   '51.53.169.32/27'

@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : AzureArcInfrastructure.NortheastUS5
+metadata name = 'AzureArcInfrastructure.NortheastUS5'
+metadata description = 'This module contains all the service tag IP addresses of AzureArcInfrastructure.NortheastUS5 for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureArcInfrastructure.NortheastUS5 service tag IP addresses for Public')
 @export()
 var AzureArcInfrastructure_NortheastUS5 = [
   '172.194.78.140/30'

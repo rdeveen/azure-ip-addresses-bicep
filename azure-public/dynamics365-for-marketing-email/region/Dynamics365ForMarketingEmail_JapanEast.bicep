@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : Dynamics365ForMarketingEmail.JapanEast
+metadata name = 'Dynamics365ForMarketingEmail.JapanEast'
+metadata description = 'This module contains all the service tag IP addresses of Dynamics365ForMarketingEmail.JapanEast for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('Dynamics365ForMarketingEmail.JapanEast service tag IP addresses for Public')
 @export()
 var Dynamics365ForMarketingEmail_JapanEast = [
   '13.78.107.0/24'

@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : MicrosoftCloudAppSecurity.UKWest
+metadata name = 'MicrosoftCloudAppSecurity.UKWest'
+metadata description = 'This module contains all the service tag IP addresses of MicrosoftCloudAppSecurity.UKWest for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('MicrosoftCloudAppSecurity.UKWest service tag IP addresses for Public')
 @export()
 var MicrosoftCloudAppSecurity_UKWest = [
   '20.40.106.50/31'

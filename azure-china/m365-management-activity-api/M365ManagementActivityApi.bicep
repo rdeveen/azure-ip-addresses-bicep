@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_China.json
 // Cloud        : China
 // Service tag  : M365ManagementActivityApi
+metadata name = 'M365ManagementActivityApi'
+metadata description = 'This module contains all the service tag IP addresses of M365ManagementActivityApi for China.'
+metadata author = ''
+metadata author = ''
 
+@description('M365ManagementActivityApi service tag IP addresses for China')
 @export()
 var M365ManagementActivityApi = [
   '40.73.141.154/31'

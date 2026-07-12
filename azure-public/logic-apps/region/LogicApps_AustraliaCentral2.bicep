@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : LogicApps.AustraliaCentral2
+metadata name = 'LogicApps.AustraliaCentral2'
+metadata description = 'This module contains all the service tag IP addresses of LogicApps.AustraliaCentral2 for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('LogicApps.AustraliaCentral2 service tag IP addresses for Public')
 @export()
 var LogicApps_AustraliaCentral2 = [
   '4.198.41.112/28'

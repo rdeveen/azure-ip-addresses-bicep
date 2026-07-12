@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_AzureGovernment.json
 // Cloud        : AzureGovernment
 // Service tag  : PowerPlatformPlex.USDoDCentral
+metadata name = 'PowerPlatformPlex.USDoDCentral'
+metadata description = 'This module contains all the service tag IP addresses of PowerPlatformPlex.USDoDCentral for AzureGovernment.'
+metadata author = ''
+metadata author = ''
 
+@description('PowerPlatformPlex.USDoDCentral service tag IP addresses for AzureGovernment')
 @export()
 var PowerPlatformPlex_USDoDCentral = [
   '20.159.244.0/25'

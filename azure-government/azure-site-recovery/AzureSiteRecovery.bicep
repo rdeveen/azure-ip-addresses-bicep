@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_AzureGovernment.json
 // Cloud        : AzureGovernment
 // Service tag  : AzureSiteRecovery
+metadata name = 'AzureSiteRecovery'
+metadata description = 'This module contains all the service tag IP addresses of AzureSiteRecovery for AzureGovernment.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureSiteRecovery service tag IP addresses for AzureGovernment')
 @export()
 var AzureSiteRecovery = [
   '13.72.184.23/32'

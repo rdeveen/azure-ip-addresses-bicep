@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : AutonomousDevelopmentPlatform
+metadata name = 'AutonomousDevelopmentPlatform'
+metadata description = 'This module contains all the service tag IP addresses of AutonomousDevelopmentPlatform for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('AutonomousDevelopmentPlatform service tag IP addresses for Public')
 @export()
 var AutonomousDevelopmentPlatform = [
   '20.14.121.176/31'

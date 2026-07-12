@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_China.json
 // Cloud        : China
 // Service tag  : Dynamics365ForMarketingEmail
+metadata name = 'Dynamics365ForMarketingEmail'
+metadata description = 'This module contains all the service tag IP addresses of Dynamics365ForMarketingEmail for China.'
+metadata author = ''
+metadata author = ''
 
+@description('Dynamics365ForMarketingEmail service tag IP addresses for China')
 @export()
 var Dynamics365ForMarketingEmail = [
   '139.217.124.0/27'

@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : AzureEventGrid.CanadaCentral
+metadata name = 'AzureEventGrid.CanadaCentral'
+metadata description = 'This module contains all the service tag IP addresses of AzureEventGrid.CanadaCentral for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureEventGrid.CanadaCentral service tag IP addresses for Public')
 @export()
 var AzureEventGrid_CanadaCentral = [
   '4.173.28.0/22'

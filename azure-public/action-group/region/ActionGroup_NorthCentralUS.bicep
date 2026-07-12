@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : ActionGroup.NorthCentralUS
+metadata name = 'ActionGroup.NorthCentralUS'
+metadata description = 'This module contains all the service tag IP addresses of ActionGroup.NorthCentralUS for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('ActionGroup.NorthCentralUS service tag IP addresses for Public')
 @export()
 var ActionGroup_NorthCentralUS = [
   '13.106.38.142/32'

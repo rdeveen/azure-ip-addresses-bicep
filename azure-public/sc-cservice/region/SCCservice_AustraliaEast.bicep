@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : SCCservice.AustraliaEast
+metadata name = 'SCCservice.AustraliaEast'
+metadata description = 'This module contains all the service tag IP addresses of SCCservice.AustraliaEast for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('SCCservice.AustraliaEast service tag IP addresses for Public')
 @export()
 var SCCservice_AustraliaEast = [
   '13.70.79.72/29'

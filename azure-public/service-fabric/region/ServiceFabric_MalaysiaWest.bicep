@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : ServiceFabric.MalaysiaWest
+metadata name = 'ServiceFabric.MalaysiaWest'
+metadata description = 'This module contains all the service tag IP addresses of ServiceFabric.MalaysiaWest for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('ServiceFabric.MalaysiaWest service tag IP addresses for Public')
 @export()
 var ServiceFabric_MalaysiaWest = [
   '20.17.130.12/30'

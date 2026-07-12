@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_AzureGovernment.json
 // Cloud        : AzureGovernment
 // Service tag  : SystemServiceAzureSpringAppsResourceProvider
+metadata name = 'SystemServiceAzureSpringAppsResourceProvider'
+metadata description = 'This module contains all the service tag IP addresses of SystemServiceAzureSpringAppsResourceProvider for AzureGovernment.'
+metadata author = ''
+metadata author = ''
 
+@description('SystemServiceAzureSpringAppsResourceProvider service tag IP addresses for AzureGovernment')
 @export()
 var SystemServiceAzureSpringAppsResourceProvider = [
   '62.10.193.64/27'

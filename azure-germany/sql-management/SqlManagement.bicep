@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_AzureGermany.json
 // Cloud        : AzureGermany
 // Service tag  : SqlManagement
+metadata name = 'SqlManagement'
+metadata description = 'This module contains all the service tag IP addresses of SqlManagement for AzureGermany.'
+metadata author = ''
+metadata author = ''
 
+@description('SqlManagement service tag IP addresses for AzureGermany')
 @export()
 var SqlManagement = [
   '51.4.136.19/32'

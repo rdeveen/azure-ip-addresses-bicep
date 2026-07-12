@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_AzureGovernment.json
 // Cloud        : AzureGovernment
 // Service tag  : PowerPlatformInfra
+metadata name = 'PowerPlatformInfra'
+metadata description = 'This module contains all the service tag IP addresses of PowerPlatformInfra for AzureGovernment.'
+metadata author = ''
+metadata author = ''
 
+@description('PowerPlatformInfra service tag IP addresses for AzureGovernment')
 @export()
 var PowerPlatformInfra = [
   '20.140.59.12/30'

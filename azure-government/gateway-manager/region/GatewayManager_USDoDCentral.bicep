@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_AzureGovernment.json
 // Cloud        : AzureGovernment
 // Service tag  : GatewayManager.USDoDCentral
+metadata name = 'GatewayManager.USDoDCentral'
+metadata description = 'This module contains all the service tag IP addresses of GatewayManager.USDoDCentral for AzureGovernment.'
+metadata author = ''
+metadata author = ''
 
+@description('GatewayManager.USDoDCentral service tag IP addresses for AzureGovernment')
 @export()
 var GatewayManager_USDoDCentral = [
   '20.140.72.72/29'

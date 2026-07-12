@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : AppServiceManagement.JioIndiaWest
+metadata name = 'AppServiceManagement.JioIndiaWest'
+metadata description = 'This module contains all the service tag IP addresses of AppServiceManagement.JioIndiaWest for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('AppServiceManagement.JioIndiaWest service tag IP addresses for Public')
 @export()
 var AppServiceManagement_JioIndiaWest = [
   '20.193.202.192/26'

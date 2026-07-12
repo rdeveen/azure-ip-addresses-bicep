@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_China.json
 // Cloud        : China
 // Service tag  : AzureCognitiveSearch.ChinaNorth
+metadata name = 'AzureCognitiveSearch.ChinaNorth'
+metadata description = 'This module contains all the service tag IP addresses of AzureCognitiveSearch.ChinaNorth for China.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureCognitiveSearch.ChinaNorth service tag IP addresses for China')
 @export()
 var AzureCognitiveSearch_ChinaNorth = [
   '40.72.72.96/28'

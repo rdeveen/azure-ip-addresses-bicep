@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_AzureGovernment.json
 // Cloud        : AzureGovernment
 // Service tag  : EventHub.USDoDCentral
+metadata name = 'EventHub.USDoDCentral'
+metadata description = 'This module contains all the service tag IP addresses of EventHub.USDoDCentral for AzureGovernment.'
+metadata author = ''
+metadata author = ''
 
+@description('EventHub.USDoDCentral service tag IP addresses for AzureGovernment')
 @export()
 var EventHub_USDoDCentral = [
   '52.127.58.32/27'

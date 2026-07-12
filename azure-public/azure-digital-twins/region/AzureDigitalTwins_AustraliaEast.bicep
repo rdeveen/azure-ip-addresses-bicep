@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : AzureDigitalTwins.AustraliaEast
+metadata name = 'AzureDigitalTwins.AustraliaEast'
+metadata description = 'This module contains all the service tag IP addresses of AzureDigitalTwins.AustraliaEast for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureDigitalTwins.AustraliaEast service tag IP addresses for Public')
 @export()
 var AzureDigitalTwins_AustraliaEast = [
   '4.237.142.18/31'

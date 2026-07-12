@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : AzureResourceManager.TaiwanNorth
+metadata name = 'AzureResourceManager.TaiwanNorth'
+metadata description = 'This module contains all the service tag IP addresses of AzureResourceManager.TaiwanNorth for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureResourceManager.TaiwanNorth service tag IP addresses for Public')
 @export()
 var AzureResourceManager_TaiwanNorth = [
   '51.53.98.0/23'

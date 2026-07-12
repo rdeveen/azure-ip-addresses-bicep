@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : HDInsight.GermanyWestCentral
+metadata name = 'HDInsight.GermanyWestCentral'
+metadata description = 'This module contains all the service tag IP addresses of HDInsight.GermanyWestCentral for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('HDInsight.GermanyWestCentral service tag IP addresses for Public')
 @export()
 var HDInsight_GermanyWestCentral = [
   '51.116.145.168/29'

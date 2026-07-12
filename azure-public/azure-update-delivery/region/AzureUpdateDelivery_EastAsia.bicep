@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : AzureUpdateDelivery.EastAsia
+metadata name = 'AzureUpdateDelivery.EastAsia'
+metadata description = 'This module contains all the service tag IP addresses of AzureUpdateDelivery.EastAsia for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureUpdateDelivery.EastAsia service tag IP addresses for Public')
 @export()
 var AzureUpdateDelivery_EastAsia = [
   '20.189.123.131/32'

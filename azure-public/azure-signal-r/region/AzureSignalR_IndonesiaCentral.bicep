@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : AzureSignalR.IndonesiaCentral
+metadata name = 'AzureSignalR.IndonesiaCentral'
+metadata description = 'This module contains all the service tag IP addresses of AzureSignalR.IndonesiaCentral for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureSignalR.IndonesiaCentral service tag IP addresses for Public')
 @export()
 var AzureSignalR_IndonesiaCentral = [
   '70.153.64.128/26'

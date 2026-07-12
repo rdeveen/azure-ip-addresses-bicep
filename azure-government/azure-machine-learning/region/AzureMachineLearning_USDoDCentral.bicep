@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_AzureGovernment.json
 // Cloud        : AzureGovernment
 // Service tag  : AzureMachineLearning.USDoDCentral
+metadata name = 'AzureMachineLearning.USDoDCentral'
+metadata description = 'This module contains all the service tag IP addresses of AzureMachineLearning.USDoDCentral for AzureGovernment.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureMachineLearning.USDoDCentral service tag IP addresses for AzureGovernment')
 @export()
 var AzureMachineLearning_USDoDCentral = [
   '20.158.152.160/27'

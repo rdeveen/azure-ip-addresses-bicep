@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : CognitiveServicesFrontend
+metadata name = 'CognitiveServicesFrontend'
+metadata description = 'This module contains all the service tag IP addresses of CognitiveServicesFrontend for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('CognitiveServicesFrontend service tag IP addresses for Public')
 @export()
 var CognitiveServicesFrontend = [
   '4.171.26.80/28'

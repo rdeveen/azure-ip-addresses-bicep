@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_AzureGermany.json
 // Cloud        : AzureGermany
 // Service tag  : AzureTrafficManager
+metadata name = 'AzureTrafficManager'
+metadata description = 'This module contains all the service tag IP addresses of AzureTrafficManager for AzureGermany.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureTrafficManager service tag IP addresses for AzureGermany')
 @export()
 var AzureTrafficManager = [
   '51.4.200.133/32'

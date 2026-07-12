@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : AzureUpdateDelivery.SouthCentralUS
+metadata name = 'AzureUpdateDelivery.SouthCentralUS'
+metadata description = 'This module contains all the service tag IP addresses of AzureUpdateDelivery.SouthCentralUS for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureUpdateDelivery.SouthCentralUS service tag IP addresses for Public')
 @export()
 var AzureUpdateDelivery_SouthCentralUS = [
   '13.85.16.101/32'

@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : AzureArcInfrastructure.FranceCentral
+metadata name = 'AzureArcInfrastructure.FranceCentral'
+metadata description = 'This module contains all the service tag IP addresses of AzureArcInfrastructure.FranceCentral for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureArcInfrastructure.FranceCentral service tag IP addresses for Public')
 @export()
 var AzureArcInfrastructure_FranceCentral = [
   '4.176.33.182/32'

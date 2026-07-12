@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_China.json
 // Cloud        : China
 // Service tag  : AzureFrontDoor.Backend
+metadata name = 'AzureFrontDoor.Backend'
+metadata description = 'This module contains all the service tag IP addresses of AzureFrontDoor.Backend for China.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureFrontDoor.Backend service tag IP addresses for China')
 @export()
 var AzureFrontDoor_Backend = [
   '52.131.21.40/29'

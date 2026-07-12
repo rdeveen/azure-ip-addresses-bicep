@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : WindowsVirtualDesktop.TaiwanNorthwest
+metadata name = 'WindowsVirtualDesktop.TaiwanNorthwest'
+metadata description = 'This module contains all the service tag IP addresses of WindowsVirtualDesktop.TaiwanNorthwest for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('WindowsVirtualDesktop.TaiwanNorthwest service tag IP addresses for Public')
 @export()
 var WindowsVirtualDesktop_TaiwanNorthwest = [
   '40.64.144.144/29'

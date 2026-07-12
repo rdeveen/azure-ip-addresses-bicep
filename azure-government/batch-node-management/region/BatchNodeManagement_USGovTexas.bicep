@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_AzureGovernment.json
 // Cloud        : AzureGovernment
 // Service tag  : BatchNodeManagement.USGovTexas
+metadata name = 'BatchNodeManagement.USGovTexas'
+metadata description = 'This module contains all the service tag IP addresses of BatchNodeManagement.USGovTexas for AzureGovernment.'
+metadata author = ''
+metadata author = ''
 
+@description('BatchNodeManagement.USGovTexas service tag IP addresses for AzureGovernment')
 @export()
 var BatchNodeManagement_USGovTexas = [
   '20.140.57.128/27'

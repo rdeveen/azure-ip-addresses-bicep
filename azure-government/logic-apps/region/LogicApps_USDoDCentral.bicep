@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_AzureGovernment.json
 // Cloud        : AzureGovernment
 // Service tag  : LogicApps.USDoDCentral
+metadata name = 'LogicApps.USDoDCentral'
+metadata description = 'This module contains all the service tag IP addresses of LogicApps.USDoDCentral for AzureGovernment.'
+metadata author = ''
+metadata author = ''
 
+@description('LogicApps.USDoDCentral service tag IP addresses for AzureGovernment')
 @export()
 var LogicApps_USDoDCentral = [
   '20.159.236.64/27'

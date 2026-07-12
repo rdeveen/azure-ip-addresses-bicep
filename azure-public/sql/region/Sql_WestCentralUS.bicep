@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : Sql.WestCentralUS
+metadata name = 'Sql.WestCentralUS'
+metadata description = 'This module contains all the service tag IP addresses of Sql.WestCentralUS for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('Sql.WestCentralUS service tag IP addresses for Public')
 @export()
 var Sql_WestCentralUS = [
   '13.71.192.0/27'

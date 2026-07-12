@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : ServiceBus.CentralUSEUAP
+metadata name = 'ServiceBus.CentralUSEUAP'
+metadata description = 'This module contains all the service tag IP addresses of ServiceBus.CentralUSEUAP for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('ServiceBus.CentralUSEUAP service tag IP addresses for Public')
 @export()
 var ServiceBus_CentralUSEUAP = [
   '20.45.240.0/26'

@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_China.json
 // Cloud        : China
 // Service tag  : AzureBotService.ChinaEast2
+metadata name = 'AzureBotService.ChinaEast2'
+metadata description = 'This module contains all the service tag IP addresses of AzureBotService.ChinaEast2 for China.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureBotService.ChinaEast2 service tag IP addresses for China')
 @export()
 var AzureBotService_ChinaEast2 = [
   '52.130.0.64/30'

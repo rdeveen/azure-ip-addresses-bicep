@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : PowerPlatformInfra.SouthAfricaNorth
+metadata name = 'PowerPlatformInfra.SouthAfricaNorth'
+metadata description = 'This module contains all the service tag IP addresses of PowerPlatformInfra.SouthAfricaNorth for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('PowerPlatformInfra.SouthAfricaNorth service tag IP addresses for Public')
 @export()
 var PowerPlatformInfra_SouthAfricaNorth = [
   '4.222.196.192/26'

@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : AzureDevSpaces.AustraliaSoutheast
+metadata name = 'AzureDevSpaces.AustraliaSoutheast'
+metadata description = 'This module contains all the service tag IP addresses of AzureDevSpaces.AustraliaSoutheast for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureDevSpaces.AustraliaSoutheast service tag IP addresses for Public')
 @export()
 var AzureDevSpaces_AustraliaSoutheast = [
   '20.42.230.64/28'

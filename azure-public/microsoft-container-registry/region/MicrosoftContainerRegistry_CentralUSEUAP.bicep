@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : MicrosoftContainerRegistry.CentralUSEUAP
+metadata name = 'MicrosoftContainerRegistry.CentralUSEUAP'
+metadata description = 'This module contains all the service tag IP addresses of MicrosoftContainerRegistry.CentralUSEUAP for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('MicrosoftContainerRegistry.CentralUSEUAP service tag IP addresses for Public')
 @export()
 var MicrosoftContainerRegistry_CentralUSEUAP = [
   '40.78.202.64/29'

@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : AzureKeyVault.EastUS2EUAP
+metadata name = 'AzureKeyVault.EastUS2EUAP'
+metadata description = 'This module contains all the service tag IP addresses of AzureKeyVault.EastUS2EUAP for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureKeyVault.EastUS2EUAP service tag IP addresses for Public')
 @export()
 var AzureKeyVault_EastUS2EUAP = [
   '20.51.20.84/30'

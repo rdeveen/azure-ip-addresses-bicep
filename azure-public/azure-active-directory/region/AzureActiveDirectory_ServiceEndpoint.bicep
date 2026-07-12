@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : AzureActiveDirectory.ServiceEndpoint
+metadata name = 'AzureActiveDirectory.ServiceEndpoint'
+metadata description = 'This module contains all the service tag IP addresses of AzureActiveDirectory.ServiceEndpoint for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureActiveDirectory.ServiceEndpoint service tag IP addresses for Public')
 @export()
 var AzureActiveDirectory_ServiceEndpoint = [
   '13.87.33.28/32'

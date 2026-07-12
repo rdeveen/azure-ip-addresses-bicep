@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_China.json
 // Cloud        : China
 // Service tag  : MicrosoftAzureFluidRelay
+metadata name = 'MicrosoftAzureFluidRelay'
+metadata description = 'This module contains all the service tag IP addresses of MicrosoftAzureFluidRelay for China.'
+metadata author = ''
+metadata author = ''
 
+@description('MicrosoftAzureFluidRelay service tag IP addresses for China')
 @export()
 var MicrosoftAzureFluidRelay = [
   '52.131.192.184/29'

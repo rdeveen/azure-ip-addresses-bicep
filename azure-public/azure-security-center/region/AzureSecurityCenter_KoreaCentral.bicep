@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : AzureSecurityCenter.KoreaCentral
+metadata name = 'AzureSecurityCenter.KoreaCentral'
+metadata description = 'This module contains all the service tag IP addresses of AzureSecurityCenter.KoreaCentral for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureSecurityCenter.KoreaCentral service tag IP addresses for Public')
 @export()
 var AzureSecurityCenter_KoreaCentral = [
   '52.231.23.64/27'

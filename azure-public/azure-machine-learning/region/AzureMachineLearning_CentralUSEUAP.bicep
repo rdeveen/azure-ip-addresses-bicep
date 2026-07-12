@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : AzureMachineLearning.CentralUSEUAP
+metadata name = 'AzureMachineLearning.CentralUSEUAP'
+metadata description = 'This module contains all the service tag IP addresses of AzureMachineLearning.CentralUSEUAP for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureMachineLearning.CentralUSEUAP service tag IP addresses for Public')
 @export()
 var AzureMachineLearning_CentralUSEUAP = [
   '20.45.240.64/28'

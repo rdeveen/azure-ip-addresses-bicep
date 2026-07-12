@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : AzureContainerRegistry.SouthIndia
+metadata name = 'AzureContainerRegistry.SouthIndia'
+metadata description = 'This module contains all the service tag IP addresses of AzureContainerRegistry.SouthIndia for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureContainerRegistry.SouthIndia service tag IP addresses for Public')
 @export()
 var AzureContainerRegistry_SouthIndia = [
   '20.41.199.192/26'

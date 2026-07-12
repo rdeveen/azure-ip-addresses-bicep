@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_AzureGovernment.json
 // Cloud        : AzureGovernment
 // Service tag  : AzureConnectors
+metadata name = 'AzureConnectors'
+metadata description = 'This module contains all the service tag IP addresses of AzureConnectors for AzureGovernment.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureConnectors service tag IP addresses for AzureGovernment')
 @export()
 var AzureConnectors = [
   '13.72.10.90/32'

@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : AzureKeyVault.ChileCentral
+metadata name = 'AzureKeyVault.ChileCentral'
+metadata description = 'This module contains all the service tag IP addresses of AzureKeyVault.ChileCentral for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureKeyVault.ChileCentral service tag IP addresses for Public')
 @export()
 var AzureKeyVault_ChileCentral = [
   '68.211.7.88/30'

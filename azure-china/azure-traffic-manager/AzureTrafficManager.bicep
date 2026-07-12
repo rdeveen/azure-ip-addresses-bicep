@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_China.json
 // Cloud        : China
 // Service tag  : AzureTrafficManager
+metadata name = 'AzureTrafficManager'
+metadata description = 'This module contains all the service tag IP addresses of AzureTrafficManager for China.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureTrafficManager service tag IP addresses for China')
 @export()
 var AzureTrafficManager = [
   '40.125.200.51/32'

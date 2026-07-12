@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_AzureGermany.json
 // Cloud        : AzureGermany
 // Service tag  : AzureResourceManager
+metadata name = 'AzureResourceManager'
+metadata description = 'This module contains all the service tag IP addresses of AzureResourceManager for AzureGermany.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureResourceManager service tag IP addresses for AzureGermany')
 @export()
 var AzureResourceManager = [
   '51.8.227.176/28'

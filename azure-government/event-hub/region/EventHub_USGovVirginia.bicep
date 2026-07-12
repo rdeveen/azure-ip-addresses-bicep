@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_AzureGovernment.json
 // Cloud        : AzureGovernment
 // Service tag  : EventHub.USGovVirginia
+metadata name = 'EventHub.USGovVirginia'
+metadata description = 'This module contains all the service tag IP addresses of EventHub.USGovVirginia for AzureGovernment.'
+metadata author = ''
+metadata author = ''
 
+@description('EventHub.USGovVirginia service tag IP addresses for AzureGovernment')
 @export()
 var EventHub_USGovVirginia = [
   '20.140.90.64/26'

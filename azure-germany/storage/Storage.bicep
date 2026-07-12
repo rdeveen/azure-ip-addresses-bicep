@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_AzureGermany.json
 // Cloud        : AzureGermany
 // Service tag  : Storage
+metadata name = 'Storage'
+metadata description = 'This module contains all the service tag IP addresses of Storage for AzureGermany.'
+metadata author = ''
+metadata author = ''
 
+@description('Storage service tag IP addresses for AzureGermany')
 @export()
 var Storage = [
   '51.4.168.16/28'

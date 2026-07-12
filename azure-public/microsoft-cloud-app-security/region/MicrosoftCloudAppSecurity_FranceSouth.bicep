@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : MicrosoftCloudAppSecurity.FranceSouth
+metadata name = 'MicrosoftCloudAppSecurity.FranceSouth'
+metadata description = 'This module contains all the service tag IP addresses of MicrosoftCloudAppSecurity.FranceSouth for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('MicrosoftCloudAppSecurity.FranceSouth service tag IP addresses for Public')
 @export()
 var MicrosoftCloudAppSecurity_FranceSouth = [
   '4.251.224.184/29'

@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_AzureGermany.json
 // Cloud        : AzureGermany
 // Service tag  : EventHub
+metadata name = 'EventHub'
+metadata description = 'This module contains all the service tag IP addresses of EventHub for AzureGermany.'
+metadata author = ''
+metadata author = ''
 
+@description('EventHub service tag IP addresses for AzureGermany')
 @export()
 var EventHub = [
   '51.4.145.246/32'

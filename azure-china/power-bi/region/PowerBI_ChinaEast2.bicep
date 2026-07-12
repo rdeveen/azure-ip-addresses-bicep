@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_China.json
 // Cloud        : China
 // Service tag  : PowerBI.ChinaEast2
+metadata name = 'PowerBI.ChinaEast2'
+metadata description = 'This module contains all the service tag IP addresses of PowerBI.ChinaEast2 for China.'
+metadata author = ''
+metadata author = ''
 
+@description('PowerBI.ChinaEast2 service tag IP addresses for China')
 @export()
 var PowerBI_ChinaEast2 = [
   '52.130.0.70/31'

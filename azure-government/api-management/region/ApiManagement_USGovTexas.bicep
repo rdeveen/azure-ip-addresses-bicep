@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_AzureGovernment.json
 // Cloud        : AzureGovernment
 // Service tag  : ApiManagement.USGovTexas
+metadata name = 'ApiManagement.USGovTexas'
+metadata description = 'This module contains all the service tag IP addresses of ApiManagement.USGovTexas for AzureGovernment.'
+metadata author = ''
+metadata author = ''
 
+@description('ApiManagement.USGovTexas service tag IP addresses for AzureGovernment')
 @export()
 var ApiManagement_USGovTexas = [
   '52.127.34.192/31'

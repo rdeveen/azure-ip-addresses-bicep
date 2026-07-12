@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : AppServiceManagement.UAENorth
+metadata name = 'AppServiceManagement.UAENorth'
+metadata description = 'This module contains all the service tag IP addresses of AppServiceManagement.UAENorth for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('AppServiceManagement.UAENorth service tag IP addresses for Public')
 @export()
 var AppServiceManagement_UAENorth = [
   '40.120.74.128/26'

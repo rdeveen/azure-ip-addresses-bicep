@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_AzureGovernment.json
 // Cloud        : AzureGovernment
 // Service tag  : AzureConnectors.USDoDCentral
+metadata name = 'AzureConnectors.USDoDCentral'
+metadata description = 'This module contains all the service tag IP addresses of AzureConnectors.USDoDCentral for AzureGovernment.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureConnectors.USDoDCentral service tag IP addresses for AzureGovernment')
 @export()
 var AzureConnectors_USDoDCentral = [
   '52.127.58.160/28'

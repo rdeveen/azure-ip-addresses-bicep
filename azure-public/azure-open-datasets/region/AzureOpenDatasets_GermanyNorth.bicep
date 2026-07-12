@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : AzureOpenDatasets.GermanyNorth
+metadata name = 'AzureOpenDatasets.GermanyNorth'
+metadata description = 'This module contains all the service tag IP addresses of AzureOpenDatasets.GermanyNorth for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureOpenDatasets.GermanyNorth service tag IP addresses for Public')
 @export()
 var AzureOpenDatasets_GermanyNorth = [
   '51.116.48.112/28'

@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : AzureAttestation.TaiwanNorth
+metadata name = 'AzureAttestation.TaiwanNorth'
+metadata description = 'This module contains all the service tag IP addresses of AzureAttestation.TaiwanNorth for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureAttestation.TaiwanNorth service tag IP addresses for Public')
 @export()
 var AzureAttestation_TaiwanNorth = [
   '51.53.27.240/30'

@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_AzureGovernment.json
 // Cloud        : AzureGovernment
 // Service tag  : AppService.USDoDCentral
+metadata name = 'AppService.USDoDCentral'
+metadata description = 'This module contains all the service tag IP addresses of AppService.USDoDCentral for AzureGovernment.'
+metadata author = ''
+metadata author = ''
 
+@description('AppService.USDoDCentral service tag IP addresses for AzureGovernment')
 @export()
 var AppService_USDoDCentral = [
   '20.140.73.96/27'

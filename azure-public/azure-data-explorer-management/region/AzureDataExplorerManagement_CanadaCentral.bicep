@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : AzureDataExplorerManagement.CanadaCentral
+metadata name = 'AzureDataExplorerManagement.CanadaCentral'
+metadata description = 'This module contains all the service tag IP addresses of AzureDataExplorerManagement.CanadaCentral for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureDataExplorerManagement.CanadaCentral service tag IP addresses for Public')
 @export()
 var AzureDataExplorerManagement_CanadaCentral = [
   '4.174.144.144/28'

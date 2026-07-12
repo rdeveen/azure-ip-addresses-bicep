@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_AzureGovernment.json
 // Cloud        : AzureGovernment
 // Service tag  : AzureFrontDoor.Frontend
+metadata name = 'AzureFrontDoor.Frontend'
+metadata description = 'This module contains all the service tag IP addresses of AzureFrontDoor.Frontend for AzureGovernment.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureFrontDoor.Frontend service tag IP addresses for AzureGovernment')
 @export()
 var AzureFrontDoor_Frontend = [
   '20.140.48.68/30'

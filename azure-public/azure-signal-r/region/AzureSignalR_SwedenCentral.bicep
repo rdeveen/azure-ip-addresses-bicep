@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : AzureSignalR.SwedenCentral
+metadata name = 'AzureSignalR.SwedenCentral'
+metadata description = 'This module contains all the service tag IP addresses of AzureSignalR.SwedenCentral for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureSignalR.SwedenCentral service tag IP addresses for Public')
 @export()
 var AzureSignalR_SwedenCentral = [
   '51.12.46.192/27'

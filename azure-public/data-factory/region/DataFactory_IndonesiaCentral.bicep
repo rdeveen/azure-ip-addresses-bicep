@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : DataFactory.IndonesiaCentral
+metadata name = 'DataFactory.IndonesiaCentral'
+metadata description = 'This module contains all the service tag IP addresses of DataFactory.IndonesiaCentral for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('DataFactory.IndonesiaCentral service tag IP addresses for Public')
 @export()
 var DataFactory_IndonesiaCentral = [
   '70.153.168.0/23'

@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_AzureGovernment.json
 // Cloud        : AzureGovernment
 // Service tag  : AzureSentinel
+metadata name = 'AzureSentinel'
+metadata description = 'This module contains all the service tag IP addresses of AzureSentinel for AzureGovernment.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureSentinel service tag IP addresses for AzureGovernment')
 @export()
 var AzureSentinel = [
   '20.140.104.52/30'

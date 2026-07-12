@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : GatewayManager.AustraliaEast
+metadata name = 'GatewayManager.AustraliaEast'
+metadata description = 'This module contains all the service tag IP addresses of GatewayManager.AustraliaEast for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('GatewayManager.AustraliaEast service tag IP addresses for Public')
 @export()
 var GatewayManager_AustraliaEast = [
   '4.147.33.32/27'

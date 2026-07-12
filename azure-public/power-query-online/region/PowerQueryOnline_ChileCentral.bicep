@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : PowerQueryOnline.ChileCentral
+metadata name = 'PowerQueryOnline.ChileCentral'
+metadata description = 'This module contains all the service tag IP addresses of PowerQueryOnline.ChileCentral for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('PowerQueryOnline.ChileCentral service tag IP addresses for Public')
 @export()
 var PowerQueryOnline_ChileCentral = [
   '68.211.19.176/29'

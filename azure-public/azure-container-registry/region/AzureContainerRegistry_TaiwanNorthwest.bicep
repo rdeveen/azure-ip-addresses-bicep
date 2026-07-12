@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : AzureContainerRegistry.TaiwanNorthwest
+metadata name = 'AzureContainerRegistry.TaiwanNorthwest'
+metadata description = 'This module contains all the service tag IP addresses of AzureContainerRegistry.TaiwanNorthwest for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureContainerRegistry.TaiwanNorthwest service tag IP addresses for Public')
 @export()
 var AzureContainerRegistry_TaiwanNorthwest = [
   '51.53.143.64/26'

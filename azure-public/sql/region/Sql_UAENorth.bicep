@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : Sql.UAENorth
+metadata name = 'Sql.UAENorth'
+metadata description = 'This module contains all the service tag IP addresses of Sql.UAENorth for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('Sql.UAENorth service tag IP addresses for Public')
 @export()
 var Sql_UAENorth = [
   '20.38.143.64/26'

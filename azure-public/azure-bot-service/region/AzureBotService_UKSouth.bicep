@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : AzureBotService.UKSouth
+metadata name = 'AzureBotService.UKSouth'
+metadata description = 'This module contains all the service tag IP addresses of AzureBotService.UKSouth for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureBotService.UKSouth service tag IP addresses for Public')
 @export()
 var AzureBotService_UKSouth = [
   '51.104.8.248/30'

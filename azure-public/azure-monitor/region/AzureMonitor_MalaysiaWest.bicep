@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : AzureMonitor.MalaysiaWest
+metadata name = 'AzureMonitor.MalaysiaWest'
+metadata description = 'This module contains all the service tag IP addresses of AzureMonitor.MalaysiaWest for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureMonitor.MalaysiaWest service tag IP addresses for Public')
 @export()
 var AzureMonitor_MalaysiaWest = [
   '20.17.126.74/31'

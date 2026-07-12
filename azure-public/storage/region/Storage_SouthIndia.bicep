@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : Storage.SouthIndia
+metadata name = 'Storage.SouthIndia'
+metadata description = 'This module contains all the service tag IP addresses of Storage.SouthIndia for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('Storage.SouthIndia service tag IP addresses for Public')
 @export()
 var Storage_SouthIndia = [
   '20.33.162.0/24'

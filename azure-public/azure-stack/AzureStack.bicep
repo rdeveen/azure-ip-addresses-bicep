@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : AzureStack
+metadata name = 'AzureStack'
+metadata description = 'This module contains all the service tag IP addresses of AzureStack for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureStack service tag IP addresses for Public')
 @export()
 var AzureStack = [
   '4.207.253.18/31'

@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_China.json
 // Cloud        : China
 // Service tag  : ServiceFabric
+metadata name = 'ServiceFabric'
+metadata description = 'This module contains all the service tag IP addresses of ServiceFabric for China.'
+metadata author = ''
+metadata author = ''
 
+@description('ServiceFabric service tag IP addresses for China')
 @export()
 var ServiceFabric = [
   '40.73.24.228/32'

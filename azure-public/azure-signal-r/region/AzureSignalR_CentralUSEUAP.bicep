@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : AzureSignalR.CentralUSEUAP
+metadata name = 'AzureSignalR.CentralUSEUAP'
+metadata description = 'This module contains all the service tag IP addresses of AzureSignalR.CentralUSEUAP for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureSignalR.CentralUSEUAP service tag IP addresses for Public')
 @export()
 var AzureSignalR_CentralUSEUAP = [
   '20.46.11.96/27'

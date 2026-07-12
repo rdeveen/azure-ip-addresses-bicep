@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : ActionGroup.CentralIndia
+metadata name = 'ActionGroup.CentralIndia'
+metadata description = 'This module contains all the service tag IP addresses of ActionGroup.CentralIndia for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('ActionGroup.CentralIndia service tag IP addresses for Public')
 @export()
 var ActionGroup_CentralIndia = [
   '20.43.121.124/30'

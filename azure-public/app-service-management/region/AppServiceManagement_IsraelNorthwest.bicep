@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : AppServiceManagement.IsraelNorthwest
+metadata name = 'AppServiceManagement.IsraelNorthwest'
+metadata description = 'This module contains all the service tag IP addresses of AppServiceManagement.IsraelNorthwest for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('AppServiceManagement.IsraelNorthwest service tag IP addresses for Public')
 @export()
 var AppServiceManagement_IsraelNorthwest = [
   '51.4.132.128/26'

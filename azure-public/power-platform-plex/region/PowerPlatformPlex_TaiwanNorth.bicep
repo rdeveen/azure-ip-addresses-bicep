@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : PowerPlatformPlex.TaiwanNorth
+metadata name = 'PowerPlatformPlex.TaiwanNorth'
+metadata description = 'This module contains all the service tag IP addresses of PowerPlatformPlex.TaiwanNorth for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('PowerPlatformPlex.TaiwanNorth service tag IP addresses for Public')
 @export()
 var PowerPlatformPlex_TaiwanNorth = [
   '70.157.170.128/25'

@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : AzureDevOps
+metadata name = 'AzureDevOps'
+metadata description = 'This module contains all the service tag IP addresses of AzureDevOps for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureDevOps service tag IP addresses for Public')
 @export()
 var AzureDevOps = [
   '4.145.0.106/31'

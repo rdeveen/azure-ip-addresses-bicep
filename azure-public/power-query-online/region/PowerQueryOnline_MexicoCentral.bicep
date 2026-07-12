@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : PowerQueryOnline.MexicoCentral
+metadata name = 'PowerQueryOnline.MexicoCentral'
+metadata description = 'This module contains all the service tag IP addresses of PowerQueryOnline.MexicoCentral for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('PowerQueryOnline.MexicoCentral service tag IP addresses for Public')
 @export()
 var PowerQueryOnline_MexicoCentral = [
   '158.23.10.114/31'

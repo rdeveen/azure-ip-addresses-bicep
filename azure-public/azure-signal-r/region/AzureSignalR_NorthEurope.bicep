@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : AzureSignalR.NorthEurope
+metadata name = 'AzureSignalR.NorthEurope'
+metadata description = 'This module contains all the service tag IP addresses of AzureSignalR.NorthEurope for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureSignalR.NorthEurope service tag IP addresses for Public')
 @export()
 var AzureSignalR_NorthEurope = [
   '20.82.247.128/25'

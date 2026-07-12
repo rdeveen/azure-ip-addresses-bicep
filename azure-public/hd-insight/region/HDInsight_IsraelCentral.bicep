@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : HDInsight.IsraelCentral
+metadata name = 'HDInsight.IsraelCentral'
+metadata description = 'This module contains all the service tag IP addresses of HDInsight.IsraelCentral for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('HDInsight.IsraelCentral service tag IP addresses for Public')
 @export()
 var HDInsight_IsraelCentral = [
   '20.217.46.136/29'

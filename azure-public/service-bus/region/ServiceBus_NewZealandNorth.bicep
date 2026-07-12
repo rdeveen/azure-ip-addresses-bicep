@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : ServiceBus.NewZealandNorth
+metadata name = 'ServiceBus.NewZealandNorth'
+metadata description = 'This module contains all the service tag IP addresses of ServiceBus.NewZealandNorth for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('ServiceBus.NewZealandNorth service tag IP addresses for Public')
 @export()
 var ServiceBus_NewZealandNorth = [
   '172.204.158.0/25'

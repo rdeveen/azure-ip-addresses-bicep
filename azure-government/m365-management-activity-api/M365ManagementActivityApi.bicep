@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_AzureGovernment.json
 // Cloud        : AzureGovernment
 // Service tag  : M365ManagementActivityApi
+metadata name = 'M365ManagementActivityApi'
+metadata description = 'This module contains all the service tag IP addresses of M365ManagementActivityApi for AzureGovernment.'
+metadata author = ''
+metadata author = ''
 
+@description('M365ManagementActivityApi service tag IP addresses for AzureGovernment')
 @export()
 var M365ManagementActivityApi = [
   '20.140.95.20/30'

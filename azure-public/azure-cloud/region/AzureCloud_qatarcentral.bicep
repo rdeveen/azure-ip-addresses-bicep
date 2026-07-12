@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : AzureCloud.qatarcentral
+metadata name = 'AzureCloud.qatarcentral'
+metadata description = 'This module contains all the service tag IP addresses of AzureCloud.qatarcentral for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureCloud.qatarcentral service tag IP addresses for Public')
 @export()
 var AzureCloud_qatarcentral = [
   '4.170.0.0/15'

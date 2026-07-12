@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : ActionGroup.QatarCentral
+metadata name = 'ActionGroup.QatarCentral'
+metadata description = 'This module contains all the service tag IP addresses of ActionGroup.QatarCentral for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('ActionGroup.QatarCentral service tag IP addresses for Public')
 @export()
 var ActionGroup_QatarCentral = [
   '4.171.31.152/30'

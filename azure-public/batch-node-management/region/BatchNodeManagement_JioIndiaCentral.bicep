@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : BatchNodeManagement.JioIndiaCentral
+metadata name = 'BatchNodeManagement.JioIndiaCentral'
+metadata description = 'This module contains all the service tag IP addresses of BatchNodeManagement.JioIndiaCentral for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('BatchNodeManagement.JioIndiaCentral service tag IP addresses for Public')
 @export()
 var BatchNodeManagement_JioIndiaCentral = [
   '20.192.228.160/27'

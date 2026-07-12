@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : PowerQueryOnline.SouthCentralUSSTG
+metadata name = 'PowerQueryOnline.SouthCentralUSSTG'
+metadata description = 'This module contains all the service tag IP addresses of PowerQueryOnline.SouthCentralUSSTG for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('PowerQueryOnline.SouthCentralUSSTG service tag IP addresses for Public')
 @export()
 var PowerQueryOnline_SouthCentralUSSTG = [
   '20.45.112.120/31'

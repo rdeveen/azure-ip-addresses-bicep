@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_AzureGovernment.json
 // Cloud        : AzureGovernment
 // Service tag  : AzureCosmosDB.USGovTexas
+metadata name = 'AzureCosmosDB.USGovTexas'
+metadata description = 'This module contains all the service tag IP addresses of AzureCosmosDB.USGovTexas for AzureGovernment.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureCosmosDB.USGovTexas service tag IP addresses for AzureGovernment')
 @export()
 var AzureCosmosDB_USGovTexas = [
   '20.140.60.32/27'

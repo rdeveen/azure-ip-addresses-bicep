@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : AzureDevOps.CanadaEast
+metadata name = 'AzureDevOps.CanadaEast'
+metadata description = 'This module contains all the service tag IP addresses of AzureDevOps.CanadaEast for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureDevOps.CanadaEast service tag IP addresses for Public')
 @export()
 var AzureDevOps_CanadaEast = [
   '4.229.122.96/31'

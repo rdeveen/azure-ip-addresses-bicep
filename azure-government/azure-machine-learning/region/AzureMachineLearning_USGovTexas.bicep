@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_AzureGovernment.json
 // Cloud        : AzureGovernment
 // Service tag  : AzureMachineLearning.USGovTexas
+metadata name = 'AzureMachineLearning.USGovTexas'
+metadata description = 'This module contains all the service tag IP addresses of AzureMachineLearning.USGovTexas for AzureGovernment.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureMachineLearning.USGovTexas service tag IP addresses for AzureGovernment')
 @export()
 var AzureMachineLearning_USGovTexas = [
   '20.140.58.64/28'

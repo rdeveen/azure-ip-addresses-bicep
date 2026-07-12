@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : AzureSignalR.AustraliaCentral2
+metadata name = 'AzureSignalR.AustraliaCentral2'
+metadata description = 'This module contains all the service tag IP addresses of AzureSignalR.AustraliaCentral2 for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureSignalR.AustraliaCentral2 service tag IP addresses for Public')
 @export()
 var AzureSignalR_AustraliaCentral2 = [
   '2603:1010:404:2::100/120'

@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : AzureMonitor.JioIndiaCentral
+metadata name = 'AzureMonitor.JioIndiaCentral'
+metadata description = 'This module contains all the service tag IP addresses of AzureMonitor.JioIndiaCentral for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureMonitor.JioIndiaCentral service tag IP addresses for Public')
 @export()
 var AzureMonitor_JioIndiaCentral = [
   '4.240.149.32/27'

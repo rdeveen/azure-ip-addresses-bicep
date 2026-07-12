@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : MicrosoftContainerRegistry.SouthAfricaWest
+metadata name = 'MicrosoftContainerRegistry.SouthAfricaWest'
+metadata description = 'This module contains all the service tag IP addresses of MicrosoftContainerRegistry.SouthAfricaWest for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('MicrosoftContainerRegistry.SouthAfricaWest service tag IP addresses for Public')
 @export()
 var MicrosoftContainerRegistry_SouthAfricaWest = [
   '102.133.26.16/29'

@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : AzureContainerRegistry.IsraelCentral
+metadata name = 'AzureContainerRegistry.IsraelCentral'
+metadata description = 'This module contains all the service tag IP addresses of AzureContainerRegistry.IsraelCentral for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureContainerRegistry.IsraelCentral service tag IP addresses for Public')
 @export()
 var AzureContainerRegistry_IsraelCentral = [
   '20.217.43.128/26'

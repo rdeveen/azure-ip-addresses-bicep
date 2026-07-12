@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : AzureMonitor.CanadaCentral
+metadata name = 'AzureMonitor.CanadaCentral'
+metadata description = 'This module contains all the service tag IP addresses of AzureMonitor.CanadaCentral for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureMonitor.CanadaCentral service tag IP addresses for Public')
 @export()
 var AzureMonitor_CanadaCentral = [
   '4.172.75.0/24'

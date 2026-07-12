@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_China.json
 // Cloud        : China
 // Service tag  : GuestAndHybridManagement
+metadata name = 'GuestAndHybridManagement'
+metadata description = 'This module contains all the service tag IP addresses of GuestAndHybridManagement for China.'
+metadata author = ''
+metadata author = ''
 
+@description('GuestAndHybridManagement service tag IP addresses for China')
 @export()
 var GuestAndHybridManagement = [
   '40.72.168.240/28'

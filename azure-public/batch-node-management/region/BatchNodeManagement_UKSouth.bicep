@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : BatchNodeManagement.UKSouth
+metadata name = 'BatchNodeManagement.UKSouth'
+metadata description = 'This module contains all the service tag IP addresses of BatchNodeManagement.UKSouth for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('BatchNodeManagement.UKSouth service tag IP addresses for Public')
 @export()
 var BatchNodeManagement_UKSouth = [
   '51.104.28.0/27'

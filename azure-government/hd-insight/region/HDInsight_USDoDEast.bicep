@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_AzureGovernment.json
 // Cloud        : AzureGovernment
 // Service tag  : HDInsight.USDoDEast
+metadata name = 'HDInsight.USDoDEast'
+metadata description = 'This module contains all the service tag IP addresses of HDInsight.USDoDEast for AzureGovernment.'
+metadata author = ''
+metadata author = ''
 
+@description('HDInsight.USDoDEast service tag IP addresses for AzureGovernment')
 @export()
 var HDInsight_USDoDEast = [
   '20.140.65.216/29'

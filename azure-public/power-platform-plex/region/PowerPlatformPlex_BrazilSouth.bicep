@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : PowerPlatformPlex.BrazilSouth
+metadata name = 'PowerPlatformPlex.BrazilSouth'
+metadata description = 'This module contains all the service tag IP addresses of PowerPlatformPlex.BrazilSouth for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('PowerPlatformPlex.BrazilSouth service tag IP addresses for Public')
 @export()
 var PowerPlatformPlex_BrazilSouth = [
   '4.202.249.56/29'

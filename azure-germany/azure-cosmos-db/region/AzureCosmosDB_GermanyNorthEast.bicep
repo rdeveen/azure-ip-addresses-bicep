@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_AzureGermany.json
 // Cloud        : AzureGermany
 // Service tag  : AzureCosmosDB.GermanyNorthEast
+metadata name = 'AzureCosmosDB.GermanyNorthEast'
+metadata description = 'This module contains all the service tag IP addresses of AzureCosmosDB.GermanyNorthEast for AzureGermany.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureCosmosDB.GermanyNorthEast service tag IP addresses for AzureGermany')
 @export()
 var AzureCosmosDB_GermanyNorthEast = [
   '51.5.144.198/32'

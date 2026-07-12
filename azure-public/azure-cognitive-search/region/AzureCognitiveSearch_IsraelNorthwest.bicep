@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : AzureCognitiveSearch.IsraelNorthwest
+metadata name = 'AzureCognitiveSearch.IsraelNorthwest'
+metadata description = 'This module contains all the service tag IP addresses of AzureCognitiveSearch.IsraelNorthwest for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureCognitiveSearch.IsraelNorthwest service tag IP addresses for Public')
 @export()
 var AzureCognitiveSearch_IsraelNorthwest = [
   '20.217.248.192/26'

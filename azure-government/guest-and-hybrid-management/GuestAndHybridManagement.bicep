@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_AzureGovernment.json
 // Cloud        : AzureGovernment
 // Service tag  : GuestAndHybridManagement
+metadata name = 'GuestAndHybridManagement'
+metadata description = 'This module contains all the service tag IP addresses of GuestAndHybridManagement for AzureGovernment.'
+metadata author = ''
+metadata author = ''
 
+@description('GuestAndHybridManagement service tag IP addresses for AzureGovernment')
 @export()
 var GuestAndHybridManagement = [
   '13.72.51.208/32'

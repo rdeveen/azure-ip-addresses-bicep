@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_AzureGovernment.json
 // Cloud        : AzureGovernment
 // Service tag  : Dynamics365ForMarketingEmail.USGovTexas
+metadata name = 'Dynamics365ForMarketingEmail.USGovTexas'
+metadata description = 'This module contains all the service tag IP addresses of Dynamics365ForMarketingEmail.USGovTexas for AzureGovernment.'
+metadata author = ''
+metadata author = ''
 
+@description('Dynamics365ForMarketingEmail.USGovTexas service tag IP addresses for AzureGovernment')
 @export()
 var Dynamics365ForMarketingEmail_USGovTexas = [
   '52.243.4.160/27'

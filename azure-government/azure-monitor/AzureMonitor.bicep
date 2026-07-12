@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_AzureGovernment.json
 // Cloud        : AzureGovernment
 // Service tag  : AzureMonitor
+metadata name = 'AzureMonitor'
+metadata description = 'This module contains all the service tag IP addresses of AzureMonitor for AzureGovernment.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureMonitor service tag IP addresses for AzureGovernment')
 @export()
 var AzureMonitor = [
   '13.72.12.79/32'

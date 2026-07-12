@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : WindowsVirtualDesktop.EastUS2EUAP
+metadata name = 'WindowsVirtualDesktop.EastUS2EUAP'
+metadata description = 'This module contains all the service tag IP addresses of WindowsVirtualDesktop.EastUS2EUAP for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('WindowsVirtualDesktop.EastUS2EUAP service tag IP addresses for Public')
 @export()
 var WindowsVirtualDesktop_EastUS2EUAP = [
   '40.64.147.160/30'

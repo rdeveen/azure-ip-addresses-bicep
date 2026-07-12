@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_AzureGermany.json
 // Cloud        : AzureGermany
 // Service tag  : AzureKeyVault.GermanyCentral
+metadata name = 'AzureKeyVault.GermanyCentral'
+metadata description = 'This module contains all the service tag IP addresses of AzureKeyVault.GermanyCentral for AzureGermany.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureKeyVault.GermanyCentral service tag IP addresses for AzureGermany')
 @export()
 var AzureKeyVault_GermanyCentral = [
   '51.4.145.57/32'

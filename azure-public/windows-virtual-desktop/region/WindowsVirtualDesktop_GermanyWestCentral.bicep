@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : WindowsVirtualDesktop.GermanyWestCentral
+metadata name = 'WindowsVirtualDesktop.GermanyWestCentral'
+metadata description = 'This module contains all the service tag IP addresses of WindowsVirtualDesktop.GermanyWestCentral for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('WindowsVirtualDesktop.GermanyWestCentral service tag IP addresses for Public')
 @export()
 var WindowsVirtualDesktop_GermanyWestCentral = [
   '40.64.145.240/28'

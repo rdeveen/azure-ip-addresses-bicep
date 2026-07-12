@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : OneDsCollector
+metadata name = 'OneDsCollector'
+metadata description = 'This module contains all the service tag IP addresses of OneDsCollector for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('OneDsCollector service tag IP addresses for Public')
 @export()
 var OneDsCollector = [
   '4.150.76.184/29'

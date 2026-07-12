@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : Dynamics365ForMarketingEmail.BrazilSouth
+metadata name = 'Dynamics365ForMarketingEmail.BrazilSouth'
+metadata description = 'This module contains all the service tag IP addresses of Dynamics365ForMarketingEmail.BrazilSouth for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('Dynamics365ForMarketingEmail.BrazilSouth service tag IP addresses for Public')
 @export()
 var Dynamics365ForMarketingEmail_BrazilSouth = [
   '191.233.202.0/24'

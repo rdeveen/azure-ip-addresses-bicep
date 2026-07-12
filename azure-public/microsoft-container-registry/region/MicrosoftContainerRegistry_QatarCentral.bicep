@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : MicrosoftContainerRegistry.QatarCentral
+metadata name = 'MicrosoftContainerRegistry.QatarCentral'
+metadata description = 'This module contains all the service tag IP addresses of MicrosoftContainerRegistry.QatarCentral for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('MicrosoftContainerRegistry.QatarCentral service tag IP addresses for Public')
 @export()
 var MicrosoftContainerRegistry_QatarCentral = [
   '20.21.42.64/29'

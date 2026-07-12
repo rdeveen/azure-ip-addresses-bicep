@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_AzureGermany.json
 // Cloud        : AzureGermany
 // Service tag  : AzureSiteRecovery
+metadata name = 'AzureSiteRecovery'
+metadata description = 'This module contains all the service tag IP addresses of AzureSiteRecovery for AzureGermany.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureSiteRecovery service tag IP addresses for AzureGermany')
 @export()
 var AzureSiteRecovery = [
   '51.4.225.99/32'

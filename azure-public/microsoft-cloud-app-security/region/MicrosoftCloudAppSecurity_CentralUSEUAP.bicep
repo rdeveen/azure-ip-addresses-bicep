@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : MicrosoftCloudAppSecurity.CentralUSEUAP
+metadata name = 'MicrosoftCloudAppSecurity.CentralUSEUAP'
+metadata description = 'This module contains all the service tag IP addresses of MicrosoftCloudAppSecurity.CentralUSEUAP for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('MicrosoftCloudAppSecurity.CentralUSEUAP service tag IP addresses for Public')
 @export()
 var MicrosoftCloudAppSecurity_CentralUSEUAP = [
   '172.215.37.14/31'

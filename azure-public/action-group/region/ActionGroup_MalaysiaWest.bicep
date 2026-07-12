@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : ActionGroup.MalaysiaWest
+metadata name = 'ActionGroup.MalaysiaWest'
+metadata description = 'This module contains all the service tag IP addresses of ActionGroup.MalaysiaWest for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('ActionGroup.MalaysiaWest service tag IP addresses for Public')
 @export()
 var ActionGroup_MalaysiaWest = [
   '20.17.124.64/30'

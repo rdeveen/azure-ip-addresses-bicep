@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : AzureResourceManager.JioIndiaWest
+metadata name = 'AzureResourceManager.JioIndiaWest'
+metadata description = 'This module contains all the service tag IP addresses of AzureResourceManager.JioIndiaWest for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureResourceManager.JioIndiaWest service tag IP addresses for Public')
 @export()
 var AzureResourceManager_JioIndiaWest = [
   '20.193.196.0/23'

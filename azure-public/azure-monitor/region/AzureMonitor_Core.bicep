@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : AzureMonitor.Core
+metadata name = 'AzureMonitor.Core'
+metadata description = 'This module contains all the service tag IP addresses of AzureMonitor.Core for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureMonitor.Core service tag IP addresses for Public')
 @export()
 var AzureMonitor_Core = [
   '4.144.10.32/27'

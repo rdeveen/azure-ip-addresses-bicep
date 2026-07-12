@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_AzureGovernment.json
 // Cloud        : AzureGovernment
 // Service tag  : OneDsCollector
+metadata name = 'OneDsCollector'
+metadata description = 'This module contains all the service tag IP addresses of OneDsCollector for AzureGovernment.'
+metadata author = ''
+metadata author = ''
 
+@description('OneDsCollector service tag IP addresses for AzureGovernment')
 @export()
 var OneDsCollector = [
   '20.140.95.0/30'

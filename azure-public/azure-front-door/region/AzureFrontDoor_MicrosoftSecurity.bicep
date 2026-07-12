@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : AzureFrontDoor.MicrosoftSecurity
+metadata name = 'AzureFrontDoor.MicrosoftSecurity'
+metadata description = 'This module contains all the service tag IP addresses of AzureFrontDoor.MicrosoftSecurity for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureFrontDoor.MicrosoftSecurity service tag IP addresses for Public')
 @export()
 var AzureFrontDoor_MicrosoftSecurity = [
   '13.107.219.0/24'

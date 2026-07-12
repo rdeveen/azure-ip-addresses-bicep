@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_AzureGovernment.json
 // Cloud        : AzureGovernment
 // Service tag  : AzureSpringCloud
+metadata name = 'AzureSpringCloud'
+metadata description = 'This module contains all the service tag IP addresses of AzureSpringCloud for AzureGovernment.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureSpringCloud service tag IP addresses for AzureGovernment')
 @export()
 var AzureSpringCloud = [
   '20.141.14.0/24'

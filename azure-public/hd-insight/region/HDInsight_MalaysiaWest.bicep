@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : HDInsight.MalaysiaWest
+metadata name = 'HDInsight.MalaysiaWest'
+metadata description = 'This module contains all the service tag IP addresses of HDInsight.MalaysiaWest for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('HDInsight.MalaysiaWest service tag IP addresses for Public')
 @export()
 var HDInsight_MalaysiaWest = [
   '20.17.120.24/29'

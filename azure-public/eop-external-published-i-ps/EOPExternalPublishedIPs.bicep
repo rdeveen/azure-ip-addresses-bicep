@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : EOPExternalPublishedIPs
+metadata name = 'EOPExternalPublishedIPs'
+metadata description = 'This module contains all the service tag IP addresses of EOPExternalPublishedIPs for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('EOPExternalPublishedIPs service tag IP addresses for Public')
 @export()
 var EOPExternalPublishedIPs = [
   '23.103.132.0/25'

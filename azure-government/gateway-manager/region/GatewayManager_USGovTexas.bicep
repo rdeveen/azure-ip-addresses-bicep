@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_AzureGovernment.json
 // Cloud        : AzureGovernment
 // Service tag  : GatewayManager.USGovTexas
+metadata name = 'GatewayManager.USGovTexas'
+metadata description = 'This module contains all the service tag IP addresses of GatewayManager.USGovTexas for AzureGovernment.'
+metadata author = ''
+metadata author = ''
 
+@description('GatewayManager.USGovTexas service tag IP addresses for AzureGovernment')
 @export()
 var GatewayManager_USGovTexas = [
   '20.140.56.72/29'

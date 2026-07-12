@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_AzureGovernment.json
 // Cloud        : AzureGovernment
 // Service tag  : WindowsVirtualDesktop.USDoDCentral
+metadata name = 'WindowsVirtualDesktop.USDoDCentral'
+metadata description = 'This module contains all the service tag IP addresses of WindowsVirtualDesktop.USDoDCentral for AzureGovernment.'
+metadata author = ''
+metadata author = ''
 
+@description('WindowsVirtualDesktop.USDoDCentral service tag IP addresses for AzureGovernment')
 @export()
 var WindowsVirtualDesktop_USDoDCentral = [
   '2001:489a:2104::/117'

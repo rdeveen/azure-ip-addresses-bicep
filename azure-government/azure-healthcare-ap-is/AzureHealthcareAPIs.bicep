@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_AzureGovernment.json
 // Cloud        : AzureGovernment
 // Service tag  : AzureHealthcareAPIs
+metadata name = 'AzureHealthcareAPIs'
+metadata description = 'This module contains all the service tag IP addresses of AzureHealthcareAPIs for AzureGovernment.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureHealthcareAPIs service tag IP addresses for AzureGovernment')
 @export()
 var AzureHealthcareAPIs = [
   '20.140.52.100/30'

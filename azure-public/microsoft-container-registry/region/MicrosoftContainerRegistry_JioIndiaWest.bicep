@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : MicrosoftContainerRegistry.JioIndiaWest
+metadata name = 'MicrosoftContainerRegistry.JioIndiaWest'
+metadata description = 'This module contains all the service tag IP addresses of MicrosoftContainerRegistry.JioIndiaWest for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('MicrosoftContainerRegistry.JioIndiaWest service tag IP addresses for Public')
 @export()
 var MicrosoftContainerRegistry_JioIndiaWest = [
   '20.193.202.8/29'

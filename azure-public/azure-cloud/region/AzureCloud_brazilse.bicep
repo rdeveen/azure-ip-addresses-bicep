@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : AzureCloud.brazilse
+metadata name = 'AzureCloud.brazilse'
+metadata description = 'This module contains all the service tag IP addresses of AzureCloud.brazilse for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureCloud.brazilse service tag IP addresses for Public')
 @export()
 var AzureCloud_brazilse = [
   '4.238.0.0/17'

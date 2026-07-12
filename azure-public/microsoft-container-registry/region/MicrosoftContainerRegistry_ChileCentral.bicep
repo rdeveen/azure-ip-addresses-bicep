@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : MicrosoftContainerRegistry.ChileCentral
+metadata name = 'MicrosoftContainerRegistry.ChileCentral'
+metadata description = 'This module contains all the service tag IP addresses of MicrosoftContainerRegistry.ChileCentral for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('MicrosoftContainerRegistry.ChileCentral service tag IP addresses for Public')
 @export()
 var MicrosoftContainerRegistry_ChileCentral = [
   '68.211.152.0/29'

@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : Storage.EastUSSTG
+metadata name = 'Storage.EastUSSTG'
+metadata description = 'This module contains all the service tag IP addresses of Storage.EastUSSTG for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('Storage.EastUSSTG service tag IP addresses for Public')
 @export()
 var Storage_EastUSSTG = [
   '20.33.142.0/24'

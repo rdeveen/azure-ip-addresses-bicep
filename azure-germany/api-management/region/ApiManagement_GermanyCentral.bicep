@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_AzureGermany.json
 // Cloud        : AzureGermany
 // Service tag  : ApiManagement.GermanyCentral
+metadata name = 'ApiManagement.GermanyCentral'
+metadata description = 'This module contains all the service tag IP addresses of ApiManagement.GermanyCentral for AzureGermany.'
+metadata author = ''
+metadata author = ''
 
+@description('ApiManagement.GermanyCentral service tag IP addresses for AzureGermany')
 @export()
 var ApiManagement_GermanyCentral = [
   '51.8.234.232/31'

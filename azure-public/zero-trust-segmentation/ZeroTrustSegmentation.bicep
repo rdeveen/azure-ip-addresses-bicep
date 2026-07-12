@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : ZeroTrustSegmentation
+metadata name = 'ZeroTrustSegmentation'
+metadata description = 'This module contains all the service tag IP addresses of ZeroTrustSegmentation for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('ZeroTrustSegmentation service tag IP addresses for Public')
 @export()
 var ZeroTrustSegmentation = [
   '4.145.19.42/32'

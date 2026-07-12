@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_China.json
 // Cloud        : China
 // Service tag  : AzureManagedGrafana
+metadata name = 'AzureManagedGrafana'
+metadata description = 'This module contains all the service tag IP addresses of AzureManagedGrafana for China.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureManagedGrafana service tag IP addresses for China')
 @export()
 var AzureManagedGrafana = [
   '40.162.74.60/30'

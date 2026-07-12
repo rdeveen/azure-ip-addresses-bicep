@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : DataFactory.AustriaEast
+metadata name = 'DataFactory.AustriaEast'
+metadata description = 'This module contains all the service tag IP addresses of DataFactory.AustriaEast for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('DataFactory.AustriaEast service tag IP addresses for Public')
 @export()
 var DataFactory_AustriaEast = [
   '68.210.28.0/27'

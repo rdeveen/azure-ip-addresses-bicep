@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : WindowsVirtualDesktop.FranceCentral
+metadata name = 'WindowsVirtualDesktop.FranceCentral'
+metadata description = 'This module contains all the service tag IP addresses of WindowsVirtualDesktop.FranceCentral for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('WindowsVirtualDesktop.FranceCentral service tag IP addresses for Public')
 @export()
 var WindowsVirtualDesktop_FranceCentral = [
   '40.64.145.224/28'

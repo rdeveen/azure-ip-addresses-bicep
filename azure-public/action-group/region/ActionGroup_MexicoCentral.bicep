@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : ActionGroup.MexicoCentral
+metadata name = 'ActionGroup.MexicoCentral'
+metadata description = 'This module contains all the service tag IP addresses of ActionGroup.MexicoCentral for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('ActionGroup.MexicoCentral service tag IP addresses for Public')
 @export()
 var ActionGroup_MexicoCentral = [
   '158.23.10.88/30'

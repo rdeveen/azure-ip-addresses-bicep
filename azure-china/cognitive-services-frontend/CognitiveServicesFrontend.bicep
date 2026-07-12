@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_China.json
 // Cloud        : China
 // Service tag  : CognitiveServicesFrontend
+metadata name = 'CognitiveServicesFrontend'
+metadata description = 'This module contains all the service tag IP addresses of CognitiveServicesFrontend for China.'
+metadata author = ''
+metadata author = ''
 
+@description('CognitiveServicesFrontend service tag IP addresses for China')
 @export()
 var CognitiveServicesFrontend = [
   '40.72.169.80/28'

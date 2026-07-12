@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : BatchNodeManagement.AustraliaCentral
+metadata name = 'BatchNodeManagement.AustraliaCentral'
+metadata description = 'This module contains all the service tag IP addresses of BatchNodeManagement.AustraliaCentral for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('BatchNodeManagement.AustraliaCentral service tag IP addresses for Public')
 @export()
 var BatchNodeManagement_AustraliaCentral = [
   '20.36.40.22/32'

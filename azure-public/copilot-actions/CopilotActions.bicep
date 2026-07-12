@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : CopilotActions
+metadata name = 'CopilotActions'
+metadata description = 'This module contains all the service tag IP addresses of CopilotActions for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('CopilotActions service tag IP addresses for Public')
 @export()
 var CopilotActions = [
   '4.150.77.36/30'

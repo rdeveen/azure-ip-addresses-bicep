@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : AzureDigitalTwins.SwitzerlandWest
+metadata name = 'AzureDigitalTwins.SwitzerlandWest'
+metadata description = 'This module contains all the service tag IP addresses of AzureDigitalTwins.SwitzerlandWest for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureDigitalTwins.SwitzerlandWest service tag IP addresses for Public')
 @export()
 var AzureDigitalTwins_SwitzerlandWest = [
   '51.107.249.80/29'

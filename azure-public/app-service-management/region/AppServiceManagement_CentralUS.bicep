@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : AppServiceManagement.CentralUS
+metadata name = 'AppServiceManagement.CentralUS'
+metadata description = 'This module contains all the service tag IP addresses of AppServiceManagement.CentralUS for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('AppServiceManagement.CentralUS service tag IP addresses for Public')
 @export()
 var AppServiceManagement_CentralUS = [
   '13.86.120.89/32'

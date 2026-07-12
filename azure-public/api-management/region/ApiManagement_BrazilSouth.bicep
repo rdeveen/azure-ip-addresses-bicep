@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : ApiManagement.BrazilSouth
+metadata name = 'ApiManagement.BrazilSouth'
+metadata description = 'This module contains all the service tag IP addresses of ApiManagement.BrazilSouth for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('ApiManagement.BrazilSouth service tag IP addresses for Public')
 @export()
 var ApiManagement_BrazilSouth = [
   '74.163.143.250/31'

@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : ApiManagement.UAECentral
+metadata name = 'ApiManagement.UAECentral'
+metadata description = 'This module contains all the service tag IP addresses of ApiManagement.UAECentral for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('ApiManagement.UAECentral service tag IP addresses for Public')
 @export()
 var ApiManagement_UAECentral = [
   '20.37.74.224/31'

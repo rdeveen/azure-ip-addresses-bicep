@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : AzureBackup.SouthCentralUSSTG
+metadata name = 'AzureBackup.SouthCentralUSSTG'
+metadata description = 'This module contains all the service tag IP addresses of AzureBackup.SouthCentralUSSTG for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureBackup.SouthCentralUSSTG service tag IP addresses for Public')
 @export()
 var AzureBackup_SouthCentralUSSTG = [
   '20.44.3.64/26'

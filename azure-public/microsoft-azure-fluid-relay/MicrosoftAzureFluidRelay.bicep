@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : MicrosoftAzureFluidRelay
+metadata name = 'MicrosoftAzureFluidRelay'
+metadata description = 'This module contains all the service tag IP addresses of MicrosoftAzureFluidRelay for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('MicrosoftAzureFluidRelay service tag IP addresses for Public')
 @export()
 var MicrosoftAzureFluidRelay = [
   '4.171.26.64/29'

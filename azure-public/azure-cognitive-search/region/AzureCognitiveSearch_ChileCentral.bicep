@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : AzureCognitiveSearch.ChileCentral
+metadata name = 'AzureCognitiveSearch.ChileCentral'
+metadata description = 'This module contains all the service tag IP addresses of AzureCognitiveSearch.ChileCentral for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureCognitiveSearch.ChileCentral service tag IP addresses for Public')
 @export()
 var AzureCognitiveSearch_ChileCentral = [
   '68.211.1.64/26'

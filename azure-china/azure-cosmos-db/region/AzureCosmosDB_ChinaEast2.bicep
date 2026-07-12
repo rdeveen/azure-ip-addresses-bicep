@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_China.json
 // Cloud        : China
 // Service tag  : AzureCosmosDB.ChinaEast2
+metadata name = 'AzureCosmosDB.ChinaEast2'
+metadata description = 'This module contains all the service tag IP addresses of AzureCosmosDB.ChinaEast2 for China.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureCosmosDB.ChinaEast2 service tag IP addresses for China')
 @export()
 var AzureCosmosDB_ChinaEast2 = [
   '40.73.73.60/32'

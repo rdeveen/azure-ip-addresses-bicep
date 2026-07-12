@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_AzureGermany.json
 // Cloud        : AzureGermany
 // Service tag  : AzureCloud.germanynortheast
+metadata name = 'AzureCloud.germanynortheast'
+metadata description = 'This module contains all the service tag IP addresses of AzureCloud.germanynortheast for AzureGermany.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureCloud.germanynortheast service tag IP addresses for AzureGermany')
 @export()
 var AzureCloud_germanynortheast = [
   '51.5.84.0/24'

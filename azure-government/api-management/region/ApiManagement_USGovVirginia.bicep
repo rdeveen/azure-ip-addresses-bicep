@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_AzureGovernment.json
 // Cloud        : AzureGovernment
 // Service tag  : ApiManagement.USGovVirginia
+metadata name = 'ApiManagement.USGovVirginia'
+metadata description = 'This module contains all the service tag IP addresses of ApiManagement.USGovVirginia for AzureGovernment.'
+metadata author = ''
+metadata author = ''
 
+@description('ApiManagement.USGovVirginia service tag IP addresses for AzureGovernment')
 @export()
 var ApiManagement_USGovVirginia = [
   '13.72.39.168/32'

@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : EventHub.BelgiumCentral
+metadata name = 'EventHub.BelgiumCentral'
+metadata description = 'This module contains all the service tag IP addresses of EventHub.BelgiumCentral for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('EventHub.BelgiumCentral service tag IP addresses for Public')
 @export()
 var EventHub_BelgiumCentral = [
   '9.160.45.0/24'

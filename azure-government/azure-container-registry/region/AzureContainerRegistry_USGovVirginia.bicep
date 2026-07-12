@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_AzureGovernment.json
 // Cloud        : AzureGovernment
 // Service tag  : AzureContainerRegistry.USGovVirginia
+metadata name = 'AzureContainerRegistry.USGovVirginia'
+metadata description = 'This module contains all the service tag IP addresses of AzureContainerRegistry.USGovVirginia for AzureGovernment.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureContainerRegistry.USGovVirginia service tag IP addresses for AzureGovernment')
 @export()
 var AzureContainerRegistry_USGovVirginia = [
   '20.140.88.192/26'

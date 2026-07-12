@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_China.json
 // Cloud        : China
 // Service tag  : SCCservice.ChinaEast
+metadata name = 'SCCservice.ChinaEast'
+metadata description = 'This module contains all the service tag IP addresses of SCCservice.ChinaEast for China.'
+metadata author = ''
+metadata author = ''
 
+@description('SCCservice.ChinaEast service tag IP addresses for China')
 @export()
 var SCCservice_ChinaEast = [
   '52.130.112.24/29'

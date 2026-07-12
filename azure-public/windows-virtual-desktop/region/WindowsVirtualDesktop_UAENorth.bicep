@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : WindowsVirtualDesktop.UAENorth
+metadata name = 'WindowsVirtualDesktop.UAENorth'
+metadata description = 'This module contains all the service tag IP addresses of WindowsVirtualDesktop.UAENorth for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('WindowsVirtualDesktop.UAENorth service tag IP addresses for Public')
 @export()
 var WindowsVirtualDesktop_UAENorth = [
   '40.64.145.112/28'

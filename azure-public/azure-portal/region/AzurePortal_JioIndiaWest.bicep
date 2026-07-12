@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : AzurePortal.JioIndiaWest
+metadata name = 'AzurePortal.JioIndiaWest'
+metadata description = 'This module contains all the service tag IP addresses of AzurePortal.JioIndiaWest for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('AzurePortal.JioIndiaWest service tag IP addresses for Public')
 @export()
 var AzurePortal_JioIndiaWest = [
   '20.192.161.192/27'

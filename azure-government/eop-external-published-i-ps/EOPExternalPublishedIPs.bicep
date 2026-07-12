@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_AzureGovernment.json
 // Cloud        : AzureGovernment
 // Service tag  : EOPExternalPublishedIPs
+metadata name = 'EOPExternalPublishedIPs'
+metadata description = 'This module contains all the service tag IP addresses of EOPExternalPublishedIPs for AzureGovernment.'
+metadata author = ''
+metadata author = ''
 
+@description('EOPExternalPublishedIPs service tag IP addresses for AzureGovernment')
 @export()
 var EOPExternalPublishedIPs = [
   '23.103.191.0/24'

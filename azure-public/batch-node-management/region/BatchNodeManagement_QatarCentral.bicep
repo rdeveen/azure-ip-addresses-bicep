@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : BatchNodeManagement.QatarCentral
+metadata name = 'BatchNodeManagement.QatarCentral'
+metadata description = 'This module contains all the service tag IP addresses of BatchNodeManagement.QatarCentral for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('BatchNodeManagement.QatarCentral service tag IP addresses for Public')
 @export()
 var BatchNodeManagement_QatarCentral = [
   '20.21.33.32/27'

@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_AzureGovernment.json
 // Cloud        : AzureGovernment
 // Service tag  : AzureMachineLearning.USGovArizona
+metadata name = 'AzureMachineLearning.USGovArizona'
+metadata description = 'This module contains all the service tag IP addresses of AzureMachineLearning.USGovArizona for AzureGovernment.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureMachineLearning.USGovArizona service tag IP addresses for AzureGovernment')
 @export()
 var AzureMachineLearning_USGovArizona = [
   '20.140.48.144/28'

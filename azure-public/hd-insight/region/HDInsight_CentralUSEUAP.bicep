@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : HDInsight.CentralUSEUAP
+metadata name = 'HDInsight.CentralUSEUAP'
+metadata description = 'This module contains all the service tag IP addresses of HDInsight.CentralUSEUAP for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('HDInsight.CentralUSEUAP service tag IP addresses for Public')
 @export()
 var HDInsight_CentralUSEUAP = [
   '20.45.198.80/29'

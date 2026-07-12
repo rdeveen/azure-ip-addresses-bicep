@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : Sql.IndiaSouthCentral
+metadata name = 'Sql.IndiaSouthCentral'
+metadata description = 'This module contains all the service tag IP addresses of Sql.IndiaSouthCentral for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('Sql.IndiaSouthCentral service tag IP addresses for Public')
 @export()
 var Sql_IndiaSouthCentral = [
   '172.198.99.32/27'

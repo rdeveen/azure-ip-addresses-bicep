@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : PowerQueryOnline.IsraelCentral
+metadata name = 'PowerQueryOnline.IsraelCentral'
+metadata description = 'This module contains all the service tag IP addresses of PowerQueryOnline.IsraelCentral for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('PowerQueryOnline.IsraelCentral service tag IP addresses for Public')
 @export()
 var PowerQueryOnline_IsraelCentral = [
   '20.217.40.20/31'

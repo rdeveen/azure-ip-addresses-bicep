@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_AzureGovernment.json
 // Cloud        : AzureGovernment
 // Service tag  : AzureEventGrid.USDoDEast
+metadata name = 'AzureEventGrid.USDoDEast'
+metadata description = 'This module contains all the service tag IP addresses of AzureEventGrid.USDoDEast for AzureGovernment.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureEventGrid.USDoDEast service tag IP addresses for AzureGovernment')
 @export()
 var AzureEventGrid_USDoDEast = [
   '20.140.64.192/26'

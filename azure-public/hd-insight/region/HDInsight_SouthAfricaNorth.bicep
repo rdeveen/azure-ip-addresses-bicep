@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : HDInsight.SouthAfricaNorth
+metadata name = 'HDInsight.SouthAfricaNorth'
+metadata description = 'This module contains all the service tag IP addresses of HDInsight.SouthAfricaNorth for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('HDInsight.SouthAfricaNorth service tag IP addresses for Public')
 @export()
 var HDInsight_SouthAfricaNorth = [
   '102.133.124.0/29'

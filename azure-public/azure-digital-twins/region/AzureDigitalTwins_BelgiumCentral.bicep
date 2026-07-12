@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : AzureDigitalTwins.BelgiumCentral
+metadata name = 'AzureDigitalTwins.BelgiumCentral'
+metadata description = 'This module contains all the service tag IP addresses of AzureDigitalTwins.BelgiumCentral for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureDigitalTwins.BelgiumCentral service tag IP addresses for Public')
 @export()
 var AzureDigitalTwins_BelgiumCentral = [
   '9.160.43.192/27'

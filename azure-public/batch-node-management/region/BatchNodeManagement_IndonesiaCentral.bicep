@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : BatchNodeManagement.IndonesiaCentral
+metadata name = 'BatchNodeManagement.IndonesiaCentral'
+metadata description = 'This module contains all the service tag IP addresses of BatchNodeManagement.IndonesiaCentral for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('BatchNodeManagement.IndonesiaCentral service tag IP addresses for Public')
 @export()
 var BatchNodeManagement_IndonesiaCentral = [
   '70.153.153.64/27'

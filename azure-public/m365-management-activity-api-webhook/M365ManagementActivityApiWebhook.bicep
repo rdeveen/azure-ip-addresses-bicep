@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : M365ManagementActivityApiWebhook
+metadata name = 'M365ManagementActivityApiWebhook'
+metadata description = 'This module contains all the service tag IP addresses of M365ManagementActivityApiWebhook for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('M365ManagementActivityApiWebhook service tag IP addresses for Public')
 @export()
 var M365ManagementActivityApiWebhook = [
   '4.145.19.43/32'

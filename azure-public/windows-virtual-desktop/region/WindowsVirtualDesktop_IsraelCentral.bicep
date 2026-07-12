@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : WindowsVirtualDesktop.IsraelCentral
+metadata name = 'WindowsVirtualDesktop.IsraelCentral'
+metadata description = 'This module contains all the service tag IP addresses of WindowsVirtualDesktop.IsraelCentral for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('WindowsVirtualDesktop.IsraelCentral service tag IP addresses for Public')
 @export()
 var WindowsVirtualDesktop_IsraelCentral = [
   '40.64.144.248/29'

@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : AzureDigitalTwins.JapanEast
+metadata name = 'AzureDigitalTwins.JapanEast'
+metadata description = 'This module contains all the service tag IP addresses of AzureDigitalTwins.JapanEast for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureDigitalTwins.JapanEast service tag IP addresses for Public')
 @export()
 var AzureDigitalTwins_JapanEast = [
   '20.191.161.96/27'

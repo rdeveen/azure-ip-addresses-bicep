@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : ActionGroup.UAECentral
+metadata name = 'ActionGroup.UAECentral'
+metadata description = 'This module contains all the service tag IP addresses of ActionGroup.UAECentral for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('ActionGroup.UAECentral service tag IP addresses for Public')
 @export()
 var ActionGroup_UAECentral = [
   '20.203.88.62/31'

@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : DataFactory.CentralUSEUAP
+metadata name = 'DataFactory.CentralUSEUAP'
+metadata description = 'This module contains all the service tag IP addresses of DataFactory.CentralUSEUAP for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('DataFactory.CentralUSEUAP service tag IP addresses for Public')
 @export()
 var DataFactory_CentralUSEUAP = [
   '20.45.208.16/28'

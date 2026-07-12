@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_AzureGermany.json
 // Cloud        : AzureGermany
 // Service tag  : AppServiceManagement
+metadata name = 'AppServiceManagement'
+metadata description = 'This module contains all the service tag IP addresses of AppServiceManagement for AzureGermany.'
+metadata author = ''
+metadata author = ''
 
+@description('AppServiceManagement service tag IP addresses for AzureGermany')
 @export()
 var AppServiceManagement = [
   '51.8.226.64/26'

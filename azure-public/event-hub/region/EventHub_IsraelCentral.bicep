@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : EventHub.IsraelCentral
+metadata name = 'EventHub.IsraelCentral'
+metadata description = 'This module contains all the service tag IP addresses of EventHub.IsraelCentral for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('EventHub.IsraelCentral service tag IP addresses for Public')
 @export()
 var EventHub_IsraelCentral = [
   '20.217.45.0/24'

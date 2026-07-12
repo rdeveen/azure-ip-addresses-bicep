@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : WindowsVirtualDesktop.AustraliaSoutheast
+metadata name = 'WindowsVirtualDesktop.AustraliaSoutheast'
+metadata description = 'This module contains all the service tag IP addresses of WindowsVirtualDesktop.AustraliaSoutheast for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('WindowsVirtualDesktop.AustraliaSoutheast service tag IP addresses for Public')
 @export()
 var WindowsVirtualDesktop_AustraliaSoutheast = [
   '40.64.146.64/28'

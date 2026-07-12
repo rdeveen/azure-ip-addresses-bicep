@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_AzureGovernment.json
 // Cloud        : AzureGovernment
 // Service tag  : SerialConsole
+metadata name = 'SerialConsole'
+metadata description = 'This module contains all the service tag IP addresses of SerialConsole for AzureGovernment.'
+metadata author = ''
+metadata author = ''
 
+@description('SerialConsole service tag IP addresses for AzureGovernment')
 @export()
 var SerialConsole = [
   '20.140.53.121/32'

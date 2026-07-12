@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_China.json
 // Cloud        : China
 // Service tag  : StorageSyncService.ChinaNorth2
+metadata name = 'StorageSyncService.ChinaNorth2'
+metadata description = 'This module contains all the service tag IP addresses of StorageSyncService.ChinaNorth2 for China.'
+metadata author = ''
+metadata author = ''
 
+@description('StorageSyncService.ChinaNorth2 service tag IP addresses for China')
 @export()
 var StorageSyncService_ChinaNorth2 = [
   '159.27.145.208/29'

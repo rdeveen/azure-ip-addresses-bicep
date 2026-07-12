@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : PowerPlatformInfra.IsraelCentral
+metadata name = 'PowerPlatformInfra.IsraelCentral'
+metadata description = 'This module contains all the service tag IP addresses of PowerPlatformInfra.IsraelCentral for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('PowerPlatformInfra.IsraelCentral service tag IP addresses for Public')
 @export()
 var PowerPlatformInfra_IsraelCentral = [
   '20.217.161.88/29'

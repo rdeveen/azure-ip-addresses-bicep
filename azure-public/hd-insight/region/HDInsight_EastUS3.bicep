@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : HDInsight.EastUS3
+metadata name = 'HDInsight.EastUS3'
+metadata description = 'This module contains all the service tag IP addresses of HDInsight.EastUS3 for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('HDInsight.EastUS3 service tag IP addresses for Public')
 @export()
 var HDInsight_EastUS3 = [
   '134.138.73.152/29'

@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : MicrosoftCloudAppSecurity.AustraliaEast
+metadata name = 'MicrosoftCloudAppSecurity.AustraliaEast'
+metadata description = 'This module contains all the service tag IP addresses of MicrosoftCloudAppSecurity.AustraliaEast for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('MicrosoftCloudAppSecurity.AustraliaEast service tag IP addresses for Public')
 @export()
 var MicrosoftCloudAppSecurity_AustraliaEast = [
   '4.197.50.82/32'

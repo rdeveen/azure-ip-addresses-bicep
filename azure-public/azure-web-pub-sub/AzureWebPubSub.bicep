@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : AzureWebPubSub
+metadata name = 'AzureWebPubSub'
+metadata description = 'This module contains all the service tag IP addresses of AzureWebPubSub for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureWebPubSub service tag IP addresses for Public')
 @export()
 var AzureWebPubSub = [
   '4.181.53.32/27'

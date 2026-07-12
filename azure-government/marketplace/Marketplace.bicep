@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_AzureGovernment.json
 // Cloud        : AzureGovernment
 // Service tag  : Marketplace
+metadata name = 'Marketplace'
+metadata description = 'This module contains all the service tag IP addresses of Marketplace for AzureGovernment.'
+metadata author = ''
+metadata author = ''
 
+@description('Marketplace service tag IP addresses for AzureGovernment')
 @export()
 var Marketplace = [
   '20.140.49.178/32'

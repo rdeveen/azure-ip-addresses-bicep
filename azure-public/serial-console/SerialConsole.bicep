@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : SerialConsole
+metadata name = 'SerialConsole'
+metadata description = 'This module contains all the service tag IP addresses of SerialConsole for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('SerialConsole service tag IP addresses for Public')
 @export()
 var SerialConsole = [
   '4.145.74.168/32'

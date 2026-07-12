@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_AzureGovernment.json
 // Cloud        : AzureGovernment
 // Service tag  : Scuba
+metadata name = 'Scuba'
+metadata description = 'This module contains all the service tag IP addresses of Scuba for AzureGovernment.'
+metadata author = ''
+metadata author = ''
 
+@description('Scuba service tag IP addresses for AzureGovernment')
 @export()
 var Scuba = [
   '20.141.167.168/30'

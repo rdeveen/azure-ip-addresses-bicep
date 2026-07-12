@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : AzureDataExplorerManagement.ChileCentral
+metadata name = 'AzureDataExplorerManagement.ChileCentral'
+metadata description = 'This module contains all the service tag IP addresses of AzureDataExplorerManagement.ChileCentral for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureDataExplorerManagement.ChileCentral service tag IP addresses for Public')
 @export()
 var AzureDataExplorerManagement_ChileCentral = [
   '68.211.7.0/28'

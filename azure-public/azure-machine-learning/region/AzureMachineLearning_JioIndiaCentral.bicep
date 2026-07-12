@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : AzureMachineLearning.JioIndiaCentral
+metadata name = 'AzureMachineLearning.JioIndiaCentral'
+metadata description = 'This module contains all the service tag IP addresses of AzureMachineLearning.JioIndiaCentral for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureMachineLearning.JioIndiaCentral service tag IP addresses for Public')
 @export()
 var AzureMachineLearning_JioIndiaCentral = [
   '20.192.225.144/28'

@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : StorageSyncService.CanadaCentral
+metadata name = 'StorageSyncService.CanadaCentral'
+metadata description = 'This module contains all the service tag IP addresses of StorageSyncService.CanadaCentral for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('StorageSyncService.CanadaCentral service tag IP addresses for Public')
 @export()
 var StorageSyncService_CanadaCentral = [
   '52.228.81.248/29'

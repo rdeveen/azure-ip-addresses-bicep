@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : LogicApps.UAENorth
+metadata name = 'LogicApps.UAENorth'
+metadata description = 'This module contains all the service tag IP addresses of LogicApps.UAENorth for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('LogicApps.UAENorth service tag IP addresses for Public')
 @export()
 var LogicApps_UAENorth = [
   '20.74.196.16/28'

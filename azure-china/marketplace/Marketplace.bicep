@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_China.json
 // Cloud        : China
 // Service tag  : Marketplace
+metadata name = 'Marketplace'
+metadata description = 'This module contains all the service tag IP addresses of Marketplace for China.'
+metadata author = ''
+metadata author = ''
 
+@description('Marketplace service tag IP addresses for China')
 @export()
 var Marketplace = [
   '40.72.74.156/30'

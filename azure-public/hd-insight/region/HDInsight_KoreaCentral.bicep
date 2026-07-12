@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : HDInsight.KoreaCentral
+metadata name = 'HDInsight.KoreaCentral'
+metadata description = 'This module contains all the service tag IP addresses of HDInsight.KoreaCentral for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('HDInsight.KoreaCentral service tag IP addresses for Public')
 @export()
 var HDInsight_KoreaCentral = [
   '20.41.69.32/29'

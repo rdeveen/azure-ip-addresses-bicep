@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_AzureGovernment.json
 // Cloud        : AzureGovernment
 // Service tag  : AzureKeyVault.USDoDCentral
+metadata name = 'AzureKeyVault.USDoDCentral'
+metadata description = 'This module contains all the service tag IP addresses of AzureKeyVault.USDoDCentral for AzureGovernment.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureKeyVault.USDoDCentral service tag IP addresses for AzureGovernment')
 @export()
 var AzureKeyVault_USDoDCentral = [
   '20.140.77.116/30'

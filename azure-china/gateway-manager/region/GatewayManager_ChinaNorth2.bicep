@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_China.json
 // Cloud        : China
 // Service tag  : GatewayManager.ChinaNorth2
+metadata name = 'GatewayManager.ChinaNorth2'
+metadata description = 'This module contains all the service tag IP addresses of GatewayManager.ChinaNorth2 for China.'
+metadata author = ''
+metadata author = ''
 
+@description('GatewayManager.ChinaNorth2 service tag IP addresses for China')
 @export()
 var GatewayManager_ChinaNorth2 = [
   '40.73.136.240/29'

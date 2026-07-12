@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : AzureBackup.CentralUSEUAP
+metadata name = 'AzureBackup.CentralUSEUAP'
+metadata description = 'This module contains all the service tag IP addresses of AzureBackup.CentralUSEUAP for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureBackup.CentralUSEUAP service tag IP addresses for Public')
 @export()
 var AzureBackup_CentralUSEUAP = [
   '20.46.12.0/25'

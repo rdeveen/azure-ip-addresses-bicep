@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : WindowsVirtualDesktop.QatarCentral
+metadata name = 'WindowsVirtualDesktop.QatarCentral'
+metadata description = 'This module contains all the service tag IP addresses of WindowsVirtualDesktop.QatarCentral for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('WindowsVirtualDesktop.QatarCentral service tag IP addresses for Public')
 @export()
 var WindowsVirtualDesktop_QatarCentral = [
   '40.64.148.160/27'

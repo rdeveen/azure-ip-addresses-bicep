@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_AzureGovernment.json
 // Cloud        : AzureGovernment
 // Service tag  : VideoIndexer
+metadata name = 'VideoIndexer'
+metadata description = 'This module contains all the service tag IP addresses of VideoIndexer for AzureGovernment.'
+metadata author = ''
+metadata author = ''
 
+@description('VideoIndexer service tag IP addresses for AzureGovernment')
 @export()
 var VideoIndexer = [
   '20.141.10.218/31'

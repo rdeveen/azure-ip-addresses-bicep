@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : HDInsight.FranceCentral
+metadata name = 'HDInsight.FranceCentral'
+metadata description = 'This module contains all the service tag IP addresses of HDInsight.FranceCentral for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('HDInsight.FranceCentral service tag IP addresses for Public')
 @export()
 var HDInsight_FranceCentral = [
   '20.43.45.224/29'

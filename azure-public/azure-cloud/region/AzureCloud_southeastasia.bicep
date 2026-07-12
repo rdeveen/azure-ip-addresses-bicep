@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : AzureCloud.southeastasia
+metadata name = 'AzureCloud.southeastasia'
+metadata description = 'This module contains all the service tag IP addresses of AzureCloud.southeastasia for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureCloud.southeastasia service tag IP addresses for Public')
 @export()
 var AzureCloud_southeastasia = [
   '4.144.128.0/17'

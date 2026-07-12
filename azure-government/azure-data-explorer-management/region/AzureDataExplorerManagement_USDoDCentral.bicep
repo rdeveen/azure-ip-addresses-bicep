@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_AzureGovernment.json
 // Cloud        : AzureGovernment
 // Service tag  : AzureDataExplorerManagement.USDoDCentral
+metadata name = 'AzureDataExplorerManagement.USDoDCentral'
+metadata description = 'This module contains all the service tag IP addresses of AzureDataExplorerManagement.USDoDCentral for AzureGovernment.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureDataExplorerManagement.USDoDCentral service tag IP addresses for AzureGovernment')
 @export()
 var AzureDataExplorerManagement_USDoDCentral = [
   '20.158.154.96/28'

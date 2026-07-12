@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : AzureDataExplorerManagement.IndiaSouthCentral
+metadata name = 'AzureDataExplorerManagement.IndiaSouthCentral'
+metadata description = 'This module contains all the service tag IP addresses of AzureDataExplorerManagement.IndiaSouthCentral for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureDataExplorerManagement.IndiaSouthCentral service tag IP addresses for Public')
 @export()
 var AzureDataExplorerManagement_IndiaSouthCentral = [
   '172.198.89.144/28'

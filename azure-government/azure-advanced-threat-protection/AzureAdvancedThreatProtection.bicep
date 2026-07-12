@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_AzureGovernment.json
 // Cloud        : AzureGovernment
 // Service tag  : AzureAdvancedThreatProtection
+metadata name = 'AzureAdvancedThreatProtection'
+metadata description = 'This module contains all the service tag IP addresses of AzureAdvancedThreatProtection for AzureGovernment.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureAdvancedThreatProtection service tag IP addresses for AzureGovernment')
 @export()
 var AzureAdvancedThreatProtection = [
   '20.140.48.128/29'

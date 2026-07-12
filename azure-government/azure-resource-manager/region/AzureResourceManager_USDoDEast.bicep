@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_AzureGovernment.json
 // Cloud        : AzureGovernment
 // Service tag  : AzureResourceManager.USDoDEast
+metadata name = 'AzureResourceManager.USDoDEast'
+metadata description = 'This module contains all the service tag IP addresses of AzureResourceManager.USDoDEast for AzureGovernment.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureResourceManager.USDoDEast service tag IP addresses for AzureGovernment')
 @export()
 var AzureResourceManager_USDoDEast = [
   '20.140.70.0/23'

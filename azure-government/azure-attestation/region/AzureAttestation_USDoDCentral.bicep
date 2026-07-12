@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_AzureGovernment.json
 // Cloud        : AzureGovernment
 // Service tag  : AzureAttestation.USDoDCentral
+metadata name = 'AzureAttestation.USDoDCentral'
+metadata description = 'This module contains all the service tag IP addresses of AzureAttestation.USDoDCentral for AzureGovernment.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureAttestation.USDoDCentral service tag IP addresses for AzureGovernment')
 @export()
 var AzureAttestation_USDoDCentral = [
   '20.140.76.172/30'

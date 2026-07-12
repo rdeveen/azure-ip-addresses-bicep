@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_China.json
 // Cloud        : China
 // Service tag  : AzureDatabricks
+metadata name = 'AzureDatabricks'
+metadata description = 'This module contains all the service tag IP addresses of AzureDatabricks for China.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureDatabricks service tag IP addresses for China')
 @export()
 var AzureDatabricks = [
   '52.130.1.64/29'

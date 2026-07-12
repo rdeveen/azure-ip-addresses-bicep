@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_AzureGovernment.json
 // Cloud        : AzureGovernment
 // Service tag  : HDInsight.USGovTexas
+metadata name = 'HDInsight.USGovTexas'
+metadata description = 'This module contains all the service tag IP addresses of HDInsight.USGovTexas for AzureGovernment.'
+metadata author = ''
+metadata author = ''
 
+@description('HDInsight.USGovTexas service tag IP addresses for AzureGovernment')
 @export()
 var HDInsight_USGovTexas = [
   '20.140.59.56/29'

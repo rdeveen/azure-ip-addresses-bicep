@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : AzureLoadTestingInstanceManagement
+metadata name = 'AzureLoadTestingInstanceManagement'
+metadata description = 'This module contains all the service tag IP addresses of AzureLoadTestingInstanceManagement for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureLoadTestingInstanceManagement service tag IP addresses for Public')
 @export()
 var AzureLoadTestingInstanceManagement = [
   '20.14.122.64/32'

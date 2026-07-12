@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : PowerQueryOnline.GermanyWestCentral
+metadata name = 'PowerQueryOnline.GermanyWestCentral'
+metadata description = 'This module contains all the service tag IP addresses of PowerQueryOnline.GermanyWestCentral for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('PowerQueryOnline.GermanyWestCentral service tag IP addresses for Public')
 @export()
 var PowerQueryOnline_GermanyWestCentral = [
   '4.182.42.168/29'

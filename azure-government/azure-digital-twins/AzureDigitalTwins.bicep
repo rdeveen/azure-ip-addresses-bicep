@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_AzureGovernment.json
 // Cloud        : AzureGovernment
 // Service tag  : AzureDigitalTwins
+metadata name = 'AzureDigitalTwins'
+metadata description = 'This module contains all the service tag IP addresses of AzureDigitalTwins for AzureGovernment.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureDigitalTwins service tag IP addresses for AzureGovernment')
 @export()
 var AzureDigitalTwins = [
   '20.141.13.64/27'

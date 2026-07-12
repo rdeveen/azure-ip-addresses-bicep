@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_China.json
 // Cloud        : China
 // Service tag  : MicrosoftCloudAppSecurity.ChinaNorth2
+metadata name = 'MicrosoftCloudAppSecurity.ChinaNorth2'
+metadata description = 'This module contains all the service tag IP addresses of MicrosoftCloudAppSecurity.ChinaNorth2 for China.'
+metadata author = ''
+metadata author = ''
 
+@description('MicrosoftCloudAppSecurity.ChinaNorth2 service tag IP addresses for China')
 @export()
 var MicrosoftCloudAppSecurity_ChinaNorth2 = [
   '40.73.141.0/28'

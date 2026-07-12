@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : AzureSignalR.BelgiumCentral
+metadata name = 'AzureSignalR.BelgiumCentral'
+metadata description = 'This module contains all the service tag IP addresses of AzureSignalR.BelgiumCentral for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureSignalR.BelgiumCentral service tag IP addresses for Public')
 @export()
 var AzureSignalR_BelgiumCentral = [
   '9.160.219.64/26'

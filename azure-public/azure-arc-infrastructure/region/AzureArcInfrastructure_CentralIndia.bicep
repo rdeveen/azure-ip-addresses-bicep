@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : AzureArcInfrastructure.CentralIndia
+metadata name = 'AzureArcInfrastructure.CentralIndia'
+metadata description = 'This module contains all the service tag IP addresses of AzureArcInfrastructure.CentralIndia for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureArcInfrastructure.CentralIndia service tag IP addresses for Public')
 @export()
 var AzureArcInfrastructure_CentralIndia = [
   '20.43.121.252/32'

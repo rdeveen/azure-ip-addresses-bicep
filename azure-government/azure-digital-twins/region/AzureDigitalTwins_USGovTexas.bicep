@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_AzureGovernment.json
 // Cloud        : AzureGovernment
 // Service tag  : AzureDigitalTwins.USGovTexas
+metadata name = 'AzureDigitalTwins.USGovTexas'
+metadata description = 'This module contains all the service tag IP addresses of AzureDigitalTwins.USGovTexas for AzureGovernment.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureDigitalTwins.USGovTexas service tag IP addresses for AzureGovernment')
 @export()
 var AzureDigitalTwins_USGovTexas = [
   '62.11.90.216/29'

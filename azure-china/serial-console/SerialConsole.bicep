@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_China.json
 // Cloud        : China
 // Service tag  : SerialConsole
+metadata name = 'SerialConsole'
+metadata description = 'This module contains all the service tag IP addresses of SerialConsole for China.'
+metadata author = ''
+metadata author = ''
 
+@description('SerialConsole service tag IP addresses for China')
 @export()
 var SerialConsole = [
   '40.72.175.219/32'

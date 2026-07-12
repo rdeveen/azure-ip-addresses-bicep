@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_AzureGovernment.json
 // Cloud        : AzureGovernment
 // Service tag  : AzureInformationProtection
+metadata name = 'AzureInformationProtection'
+metadata description = 'This module contains all the service tag IP addresses of AzureInformationProtection for AzureGovernment.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureInformationProtection service tag IP addresses for AzureGovernment')
 @export()
 var AzureInformationProtection = [
   '13.72.32.53/32'

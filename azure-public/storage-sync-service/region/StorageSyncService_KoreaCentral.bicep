@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : StorageSyncService.KoreaCentral
+metadata name = 'StorageSyncService.KoreaCentral'
+metadata description = 'This module contains all the service tag IP addresses of StorageSyncService.KoreaCentral for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('StorageSyncService.KoreaCentral service tag IP addresses for Public')
 @export()
 var StorageSyncService_KoreaCentral = [
   '20.41.65.184/29'

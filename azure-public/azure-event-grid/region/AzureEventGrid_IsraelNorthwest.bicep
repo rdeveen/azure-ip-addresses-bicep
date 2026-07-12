@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : AzureEventGrid.IsraelNorthwest
+metadata name = 'AzureEventGrid.IsraelNorthwest'
+metadata description = 'This module contains all the service tag IP addresses of AzureEventGrid.IsraelNorthwest for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureEventGrid.IsraelNorthwest service tag IP addresses for Public')
 @export()
 var AzureEventGrid_IsraelNorthwest = [
   '20.217.249.128/25'

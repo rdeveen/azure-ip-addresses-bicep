@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : AzureDigitalTwins.WestCentralUS
+metadata name = 'AzureDigitalTwins.WestCentralUS'
+metadata description = 'This module contains all the service tag IP addresses of AzureDigitalTwins.WestCentralUS for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureDigitalTwins.WestCentralUS service tag IP addresses for Public')
 @export()
 var AzureDigitalTwins_WestCentralUS = [
   '20.168.190.152/29'

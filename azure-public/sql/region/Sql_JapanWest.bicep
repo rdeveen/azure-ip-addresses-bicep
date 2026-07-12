@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : Sql.JapanWest
+metadata name = 'Sql.JapanWest'
+metadata description = 'This module contains all the service tag IP addresses of Sql.JapanWest for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('Sql.JapanWest service tag IP addresses for Public')
 @export()
 var Sql_JapanWest = [
   '4.190.130.128/25'

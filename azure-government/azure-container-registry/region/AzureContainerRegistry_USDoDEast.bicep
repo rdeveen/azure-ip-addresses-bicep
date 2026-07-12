@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_AzureGovernment.json
 // Cloud        : AzureGovernment
 // Service tag  : AzureContainerRegistry.USDoDEast
+metadata name = 'AzureContainerRegistry.USDoDEast'
+metadata description = 'This module contains all the service tag IP addresses of AzureContainerRegistry.USDoDEast for AzureGovernment.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureContainerRegistry.USDoDEast service tag IP addresses for AzureGovernment')
 @export()
 var AzureContainerRegistry_USDoDEast = [
   '52.126.200.192/26'

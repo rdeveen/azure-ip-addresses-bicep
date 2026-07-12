@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : AzureAttestation.WestUS3
+metadata name = 'AzureAttestation.WestUS3'
+metadata description = 'This module contains all the service tag IP addresses of AzureAttestation.WestUS3 for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureAttestation.WestUS3 service tag IP addresses for Public')
 @export()
 var AzureAttestation_WestUS3 = [
   '4.148.214.196/30'

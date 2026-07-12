@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : PowerBI.ChileCentral
+metadata name = 'PowerBI.ChileCentral'
+metadata description = 'This module contains all the service tag IP addresses of PowerBI.ChileCentral for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('PowerBI.ChileCentral service tag IP addresses for Public')
 @export()
 var PowerBI_ChileCentral = [
   '68.211.13.20/31'

@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : AzureKeyVault.QatarCentral
+metadata name = 'AzureKeyVault.QatarCentral'
+metadata description = 'This module contains all the service tag IP addresses of AzureKeyVault.QatarCentral for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureKeyVault.QatarCentral service tag IP addresses for Public')
 @export()
 var AzureKeyVault_QatarCentral = [
   '20.21.37.112/30'

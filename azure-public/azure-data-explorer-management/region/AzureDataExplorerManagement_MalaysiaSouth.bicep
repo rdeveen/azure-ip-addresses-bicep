@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : AzureDataExplorerManagement.MalaysiaSouth
+metadata name = 'AzureDataExplorerManagement.MalaysiaSouth'
+metadata description = 'This module contains all the service tag IP addresses of AzureDataExplorerManagement.MalaysiaSouth for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureDataExplorerManagement.MalaysiaSouth service tag IP addresses for Public')
 @export()
 var AzureDataExplorerManagement_MalaysiaSouth = [
   '20.17.54.128/28'

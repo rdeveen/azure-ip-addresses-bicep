@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : PowerQueryOnline.MalaysiaWest
+metadata name = 'PowerQueryOnline.MalaysiaWest'
+metadata description = 'This module contains all the service tag IP addresses of PowerQueryOnline.MalaysiaWest for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('PowerQueryOnline.MalaysiaWest service tag IP addresses for Public')
 @export()
 var PowerQueryOnline_MalaysiaWest = [
   '20.17.112.40/29'

@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_China.json
 // Cloud        : China
 // Service tag  : M365ManagementActivityApiWebhook
+metadata name = 'M365ManagementActivityApiWebhook'
+metadata description = 'This module contains all the service tag IP addresses of M365ManagementActivityApiWebhook for China.'
+metadata author = ''
+metadata author = ''
 
+@description('M365ManagementActivityApiWebhook service tag IP addresses for China')
 @export()
 var M365ManagementActivityApiWebhook = [
   '40.73.141.156/30'

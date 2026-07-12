@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_AzureGovernment.json
 // Cloud        : AzureGovernment
 // Service tag  : LogicApps.USGovTexas
+metadata name = 'LogicApps.USGovTexas'
+metadata description = 'This module contains all the service tag IP addresses of LogicApps.USGovTexas for AzureGovernment.'
+metadata author = ''
+metadata author = ''
 
+@description('LogicApps.USGovTexas service tag IP addresses for AzureGovernment')
 @export()
 var LogicApps_USGovTexas = [
   '20.141.120.209/32'

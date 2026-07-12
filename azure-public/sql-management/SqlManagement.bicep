@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : SqlManagement
+metadata name = 'SqlManagement'
+metadata description = 'This module contains all the service tag IP addresses of SqlManagement for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('SqlManagement service tag IP addresses for Public')
 @export()
 var SqlManagement = [
   '4.190.146.192/26'

@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : AzureEventGrid.TaiwanNorth
+metadata name = 'AzureEventGrid.TaiwanNorth'
+metadata description = 'This module contains all the service tag IP addresses of AzureEventGrid.TaiwanNorth for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureEventGrid.TaiwanNorth service tag IP addresses for Public')
 @export()
 var AzureEventGrid_TaiwanNorth = [
   '51.53.25.128/25'

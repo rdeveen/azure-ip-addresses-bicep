@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : AzureMachineLearning.SwitzerlandWest
+metadata name = 'AzureMachineLearning.SwitzerlandWest'
+metadata description = 'This module contains all the service tag IP addresses of AzureMachineLearning.SwitzerlandWest for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureMachineLearning.SwitzerlandWest service tag IP addresses for Public')
 @export()
 var AzureMachineLearning_SwitzerlandWest = [
   '4.226.255.162/31'

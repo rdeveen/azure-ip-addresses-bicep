@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : AzureEventGrid.MalaysiaSouth
+metadata name = 'AzureEventGrid.MalaysiaSouth'
+metadata description = 'This module contains all the service tag IP addresses of AzureEventGrid.MalaysiaSouth for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureEventGrid.MalaysiaSouth service tag IP addresses for Public')
 @export()
 var AzureEventGrid_MalaysiaSouth = [
   '20.17.49.128/25'

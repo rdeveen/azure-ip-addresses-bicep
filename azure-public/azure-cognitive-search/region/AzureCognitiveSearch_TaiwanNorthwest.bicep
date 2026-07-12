@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : AzureCognitiveSearch.TaiwanNorthwest
+metadata name = 'AzureCognitiveSearch.TaiwanNorthwest'
+metadata description = 'This module contains all the service tag IP addresses of AzureCognitiveSearch.TaiwanNorthwest for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureCognitiveSearch.TaiwanNorthwest service tag IP addresses for Public')
 @export()
 var AzureCognitiveSearch_TaiwanNorthwest = [
   '51.53.168.192/26'

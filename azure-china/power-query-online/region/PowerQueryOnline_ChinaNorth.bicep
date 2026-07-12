@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_China.json
 // Cloud        : China
 // Service tag  : PowerQueryOnline.ChinaNorth
+metadata name = 'PowerQueryOnline.ChinaNorth'
+metadata description = 'This module contains all the service tag IP addresses of PowerQueryOnline.ChinaNorth for China.'
+metadata author = ''
+metadata author = ''
 
+@description('PowerQueryOnline.ChinaNorth service tag IP addresses for China')
 @export()
 var PowerQueryOnline_ChinaNorth = [
   '2404:7940:1::200/123'

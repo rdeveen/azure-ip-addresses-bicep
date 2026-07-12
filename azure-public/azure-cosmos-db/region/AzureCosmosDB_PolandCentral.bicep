@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : AzureCosmosDB.PolandCentral
+metadata name = 'AzureCosmosDB.PolandCentral'
+metadata description = 'This module contains all the service tag IP addresses of AzureCosmosDB.PolandCentral for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureCosmosDB.PolandCentral service tag IP addresses for Public')
 @export()
 var AzureCosmosDB_PolandCentral = [
   '20.215.3.32/27'

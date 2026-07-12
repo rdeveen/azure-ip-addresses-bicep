@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : AzureDatabricks
+metadata name = 'AzureDatabricks'
+metadata description = 'This module contains all the service tag IP addresses of AzureDatabricks for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureDatabricks service tag IP addresses for Public')
 @export()
 var AzureDatabricks = [
   '4.147.241.0/28'

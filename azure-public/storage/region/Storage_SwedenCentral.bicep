@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : Storage.SwedenCentral
+metadata name = 'Storage.SwedenCentral'
+metadata description = 'This module contains all the service tag IP addresses of Storage.SwedenCentral for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('Storage.SwedenCentral service tag IP addresses for Public')
 @export()
 var Storage_SwedenCentral = [
   '20.33.171.0/24'

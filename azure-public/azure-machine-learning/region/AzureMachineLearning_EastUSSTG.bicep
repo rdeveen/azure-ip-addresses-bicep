@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : AzureMachineLearning.EastUSSTG
+metadata name = 'AzureMachineLearning.EastUSSTG'
+metadata description = 'This module contains all the service tag IP addresses of AzureMachineLearning.EastUSSTG for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureMachineLearning.EastUSSTG service tag IP addresses for Public')
 @export()
 var AzureMachineLearning_EastUSSTG = [
   '20.99.8.96/27'

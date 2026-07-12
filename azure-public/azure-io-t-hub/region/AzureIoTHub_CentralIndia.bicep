@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : AzureIoTHub.CentralIndia
+metadata name = 'AzureIoTHub.CentralIndia'
+metadata description = 'This module contains all the service tag IP addresses of AzureIoTHub.CentralIndia for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureIoTHub.CentralIndia service tag IP addresses for Public')
 @export()
 var AzureIoTHub_CentralIndia = [
   '4.188.59.136/30'

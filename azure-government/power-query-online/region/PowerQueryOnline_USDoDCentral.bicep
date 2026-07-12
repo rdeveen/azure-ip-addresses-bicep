@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_AzureGovernment.json
 // Cloud        : AzureGovernment
 // Service tag  : PowerQueryOnline.USDoDCentral
+metadata name = 'PowerQueryOnline.USDoDCentral'
+metadata description = 'This module contains all the service tag IP addresses of PowerQueryOnline.USDoDCentral for AzureGovernment.'
+metadata author = ''
+metadata author = ''
 
+@description('PowerQueryOnline.USDoDCentral service tag IP addresses for AzureGovernment')
 @export()
 var PowerQueryOnline_USDoDCentral = [
   '20.140.72.116/31'

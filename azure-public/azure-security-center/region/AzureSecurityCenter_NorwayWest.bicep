@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : AzureSecurityCenter.NorwayWest
+metadata name = 'AzureSecurityCenter.NorwayWest'
+metadata description = 'This module contains all the service tag IP addresses of AzureSecurityCenter.NorwayWest for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureSecurityCenter.NorwayWest service tag IP addresses for Public')
 @export()
 var AzureSecurityCenter_NorwayWest = [
   '4.220.175.224/27'

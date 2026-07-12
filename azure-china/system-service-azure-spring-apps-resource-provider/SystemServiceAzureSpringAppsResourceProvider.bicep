@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_China.json
 // Cloud        : China
 // Service tag  : SystemServiceAzureSpringAppsResourceProvider
+metadata name = 'SystemServiceAzureSpringAppsResourceProvider'
+metadata description = 'This module contains all the service tag IP addresses of SystemServiceAzureSpringAppsResourceProvider for China.'
+metadata author = ''
+metadata author = ''
 
+@description('SystemServiceAzureSpringAppsResourceProvider service tag IP addresses for China')
 @export()
 var SystemServiceAzureSpringAppsResourceProvider = [
   '40.162.5.160/27'

@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : PowerPlatformPlex.AustraliaEast
+metadata name = 'PowerPlatformPlex.AustraliaEast'
+metadata description = 'This module contains all the service tag IP addresses of PowerPlatformPlex.AustraliaEast for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('PowerPlatformPlex.AustraliaEast service tag IP addresses for Public')
 @export()
 var PowerPlatformPlex_AustraliaEast = [
   '20.40.190.0/26'

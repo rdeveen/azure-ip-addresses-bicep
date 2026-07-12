@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : ApiManagement.BelgiumCentral
+metadata name = 'ApiManagement.BelgiumCentral'
+metadata description = 'This module contains all the service tag IP addresses of ApiManagement.BelgiumCentral for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('ApiManagement.BelgiumCentral service tag IP addresses for Public')
 @export()
 var ApiManagement_BelgiumCentral = [
   '9.160.43.176/28'

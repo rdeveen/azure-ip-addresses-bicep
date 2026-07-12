@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_AzureGermany.json
 // Cloud        : AzureGermany
 // Service tag  : BatchNodeManagement
+metadata name = 'BatchNodeManagement'
+metadata description = 'This module contains all the service tag IP addresses of BatchNodeManagement for AzureGermany.'
+metadata author = ''
+metadata author = ''
 
+@description('BatchNodeManagement service tag IP addresses for AzureGermany')
 @export()
 var BatchNodeManagement = [
   '51.4.144.221/32'

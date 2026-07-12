@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : ActionGroup.BrazilSoutheast
+metadata name = 'ActionGroup.BrazilSoutheast'
+metadata description = 'This module contains all the service tag IP addresses of ActionGroup.BrazilSoutheast for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('ActionGroup.BrazilSoutheast service tag IP addresses for Public')
 @export()
 var ActionGroup_BrazilSoutheast = [
   '108.140.5.168/30'

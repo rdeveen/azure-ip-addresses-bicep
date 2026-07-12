@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : MicrosoftContainerRegistry.AustraliaEast
+metadata name = 'MicrosoftContainerRegistry.AustraliaEast'
+metadata description = 'This module contains all the service tag IP addresses of MicrosoftContainerRegistry.AustraliaEast for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('MicrosoftContainerRegistry.AustraliaEast service tag IP addresses for Public')
 @export()
 var MicrosoftContainerRegistry_AustraliaEast = [
   '13.70.72.128/29'

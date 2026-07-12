@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_China.json
 // Cloud        : China
 // Service tag  : AzureMachineLearning
+metadata name = 'AzureMachineLearning'
+metadata description = 'This module contains all the service tag IP addresses of AzureMachineLearning for China.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureMachineLearning service tag IP addresses for China')
 @export()
 var AzureMachineLearning = [
   '40.73.105.207/32'

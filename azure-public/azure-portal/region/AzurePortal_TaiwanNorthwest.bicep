@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : AzurePortal.TaiwanNorthwest
+metadata name = 'AzurePortal.TaiwanNorthwest'
+metadata description = 'This module contains all the service tag IP addresses of AzurePortal.TaiwanNorthwest for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('AzurePortal.TaiwanNorthwest service tag IP addresses for Public')
 @export()
 var AzurePortal_TaiwanNorthwest = [
   '51.53.178.32/27'

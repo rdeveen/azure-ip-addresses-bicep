@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : PowerBI.MexicoCentral
+metadata name = 'PowerBI.MexicoCentral'
+metadata description = 'This module contains all the service tag IP addresses of PowerBI.MexicoCentral for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('PowerBI.MexicoCentral service tag IP addresses for Public')
 @export()
 var PowerBI_MexicoCentral = [
   '68.155.79.224/27'

@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_AzureGovernment.json
 // Cloud        : AzureGovernment
 // Service tag  : AzureMonitorForSAP
+metadata name = 'AzureMonitorForSAP'
+metadata description = 'This module contains all the service tag IP addresses of AzureMonitorForSAP for AzureGovernment.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureMonitorForSAP service tag IP addresses for AzureGovernment')
 @export()
 var AzureMonitorForSAP = [
   '51.54.119.240/31'

@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : PowerPlatformPlex.QatarCentral
+metadata name = 'PowerPlatformPlex.QatarCentral'
+metadata description = 'This module contains all the service tag IP addresses of PowerPlatformPlex.QatarCentral for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('PowerPlatformPlex.QatarCentral service tag IP addresses for Public')
 @export()
 var PowerPlatformPlex_QatarCentral = [
   '4.171.31.160/28'

@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : AzureSignalR.TaiwanNorth
+metadata name = 'AzureSignalR.TaiwanNorth'
+metadata description = 'This module contains all the service tag IP addresses of AzureSignalR.TaiwanNorth for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureSignalR.TaiwanNorth service tag IP addresses for Public')
 @export()
 var AzureSignalR_TaiwanNorth = [
   '51.53.52.0/26'

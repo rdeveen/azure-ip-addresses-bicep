@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : MicrosoftDefenderForEndpoint
+metadata name = 'MicrosoftDefenderForEndpoint'
+metadata description = 'This module contains all the service tag IP addresses of MicrosoftDefenderForEndpoint for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('MicrosoftDefenderForEndpoint service tag IP addresses for Public')
 @export()
 var MicrosoftDefenderForEndpoint = [
   '4.149.115.16/28'

@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : WindowsVirtualDesktop.NorthCentralUS
+metadata name = 'WindowsVirtualDesktop.NorthCentralUS'
+metadata description = 'This module contains all the service tag IP addresses of WindowsVirtualDesktop.NorthCentralUS for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('WindowsVirtualDesktop.NorthCentralUS service tag IP addresses for Public')
 @export()
 var WindowsVirtualDesktop_NorthCentralUS = [
   '40.64.146.96/28'

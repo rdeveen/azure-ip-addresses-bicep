@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : WindowsVirtualDesktop.EastAsia
+metadata name = 'WindowsVirtualDesktop.EastAsia'
+metadata description = 'This module contains all the service tag IP addresses of WindowsVirtualDesktop.EastAsia for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('WindowsVirtualDesktop.EastAsia service tag IP addresses for Public')
 @export()
 var WindowsVirtualDesktop_EastAsia = [
   '40.64.145.192/28'

@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : PowerQueryOnline.JioIndiaWest
+metadata name = 'PowerQueryOnline.JioIndiaWest'
+metadata description = 'This module contains all the service tag IP addresses of PowerQueryOnline.JioIndiaWest for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('PowerQueryOnline.JioIndiaWest service tag IP addresses for Public')
 @export()
 var PowerQueryOnline_JioIndiaWest = [
   '20.192.160.20/31'

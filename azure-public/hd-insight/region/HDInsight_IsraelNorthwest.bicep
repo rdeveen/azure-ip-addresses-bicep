@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : HDInsight.IsraelNorthwest
+metadata name = 'HDInsight.IsraelNorthwest'
+metadata description = 'This module contains all the service tag IP addresses of HDInsight.IsraelNorthwest for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('HDInsight.IsraelNorthwest service tag IP addresses for Public')
 @export()
 var HDInsight_IsraelNorthwest = [
   '20.217.255.16/29'

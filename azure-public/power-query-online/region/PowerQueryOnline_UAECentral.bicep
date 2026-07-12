@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : PowerQueryOnline.UAECentral
+metadata name = 'PowerQueryOnline.UAECentral'
+metadata description = 'This module contains all the service tag IP addresses of PowerQueryOnline.UAECentral for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('PowerQueryOnline.UAECentral service tag IP addresses for Public')
 @export()
 var PowerQueryOnline_UAECentral = [
   '20.37.64.120/31'

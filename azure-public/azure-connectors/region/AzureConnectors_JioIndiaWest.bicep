@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : AzureConnectors.JioIndiaWest
+metadata name = 'AzureConnectors.JioIndiaWest'
+metadata description = 'This module contains all the service tag IP addresses of AzureConnectors.JioIndiaWest for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureConnectors.JioIndiaWest service tag IP addresses for Public')
 @export()
 var AzureConnectors_JioIndiaWest = [
   '20.193.206.192/26'

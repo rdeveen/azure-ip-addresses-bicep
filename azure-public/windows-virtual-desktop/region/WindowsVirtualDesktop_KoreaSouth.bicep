@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : WindowsVirtualDesktop.KoreaSouth
+metadata name = 'WindowsVirtualDesktop.KoreaSouth'
+metadata description = 'This module contains all the service tag IP addresses of WindowsVirtualDesktop.KoreaSouth for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('WindowsVirtualDesktop.KoreaSouth service tag IP addresses for Public')
 @export()
 var WindowsVirtualDesktop_KoreaSouth = [
   '40.64.147.16/28'

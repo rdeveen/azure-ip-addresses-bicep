@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : AzureCloud.centralus
+metadata name = 'AzureCloud.centralus'
+metadata description = 'This module contains all the service tag IP addresses of AzureCloud.centralus for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureCloud.centralus service tag IP addresses for Public')
 @export()
 var AzureCloud_centralus = [
   '4.150.128.0/18'

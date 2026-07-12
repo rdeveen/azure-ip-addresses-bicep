@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : AzureAdvancedThreatProtection
+metadata name = 'AzureAdvancedThreatProtection'
+metadata description = 'This module contains all the service tag IP addresses of AzureAdvancedThreatProtection for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureAdvancedThreatProtection service tag IP addresses for Public')
 @export()
 var AzureAdvancedThreatProtection = [
   '4.208.124.106/31'

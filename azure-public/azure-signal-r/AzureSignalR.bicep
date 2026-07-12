@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : AzureSignalR
+metadata name = 'AzureSignalR'
+metadata description = 'This module contains all the service tag IP addresses of AzureSignalR for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureSignalR service tag IP addresses for Public')
 @export()
 var AzureSignalR = [
   '4.181.42.224/27'

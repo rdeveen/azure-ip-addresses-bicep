@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : AzureMachineLearningInference
+metadata name = 'AzureMachineLearningInference'
+metadata description = 'This module contains all the service tag IP addresses of AzureMachineLearningInference for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureMachineLearningInference service tag IP addresses for Public')
 @export()
 var AzureMachineLearningInference = [
   '4.147.36.14/31'

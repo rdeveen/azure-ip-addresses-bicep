@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : AzureDataLake.NorthEurope
+metadata name = 'AzureDataLake.NorthEurope'
+metadata description = 'This module contains all the service tag IP addresses of AzureDataLake.NorthEurope for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureDataLake.NorthEurope service tag IP addresses for Public')
 @export()
 var AzureDataLake_NorthEurope = [
   '40.90.141.128/29'

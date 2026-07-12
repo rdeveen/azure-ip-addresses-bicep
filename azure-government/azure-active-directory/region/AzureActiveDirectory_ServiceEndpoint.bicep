@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_AzureGovernment.json
 // Cloud        : AzureGovernment
 // Service tag  : AzureActiveDirectory.ServiceEndpoint
+metadata name = 'AzureActiveDirectory.ServiceEndpoint'
+metadata description = 'This module contains all the service tag IP addresses of AzureActiveDirectory.ServiceEndpoint for AzureGovernment.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureActiveDirectory.ServiceEndpoint service tag IP addresses for AzureGovernment')
 @export()
 var AzureActiveDirectory_ServiceEndpoint = [
   '20.140.232.0/27'

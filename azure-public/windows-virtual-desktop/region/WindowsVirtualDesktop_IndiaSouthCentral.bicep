@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : WindowsVirtualDesktop.IndiaSouthCentral
+metadata name = 'WindowsVirtualDesktop.IndiaSouthCentral'
+metadata description = 'This module contains all the service tag IP addresses of WindowsVirtualDesktop.IndiaSouthCentral for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('WindowsVirtualDesktop.IndiaSouthCentral service tag IP addresses for Public')
 @export()
 var WindowsVirtualDesktop_IndiaSouthCentral = [
   '2603:1061:2010:41::/117'

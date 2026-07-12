@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : PowerPlatformPlex.ChileCentral
+metadata name = 'PowerPlatformPlex.ChileCentral'
+metadata description = 'This module contains all the service tag IP addresses of PowerPlatformPlex.ChileCentral for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('PowerPlatformPlex.ChileCentral service tag IP addresses for Public')
 @export()
 var PowerPlatformPlex_ChileCentral = [
   '57.156.98.128/25'

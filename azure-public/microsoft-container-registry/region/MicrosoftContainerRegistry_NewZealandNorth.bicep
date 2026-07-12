@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : MicrosoftContainerRegistry.NewZealandNorth
+metadata name = 'MicrosoftContainerRegistry.NewZealandNorth'
+metadata description = 'This module contains all the service tag IP addresses of MicrosoftContainerRegistry.NewZealandNorth for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('MicrosoftContainerRegistry.NewZealandNorth service tag IP addresses for Public')
 @export()
 var MicrosoftContainerRegistry_NewZealandNorth = [
   '172.204.182.152/29'

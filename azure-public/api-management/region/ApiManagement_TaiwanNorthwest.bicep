@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : ApiManagement.TaiwanNorthwest
+metadata name = 'ApiManagement.TaiwanNorthwest'
+metadata description = 'This module contains all the service tag IP addresses of ApiManagement.TaiwanNorthwest for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('ApiManagement.TaiwanNorthwest service tag IP addresses for Public')
 @export()
 var ApiManagement_TaiwanNorthwest = [
   '51.53.171.224/28'

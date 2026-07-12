@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : AzureArcInfrastructure.KoreaSouth
+metadata name = 'AzureArcInfrastructure.KoreaSouth'
+metadata description = 'This module contains all the service tag IP addresses of AzureArcInfrastructure.KoreaSouth for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureArcInfrastructure.KoreaSouth service tag IP addresses for Public')
 @export()
 var AzureArcInfrastructure_KoreaSouth = [
   '4.243.24.48/29'

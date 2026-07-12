@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_AzureGovernment.json
 // Cloud        : AzureGovernment
 // Service tag  : DataFactoryManagement
+metadata name = 'DataFactoryManagement'
+metadata description = 'This module contains all the service tag IP addresses of DataFactoryManagement for AzureGovernment.'
+metadata author = ''
+metadata author = ''
 
+@description('DataFactoryManagement service tag IP addresses for AzureGovernment')
 @export()
 var DataFactoryManagement = [
   '20.140.51.96/29'

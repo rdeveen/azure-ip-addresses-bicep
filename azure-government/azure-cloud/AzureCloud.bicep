@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_AzureGovernment.json
 // Cloud        : AzureGovernment
 // Service tag  : AzureCloud
+metadata name = 'AzureCloud'
+metadata description = 'This module contains all the service tag IP addresses of AzureCloud for AzureGovernment.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureCloud service tag IP addresses for AzureGovernment')
 @export()
 var AzureCloud = [
   '13.72.0.0/18'

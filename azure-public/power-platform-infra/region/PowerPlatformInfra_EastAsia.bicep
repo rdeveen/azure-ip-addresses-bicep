@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : PowerPlatformInfra.EastAsia
+metadata name = 'PowerPlatformInfra.EastAsia'
+metadata description = 'This module contains all the service tag IP addresses of PowerPlatformInfra.EastAsia for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('PowerPlatformInfra.EastAsia service tag IP addresses for Public')
 @export()
 var PowerPlatformInfra_EastAsia = [
   '4.192.253.196/30'

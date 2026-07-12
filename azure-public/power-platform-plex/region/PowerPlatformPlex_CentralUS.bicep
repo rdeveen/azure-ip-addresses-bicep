@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : PowerPlatformPlex.CentralUS
+metadata name = 'PowerPlatformPlex.CentralUS'
+metadata description = 'This module contains all the service tag IP addresses of PowerPlatformPlex.CentralUS for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('PowerPlatformPlex.CentralUS service tag IP addresses for Public')
 @export()
 var PowerPlatformPlex_CentralUS = [
   '9.234.68.0/25'

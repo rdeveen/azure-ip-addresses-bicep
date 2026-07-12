@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : Sql.SouthCentralUSSTG
+metadata name = 'Sql.SouthCentralUSSTG'
+metadata description = 'This module contains all the service tag IP addresses of Sql.SouthCentralUSSTG for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('Sql.SouthCentralUSSTG service tag IP addresses for Public')
 @export()
 var Sql_SouthCentralUSSTG = [
   '20.44.0.0/27'

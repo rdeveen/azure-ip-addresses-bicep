@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_AzureGovernment.json
 // Cloud        : AzureGovernment
 // Service tag  : StorageSyncService.USGovArizona
+metadata name = 'StorageSyncService.USGovArizona'
+metadata description = 'This module contains all the service tag IP addresses of StorageSyncService.USGovArizona for AzureGovernment.'
+metadata author = ''
+metadata author = ''
 
+@description('StorageSyncService.USGovArizona service tag IP addresses for AzureGovernment')
 @export()
 var StorageSyncService_USGovArizona = [
   '20.140.48.216/29'

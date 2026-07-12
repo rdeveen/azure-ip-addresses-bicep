@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : Sql.IsraelCentral
+metadata name = 'Sql.IsraelCentral'
+metadata description = 'This module contains all the service tag IP addresses of Sql.IsraelCentral for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('Sql.IsraelCentral service tag IP addresses for Public')
 @export()
 var Sql_IsraelCentral = [
   '20.217.53.0/27'

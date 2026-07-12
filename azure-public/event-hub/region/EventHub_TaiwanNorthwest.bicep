@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : EventHub.TaiwanNorthwest
+metadata name = 'EventHub.TaiwanNorthwest'
+metadata description = 'This module contains all the service tag IP addresses of EventHub.TaiwanNorthwest for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('EventHub.TaiwanNorthwest service tag IP addresses for Public')
 @export()
 var EventHub_TaiwanNorthwest = [
   '51.53.173.0/24'

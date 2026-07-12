@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : AzureArcInfrastructure.TaiwanNorthwest
+metadata name = 'AzureArcInfrastructure.TaiwanNorthwest'
+metadata description = 'This module contains all the service tag IP addresses of AzureArcInfrastructure.TaiwanNorthwest for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureArcInfrastructure.TaiwanNorthwest service tag IP addresses for Public')
 @export()
 var AzureArcInfrastructure_TaiwanNorthwest = [
   '51.53.136.60/31'

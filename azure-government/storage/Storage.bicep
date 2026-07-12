@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_AzureGovernment.json
 // Cloud        : AzureGovernment
 // Service tag  : Storage
+metadata name = 'Storage'
+metadata description = 'This module contains all the service tag IP addresses of Storage for AzureGovernment.'
+metadata author = ''
+metadata author = ''
 
+@description('Storage service tag IP addresses for AzureGovernment')
 @export()
 var Storage = [
   '13.72.43.16/28'

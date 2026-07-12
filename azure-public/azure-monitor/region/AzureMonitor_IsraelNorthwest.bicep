@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : AzureMonitor.IsraelNorthwest
+metadata name = 'AzureMonitor.IsraelNorthwest'
+metadata description = 'This module contains all the service tag IP addresses of AzureMonitor.IsraelNorthwest for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureMonitor.IsraelNorthwest service tag IP addresses for Public')
 @export()
 var AzureMonitor_IsraelNorthwest = [
   '51.4.131.242/31'

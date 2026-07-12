@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : ServiceFabric.KoreaSouth
+metadata name = 'ServiceFabric.KoreaSouth'
+metadata description = 'This module contains all the service tag IP addresses of ServiceFabric.KoreaSouth for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('ServiceFabric.KoreaSouth service tag IP addresses for Public')
 @export()
 var ServiceFabric_KoreaSouth = [
   '52.231.147.16/29'

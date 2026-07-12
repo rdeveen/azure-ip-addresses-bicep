@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : AzureAttestation.UAENorth
+metadata name = 'AzureAttestation.UAENorth'
+metadata description = 'This module contains all the service tag IP addresses of AzureAttestation.UAENorth for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureAttestation.UAENorth service tag IP addresses for Public')
 @export()
 var AzureAttestation_UAENorth = [
   '4.161.21.108/30'

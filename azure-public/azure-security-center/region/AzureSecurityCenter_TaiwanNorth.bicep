@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : AzureSecurityCenter.TaiwanNorth
+metadata name = 'AzureSecurityCenter.TaiwanNorth'
+metadata description = 'This module contains all the service tag IP addresses of AzureSecurityCenter.TaiwanNorth for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureSecurityCenter.TaiwanNorth service tag IP addresses for Public')
 @export()
 var AzureSecurityCenter_TaiwanNorth = [
   '70.157.170.64/28'

@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : ActionGroup.TaiwanNorthwest
+metadata name = 'ActionGroup.TaiwanNorthwest'
+metadata description = 'This module contains all the service tag IP addresses of ActionGroup.TaiwanNorthwest for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('ActionGroup.TaiwanNorthwest service tag IP addresses for Public')
 @export()
 var ActionGroup_TaiwanNorthwest = [
   '51.53.139.92/30'

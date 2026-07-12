@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : Sql.PolandCentral
+metadata name = 'Sql.PolandCentral'
+metadata description = 'This module contains all the service tag IP addresses of Sql.PolandCentral for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('Sql.PolandCentral service tag IP addresses for Public')
 @export()
 var Sql_PolandCentral = [
   '20.215.13.0/27'

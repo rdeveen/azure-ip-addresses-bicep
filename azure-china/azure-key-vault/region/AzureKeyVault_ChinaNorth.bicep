@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_China.json
 // Cloud        : China
 // Service tag  : AzureKeyVault.ChinaNorth
+metadata name = 'AzureKeyVault.ChinaNorth'
+metadata description = 'This module contains all the service tag IP addresses of AzureKeyVault.ChinaNorth for China.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureKeyVault.ChinaNorth service tag IP addresses for China')
 @export()
 var AzureKeyVault_ChinaNorth = [
   '40.72.79.152/29'

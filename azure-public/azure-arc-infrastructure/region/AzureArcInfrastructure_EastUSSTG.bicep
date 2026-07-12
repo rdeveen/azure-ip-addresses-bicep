@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : AzureArcInfrastructure.EastUSSTG
+metadata name = 'AzureArcInfrastructure.EastUSSTG'
+metadata description = 'This module contains all the service tag IP addresses of AzureArcInfrastructure.EastUSSTG for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureArcInfrastructure.EastUSSTG service tag IP addresses for Public')
 @export()
 var AzureArcInfrastructure_EastUSSTG = [
   '20.99.27.84/31'

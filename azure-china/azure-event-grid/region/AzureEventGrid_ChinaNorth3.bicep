@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_China.json
 // Cloud        : China
 // Service tag  : AzureEventGrid.ChinaNorth3
+metadata name = 'AzureEventGrid.ChinaNorth3'
+metadata description = 'This module contains all the service tag IP addresses of AzureEventGrid.ChinaNorth3 for China.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureEventGrid.ChinaNorth3 service tag IP addresses for China')
 @export()
 var AzureEventGrid_ChinaNorth3 = [
   '52.131.17.128/25'

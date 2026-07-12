@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_AzureGovernment.json
 // Cloud        : AzureGovernment
 // Service tag  : AzureDigitalTwins.USDoDCentral
+metadata name = 'AzureDigitalTwins.USDoDCentral'
+metadata description = 'This module contains all the service tag IP addresses of AzureDigitalTwins.USDoDCentral for AzureGovernment.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureDigitalTwins.USDoDCentral service tag IP addresses for AzureGovernment')
 @export()
 var AzureDigitalTwins_USDoDCentral = [
   '20.158.154.120/29'

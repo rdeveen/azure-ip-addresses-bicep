@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_China.json
 // Cloud        : China
 // Service tag  : AzureSentinel
+metadata name = 'AzureSentinel'
+metadata description = 'This module contains all the service tag IP addresses of AzureSentinel for China.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureSentinel service tag IP addresses for China')
 @export()
 var AzureSentinel = [
   '40.162.0.136/29'

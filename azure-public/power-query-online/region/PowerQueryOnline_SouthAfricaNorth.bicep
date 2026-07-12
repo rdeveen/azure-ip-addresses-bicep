@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : PowerQueryOnline.SouthAfricaNorth
+metadata name = 'PowerQueryOnline.SouthAfricaNorth'
+metadata description = 'This module contains all the service tag IP addresses of PowerQueryOnline.SouthAfricaNorth for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('PowerQueryOnline.SouthAfricaNorth service tag IP addresses for Public')
 @export()
 var PowerQueryOnline_SouthAfricaNorth = [
   '4.222.196.32/29'

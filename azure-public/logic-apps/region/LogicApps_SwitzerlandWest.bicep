@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : LogicApps.SwitzerlandWest
+metadata name = 'LogicApps.SwitzerlandWest'
+metadata description = 'This module contains all the service tag IP addresses of LogicApps.SwitzerlandWest for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('LogicApps.SwitzerlandWest service tag IP addresses for Public')
 @export()
 var LogicApps_SwitzerlandWest = [
   '20.199.193.249/32'

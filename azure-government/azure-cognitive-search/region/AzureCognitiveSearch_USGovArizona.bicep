@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_AzureGovernment.json
 // Cloud        : AzureGovernment
 // Service tag  : AzureCognitiveSearch.USGovArizona
+metadata name = 'AzureCognitiveSearch.USGovArizona'
+metadata description = 'This module contains all the service tag IP addresses of AzureCognitiveSearch.USGovArizona for AzureGovernment.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureCognitiveSearch.USGovArizona service tag IP addresses for AzureGovernment')
 @export()
 var AzureCognitiveSearch_USGovArizona = [
   '20.140.48.96/28'

@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : Dynamics365BusinessCentral
+metadata name = 'Dynamics365BusinessCentral'
+metadata description = 'This module contains all the service tag IP addresses of Dynamics365BusinessCentral for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('Dynamics365BusinessCentral service tag IP addresses for Public')
 @export()
 var Dynamics365BusinessCentral = [
   '4.154.148.0/24'

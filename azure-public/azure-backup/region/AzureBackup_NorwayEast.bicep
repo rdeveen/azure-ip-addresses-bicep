@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : AzureBackup.NorwayEast
+metadata name = 'AzureBackup.NorwayEast'
+metadata description = 'This module contains all the service tag IP addresses of AzureBackup.NorwayEast for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureBackup.NorwayEast service tag IP addresses for Public')
 @export()
 var AzureBackup_NorwayEast = [
   '4.219.29.22/32'

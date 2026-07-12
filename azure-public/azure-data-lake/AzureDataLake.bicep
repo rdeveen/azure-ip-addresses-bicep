@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : AzureDataLake
+metadata name = 'AzureDataLake'
+metadata description = 'This module contains all the service tag IP addresses of AzureDataLake for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureDataLake service tag IP addresses for Public')
 @export()
 var AzureDataLake = [
   '20.119.199.45/32'

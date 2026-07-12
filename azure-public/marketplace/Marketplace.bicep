@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : Marketplace
+metadata name = 'Marketplace'
+metadata description = 'This module contains all the service tag IP addresses of Marketplace for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('Marketplace service tag IP addresses for Public')
 @export()
 var Marketplace = [
   '13.67.15.16/28'

@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_AzureGovernment.json
 // Cloud        : AzureGovernment
 // Service tag  : Sql.USDoDEast
+metadata name = 'Sql.USDoDEast'
+metadata description = 'This module contains all the service tag IP addresses of Sql.USDoDEast for AzureGovernment.'
+metadata author = ''
+metadata author = ''
 
+@description('Sql.USDoDEast service tag IP addresses for AzureGovernment')
 @export()
 var Sql_USDoDEast = [
   '20.140.68.192/26'

@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : AzureResourceManager.EastUSSTG
+metadata name = 'AzureResourceManager.EastUSSTG'
+metadata description = 'This module contains all the service tag IP addresses of AzureResourceManager.EastUSSTG for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureResourceManager.EastUSSTG service tag IP addresses for Public')
 @export()
 var AzureResourceManager_EastUSSTG = [
   '40.67.54.0/23'

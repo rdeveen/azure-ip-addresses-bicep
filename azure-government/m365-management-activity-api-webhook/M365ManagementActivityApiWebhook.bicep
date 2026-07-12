@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_AzureGovernment.json
 // Cloud        : AzureGovernment
 // Service tag  : M365ManagementActivityApiWebhook
+metadata name = 'M365ManagementActivityApiWebhook'
+metadata description = 'This module contains all the service tag IP addresses of M365ManagementActivityApiWebhook for AzureGovernment.'
+metadata author = ''
+metadata author = ''
 
+@description('M365ManagementActivityApiWebhook service tag IP addresses for AzureGovernment')
 @export()
 var M365ManagementActivityApiWebhook = [
   '20.140.95.16/30'

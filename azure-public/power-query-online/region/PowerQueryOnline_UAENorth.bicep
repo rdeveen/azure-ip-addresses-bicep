@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : PowerQueryOnline.UAENorth
+metadata name = 'PowerQueryOnline.UAENorth'
+metadata description = 'This module contains all the service tag IP addresses of PowerQueryOnline.UAENorth for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('PowerQueryOnline.UAENorth service tag IP addresses for Public')
 @export()
 var PowerQueryOnline_UAENorth = [
   '20.38.136.68/31'

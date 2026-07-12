@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_AzureGovernment.json
 // Cloud        : AzureGovernment
 // Service tag  : AzureDatabricks
+metadata name = 'AzureDatabricks'
+metadata description = 'This module contains all the service tag IP addresses of AzureDatabricks for AzureGovernment.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureDatabricks service tag IP addresses for AzureGovernment')
 @export()
 var AzureDatabricks = [
   '20.140.48.120/29'

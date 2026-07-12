@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : LogicApps.CentralUSEUAP
+metadata name = 'LogicApps.CentralUSEUAP'
+metadata description = 'This module contains all the service tag IP addresses of LogicApps.CentralUSEUAP for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('LogicApps.CentralUSEUAP service tag IP addresses for Public')
 @export()
 var LogicApps_CentralUSEUAP = [
   '20.45.245.152/29'

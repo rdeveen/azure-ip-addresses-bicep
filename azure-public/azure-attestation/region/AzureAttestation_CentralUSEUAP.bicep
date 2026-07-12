@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : AzureAttestation.CentralUSEUAP
+metadata name = 'AzureAttestation.CentralUSEUAP'
+metadata description = 'This module contains all the service tag IP addresses of AzureAttestation.CentralUSEUAP for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureAttestation.CentralUSEUAP service tag IP addresses for Public')
 @export()
 var AzureAttestation_CentralUSEUAP = [
   '20.46.11.4/30'

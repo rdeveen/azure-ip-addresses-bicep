@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : PowerBI.NewZealandNorth
+metadata name = 'PowerBI.NewZealandNorth'
+metadata description = 'This module contains all the service tag IP addresses of PowerBI.NewZealandNorth for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('PowerBI.NewZealandNorth service tag IP addresses for Public')
 @export()
 var PowerBI_NewZealandNorth = [
   '172.196.59.232/29'

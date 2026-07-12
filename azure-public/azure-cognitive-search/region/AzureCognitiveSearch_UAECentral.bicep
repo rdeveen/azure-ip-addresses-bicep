@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : AzureCognitiveSearch.UAECentral
+metadata name = 'AzureCognitiveSearch.UAECentral'
+metadata description = 'This module contains all the service tag IP addresses of AzureCognitiveSearch.UAECentral for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureCognitiveSearch.UAECentral service tag IP addresses for Public')
 @export()
 var AzureCognitiveSearch_UAECentral = [
   '20.37.64.128/26'

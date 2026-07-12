@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_AzureGovernment.json
 // Cloud        : AzureGovernment
 // Service tag  : SqlManagement
+metadata name = 'SqlManagement'
+metadata description = 'This module contains all the service tag IP addresses of SqlManagement for AzureGovernment.'
+metadata author = ''
+metadata author = ''
 
+@description('SqlManagement service tag IP addresses for AzureGovernment')
 @export()
 var SqlManagement = [
   '13.77.226.176/32'

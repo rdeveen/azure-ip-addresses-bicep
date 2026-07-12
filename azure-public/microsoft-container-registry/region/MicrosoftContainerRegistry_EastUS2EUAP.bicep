@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : MicrosoftContainerRegistry.EastUS2EUAP
+metadata name = 'MicrosoftContainerRegistry.EastUS2EUAP'
+metadata description = 'This module contains all the service tag IP addresses of MicrosoftContainerRegistry.EastUS2EUAP for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('MicrosoftContainerRegistry.EastUS2EUAP service tag IP addresses for Public')
 @export()
 var MicrosoftContainerRegistry_EastUS2EUAP = [
   '40.74.146.40/29'

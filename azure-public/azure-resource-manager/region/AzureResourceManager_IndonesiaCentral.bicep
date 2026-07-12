@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : AzureResourceManager.IndonesiaCentral
+metadata name = 'AzureResourceManager.IndonesiaCentral'
+metadata description = 'This module contains all the service tag IP addresses of AzureResourceManager.IndonesiaCentral for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureResourceManager.IndonesiaCentral service tag IP addresses for Public')
 @export()
 var AzureResourceManager_IndonesiaCentral = [
   '70.153.162.0/23'

@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_China.json
 // Cloud        : China
 // Service tag  : AzureSpringCloud
+metadata name = 'AzureSpringCloud'
+metadata description = 'This module contains all the service tag IP addresses of AzureSpringCloud for China.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureSpringCloud service tag IP addresses for China')
 @export()
 var AzureSpringCloud = [
   '40.72.78.0/24'

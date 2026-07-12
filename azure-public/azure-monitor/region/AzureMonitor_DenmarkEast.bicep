@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : AzureMonitor.DenmarkEast
+metadata name = 'AzureMonitor.DenmarkEast'
+metadata description = 'This module contains all the service tag IP addresses of AzureMonitor.DenmarkEast for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureMonitor.DenmarkEast service tag IP addresses for Public')
 @export()
 var AzureMonitor_DenmarkEast = [
   '9.205.43.242/31'

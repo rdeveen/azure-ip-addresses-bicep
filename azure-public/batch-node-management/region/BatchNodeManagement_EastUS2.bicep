@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : BatchNodeManagement.EastUS2
+metadata name = 'BatchNodeManagement.EastUS2'
+metadata description = 'This module contains all the service tag IP addresses of BatchNodeManagement.EastUS2 for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('BatchNodeManagement.EastUS2 service tag IP addresses for Public')
 @export()
 var BatchNodeManagement_EastUS2 = [
   '13.77.80.138/32'

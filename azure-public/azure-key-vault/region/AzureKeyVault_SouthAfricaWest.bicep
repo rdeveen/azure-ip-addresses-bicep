@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : AzureKeyVault.SouthAfricaWest
+metadata name = 'AzureKeyVault.SouthAfricaWest'
+metadata description = 'This module contains all the service tag IP addresses of AzureKeyVault.SouthAfricaWest for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureKeyVault.SouthAfricaWest service tag IP addresses for Public')
 @export()
 var AzureKeyVault_SouthAfricaWest = [
   '102.37.81.88/29'

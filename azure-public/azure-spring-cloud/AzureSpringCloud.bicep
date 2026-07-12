@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : AzureSpringCloud
+metadata name = 'AzureSpringCloud'
+metadata description = 'This module contains all the service tag IP addresses of AzureSpringCloud for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureSpringCloud service tag IP addresses for Public')
 @export()
 var AzureSpringCloud = [
   '4.199.84.0/24'

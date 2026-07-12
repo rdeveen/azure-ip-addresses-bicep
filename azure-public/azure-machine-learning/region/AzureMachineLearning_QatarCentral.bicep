@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : AzureMachineLearning.QatarCentral
+metadata name = 'AzureMachineLearning.QatarCentral'
+metadata description = 'This module contains all the service tag IP addresses of AzureMachineLearning.QatarCentral for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureMachineLearning.QatarCentral service tag IP addresses for Public')
 @export()
 var AzureMachineLearning_QatarCentral = [
   '4.171.27.64/27'

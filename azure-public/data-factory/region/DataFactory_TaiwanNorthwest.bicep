@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : DataFactory.TaiwanNorthwest
+metadata name = 'DataFactory.TaiwanNorthwest'
+metadata description = 'This module contains all the service tag IP addresses of DataFactory.TaiwanNorthwest for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('DataFactory.TaiwanNorthwest service tag IP addresses for Public')
 @export()
 var DataFactory_TaiwanNorthwest = [
   '51.53.136.240/28'

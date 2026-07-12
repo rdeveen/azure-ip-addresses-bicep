@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : AzureKeyVault.UAENorth
+metadata name = 'AzureKeyVault.UAENorth'
+metadata description = 'This module contains all the service tag IP addresses of AzureKeyVault.UAENorth for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureKeyVault.UAENorth service tag IP addresses for Public')
 @export()
 var AzureKeyVault_UAENorth = [
   '20.38.157.128/30'

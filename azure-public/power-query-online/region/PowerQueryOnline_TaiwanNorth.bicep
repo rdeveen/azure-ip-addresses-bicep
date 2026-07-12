@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : PowerQueryOnline.TaiwanNorth
+metadata name = 'PowerQueryOnline.TaiwanNorth'
+metadata description = 'This module contains all the service tag IP addresses of PowerQueryOnline.TaiwanNorth for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('PowerQueryOnline.TaiwanNorth service tag IP addresses for Public')
 @export()
 var PowerQueryOnline_TaiwanNorth = [
   '51.53.24.20/31'

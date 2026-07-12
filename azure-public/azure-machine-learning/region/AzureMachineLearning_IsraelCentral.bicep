@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : AzureMachineLearning.IsraelCentral
+metadata name = 'AzureMachineLearning.IsraelCentral'
+metadata description = 'This module contains all the service tag IP addresses of AzureMachineLearning.IsraelCentral for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureMachineLearning.IsraelCentral service tag IP addresses for Public')
 @export()
 var AzureMachineLearning_IsraelCentral = [
   '20.217.41.0/27'

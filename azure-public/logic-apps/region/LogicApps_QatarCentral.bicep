@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : LogicApps.QatarCentral
+metadata name = 'LogicApps.QatarCentral'
+metadata description = 'This module contains all the service tag IP addresses of LogicApps.QatarCentral for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('LogicApps.QatarCentral service tag IP addresses for Public')
 @export()
 var LogicApps_QatarCentral = [
   '20.21.46.80/28'

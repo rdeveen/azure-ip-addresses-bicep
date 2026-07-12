@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : Sql.MexicoCentral
+metadata name = 'Sql.MexicoCentral'
+metadata description = 'This module contains all the service tag IP addresses of Sql.MexicoCentral for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('Sql.MexicoCentral service tag IP addresses for Public')
 @export()
 var Sql_MexicoCentral = [
   '158.23.8.64/27'

@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : BatchNodeManagement.MalaysiaWest
+metadata name = 'BatchNodeManagement.MalaysiaWest'
+metadata description = 'This module contains all the service tag IP addresses of BatchNodeManagement.MalaysiaWest for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('BatchNodeManagement.MalaysiaWest service tag IP addresses for Public')
 @export()
 var BatchNodeManagement_MalaysiaWest = [
   '20.17.113.64/27'

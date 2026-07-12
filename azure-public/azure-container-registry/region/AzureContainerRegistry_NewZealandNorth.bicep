@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : AzureContainerRegistry.NewZealandNorth
+metadata name = 'AzureContainerRegistry.NewZealandNorth'
+metadata description = 'This module contains all the service tag IP addresses of AzureContainerRegistry.NewZealandNorth for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureContainerRegistry.NewZealandNorth service tag IP addresses for Public')
 @export()
 var AzureContainerRegistry_NewZealandNorth = [
   '172.204.154.128/26'

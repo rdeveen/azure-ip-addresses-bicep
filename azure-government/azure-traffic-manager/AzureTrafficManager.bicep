@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_AzureGovernment.json
 // Cloud        : AzureGovernment
 // Service tag  : AzureTrafficManager
+metadata name = 'AzureTrafficManager'
+metadata description = 'This module contains all the service tag IP addresses of AzureTrafficManager for AzureGovernment.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureTrafficManager service tag IP addresses for AzureGovernment')
 @export()
 var AzureTrafficManager = [
   '13.72.186.25/32'

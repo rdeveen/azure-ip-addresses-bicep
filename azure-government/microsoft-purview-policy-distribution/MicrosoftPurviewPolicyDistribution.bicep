@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_AzureGovernment.json
 // Cloud        : AzureGovernment
 // Service tag  : MicrosoftPurviewPolicyDistribution
+metadata name = 'MicrosoftPurviewPolicyDistribution'
+metadata description = 'This module contains all the service tag IP addresses of MicrosoftPurviewPolicyDistribution for AzureGovernment.'
+metadata author = ''
+metadata author = ''
 
+@description('MicrosoftPurviewPolicyDistribution service tag IP addresses for AzureGovernment')
 @export()
 var MicrosoftPurviewPolicyDistribution = [
   '62.10.84.242/31'

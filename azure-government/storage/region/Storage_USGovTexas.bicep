@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_AzureGovernment.json
 // Cloud        : AzureGovernment
 // Service tag  : Storage.USGovTexas
+metadata name = 'Storage.USGovTexas'
+metadata description = 'This module contains all the service tag IP addresses of Storage.USGovTexas for AzureGovernment.'
+metadata author = ''
+metadata author = ''
 
+@description('Storage.USGovTexas service tag IP addresses for AzureGovernment')
 @export()
 var Storage_USGovTexas = [
   '20.140.242.0/23'

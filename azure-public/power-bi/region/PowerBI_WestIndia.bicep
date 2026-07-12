@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : PowerBI.WestIndia
+metadata name = 'PowerBI.WestIndia'
+metadata description = 'This module contains all the service tag IP addresses of PowerBI.WestIndia for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('PowerBI.WestIndia service tag IP addresses for Public')
 @export()
 var PowerBI_WestIndia = [
   '20.192.82.20/30'

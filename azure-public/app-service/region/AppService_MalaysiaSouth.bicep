@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : AppService.MalaysiaSouth
+metadata name = 'AppService.MalaysiaSouth'
+metadata description = 'This module contains all the service tag IP addresses of AppService.MalaysiaSouth for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('AppService.MalaysiaSouth service tag IP addresses for Public')
 @export()
 var AppService_MalaysiaSouth = [
   '20.17.62.0/24'

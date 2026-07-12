@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : AzureDataExplorerManagement.UAENorth
+metadata name = 'AzureDataExplorerManagement.UAENorth'
+metadata description = 'This module contains all the service tag IP addresses of AzureDataExplorerManagement.UAENorth for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureDataExplorerManagement.UAENorth service tag IP addresses for Public')
 @export()
 var AzureDataExplorerManagement_UAENorth = [
   '20.46.146.7/32'

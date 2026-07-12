@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_AzureGovernment.json
 // Cloud        : AzureGovernment
 // Service tag  : AzureSecurityCenter
+metadata name = 'AzureSecurityCenter'
+metadata description = 'This module contains all the service tag IP addresses of AzureSecurityCenter for AzureGovernment.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureSecurityCenter service tag IP addresses for AzureGovernment')
 @export()
 var AzureSecurityCenter = [
   '20.140.200.32/27'

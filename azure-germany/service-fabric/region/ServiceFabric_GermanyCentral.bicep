@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_AzureGermany.json
 // Cloud        : AzureGermany
 // Service tag  : ServiceFabric.GermanyCentral
+metadata name = 'ServiceFabric.GermanyCentral'
+metadata description = 'This module contains all the service tag IP addresses of ServiceFabric.GermanyCentral for AzureGermany.'
+metadata author = ''
+metadata author = ''
 
+@description('ServiceFabric.GermanyCentral service tag IP addresses for AzureGermany')
 @export()
 var ServiceFabric_GermanyCentral = [
   '51.4.144.99/32'

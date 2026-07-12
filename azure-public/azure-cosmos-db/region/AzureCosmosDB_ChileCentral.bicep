@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : AzureCosmosDB.ChileCentral
+metadata name = 'AzureCosmosDB.ChileCentral'
+metadata description = 'This module contains all the service tag IP addresses of AzureCosmosDB.ChileCentral for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureCosmosDB.ChileCentral service tag IP addresses for Public')
 @export()
 var AzureCosmosDB_ChileCentral = [
   '68.211.2.128/26'

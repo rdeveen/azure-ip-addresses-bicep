@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_AzureGovernment.json
 // Cloud        : AzureGovernment
 // Service tag  : HDInsight.USGovArizona
+metadata name = 'HDInsight.USGovArizona'
+metadata description = 'This module contains all the service tag IP addresses of HDInsight.USGovArizona for AzureGovernment.'
+metadata author = ''
+metadata author = ''
 
+@description('HDInsight.USGovArizona service tag IP addresses for AzureGovernment')
 @export()
 var HDInsight_USGovArizona = [
   '20.140.52.16/29'

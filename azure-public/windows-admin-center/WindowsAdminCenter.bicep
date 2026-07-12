@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : WindowsAdminCenter
+metadata name = 'WindowsAdminCenter'
+metadata description = 'This module contains all the service tag IP addresses of WindowsAdminCenter for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('WindowsAdminCenter service tag IP addresses for Public')
 @export()
 var WindowsAdminCenter = [
   '4.232.25.104/29'

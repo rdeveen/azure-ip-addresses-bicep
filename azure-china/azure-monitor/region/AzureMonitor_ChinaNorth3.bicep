@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_China.json
 // Cloud        : China
 // Service tag  : AzureMonitor.ChinaNorth3
+metadata name = 'AzureMonitor.ChinaNorth3'
+metadata description = 'This module contains all the service tag IP addresses of AzureMonitor.ChinaNorth3 for China.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureMonitor.ChinaNorth3 service tag IP addresses for China')
 @export()
 var AzureMonitor_ChinaNorth3 = [
   '40.162.75.160/28'

@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_AzureGovernment.json
 // Cloud        : AzureGovernment
 // Service tag  : AzureArcInfrastructure.USDoDEast
+metadata name = 'AzureArcInfrastructure.USDoDEast'
+metadata description = 'This module contains all the service tag IP addresses of AzureArcInfrastructure.USDoDEast for AzureGovernment.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureArcInfrastructure.USDoDEast service tag IP addresses for AzureGovernment')
 @export()
 var AzureArcInfrastructure_USDoDEast = [
   '20.140.65.44/30'

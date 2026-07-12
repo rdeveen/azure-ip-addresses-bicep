@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : AppService.ItalyNorth
+metadata name = 'AppService.ItalyNorth'
+metadata description = 'This module contains all the service tag IP addresses of AppService.ItalyNorth for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('AppService.ItalyNorth service tag IP addresses for Public')
 @export()
 var AppService_ItalyNorth = [
   '4.232.99.0/24'

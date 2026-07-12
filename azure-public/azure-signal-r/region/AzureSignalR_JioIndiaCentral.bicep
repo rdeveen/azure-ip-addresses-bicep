@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : AzureSignalR.JioIndiaCentral
+metadata name = 'AzureSignalR.JioIndiaCentral'
+metadata description = 'This module contains all the service tag IP addresses of AzureSignalR.JioIndiaCentral for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureSignalR.JioIndiaCentral service tag IP addresses for Public')
 @export()
 var AzureSignalR_JioIndiaCentral = [
   '4.240.171.224/27'

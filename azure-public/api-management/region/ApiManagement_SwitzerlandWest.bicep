@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : ApiManagement.SwitzerlandWest
+metadata name = 'ApiManagement.SwitzerlandWest'
+metadata description = 'This module contains all the service tag IP addresses of ApiManagement.SwitzerlandWest for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('ApiManagement.SwitzerlandWest service tag IP addresses for Public')
 @export()
 var ApiManagement_SwitzerlandWest = [
   '20.199.207.208/28'

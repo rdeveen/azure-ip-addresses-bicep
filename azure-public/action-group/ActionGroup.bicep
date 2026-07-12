@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : ActionGroup
+metadata name = 'ActionGroup'
+metadata description = 'This module contains all the service tag IP addresses of ActionGroup for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('ActionGroup service tag IP addresses for Public')
 @export()
 var ActionGroup = [
   '4.145.74.52/30'

@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_China.json
 // Cloud        : China
 // Service tag  : AzureAttestation
+metadata name = 'AzureAttestation'
+metadata description = 'This module contains all the service tag IP addresses of AzureAttestation for China.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureAttestation service tag IP addresses for China')
 @export()
 var AzureAttestation = [
   '40.162.60.0/28'

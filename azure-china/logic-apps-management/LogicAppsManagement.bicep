@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_China.json
 // Cloud        : China
 // Service tag  : LogicAppsManagement
+metadata name = 'LogicAppsManagement'
+metadata description = 'This module contains all the service tag IP addresses of LogicAppsManagement for China.'
+metadata author = ''
+metadata author = ''
 
+@description('LogicAppsManagement service tag IP addresses for China')
 @export()
 var LogicAppsManagement = [
   '40.72.114.104/32'

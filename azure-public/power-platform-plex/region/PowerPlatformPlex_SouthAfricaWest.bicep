@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : PowerPlatformPlex.SouthAfricaWest
+metadata name = 'PowerPlatformPlex.SouthAfricaWest'
+metadata description = 'This module contains all the service tag IP addresses of PowerPlatformPlex.SouthAfricaWest for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('PowerPlatformPlex.SouthAfricaWest service tag IP addresses for Public')
 @export()
 var PowerPlatformPlex_SouthAfricaWest = [
   '40.117.28.240/29'

@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_AzureGovernment.json
 // Cloud        : AzureGovernment
 // Service tag  : AzureMachineLearning.USDoDEast
+metadata name = 'AzureMachineLearning.USDoDEast'
+metadata description = 'This module contains all the service tag IP addresses of AzureMachineLearning.USDoDEast for AzureGovernment.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureMachineLearning.USDoDEast service tag IP addresses for AzureGovernment')
 @export()
 var AzureMachineLearning_USDoDEast = [
   '52.126.202.176/28'

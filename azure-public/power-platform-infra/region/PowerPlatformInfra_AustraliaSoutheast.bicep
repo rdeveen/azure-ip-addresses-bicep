@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : PowerPlatformInfra.AustraliaSoutheast
+metadata name = 'PowerPlatformInfra.AustraliaSoutheast'
+metadata description = 'This module contains all the service tag IP addresses of PowerPlatformInfra.AustraliaSoutheast for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('PowerPlatformInfra.AustraliaSoutheast service tag IP addresses for Public')
 @export()
 var PowerPlatformInfra_AustraliaSoutheast = [
   '20.40.160.0/32'

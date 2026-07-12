@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_AzureGovernment.json
 // Cloud        : AzureGovernment
 // Service tag  : ServiceBus.USGovVirginia
+metadata name = 'ServiceBus.USGovVirginia'
+metadata description = 'This module contains all the service tag IP addresses of ServiceBus.USGovVirginia for AzureGovernment.'
+metadata author = ''
+metadata author = ''
 
+@description('ServiceBus.USGovVirginia service tag IP addresses for AzureGovernment')
 @export()
 var ServiceBus_USGovVirginia = [
   '20.140.90.128/29'

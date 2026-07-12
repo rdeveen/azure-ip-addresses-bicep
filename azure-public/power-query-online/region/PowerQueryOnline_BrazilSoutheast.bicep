@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : PowerQueryOnline.BrazilSoutheast
+metadata name = 'PowerQueryOnline.BrazilSoutheast'
+metadata description = 'This module contains all the service tag IP addresses of PowerQueryOnline.BrazilSoutheast for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('PowerQueryOnline.BrazilSoutheast service tag IP addresses for Public')
 @export()
 var PowerQueryOnline_BrazilSoutheast = [
   '20.206.4.72/29'

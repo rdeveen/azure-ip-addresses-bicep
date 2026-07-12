@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : ActionGroup.IsraelNorthwest
+metadata name = 'ActionGroup.IsraelNorthwest'
+metadata description = 'This module contains all the service tag IP addresses of ActionGroup.IsraelNorthwest for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('ActionGroup.IsraelNorthwest service tag IP addresses for Public')
 @export()
 var ActionGroup_IsraelNorthwest = [
   '51.4.160.24/30'

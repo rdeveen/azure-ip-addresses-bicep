@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : AzureConnectors.UAECentral
+metadata name = 'AzureConnectors.UAECentral'
+metadata description = 'This module contains all the service tag IP addresses of AzureConnectors.UAECentral for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureConnectors.UAECentral service tag IP addresses for Public')
 @export()
 var AzureConnectors_UAECentral = [
   '20.37.74.192/28'

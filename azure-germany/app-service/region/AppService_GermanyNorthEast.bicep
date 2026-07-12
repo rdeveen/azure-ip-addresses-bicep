@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_AzureGermany.json
 // Cloud        : AzureGermany
 // Service tag  : AppService.GermanyNorthEast
+metadata name = 'AppService.GermanyNorthEast'
+metadata description = 'This module contains all the service tag IP addresses of AppService.GermanyNorthEast for AzureGermany.'
+metadata author = ''
+metadata author = ''
 
+@description('AppService.GermanyNorthEast service tag IP addresses for AzureGermany')
 @export()
 var AppService_GermanyNorthEast = [
   '51.8.226.128/27'

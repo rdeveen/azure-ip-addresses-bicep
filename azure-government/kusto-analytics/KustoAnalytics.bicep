@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_AzureGovernment.json
 // Cloud        : AzureGovernment
 // Service tag  : KustoAnalytics
+metadata name = 'KustoAnalytics'
+metadata description = 'This module contains all the service tag IP addresses of KustoAnalytics for AzureGovernment.'
+metadata author = ''
+metadata author = ''
 
+@description('KustoAnalytics service tag IP addresses for AzureGovernment')
 @export()
 var KustoAnalytics = [
   '20.141.20.0/26'

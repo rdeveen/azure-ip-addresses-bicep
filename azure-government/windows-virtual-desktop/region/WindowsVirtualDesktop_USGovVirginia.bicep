@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_AzureGovernment.json
 // Cloud        : AzureGovernment
 // Service tag  : WindowsVirtualDesktop.USGovVirginia
+metadata name = 'WindowsVirtualDesktop.USGovVirginia'
+metadata description = 'This module contains all the service tag IP addresses of WindowsVirtualDesktop.USGovVirginia for AzureGovernment.'
+metadata author = ''
+metadata author = ''
 
+@description('WindowsVirtualDesktop.USGovVirginia service tag IP addresses for AzureGovernment')
 @export()
 var WindowsVirtualDesktop_USGovVirginia = [
   '20.159.80.112/28'

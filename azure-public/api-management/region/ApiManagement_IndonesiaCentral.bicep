@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : ApiManagement.IndonesiaCentral
+metadata name = 'ApiManagement.IndonesiaCentral'
+metadata description = 'This module contains all the service tag IP addresses of ApiManagement.IndonesiaCentral for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('ApiManagement.IndonesiaCentral service tag IP addresses for Public')
 @export()
 var ApiManagement_IndonesiaCentral = [
   '70.153.154.240/28'

@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_AzureGovernment.json
 // Cloud        : AzureGovernment
 // Service tag  : AzureIoTHub.USGovVirginia
+metadata name = 'AzureIoTHub.USGovVirginia'
+metadata description = 'This module contains all the service tag IP addresses of AzureIoTHub.USGovVirginia for AzureGovernment.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureIoTHub.USGovVirginia service tag IP addresses for AzureGovernment')
 @export()
 var AzureIoTHub_USGovVirginia = [
   '20.140.93.192/27'

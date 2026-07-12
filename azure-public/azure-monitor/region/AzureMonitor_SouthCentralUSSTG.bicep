@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : AzureMonitor.SouthCentralUSSTG
+metadata name = 'AzureMonitor.SouthCentralUSSTG'
+metadata description = 'This module contains all the service tag IP addresses of AzureMonitor.SouthCentralUSSTG for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureMonitor.SouthCentralUSSTG service tag IP addresses for Public')
 @export()
 var AzureMonitor_SouthCentralUSSTG = [
   '20.44.3.48/28'

@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : PowerBI.TaiwanNorth
+metadata name = 'PowerBI.TaiwanNorth'
+metadata description = 'This module contains all the service tag IP addresses of PowerBI.TaiwanNorth for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('PowerBI.TaiwanNorth service tag IP addresses for Public')
 @export()
 var PowerBI_TaiwanNorth = [
   '51.53.28.212/31'

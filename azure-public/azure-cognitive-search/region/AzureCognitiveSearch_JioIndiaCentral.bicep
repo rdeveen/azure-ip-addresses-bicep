@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : AzureCognitiveSearch.JioIndiaCentral
+metadata name = 'AzureCognitiveSearch.JioIndiaCentral'
+metadata description = 'This module contains all the service tag IP addresses of AzureCognitiveSearch.JioIndiaCentral for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureCognitiveSearch.JioIndiaCentral service tag IP addresses for Public')
 @export()
 var AzureCognitiveSearch_JioIndiaCentral = [
   '20.192.225.64/26'

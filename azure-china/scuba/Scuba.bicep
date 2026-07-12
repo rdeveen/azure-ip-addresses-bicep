@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_China.json
 // Cloud        : China
 // Service tag  : Scuba
+metadata name = 'Scuba'
+metadata description = 'This module contains all the service tag IP addresses of Scuba for China.'
+metadata author = ''
+metadata author = ''
 
+@description('Scuba service tag IP addresses for China')
 @export()
 var Scuba = [
   '159.27.248.184/30'

@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : PowerQueryOnline.SwedenCentral
+metadata name = 'PowerQueryOnline.SwedenCentral'
+metadata description = 'This module contains all the service tag IP addresses of PowerQueryOnline.SwedenCentral for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('PowerQueryOnline.SwedenCentral service tag IP addresses for Public')
 @export()
 var PowerQueryOnline_SwedenCentral = [
   '51.12.33.50/31'

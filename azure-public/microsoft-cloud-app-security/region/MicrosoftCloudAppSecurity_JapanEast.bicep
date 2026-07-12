@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : MicrosoftCloudAppSecurity.JapanEast
+metadata name = 'MicrosoftCloudAppSecurity.JapanEast'
+metadata description = 'This module contains all the service tag IP addresses of MicrosoftCloudAppSecurity.JapanEast for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('MicrosoftCloudAppSecurity.JapanEast service tag IP addresses for Public')
 @export()
 var MicrosoftCloudAppSecurity_JapanEast = [
   '23.100.96.86/32'

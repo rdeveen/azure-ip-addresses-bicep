@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : AzureIoTHub.IsraelCentral
+metadata name = 'AzureIoTHub.IsraelCentral'
+metadata description = 'This module contains all the service tag IP addresses of AzureIoTHub.IsraelCentral for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureIoTHub.IsraelCentral service tag IP addresses for Public')
 @export()
 var AzureIoTHub_IsraelCentral = [
   '20.217.60.96/27'

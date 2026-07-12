@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : Sql.ChileCentral
+metadata name = 'Sql.ChileCentral'
+metadata description = 'This module contains all the service tag IP addresses of Sql.ChileCentral for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('Sql.ChileCentral service tag IP addresses for Public')
 @export()
 var Sql_ChileCentral = [
   '68.211.15.128/27'

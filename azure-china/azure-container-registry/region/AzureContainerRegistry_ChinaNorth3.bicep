@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_China.json
 // Cloud        : China
 // Service tag  : AzureContainerRegistry.ChinaNorth3
+metadata name = 'AzureContainerRegistry.ChinaNorth3'
+metadata description = 'This module contains all the service tag IP addresses of AzureContainerRegistry.ChinaNorth3 for China.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureContainerRegistry.ChinaNorth3 service tag IP addresses for China')
 @export()
 var AzureContainerRegistry_ChinaNorth3 = [
   '52.131.20.0/26'

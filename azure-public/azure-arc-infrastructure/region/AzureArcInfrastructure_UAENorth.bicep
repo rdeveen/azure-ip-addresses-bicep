@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : AzureArcInfrastructure.UAENorth
+metadata name = 'AzureArcInfrastructure.UAENorth'
+metadata description = 'This module contains all the service tag IP addresses of AzureArcInfrastructure.UAENorth for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureArcInfrastructure.UAENorth service tag IP addresses for Public')
 @export()
 var AzureArcInfrastructure_UAENorth = [
   '4.161.12.132/32'

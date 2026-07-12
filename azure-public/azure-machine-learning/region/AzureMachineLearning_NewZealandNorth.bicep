@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : AzureMachineLearning.NewZealandNorth
+metadata name = 'AzureMachineLearning.NewZealandNorth'
+metadata description = 'This module contains all the service tag IP addresses of AzureMachineLearning.NewZealandNorth for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureMachineLearning.NewZealandNorth service tag IP addresses for Public')
 @export()
 var AzureMachineLearning_NewZealandNorth = [
   '172.204.153.0/27'

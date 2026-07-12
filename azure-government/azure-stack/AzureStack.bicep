@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_AzureGovernment.json
 // Cloud        : AzureGovernment
 // Service tag  : AzureStack
+metadata name = 'AzureStack'
+metadata description = 'This module contains all the service tag IP addresses of AzureStack for AzureGovernment.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureStack service tag IP addresses for AzureGovernment')
 @export()
 var AzureStack = [
   '20.140.69.80/28'

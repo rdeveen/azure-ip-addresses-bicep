@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : AzureKeyVault.MalaysiaWest
+metadata name = 'AzureKeyVault.MalaysiaWest'
+metadata description = 'This module contains all the service tag IP addresses of AzureKeyVault.MalaysiaWest for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureKeyVault.MalaysiaWest service tag IP addresses for Public')
 @export()
 var AzureKeyVault_MalaysiaWest = [
   '20.17.120.32/29'

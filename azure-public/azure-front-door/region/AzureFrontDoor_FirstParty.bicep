@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : AzureFrontDoor.FirstParty
+metadata name = 'AzureFrontDoor.FirstParty'
+metadata description = 'This module contains all the service tag IP addresses of AzureFrontDoor.FirstParty for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureFrontDoor.FirstParty service tag IP addresses for Public')
 @export()
 var AzureFrontDoor_FirstParty = [
   '13.107.3.0/24'

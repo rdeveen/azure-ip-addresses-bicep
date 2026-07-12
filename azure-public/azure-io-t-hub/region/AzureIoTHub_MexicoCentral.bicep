@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : AzureIoTHub.MexicoCentral
+metadata name = 'AzureIoTHub.MexicoCentral'
+metadata description = 'This module contains all the service tag IP addresses of AzureIoTHub.MexicoCentral for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureIoTHub.MexicoCentral service tag IP addresses for Public')
 @export()
 var AzureIoTHub_MexicoCentral = [
   '158.23.12.32/27'

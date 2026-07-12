@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : HDInsight.ChileCentral
+metadata name = 'HDInsight.ChileCentral'
+metadata description = 'This module contains all the service tag IP addresses of HDInsight.ChileCentral for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('HDInsight.ChileCentral service tag IP addresses for Public')
 @export()
 var HDInsight_ChileCentral = [
   '68.211.7.80/29'

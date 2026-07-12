@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : AzureSphere
+metadata name = 'AzureSphere'
+metadata description = 'This module contains all the service tag IP addresses of AzureSphere for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureSphere service tag IP addresses for Public')
 @export()
 var AzureSphere = [
   '4.207.188.96/27'

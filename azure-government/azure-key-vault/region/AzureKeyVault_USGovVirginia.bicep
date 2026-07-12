@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_AzureGovernment.json
 // Cloud        : AzureGovernment
 // Service tag  : AzureKeyVault.USGovVirginia
+metadata name = 'AzureKeyVault.USGovVirginia'
+metadata description = 'This module contains all the service tag IP addresses of AzureKeyVault.USGovVirginia for AzureGovernment.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureKeyVault.USGovVirginia service tag IP addresses for AzureGovernment')
 @export()
 var AzureKeyVault_USGovVirginia = [
   '20.140.93.224/30'

@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : AzureCloud.australiacentral2
+metadata name = 'AzureCloud.australiacentral2'
+metadata description = 'This module contains all the service tag IP addresses of AzureCloud.australiacentral2 for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureCloud.australiacentral2 service tag IP addresses for Public')
 @export()
 var AzureCloud_australiacentral2 = [
   '4.198.32.0/19'

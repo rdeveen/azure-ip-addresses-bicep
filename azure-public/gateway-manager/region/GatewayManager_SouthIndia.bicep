@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : GatewayManager.SouthIndia
+metadata name = 'GatewayManager.SouthIndia'
+metadata description = 'This module contains all the service tag IP addresses of GatewayManager.SouthIndia for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('GatewayManager.SouthIndia service tag IP addresses for Public')
 @export()
 var GatewayManager_SouthIndia = [
   '20.41.192.72/29'

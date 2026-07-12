@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_AzureGovernment.json
 // Cloud        : AzureGovernment
 // Service tag  : Sql
+metadata name = 'Sql'
+metadata description = 'This module contains all the service tag IP addresses of Sql for AzureGovernment.'
+metadata author = ''
+metadata author = ''
 
+@description('Sql service tag IP addresses for AzureGovernment')
 @export()
 var Sql = [
   '13.72.48.140/32'

@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_AzureGovernment.json
 // Cloud        : AzureGovernment
 // Service tag  : ActionGroup
+metadata name = 'ActionGroup'
+metadata description = 'This module contains all the service tag IP addresses of ActionGroup for AzureGovernment.'
+metadata author = ''
+metadata author = ''
 
+@description('ActionGroup service tag IP addresses for AzureGovernment')
 @export()
 var ActionGroup = [
   '13.72.19.232/32'

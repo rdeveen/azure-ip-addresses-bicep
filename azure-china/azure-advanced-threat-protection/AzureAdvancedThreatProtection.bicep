@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_China.json
 // Cloud        : China
 // Service tag  : AzureAdvancedThreatProtection
+metadata name = 'AzureAdvancedThreatProtection'
+metadata description = 'This module contains all the service tag IP addresses of AzureAdvancedThreatProtection for China.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureAdvancedThreatProtection service tag IP addresses for China')
 @export()
 var AzureAdvancedThreatProtection = [
   '52.131.16.24/29'

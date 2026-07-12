@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : PowerPlatformPlex.MalaysiaSouth
+metadata name = 'PowerPlatformPlex.MalaysiaSouth'
+metadata description = 'This module contains all the service tag IP addresses of PowerPlatformPlex.MalaysiaSouth for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('PowerPlatformPlex.MalaysiaSouth service tag IP addresses for Public')
 @export()
 var PowerPlatformPlex_MalaysiaSouth = [
   '172.197.30.0/25'

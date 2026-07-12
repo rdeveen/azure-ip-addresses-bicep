@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_AzureGermany.json
 // Cloud        : AzureGermany
 // Service tag  : EOPExternalPublishedIPs
+metadata name = 'EOPExternalPublishedIPs'
+metadata description = 'This module contains all the service tag IP addresses of EOPExternalPublishedIPs for AzureGermany.'
+metadata author = ''
+metadata author = ''
 
+@description('EOPExternalPublishedIPs service tag IP addresses for AzureGermany')
 @export()
 var EOPExternalPublishedIPs = [
   '51.4.72.0/24'

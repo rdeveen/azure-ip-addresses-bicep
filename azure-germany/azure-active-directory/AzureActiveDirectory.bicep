@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_AzureGermany.json
 // Cloud        : AzureGermany
 // Service tag  : AzureActiveDirectory
+metadata name = 'AzureActiveDirectory'
+metadata description = 'This module contains all the service tag IP addresses of AzureActiveDirectory for AzureGermany.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureActiveDirectory service tag IP addresses for AzureGermany')
 @export()
 var AzureActiveDirectory = [
   '51.8.227.96/27'

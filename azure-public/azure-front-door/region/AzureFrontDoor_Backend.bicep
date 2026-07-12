@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : AzureFrontDoor.Backend
+metadata name = 'AzureFrontDoor.Backend'
+metadata description = 'This module contains all the service tag IP addresses of AzureFrontDoor.Backend for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureFrontDoor.Backend service tag IP addresses for Public')
 @export()
 var AzureFrontDoor_Backend = [
   '4.153.250.0/29'

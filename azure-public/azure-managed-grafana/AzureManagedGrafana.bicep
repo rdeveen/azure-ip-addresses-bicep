@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : AzureManagedGrafana
+metadata name = 'AzureManagedGrafana'
+metadata description = 'This module contains all the service tag IP addresses of AzureManagedGrafana for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureManagedGrafana service tag IP addresses for Public')
 @export()
 var AzureManagedGrafana = [
   '4.145.16.28/30'

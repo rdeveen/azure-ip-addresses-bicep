@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : SCCservice.CentralIndia
+metadata name = 'SCCservice.CentralIndia'
+metadata description = 'This module contains all the service tag IP addresses of SCCservice.CentralIndia for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('SCCservice.CentralIndia service tag IP addresses for Public')
 @export()
 var SCCservice_CentralIndia = [
   '20.43.123.176/29'

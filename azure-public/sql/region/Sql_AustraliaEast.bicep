@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : Sql.AustraliaEast
+metadata name = 'Sql.AustraliaEast'
+metadata description = 'This module contains all the service tag IP addresses of Sql.AustraliaEast for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('Sql.AustraliaEast service tag IP addresses for Public')
 @export()
 var Sql_AustraliaEast = [
   '4.195.4.168/30'

@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : Storage.TaiwanNorthwest
+metadata name = 'Storage.TaiwanNorthwest'
+metadata description = 'This module contains all the service tag IP addresses of Storage.TaiwanNorthwest for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('Storage.TaiwanNorthwest service tag IP addresses for Public')
 @export()
 var Storage_TaiwanNorthwest = [
   '20.60.114.0/24'

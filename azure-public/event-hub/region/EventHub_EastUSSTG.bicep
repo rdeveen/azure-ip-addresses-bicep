@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : EventHub.EastUSSTG
+metadata name = 'EventHub.EastUSSTG'
+metadata description = 'This module contains all the service tag IP addresses of EventHub.EastUSSTG for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('EventHub.EastUSSTG service tag IP addresses for Public')
 @export()
 var EventHub_EastUSSTG = [
   '20.49.84.192/26'

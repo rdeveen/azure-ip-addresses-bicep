@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : SystemServiceAzureSpringAppsResourceProvider
+metadata name = 'SystemServiceAzureSpringAppsResourceProvider'
+metadata description = 'This module contains all the service tag IP addresses of SystemServiceAzureSpringAppsResourceProvider for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('SystemServiceAzureSpringAppsResourceProvider service tag IP addresses for Public')
 @export()
 var SystemServiceAzureSpringAppsResourceProvider = [
   '4.158.183.224/27'

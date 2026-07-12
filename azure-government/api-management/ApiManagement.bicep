@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_AzureGovernment.json
 // Cloud        : AzureGovernment
 // Service tag  : ApiManagement
+metadata name = 'ApiManagement'
+metadata description = 'This module contains all the service tag IP addresses of ApiManagement for AzureGovernment.'
+metadata author = ''
+metadata author = ''
 
+@description('ApiManagement service tag IP addresses for AzureGovernment')
 @export()
 var ApiManagement = [
   '13.72.39.168/32'

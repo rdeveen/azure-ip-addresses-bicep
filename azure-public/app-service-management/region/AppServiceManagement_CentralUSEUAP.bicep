@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : AppServiceManagement.CentralUSEUAP
+metadata name = 'AppServiceManagement.CentralUSEUAP'
+metadata description = 'This module contains all the service tag IP addresses of AppServiceManagement.CentralUSEUAP for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('AppServiceManagement.CentralUSEUAP service tag IP addresses for Public')
 @export()
 var AppServiceManagement_CentralUSEUAP = [
   '20.45.242.144/28'

@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_AzureGovernment.json
 // Cloud        : AzureGovernment
 // Service tag  : AppService
+metadata name = 'AppService'
+metadata description = 'This module contains all the service tag IP addresses of AppService for AzureGovernment.'
+metadata author = ''
+metadata author = ''
 
+@description('AppService service tag IP addresses for AzureGovernment')
 @export()
 var AppService = [
   '13.72.17.233/32'

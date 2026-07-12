@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_AzureGovernment.json
 // Cloud        : AzureGovernment
 // Service tag  : CognitiveServicesManagement
+metadata name = 'CognitiveServicesManagement'
+metadata description = 'This module contains all the service tag IP addresses of CognitiveServicesManagement for AzureGovernment.'
+metadata author = ''
+metadata author = ''
 
+@description('CognitiveServicesManagement service tag IP addresses for AzureGovernment')
 @export()
 var CognitiveServicesManagement = [
   '13.72.8.26/32'

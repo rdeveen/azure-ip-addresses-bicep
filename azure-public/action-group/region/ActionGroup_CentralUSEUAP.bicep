@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : ActionGroup.CentralUSEUAP
+metadata name = 'ActionGroup.CentralUSEUAP'
+metadata description = 'This module contains all the service tag IP addresses of ActionGroup.CentralUSEUAP for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('ActionGroup.CentralUSEUAP service tag IP addresses for Public')
 @export()
 var ActionGroup_CentralUSEUAP = [
   '168.61.142.52/30'

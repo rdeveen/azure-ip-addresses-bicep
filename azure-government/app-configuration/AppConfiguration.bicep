@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_AzureGovernment.json
 // Cloud        : AzureGovernment
 // Service tag  : AppConfiguration
+metadata name = 'AppConfiguration'
+metadata description = 'This module contains all the service tag IP addresses of AppConfiguration for AzureGovernment.'
+metadata author = ''
+metadata author = ''
 
+@description('AppConfiguration service tag IP addresses for AzureGovernment')
 @export()
 var AppConfiguration = [
   '20.140.51.48/28'

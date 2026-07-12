@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_AzureGovernment.json
 // Cloud        : AzureGovernment
 // Service tag  : WindowsAdminCenter
+metadata name = 'WindowsAdminCenter'
+metadata description = 'This module contains all the service tag IP addresses of WindowsAdminCenter for AzureGovernment.'
+metadata author = ''
+metadata author = ''
 
+@description('WindowsAdminCenter service tag IP addresses for AzureGovernment')
 @export()
 var WindowsAdminCenter = [
   '20.141.13.48/29'

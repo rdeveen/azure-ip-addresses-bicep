@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_AzureGovernment.json
 // Cloud        : AzureGovernment
 // Service tag  : PowerPlatformPlex
+metadata name = 'PowerPlatformPlex'
+metadata description = 'This module contains all the service tag IP addresses of PowerPlatformPlex for AzureGovernment.'
+metadata author = ''
+metadata author = ''
 
+@description('PowerPlatformPlex service tag IP addresses for AzureGovernment')
 @export()
 var PowerPlatformPlex = [
   '20.140.104.24/29'

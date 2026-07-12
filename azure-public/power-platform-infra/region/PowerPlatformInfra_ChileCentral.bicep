@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : PowerPlatformInfra.ChileCentral
+metadata name = 'PowerPlatformInfra.ChileCentral'
+metadata description = 'This module contains all the service tag IP addresses of PowerPlatformInfra.ChileCentral for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('PowerPlatformInfra.ChileCentral service tag IP addresses for Public')
 @export()
 var PowerPlatformInfra_ChileCentral = [
   '57.156.99.128/25'

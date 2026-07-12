@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : M365ManagementActivityApi
+metadata name = 'M365ManagementActivityApi'
+metadata description = 'This module contains all the service tag IP addresses of M365ManagementActivityApi for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('M365ManagementActivityApi service tag IP addresses for Public')
 @export()
 var M365ManagementActivityApi = [
   '4.145.18.62/32'

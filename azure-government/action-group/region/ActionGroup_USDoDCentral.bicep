@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_AzureGovernment.json
 // Cloud        : AzureGovernment
 // Service tag  : ActionGroup.USDoDCentral
+metadata name = 'ActionGroup.USDoDCentral'
+metadata description = 'This module contains all the service tag IP addresses of ActionGroup.USDoDCentral for AzureGovernment.'
+metadata author = ''
+metadata author = ''
 
+@description('ActionGroup.USDoDCentral service tag IP addresses for AzureGovernment')
 @export()
 var ActionGroup_USDoDCentral = [
   '52.126.248.144/30'

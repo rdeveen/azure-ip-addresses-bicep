@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_AzureGovernment.json
 // Cloud        : AzureGovernment
 // Service tag  : PowerQueryOnline.USGovVirginia
+metadata name = 'PowerQueryOnline.USGovVirginia'
+metadata description = 'This module contains all the service tag IP addresses of PowerQueryOnline.USGovVirginia for AzureGovernment.'
+metadata author = ''
+metadata author = ''
 
+@description('PowerQueryOnline.USGovVirginia service tag IP addresses for AzureGovernment')
 @export()
 var PowerQueryOnline_USGovVirginia = [
   '20.140.95.30/31'

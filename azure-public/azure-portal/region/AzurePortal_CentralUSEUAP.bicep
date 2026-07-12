@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : AzurePortal.CentralUSEUAP
+metadata name = 'AzurePortal.CentralUSEUAP'
+metadata description = 'This module contains all the service tag IP addresses of AzurePortal.CentralUSEUAP for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('AzurePortal.CentralUSEUAP service tag IP addresses for Public')
 @export()
 var AzurePortal_CentralUSEUAP = [
   '20.45.195.160/27'

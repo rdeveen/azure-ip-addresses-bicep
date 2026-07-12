@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : WindowsVirtualDesktop.CentralUSEUAP
+metadata name = 'WindowsVirtualDesktop.CentralUSEUAP'
+metadata description = 'This module contains all the service tag IP addresses of WindowsVirtualDesktop.CentralUSEUAP for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('WindowsVirtualDesktop.CentralUSEUAP service tag IP addresses for Public')
 @export()
 var WindowsVirtualDesktop_CentralUSEUAP = [
   '2603:1061:2010:1e::/117'

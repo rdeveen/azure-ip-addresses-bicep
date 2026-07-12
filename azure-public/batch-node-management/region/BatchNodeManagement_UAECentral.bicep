@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : BatchNodeManagement.UAECentral
+metadata name = 'BatchNodeManagement.UAECentral'
+metadata description = 'This module contains all the service tag IP addresses of BatchNodeManagement.UAECentral for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('BatchNodeManagement.UAECentral service tag IP addresses for Public')
 @export()
 var BatchNodeManagement_UAECentral = [
   '20.37.65.160/27'

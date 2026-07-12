@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_AzureGovernment.json
 // Cloud        : AzureGovernment
 // Service tag  : PowerBI.USGovVirginia
+metadata name = 'PowerBI.USGovVirginia'
+metadata description = 'This module contains all the service tag IP addresses of PowerBI.USGovVirginia for AzureGovernment.'
+metadata author = ''
+metadata author = ''
 
+@description('PowerBI.USGovVirginia service tag IP addresses for AzureGovernment')
 @export()
 var PowerBI_USGovVirginia = [
   '51.54.115.176/29'

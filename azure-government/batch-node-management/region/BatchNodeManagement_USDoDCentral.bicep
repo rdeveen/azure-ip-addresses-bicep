@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_AzureGovernment.json
 // Cloud        : AzureGovernment
 // Service tag  : BatchNodeManagement.USDoDCentral
+metadata name = 'BatchNodeManagement.USDoDCentral'
+metadata description = 'This module contains all the service tag IP addresses of BatchNodeManagement.USDoDCentral for AzureGovernment.'
+metadata author = ''
+metadata author = ''
 
+@description('BatchNodeManagement.USDoDCentral service tag IP addresses for AzureGovernment')
 @export()
 var BatchNodeManagement_USDoDCentral = [
   '20.140.73.64/27'

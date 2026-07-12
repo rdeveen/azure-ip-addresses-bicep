@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : AzureBackup.TaiwanNorth
+metadata name = 'AzureBackup.TaiwanNorth'
+metadata description = 'This module contains all the service tag IP addresses of AzureBackup.TaiwanNorth for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureBackup.TaiwanNorth service tag IP addresses for Public')
 @export()
 var AzureBackup_TaiwanNorth = [
   '51.53.28.0/26'

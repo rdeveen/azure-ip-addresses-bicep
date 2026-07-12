@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_AzureGovernment.json
 // Cloud        : AzureGovernment
 // Service tag  : AzureIoTHub.USDoDEast
+metadata name = 'AzureIoTHub.USDoDEast'
+metadata description = 'This module contains all the service tag IP addresses of AzureIoTHub.USDoDEast for AzureGovernment.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureIoTHub.USDoDEast service tag IP addresses for AzureGovernment')
 @export()
 var AzureIoTHub_USDoDEast = [
   '20.140.65.224/27'

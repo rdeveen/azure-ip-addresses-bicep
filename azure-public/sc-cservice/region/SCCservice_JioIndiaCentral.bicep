@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : SCCservice.JioIndiaCentral
+metadata name = 'SCCservice.JioIndiaCentral'
+metadata description = 'This module contains all the service tag IP addresses of SCCservice.JioIndiaCentral for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('SCCservice.JioIndiaCentral service tag IP addresses for Public')
 @export()
 var SCCservice_JioIndiaCentral = [
   '20.192.238.176/29'

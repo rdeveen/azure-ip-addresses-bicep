@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : MicrosoftCloudAppSecurity.GermanyWestCentral
+metadata name = 'MicrosoftCloudAppSecurity.GermanyWestCentral'
+metadata description = 'This module contains all the service tag IP addresses of MicrosoftCloudAppSecurity.GermanyWestCentral for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('MicrosoftCloudAppSecurity.GermanyWestCentral service tag IP addresses for Public')
 @export()
 var MicrosoftCloudAppSecurity_GermanyWestCentral = [
   '20.52.42.71/32'

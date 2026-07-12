@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_AzureGermany.json
 // Cloud        : AzureGermany
 // Service tag  : MicrosoftContainerRegistry.GermanyCentral
+metadata name = 'MicrosoftContainerRegistry.GermanyCentral'
+metadata description = 'This module contains all the service tag IP addresses of MicrosoftContainerRegistry.GermanyCentral for AzureGermany.'
+metadata author = ''
+metadata author = ''
 
+@description('MicrosoftContainerRegistry.GermanyCentral service tag IP addresses for AzureGermany')
 @export()
 var MicrosoftContainerRegistry_GermanyCentral = [
   '51.8.234.56/29'

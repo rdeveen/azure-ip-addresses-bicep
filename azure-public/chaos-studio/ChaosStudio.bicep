@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : ChaosStudio
+metadata name = 'ChaosStudio'
+metadata description = 'This module contains all the service tag IP addresses of ChaosStudio for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('ChaosStudio service tag IP addresses for Public')
 @export()
 var ChaosStudio = [
   '4.149.115.12/30'

@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : ActionGroup.KoreaCentral
+metadata name = 'ActionGroup.KoreaCentral'
+metadata description = 'This module contains all the service tag IP addresses of ActionGroup.KoreaCentral for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('ActionGroup.KoreaCentral service tag IP addresses for Public')
 @export()
 var ActionGroup_KoreaCentral = [
   '4.218.236.160/30'

@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : AzureMachineLearning.MalaysiaSouth
+metadata name = 'AzureMachineLearning.MalaysiaSouth'
+metadata description = 'This module contains all the service tag IP addresses of AzureMachineLearning.MalaysiaSouth for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureMachineLearning.MalaysiaSouth service tag IP addresses for Public')
 @export()
 var AzureMachineLearning_MalaysiaSouth = [
   '20.17.49.0/27'

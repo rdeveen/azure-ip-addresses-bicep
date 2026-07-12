@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : AzureDigitalTwins.QatarCentral
+metadata name = 'AzureDigitalTwins.QatarCentral'
+metadata description = 'This module contains all the service tag IP addresses of AzureDigitalTwins.QatarCentral for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureDigitalTwins.QatarCentral service tag IP addresses for Public')
 @export()
 var AzureDigitalTwins_QatarCentral = [
   '20.21.36.64/27'

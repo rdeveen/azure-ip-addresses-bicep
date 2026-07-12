@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : BatchNodeManagement.CentralUSEUAP
+metadata name = 'BatchNodeManagement.CentralUSEUAP'
+metadata description = 'This module contains all the service tag IP addresses of BatchNodeManagement.CentralUSEUAP for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('BatchNodeManagement.CentralUSEUAP service tag IP addresses for Public')
 @export()
 var BatchNodeManagement_CentralUSEUAP = [
   '20.45.195.192/27'

@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : WindowsVirtualDesktop.JapanWest
+metadata name = 'WindowsVirtualDesktop.JapanWest'
+metadata description = 'This module contains all the service tag IP addresses of WindowsVirtualDesktop.JapanWest for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('WindowsVirtualDesktop.JapanWest service tag IP addresses for Public')
 @export()
 var WindowsVirtualDesktop_JapanWest = [
   '40.64.146.48/28'

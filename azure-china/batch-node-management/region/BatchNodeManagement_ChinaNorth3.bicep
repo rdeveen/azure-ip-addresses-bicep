@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_China.json
 // Cloud        : China
 // Service tag  : BatchNodeManagement.ChinaNorth3
+metadata name = 'BatchNodeManagement.ChinaNorth3'
+metadata description = 'This module contains all the service tag IP addresses of BatchNodeManagement.ChinaNorth3 for China.'
+metadata author = ''
+metadata author = ''
 
+@description('BatchNodeManagement.ChinaNorth3 service tag IP addresses for China')
 @export()
 var BatchNodeManagement_ChinaNorth3 = [
   '52.131.17.32/27'

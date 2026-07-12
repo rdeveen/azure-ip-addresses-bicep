@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_China.json
 // Cloud        : China
 // Service tag  : KustoAnalytics
+metadata name = 'KustoAnalytics'
+metadata description = 'This module contains all the service tag IP addresses of KustoAnalytics for China.'
+metadata author = ''
+metadata author = ''
 
+@description('KustoAnalytics service tag IP addresses for China')
 @export()
 var KustoAnalytics = [
   '159.27.147.0/26'

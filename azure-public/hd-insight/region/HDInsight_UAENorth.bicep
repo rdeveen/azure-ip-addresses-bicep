@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : HDInsight.UAENorth
+metadata name = 'HDInsight.UAENorth'
+metadata description = 'This module contains all the service tag IP addresses of HDInsight.UAENorth for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('HDInsight.UAENorth service tag IP addresses for Public')
 @export()
 var HDInsight_UAENorth = [
   '20.38.139.88/29'

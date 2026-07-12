@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : DataFactory.QatarCentral
+metadata name = 'DataFactory.QatarCentral'
+metadata description = 'This module contains all the service tag IP addresses of DataFactory.QatarCentral for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('DataFactory.QatarCentral service tag IP addresses for Public')
 @export()
 var DataFactory_QatarCentral = [
   '4.171.31.184/29'

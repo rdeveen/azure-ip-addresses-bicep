@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : LogicApps.TaiwanNorthwest
+metadata name = 'LogicApps.TaiwanNorthwest'
+metadata description = 'This module contains all the service tag IP addresses of LogicApps.TaiwanNorthwest for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('LogicApps.TaiwanNorthwest service tag IP addresses for Public')
 @export()
 var LogicApps_TaiwanNorthwest = [
   '51.53.191.80/28'

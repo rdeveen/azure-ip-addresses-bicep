@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_AzureGovernment.json
 // Cloud        : AzureGovernment
 // Service tag  : MicrosoftDefenderForEndpoint
+metadata name = 'MicrosoftDefenderForEndpoint'
+metadata description = 'This module contains all the service tag IP addresses of MicrosoftDefenderForEndpoint for AzureGovernment.'
+metadata author = ''
+metadata author = ''
 
+@description('MicrosoftDefenderForEndpoint service tag IP addresses for AzureGovernment')
 @export()
 var MicrosoftDefenderForEndpoint = [
   '20.141.20.80/28'

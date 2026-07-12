@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : AzureKeyVault.CentralUSEUAP
+metadata name = 'AzureKeyVault.CentralUSEUAP'
+metadata description = 'This module contains all the service tag IP addresses of AzureKeyVault.CentralUSEUAP for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureKeyVault.CentralUSEUAP service tag IP addresses for Public')
 @export()
 var AzureKeyVault_CentralUSEUAP = [
   '20.45.208.8/30'

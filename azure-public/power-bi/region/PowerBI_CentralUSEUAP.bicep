@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : PowerBI.CentralUSEUAP
+metadata name = 'PowerBI.CentralUSEUAP'
+metadata description = 'This module contains all the service tag IP addresses of PowerBI.CentralUSEUAP for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('PowerBI.CentralUSEUAP service tag IP addresses for Public')
 @export()
 var PowerBI_CentralUSEUAP = [
   '20.45.192.122/31'

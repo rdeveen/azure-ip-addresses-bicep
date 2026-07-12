@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_AzureGovernment.json
 // Cloud        : AzureGovernment
 // Service tag  : BatchNodeManagement
+metadata name = 'BatchNodeManagement'
+metadata description = 'This module contains all the service tag IP addresses of BatchNodeManagement for AzureGovernment.'
+metadata author = ''
+metadata author = ''
 
+@description('BatchNodeManagement service tag IP addresses for AzureGovernment')
 @export()
 var BatchNodeManagement = [
   '20.140.49.96/27'

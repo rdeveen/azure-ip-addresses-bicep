@@ -4,7 +4,12 @@
 // Source file  : ServiceTags_Public.json
 // Cloud        : Public
 // Service tag  : AzureBotService.MalaysiaWest
+metadata name = 'AzureBotService.MalaysiaWest'
+metadata description = 'This module contains all the service tag IP addresses of AzureBotService.MalaysiaWest for Public.'
+metadata author = ''
+metadata author = ''
 
+@description('AzureBotService.MalaysiaWest service tag IP addresses for Public')
 @export()
 var AzureBotService_MalaysiaWest = [
   '20.17.112.16/30'
