@@ -1,188 +1,13 @@
-name: Update Azure Service Tags Bicep files
-
-on:
-  schedule:
-    # Run every Monday at 06:00 UTC (files are typically published on Mondays)
-    - cron: "0 6 * * 1"
-  workflow_dispatch:
-
-permissions:
-  contents: write
-  packages: write
-
-jobs:
-  update-bicep:
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: "3.x"
-
-      # -----------------------------------------------------------------------
-      # Public Cloud
-      # -----------------------------------------------------------------------
-      - name: Download ServiceTags_Public JSON
-        id: download_public
+      - name: Install Azure CLI and Bicep
         run: |
-          DOWNLOAD_URL=$(curl -sL "https://www.microsoft.com/en-us/download/details.aspx?id=56519" \
-            | grep -oP 'https://download\.microsoft\.com/download/[^"]+\.json' \
-            | head -1)
-          if [ -z "$DOWNLOAD_URL" ]; then
-            echo "::error::Could not find download URL for ServiceTags_Public"
-            exit 1
+          if ! command -v az >/dev/null 2>&1; then
+            curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash
           fi
-          echo "url=$DOWNLOAD_URL" >> "$GITHUB_OUTPUT"
-          curl -sL "$DOWNLOAD_URL" -o /tmp/ServiceTags_Public.json
-          echo "Downloaded: $DOWNLOAD_URL"
-
-      - name: Convert ServiceTags_Public to Bicep
-        run: |
-          python scripts/convert-to-bicep.py \
-            /tmp/ServiceTags_Public.json \
-            azure-public
-
-      # -----------------------------------------------------------------------
-      # China Cloud
-      # -----------------------------------------------------------------------
-      - name: Download ServiceTags_China JSON
-        id: download_china
-        run: |
-          DOWNLOAD_URL=$(curl -sL "https://www.microsoft.com/en-us/download/details.aspx?id=57062" \
-            | grep -oP 'https://download\.microsoft\.com/download/[^"]+\.json' \
-            | head -1)
-          if [ -z "$DOWNLOAD_URL" ]; then
-            echo "::error::Could not find download URL for ServiceTags_China"
-            exit 1
-          fi
-          echo "url=$DOWNLOAD_URL" >> "$GITHUB_OUTPUT"
-          curl -sL "$DOWNLOAD_URL" -o /tmp/ServiceTags_China.json
-          echo "Downloaded: $DOWNLOAD_URL"
-
-      - name: Convert ServiceTags_China to Bicep
-        run: |
-          python scripts/convert-to-bicep.py \
-            /tmp/ServiceTags_China.json \
-            azure-china
-
-      # -----------------------------------------------------------------------
-      # Azure Government Cloud
-      # -----------------------------------------------------------------------
-      - name: Download ServiceTags_AzureGovernment JSON
-        id: download_gov
-        run: |
-          DOWNLOAD_URL=$(curl -sL "https://www.microsoft.com/en-us/download/details.aspx?id=57063" \
-            | grep -oP 'https://download\.microsoft\.com/download/[^"]+\.json' \
-            | head -1)
-          if [ -z "$DOWNLOAD_URL" ]; then
-            echo "::error::Could not find download URL for ServiceTags_AzureGovernment"
-            exit 1
-          fi
-          echo "url=$DOWNLOAD_URL" >> "$GITHUB_OUTPUT"
-          curl -sL "$DOWNLOAD_URL" -o /tmp/ServiceTags_AzureGovernment.json
-          echo "Downloaded: $DOWNLOAD_URL"
-
-      - name: Convert ServiceTags_AzureGovernment to Bicep
-        run: |
-          python scripts/convert-to-bicep.py \
-            /tmp/ServiceTags_AzureGovernment.json \
-            azure-government
-
-      # -----------------------------------------------------------------------
-      # Azure Germany Cloud
-      # -----------------------------------------------------------------------
-      - name: Download ServiceTags_AzureGermany JSON
-        id: download_germany
-        run: |
-          DOWNLOAD_URL=$(curl -sL "https://www.microsoft.com/en-us/download/details.aspx?id=57064" \
-            | grep -oP 'https://download\.microsoft\.com/download/[^"]+\.json' \
-            | head -1)
-          if [ -z "$DOWNLOAD_URL" ]; then
-            echo "::error::Could not find download URL for ServiceTags_AzureGermany"
-            exit 1
-          fi
-          echo "url=$DOWNLOAD_URL" >> "$GITHUB_OUTPUT"
-          curl -sL "$DOWNLOAD_URL" -o /tmp/ServiceTags_AzureGermany.json
-          echo "Downloaded: $DOWNLOAD_URL"
-
-      - name: Convert ServiceTags_AzureGermany to Bicep
-        run: |
-          python scripts/convert-to-bicep.py \
-            /tmp/ServiceTags_AzureGermany.json \
-            azure-germany
-
-      # -----------------------------------------------------------------------
-      # Generate README files for all modules
-      # -----------------------------------------------------------------------
-      - name: Generate README.md files for all modules
-        run: |
-          python scripts/generate-readme.py
-
-      # -----------------------------------------------------------------------
-      # Commit & push if anything changed
-      # -----------------------------------------------------------------------
-      - name: Commit and push updated Bicep files
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add azure-public/ azure-china/ azure-government/ azure-germany/
-          git diff --cached --name-only -- '*.bicep' | while IFS= read -r file; do
-            [ -n "$file" ] || continue
-            IFS=$'\t' read -r added removed unused_path <<< "$(git diff --cached --numstat -- "$file")"
-            diff_content=$(git diff --cached --unified=0 -- "$file")
-            date_line_changes=$(printf '%s\n' "$diff_content" | grep -Ec '^[+-]// Generated at : [0-9]{4}-[0-9]{2}-[0-9]{2}$' || true)
-            # Date-only churn is exactly one removed line and one added line.
-            if [ "${added:-0}" -eq 1 ] && [ "${removed:-0}" -eq 1 ] \
-              && [ "${date_line_changes:-0}" -eq 2 ]; then
-              # Restore both index and worktree so date-only churn is fully discarded.
-              git restore --staged --worktree -- "$file"
-            fi
-          done
-          if git diff --cached --quiet; then
-            echo "No changes to commit – Bicep files are already up to date."
-          else
-            git commit -m "Update Azure Service Tags Bicep files ($(date -u +%F)) [skip ci]"
-            git push
-          fi
-
-  publish-bicep:
-    needs: update-bicep
-    if: github.ref_name == 'main'
-    runs-on: ubuntu-latest
-    strategy:
-      fail-fast: false
-      matrix:
-        cloud_dir:
-          - azure-public
-          - azure-china
-          - azure-government
-          - azure-germany
-
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-        with:
-          ref: ${{ github.ref_name }}
-          fetch-depth: 0
-
-      - name: Install Bicep nightly CLI
-        env:
-          GH_TOKEN: ${{ github.token }}
-        run: |
-          bash <(curl -Ls https://aka.ms/bicep/nightly-cli.sh) --run-id 29027717723
-          echo "$HOME/.azure/bin" >> "$GITHUB_PATH"
-
-      - name: Log in to GitHub Container Registry
-        run: |
-          echo "${{ secrets.GITHUB_TOKEN }}" | docker login ghcr.io -u ${{ github.actor }} --password-stdin
+          az version
+          az bicep install
 
       - name: Publish Bicep modules to GHCR
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           DOCKER_REGISTRY: ghcr.io
           CLOUD_DIR: ${{ matrix.cloud_dir }}
         run: |
@@ -195,9 +20,6 @@ jobs:
             exit 0
           fi
 
-          # Build the publish list (bicep file and kebab-case module path on
-          # alternating lines) in a single Python pass instead of spawning one
-          # Python process per module.
           python3 - "$CLOUD_DIR" > /tmp/publish-list.txt <<'PY'
           import os, re, sys
 
@@ -241,7 +63,8 @@ jobs:
             echo "Publishing ${module_path} to ${REGISTRY}"
             for tag in "$VERSION" latest; do
               attempt=1
-              until bicep publish "$bicep_file" \
+              until az bicep publish \
+                --file "$bicep_file" \
                 --target "br:${REGISTRY}/${module_path}:${tag}" \
                 --force; do
                 if [ "$attempt" -ge 3 ]; then
@@ -256,8 +79,6 @@ jobs:
           export -f publish_module
           export REGISTRY VERSION
 
-          # Publish modules in parallel; serial publishing (~10s per module)
-          # exceeds the 6-hour job timeout for azure-public (3200+ modules).
           xargs -d '\n' -n 2 -P 16 \
             bash -c 'publish_module "$0" "$1"' \
             < /tmp/publish-list.txt
