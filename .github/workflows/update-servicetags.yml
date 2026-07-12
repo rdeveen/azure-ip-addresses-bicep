@@ -186,55 +186,78 @@ jobs:
           DOCKER_REGISTRY: ghcr.io
           CLOUD_DIR: ${{ matrix.cloud_dir }}
         run: |
-          VERSION=$(date -u +%Y%m%d)
           set -euo pipefail
+          VERSION=$(date -u +%Y%m%d)
           REGISTRY="ghcr.io/${{ github.repository }}"
-
-          # Convert a PascalCase/mixed service-tag name to kebab-case
-          to_module_name() {
-            python3 - "$1" <<'PY'
-          import re, sys
-          name = sys.argv[1]
-          clean = re.sub(r'[^A-Za-z0-9]', '-', name)
-          clean = re.sub(r'([a-z0-9])([A-Z])', r'\1-\2', clean)
-          clean = re.sub(r'([A-Z]+)([A-Z][a-z])', r'\1-\2', clean)
-          clean = clean.lower()
-          clean = re.sub(r'-+', '-', clean).strip('-')
-          print(clean)
-          PY
-          }
 
           if [ ! -d "$CLOUD_DIR" ]; then
             echo "Cloud directory '$CLOUD_DIR' not found; skipping."
             exit 0
           fi
 
-          mapfile -t bicep_files < <(
-            find "$CLOUD_DIR" -name '*.bicep' -type f | sort
-          )
+          # Build the publish list (bicep file and kebab-case module path on
+          # alternating lines) in a single Python pass instead of spawning one
+          # Python process per module.
+          python3 - "$CLOUD_DIR" > /tmp/publish-list.txt <<'PY'
+          import os, re, sys
 
-          if [ ${#bicep_files[@]} -eq 0 ]; then
+          cloud_dir = sys.argv[1].rstrip('/')
+
+          def to_module_name(name):
+              clean = re.sub(r'[^A-Za-z0-9]', '-', name)
+              clean = re.sub(r'([a-z0-9])([A-Z])', r'\1-\2', clean)
+              clean = re.sub(r'([A-Z]+)([A-Z][a-z])', r'\1-\2', clean)
+              clean = clean.lower()
+              return re.sub(r'-+', '-', clean).strip('-')
+
+          entries = []
+          for root, _dirs, files in os.walk(cloud_dir):
+              for f in files:
+                  if not f.endswith('.bicep'):
+                      continue
+                  bicep_file = os.path.join(root, f)
+                  module_name = to_module_name(f[:-len('.bicep')])
+                  rel_dir = os.path.relpath(root, cloud_dir)
+                  if rel_dir == '.':
+                      module_path = f"{cloud_dir}/{module_name}"
+                  else:
+                      module_path = f"{cloud_dir}/{rel_dir}/{module_name}"
+                  entries.append((bicep_file, module_path))
+
+          for bicep_file, module_path in sorted(entries):
+              print(bicep_file)
+              print(module_path)
+          PY
+
+          if [ ! -s /tmp/publish-list.txt ]; then
             echo "No Bicep module files found for ${CLOUD_DIR}; skipping."
             exit 0
           fi
 
-          for bicep_file in "${bicep_files[@]}"; do
-            [ -f "$bicep_file" ] || continue
-
-            filename=$(basename "$bicep_file" .bicep)
-            module_name=$(to_module_name "$filename")
-            rel_dir=$(dirname "$bicep_file" | sed "s|^${CLOUD_DIR}||" | sed "s|^/||")
-            if [ -n "$rel_dir" ]; then
-              module_path="${CLOUD_DIR}/${rel_dir}/${module_name}"
-            else
-              module_path="${CLOUD_DIR}/${module_name}"
-            fi
+          publish_module() {
+            local bicep_file=$1
+            local module_path=$2
+            local tag attempt
             echo "Publishing ${module_path} to ${REGISTRY}"
+            for tag in "$VERSION" latest; do
+              attempt=1
+              until bicep publish "$bicep_file" \
+                --target "br:${REGISTRY}/${module_path}:${tag}" \
+                --force; do
+                if [ "$attempt" -ge 3 ]; then
+                  echo "::error::Failed to publish ${module_path}:${tag} after ${attempt} attempts"
+                  return 1
+                fi
+                attempt=$((attempt + 1))
+                sleep $((attempt * 5))
+              done
+            done
+          }
+          export -f publish_module
+          export REGISTRY VERSION
 
-            bicep publish "$bicep_file" \
-              --target "br:${REGISTRY}/${module_path}:${VERSION}" \
-              --force
-            bicep publish "$bicep_file" \
-              --target "br:${REGISTRY}/${module_path}:latest" \
-              --force
-          done
+          # Publish modules in parallel; serial publishing (~10s per module)
+          # exceeds the 6-hour job timeout for azure-public (3200+ modules).
+          xargs -d '\n' -n 2 -P 16 \
+            bash -c 'publish_module "$0" "$1"' \
+            < /tmp/publish-list.txt
