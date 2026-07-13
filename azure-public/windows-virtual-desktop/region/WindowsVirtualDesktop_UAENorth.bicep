@@ -3,7 +3,7 @@
 metadata name = 'WindowsVirtualDesktop.UAENorth'
 metadata description = 'This module contains all the service tag IP addresses of WindowsVirtualDesktop.UAENorth for Public.'
 metadata author = 'https://github.com/rdeveen/azure-ip-addresses-bicep'
-metadata created = '2026-07-12'
+metadata created = '2026-07-13'
 
 @description('WindowsVirtualDesktop.UAENorth service tag IP addresses for Public')
 @export()

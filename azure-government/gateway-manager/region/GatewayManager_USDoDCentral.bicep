@@ -3,7 +3,7 @@
 metadata name = 'GatewayManager.USDoDCentral'
 metadata description = 'This module contains all the service tag IP addresses of GatewayManager.USDoDCentral for AzureGovernment.'
 metadata author = 'https://github.com/rdeveen/azure-ip-addresses-bicep'
-metadata created = '2026-07-12'
+metadata created = '2026-07-13'
 
 @description('GatewayManager.USDoDCentral service tag IP addresses for AzureGovernment')
 @export()

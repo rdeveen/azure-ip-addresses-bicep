@@ -3,7 +3,7 @@
 metadata name = 'BatchNodeManagement.USGovVirginia'
 metadata description = 'This module contains all the service tag IP addresses of BatchNodeManagement.USGovVirginia for AzureGovernment.'
 metadata author = 'https://github.com/rdeveen/azure-ip-addresses-bicep'
-metadata created = '2026-07-12'
+metadata created = '2026-07-13'
 
 @description('BatchNodeManagement.USGovVirginia service tag IP addresses for AzureGovernment')
 @export()

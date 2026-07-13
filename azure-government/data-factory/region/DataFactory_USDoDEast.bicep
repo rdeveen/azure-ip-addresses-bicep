@@ -3,7 +3,7 @@
 metadata name = 'DataFactory.USDoDEast'
 metadata description = 'This module contains all the service tag IP addresses of DataFactory.USDoDEast for AzureGovernment.'
 metadata author = 'https://github.com/rdeveen/azure-ip-addresses-bicep'
-metadata created = '2026-07-12'
+metadata created = '2026-07-13'
 
 @description('DataFactory.USDoDEast service tag IP addresses for AzureGovernment')
 @export()

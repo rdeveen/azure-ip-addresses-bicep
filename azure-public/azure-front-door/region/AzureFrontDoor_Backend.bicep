@@ -3,7 +3,7 @@
 metadata name = 'AzureFrontDoor.Backend'
 metadata description = 'This module contains all the service tag IP addresses of AzureFrontDoor.Backend for Public.'
 metadata author = 'https://github.com/rdeveen/azure-ip-addresses-bicep'
-metadata created = '2026-07-12'
+metadata created = '2026-07-13'
 
 @description('AzureFrontDoor.Backend service tag IP addresses for Public')
 @export()

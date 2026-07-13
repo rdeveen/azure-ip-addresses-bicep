@@ -3,7 +3,7 @@
 metadata name = 'M365ManagementActivityApiWebhook'
 metadata description = 'This module contains all the service tag IP addresses of M365ManagementActivityApiWebhook for China.'
 metadata author = 'https://github.com/rdeveen/azure-ip-addresses-bicep'
-metadata created = '2026-07-12'
+metadata created = '2026-07-13'
 
 @description('M365ManagementActivityApiWebhook service tag IP addresses for China')
 @export()

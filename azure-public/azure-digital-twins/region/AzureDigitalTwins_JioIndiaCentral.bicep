@@ -3,7 +3,7 @@
 metadata name = 'AzureDigitalTwins.JioIndiaCentral'
 metadata description = 'This module contains all the service tag IP addresses of AzureDigitalTwins.JioIndiaCentral for Public.'
 metadata author = 'https://github.com/rdeveen/azure-ip-addresses-bicep'
-metadata created = '2026-07-12'
+metadata created = '2026-07-13'
 
 @description('AzureDigitalTwins.JioIndiaCentral service tag IP addresses for Public')
 @export()

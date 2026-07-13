@@ -3,7 +3,7 @@
 metadata name = 'AzureCloud.germanycentral'
 metadata description = 'This module contains all the service tag IP addresses of AzureCloud.germanycentral for AzureGermany.'
 metadata author = 'https://github.com/rdeveen/azure-ip-addresses-bicep'
-metadata created = '2026-07-12'
+metadata created = '2026-07-13'
 
 @description('AzureCloud.germanycentral service tag IP addresses for AzureGermany')
 @export()

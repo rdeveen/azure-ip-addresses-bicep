@@ -3,7 +3,7 @@
 metadata name = 'AzureSecurityCenter.ChinaEast3'
 metadata description = 'This module contains all the service tag IP addresses of AzureSecurityCenter.ChinaEast3 for China.'
 metadata author = 'https://github.com/rdeveen/azure-ip-addresses-bicep'
-metadata created = '2026-07-12'
+metadata created = '2026-07-13'
 
 @description('AzureSecurityCenter.ChinaEast3 service tag IP addresses for China')
 @export()

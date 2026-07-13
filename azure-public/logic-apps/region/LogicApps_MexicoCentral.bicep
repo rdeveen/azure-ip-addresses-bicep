@@ -3,7 +3,7 @@
 metadata name = 'LogicApps.MexicoCentral'
 metadata description = 'This module contains all the service tag IP addresses of LogicApps.MexicoCentral for Public.'
 metadata author = 'https://github.com/rdeveen/azure-ip-addresses-bicep'
-metadata created = '2026-07-12'
+metadata created = '2026-07-13'
 
 @description('LogicApps.MexicoCentral service tag IP addresses for Public')
 @export()

@@ -3,7 +3,7 @@
 metadata name = 'AzureContainerRegistry.USGovArizona'
 metadata description = 'This module contains all the service tag IP addresses of AzureContainerRegistry.USGovArizona for AzureGovernment.'
 metadata author = 'https://github.com/rdeveen/azure-ip-addresses-bicep'
-metadata created = '2026-07-12'
+metadata created = '2026-07-13'
 
 @description('AzureContainerRegistry.USGovArizona service tag IP addresses for AzureGovernment')
 @export()

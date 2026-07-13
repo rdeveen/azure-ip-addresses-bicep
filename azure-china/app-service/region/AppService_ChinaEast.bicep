@@ -3,7 +3,7 @@
 metadata name = 'AppService.ChinaEast'
 metadata description = 'This module contains all the service tag IP addresses of AppService.ChinaEast for China.'
 metadata author = 'https://github.com/rdeveen/azure-ip-addresses-bicep'
-metadata created = '2026-07-12'
+metadata created = '2026-07-13'
 
 @description('AppService.ChinaEast service tag IP addresses for China')
 @export()

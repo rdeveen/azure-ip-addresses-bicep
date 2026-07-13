@@ -3,7 +3,7 @@
 metadata name = 'AzureDataExplorerManagement.SwitzerlandNorth'
 metadata description = 'This module contains all the service tag IP addresses of AzureDataExplorerManagement.SwitzerlandNorth for Public.'
 metadata author = 'https://github.com/rdeveen/azure-ip-addresses-bicep'
-metadata created = '2026-07-12'
+metadata created = '2026-07-13'
 
 @description('AzureDataExplorerManagement.SwitzerlandNorth service tag IP addresses for Public')
 @export()

@@ -3,7 +3,7 @@
 metadata name = 'Dynamics365ForMarketingEmail.KoreaCentral'
 metadata description = 'This module contains all the service tag IP addresses of Dynamics365ForMarketingEmail.KoreaCentral for Public.'
 metadata author = 'https://github.com/rdeveen/azure-ip-addresses-bicep'
-metadata created = '2026-07-12'
+metadata created = '2026-07-13'
 
 @description('Dynamics365ForMarketingEmail.KoreaCentral service tag IP addresses for Public')
 @export()
