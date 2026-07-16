@@ -134,7 +134,7 @@ jobs:
             [ -n "$file" ] || continue
             IFS=$'\t' read -r added removed unused_path <<< "$(git diff --cached --numstat -- "$file")"
             diff_content=$(git diff --cached --unified=0 -- "$file")
-            date_line_changes=$(printf '%s\n' "$diff_content" | grep -Ec '^[+-]// Generated at : [0-9]{4}-[0-9]{2}-[0-9]{2}$' || true)
+            date_line_changes=$(printf '%s\n' "$diff_content" | grep -Ec "^[+-]metadata created = '[0-9]{4}-[0-9]{2}-[0-9]{2}'$" || true)
             # Date-only churn is exactly one removed line and one added line.
             if [ "${added:-0}" -eq 1 ] && [ "${removed:-0}" -eq 1 ] \
               && [ "${date_line_changes:-0}" -eq 2 ]; then
