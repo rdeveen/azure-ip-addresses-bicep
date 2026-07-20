@@ -44,33 +44,50 @@ You can also import this module directly from GHCR:
 `br:ghcr.io/rdeveen/azure-ip-addresses-bicep/azure-public/dynamics365-for-marketing-email/dynamics365-for-marketing-email:latest`
 
 Example regional module:
-`br:ghcr.io/rdeveen/azure-ip-addresses-bicep/azure-public/dynamics365-for-marketing-email/region/dynamics365-for-marketing-email-australia-southeast:latest`
+`br:ghcr.io/rdeveen/azure-ip-addresses-bicep/azure-public/dynamics365-for-marketing-email/region/dynamics365-for-marketing-email-australia-east:latest`
 
 ## Available Regions
 
 This module includes regional variants for the following Azure regions:
 
+- `AustraliaEast`
 - `AustraliaSoutheast`
 - `BrazilSouth`
 - `CanadaCentral`
+- `CanadaEast`
 - `CentralIndia`
 - `EastAsia`
 - `EastUS`
 - `FranceCentral`
+- `FranceSouth`
+- `GermanyNorth`
 - `GermanyWestCentral`
+- `ItalyNorth`
 - `JapanEast`
+- `JapanWest`
 - `KoreaCentral`
+- `KoreaSouth`
+- `NewZealandNorth`
 - `NorthEurope`
 - `NorwayEast`
+- `NorwayWest`
+- `PolandCentral`
 - `SouthAfricaNorth`
+- `SouthAfricaWest`
+- `SouthIndia`
 - `SoutheastAsia`
 - `SwedenCentral`
 - `SwitzerlandNorth`
+- `SwitzerlandWest`
+- `UAECentral`
 - `UAENorth`
 - `UKSouth`
+- `UKWest`
+- `WestEurope`
+- `WestUS`
 - `WestUS2`
 
-Total regional variants: 19
+Total regional variants: 36
 
 
 ## Generated Information

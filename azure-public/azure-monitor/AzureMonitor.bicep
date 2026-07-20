@@ -3,7 +3,7 @@
 metadata name = 'AzureMonitor'
 metadata description = 'This module contains all the service tag IP addresses of AzureMonitor for Public.'
 metadata author = 'https://github.com/rdeveen/azure-ip-addresses-bicep'
-metadata created = '2026-07-13'
+metadata created = '2026-07-20'
 
 @description('AzureMonitor service tag IP addresses for Public')
 @export()
@@ -1815,6 +1815,7 @@ var AzureMonitor = [
   '172.198.168.168/29'
   '172.198.168.176/28'
   '172.198.233.224/27'
+  '172.198.239.96/27'
   '172.199.21.0/24'
   '172.204.165.124/30'
   '172.204.166.72/29'

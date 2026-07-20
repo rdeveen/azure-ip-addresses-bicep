@@ -104,8 +104,10 @@ This module includes regional variants for the following Azure regions:
 - `southeastasia`
 - `southeastus`
 - `southeastus3`
+- `southeastus5`
 - `southfrance`
 - `southindia`
+- `southwestus`
 - `spaincentral`
 - `swedencentral`
 - `swedensouth`
@@ -126,7 +128,7 @@ This module includes regional variants for the following Azure regions:
 - `westus2`
 - `westus3`
 
-Total regional variants: 75
+Total regional variants: 77
 
 
 ## Generated Information

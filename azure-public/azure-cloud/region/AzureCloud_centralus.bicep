@@ -3,7 +3,7 @@
 metadata name = 'AzureCloud.centralus'
 metadata description = 'This module contains all the service tag IP addresses of AzureCloud.centralus for Public.'
 metadata author = 'https://github.com/rdeveen/azure-ip-addresses-bicep'
-metadata created = '2026-07-13'
+metadata created = '2026-07-20'
 
 @description('AzureCloud.centralus service tag IP addresses for Public')
 @export()
@@ -216,6 +216,7 @@ var AzureCloud_centralus = [
   '40.87.182.62/31'
   '40.87.182.64/27'
   '40.87.182.96/28'
+  '40.87.182.112/31'
   '40.87.182.116/30'
   '40.87.182.120/30'
   '40.87.182.136/29'
@@ -784,7 +785,7 @@ var AzureCloud_centralus = [
   '2603:1030:9:28e::/63'
   '2603:1030:9:290::/61'
   '2603:1030:9:298::/62'
-  '2603:1030:9:29c::/64'
+  '2603:1030:9:29c::/63'
   '2603:1030:9:29e::/64'
   '2603:1030:9:2a0::/64'
   '2603:1030:9:2a4::/64'

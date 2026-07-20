@@ -3,7 +3,7 @@
 metadata name = 'AzureActiveDirectory'
 metadata description = 'This module contains all the service tag IP addresses of AzureActiveDirectory for China.'
 metadata author = 'https://github.com/rdeveen/azure-ip-addresses-bicep'
-metadata created = '2026-07-13'
+metadata created = '2026-07-20'
 
 @description('AzureActiveDirectory service tag IP addresses for China')
 @export()
@@ -21,6 +21,7 @@ var AzureActiveDirectory = [
   '40.73.107.129/32'
   '40.73.139.128/27'
   '40.73.171.128/27'
+  '40.162.129.0/28'
   '52.130.2.32/27'
   '52.130.2.192/27'
   '52.130.3.64/27'
@@ -44,6 +45,11 @@ var AzureActiveDirectory = [
   '163.228.25.50/31'
   '163.228.25.52/32'
   '163.228.203.212/30'
+  '163.228.204.240/28'
   '163.228.216.228/30'
+  '2404:7940:101:3::710/124'
+  '2404:7940:101:3::760/124'
+  '2404:7940:301::830/124'
+  '2404:7940:301::860/124'
   '2406:e500:5500::/48'
 ]
