@@ -3,7 +3,7 @@
 metadata name = 'AzureCloud.northcentralus'
 metadata description = 'This module contains all the service tag IP addresses of AzureCloud.northcentralus for Public.'
 metadata author = 'https://github.com/rdeveen/azure-ip-addresses-bicep'
-metadata created = '2026-07-13'
+metadata created = '2026-07-27'
 
 @description('AzureCloud.northcentralus service tag IP addresses for Public')
 @export()
@@ -190,9 +190,9 @@ var AzureCloud_northcentralus = [
   '57.157.64.0/24'
   '57.157.65.0/25'
   '57.157.65.128/26'
-  '57.157.65.192/29'
-  '57.157.65.200/30'
-  '57.157.65.204/31'
+  '57.157.65.192/28'
+  '57.157.65.208/30'
+  '57.157.65.212/31'
   '64.236.128.0/17'
   '65.52.0.0/19'
   '65.52.48.0/20'

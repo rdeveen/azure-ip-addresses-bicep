@@ -3,11 +3,14 @@
 metadata name = 'ApiManagement.KoreaSouth'
 metadata description = 'This module contains all the service tag IP addresses of ApiManagement.KoreaSouth for Public.'
 metadata author = 'https://github.com/rdeveen/azure-ip-addresses-bicep'
-metadata created = '2026-07-13'
+metadata created = '2026-07-27'
 
 @description('ApiManagement.KoreaSouth service tag IP addresses for Public')
 @export()
 var ApiManagement_KoreaSouth = [
+  '4.243.180.132/30'
+  '4.243.180.136/29'
+  '4.243.180.192/31'
   '20.200.166.32/28'
   '40.80.232.185/32'
   '52.231.146.84/31'

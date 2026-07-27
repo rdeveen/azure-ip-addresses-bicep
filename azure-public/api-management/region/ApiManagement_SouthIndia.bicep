@@ -3,11 +3,14 @@
 metadata name = 'ApiManagement.SouthIndia'
 metadata description = 'This module contains all the service tag IP addresses of ApiManagement.SouthIndia for Public.'
 metadata author = 'https://github.com/rdeveen/azure-ip-addresses-bicep'
-metadata created = '2026-07-13'
+metadata created = '2026-07-27'
 
 @description('ApiManagement.SouthIndia service tag IP addresses for Public')
 @export()
 var ApiManagement_SouthIndia = [
+  '4.247.39.148/30'
+  '4.247.39.152/29'
+  '4.247.40.32/31'
   '20.44.33.246/32'
   '40.78.194.68/31'
   '40.78.195.224/28'

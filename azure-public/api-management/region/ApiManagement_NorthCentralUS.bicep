@@ -3,12 +3,15 @@
 metadata name = 'ApiManagement.NorthCentralUS'
 metadata description = 'This module contains all the service tag IP addresses of ApiManagement.NorthCentralUS for Public.'
 metadata author = 'https://github.com/rdeveen/azure-ip-addresses-bicep'
-metadata created = '2026-07-13'
+metadata created = '2026-07-27'
 
 @description('ApiManagement.NorthCentralUS service tag IP addresses for Public')
 @export()
 var ApiManagement_NorthCentralUS = [
   '20.51.6.224/28'
+  '20.66.218.58/31'
+  '20.66.218.240/29'
+  '20.66.218.248/30'
   '23.96.224.175/32'
   '23.101.166.38/32'
   '40.81.47.216/32'

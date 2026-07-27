@@ -3,7 +3,7 @@
 metadata name = 'AzureFrontDoor.Frontend'
 metadata description = 'This module contains all the service tag IP addresses of AzureFrontDoor.Frontend for Public.'
 metadata author = 'https://github.com/rdeveen/azure-ip-addresses-bicep'
-metadata created = '2026-07-13'
+metadata created = '2026-07-27'
 
 @description('AzureFrontDoor.Frontend service tag IP addresses for Public')
 @export()
@@ -115,6 +115,7 @@ var AzureFrontDoor_Frontend = [
   '102.133.216.80/29'
   '104.212.67.0/24'
   '104.212.68.0/24'
+  '150.171.1.16/28'
   '150.171.22.0/23'
   '150.171.26.0/24'
   '150.171.84.0/22'
