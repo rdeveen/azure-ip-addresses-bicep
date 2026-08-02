@@ -53,7 +53,7 @@ Adapt the import path to match where you have placed the files relative to your 
 
 ## Using the modules from the registry
 
-The Bicep files are published to the **GitHub Container Registry (GHCR)** as OCI artifacts after every update, so you can consume them directly from the registry without copying any files into your project.
+The Bicep files are published to the **GitHub Container Registry (GHCR)** as OCI artifacts after every update, so you can consume them directly from the registry without copying any files into your project. You can browse all published modules on the [container registry packages page](https://github.com/rdeveen?tab=packages&repo_name=azure-ip-addresses-bicep).
 
 Each service tag has its own module in the registry. The module path follows the pattern:
 
