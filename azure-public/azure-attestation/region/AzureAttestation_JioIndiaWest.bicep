@@ -3,11 +3,13 @@
 metadata name = 'AzureAttestation.JioIndiaWest'
 metadata description = 'This module contains all the service tag IP addresses of AzureAttestation.JioIndiaWest for Public.'
 metadata author = 'https://github.com/rdeveen/azure-ip-addresses-bicep'
-metadata created = '2026-07-13'
+metadata created = '2026-08-03'
 
 @description('AzureAttestation.JioIndiaWest service tag IP addresses for Public')
 @export()
 var AzureAttestation_JioIndiaWest = [
+  '4.187.48.236/30'
+  '4.187.49.80/29'
   '20.192.166.188/30'
   '20.244.215.80/29'
   '20.244.215.88/30'

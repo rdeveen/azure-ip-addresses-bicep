@@ -3,7 +3,7 @@
 metadata name = 'AzureAttestation.USDoDCentral'
 metadata description = 'This module contains all the service tag IP addresses of AzureAttestation.USDoDCentral for AzureGovernment.'
 metadata author = 'https://github.com/rdeveen/azure-ip-addresses-bicep'
-metadata created = '2026-07-13'
+metadata created = '2026-08-03'
 
 @description('AzureAttestation.USDoDCentral service tag IP addresses for AzureGovernment')
 @export()
@@ -11,6 +11,9 @@ var AzureAttestation_USDoDCentral = [
   '20.140.76.172/30'
   '20.159.252.116/30'
   '20.159.252.120/29'
+  '20.159.255.148/30'
+  '20.159.255.152/29'
   '52.245.128.72/30'
   '2001:489a:3203:3::200/124'
+  '2001:489a:3203:6::500/124'
 ]

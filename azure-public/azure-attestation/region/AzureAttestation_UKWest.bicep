@@ -3,7 +3,7 @@
 metadata name = 'AzureAttestation.UKWest'
 metadata description = 'This module contains all the service tag IP addresses of AzureAttestation.UKWest for Public.'
 metadata author = 'https://github.com/rdeveen/azure-ip-addresses-bicep'
-metadata created = '2026-07-13'
+metadata created = '2026-08-03'
 
 @description('AzureAttestation.UKWest service tag IP addresses for Public')
 @export()
@@ -13,5 +13,7 @@ var AzureAttestation_UKWest = [
   '51.140.215.168/30'
   '172.186.116.228/30'
   '172.186.116.240/29'
+  '172.186.143.108/30'
+  '172.186.143.128/29'
   '2603:1020:605:3::3d0/124'
 ]

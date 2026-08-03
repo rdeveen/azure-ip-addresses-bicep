@@ -3,7 +3,7 @@
 metadata name = 'AzureCloud.centraluseuap'
 metadata description = 'This module contains all the service tag IP addresses of AzureCloud.centraluseuap for Public.'
 metadata author = 'https://github.com/rdeveen/azure-ip-addresses-bicep'
-metadata created = '2026-07-13'
+metadata created = '2026-08-03'
 
 @description('AzureCloud.centraluseuap service tag IP addresses for Public')
 @export()
@@ -57,6 +57,7 @@ var AzureCloud_centraluseuap = [
   '40.87.182.0/30'
   '40.87.182.16/29'
   '40.87.182.60/31'
+  '40.87.182.246/31'
   '40.87.183.30/31'
   '40.87.183.40/31'
   '40.87.183.48/31'
@@ -189,6 +190,7 @@ var AzureCloud_centraluseuap = [
   '2603:1030:9:1d9::/64'
   '2603:1030:9:1da::/64'
   '2603:1030:9:28c::/64'
+  '2603:1030:9:2a5::/64'
   '2603:1030:9:2c3::/64'
   '2603:1030:9:2ce::/63'
   '2603:1030:9:2d0::/62'
