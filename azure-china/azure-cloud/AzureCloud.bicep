@@ -3,7 +3,7 @@
 metadata name = 'AzureCloud'
 metadata description = 'This module contains all the service tag IP addresses of AzureCloud for China.'
 metadata author = 'https://github.com/rdeveen/azure-ip-addresses-bicep'
-metadata created = '2026-07-27'
+metadata created = '2026-08-10'
 
 @description('AzureCloud service tag IP addresses for China')
 @export()
@@ -234,6 +234,7 @@ var AzureCloud = [
   '159.27.132.0/24'
   '159.27.133.0/28'
   '159.27.133.16/29'
+  '159.27.133.24/30'
   '159.27.144.0/20'
   '159.27.160.0/23'
   '159.27.162.0/24'
@@ -288,6 +289,7 @@ var AzureCloud = [
   '2406:e500:2500:3a::/64'
   '2406:e500:2501::/57'
   '2406:e500:2501:80::/62'
+  '2406:e500:2501:84::/63'
   '2406:e500:2600::/48'
   '2406:e500:2601::/48'
   '2406:e500:2602::/47'

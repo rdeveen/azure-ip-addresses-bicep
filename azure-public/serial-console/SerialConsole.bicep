@@ -3,7 +3,7 @@
 metadata name = 'SerialConsole'
 metadata description = 'This module contains all the service tag IP addresses of SerialConsole for Public.'
 metadata author = 'https://github.com/rdeveen/azure-ip-addresses-bicep'
-metadata created = '2026-07-13'
+metadata created = '2026-08-10'
 
 @description('SerialConsole service tag IP addresses for Public')
 @export()
@@ -189,6 +189,7 @@ var SerialConsole = [
   '157.55.93.0/32'
   '158.23.202.206/31'
   '168.61.232.59/32'
+  '172.129.88.16/30'
   '172.160.216.6/32'
   '172.182.191.87/32'
   '172.183.234.204/32'
@@ -207,6 +208,7 @@ var SerialConsole = [
   '191.234.136.63/32'
   '191.238.77.232/31'
   '2603:1020:1602:3::570/124'
+  '2603:1020:1701:2::390/124'
   '2603:1030:40c:2a::610/124'
   '2603:1030:902:4::50/124'
   '2603:1030:1102:3::6e0/124'

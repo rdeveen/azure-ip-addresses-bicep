@@ -3,7 +3,7 @@
 metadata name = 'AzureBotService'
 metadata description = 'This module contains all the service tag IP addresses of AzureBotService for Public.'
 metadata author = 'https://github.com/rdeveen/azure-ip-addresses-bicep'
-metadata created = '2026-07-13'
+metadata created = '2026-08-10'
 
 @description('AzureBotService service tag IP addresses for Public')
 @export()
@@ -126,6 +126,7 @@ var AzureBotService = [
   '102.133.216.64/30'
   '134.138.64.16/30'
   '158.23.96.16/30'
+  '172.129.72.16/30'
   '172.194.64.16/30'
   '172.198.80.16/30'
   '172.204.152.16/30'
@@ -161,6 +162,7 @@ var AzureBotService = [
   '2603:1020:1403::20/123'
   '2603:1020:1502::20/123'
   '2603:1020:1602::20/123'
+  '2603:1020:1701::20/123'
   '2603:1030:f:1::20/123'
   '2603:1030:10:1::20/123'
   '2603:1030:104:1::20/123'

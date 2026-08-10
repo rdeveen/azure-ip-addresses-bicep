@@ -3,13 +3,15 @@
 metadata name = 'AzureCloud.germanyn'
 metadata description = 'This module contains all the service tag IP addresses of AzureCloud.germanyn for Public.'
 metadata author = 'https://github.com/rdeveen/azure-ip-addresses-bicep'
-metadata created = '2026-07-13'
+metadata created = '2026-08-10'
 
 @description('AzureCloud.germanyn service tag IP addresses for Public')
 @export()
 var AzureCloud_germanyn = [
   '4.184.0.0/20'
   '9.129.42.0/25'
+  '9.129.58.192/26'
+  '9.129.66.192/27'
   '13.104.144.96/27'
   '13.104.212.64/26'
   '20.38.115.0/24'

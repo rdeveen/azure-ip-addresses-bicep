@@ -3,7 +3,7 @@
 metadata name = 'AzureAdvancedThreatProtection'
 metadata description = 'This module contains all the service tag IP addresses of AzureAdvancedThreatProtection for Public.'
 metadata author = 'https://github.com/rdeveen/azure-ip-addresses-bicep'
-metadata created = '2026-07-13'
+metadata created = '2026-08-10'
 
 @description('AzureAdvancedThreatProtection service tag IP addresses for Public')
 @export()
@@ -101,6 +101,7 @@ var AzureAdvancedThreatProtection = [
   '134.138.64.24/29'
   '135.18.128.96/32'
   '158.23.96.24/29'
+  '172.129.72.24/29'
   '172.186.108.172/30'
   '172.186.108.176/32'
   '172.194.64.24/29'
@@ -137,6 +138,7 @@ var AzureAdvancedThreatProtection = [
   '2603:1020:1403::180/123'
   '2603:1020:1502::180/123'
   '2603:1020:1602::180/123'
+  '2603:1020:1701::180/123'
   '2603:1030:f:1::140/123'
   '2603:1030:10:1::140/123'
   '2603:1030:104:1::140/123'

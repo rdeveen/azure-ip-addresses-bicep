@@ -3,7 +3,7 @@
 metadata name = 'WindowsAdminCenter'
 metadata description = 'This module contains all the service tag IP addresses of WindowsAdminCenter for Public.'
 metadata author = 'https://github.com/rdeveen/azure-ip-addresses-bicep'
-metadata created = '2026-07-13'
+metadata created = '2026-08-10'
 
 @description('WindowsAdminCenter service tag IP addresses for Public')
 @export()
@@ -82,6 +82,7 @@ var WindowsAdminCenter = [
   '104.46.178.8/29'
   '134.138.68.144/29'
   '158.23.97.104/29'
+  '172.129.76.24/29'
   '172.194.64.40/29'
   '172.198.84.144/29'
   '172.204.153.104/29'
@@ -106,6 +107,7 @@ var WindowsAdminCenter = [
   '2603:1020:1403::588/125'
   '2603:1020:1502::3e8/125'
   '2603:1020:1602::3e8/125'
+  '2603:1020:1701::5e8/125'
   '2603:1030:f:1::2b0/125'
   '2603:1030:104::6c0/125'
   '2603:1030:107::588/125'

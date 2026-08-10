@@ -3,7 +3,7 @@
 metadata name = 'AppServiceManagement'
 metadata description = 'This module contains all the service tag IP addresses of AppServiceManagement for Public.'
 metadata author = 'https://github.com/rdeveen/azure-ip-addresses-bicep'
-metadata created = '2026-07-13'
+metadata created = '2026-08-10'
 
 @description('AppServiceManagement service tag IP addresses for Public')
 @export()
@@ -279,6 +279,7 @@ var AppServiceManagement = [
   '168.61.229.64/29'
   '168.63.132.240/32'
   '168.63.241.160/32'
+  '172.129.87.64/26'
   '172.169.145.64/29'
   '172.179.226.16/29'
   '172.182.1.64/29'
@@ -384,6 +385,7 @@ var AppServiceManagement = [
   '2603:1020:1403:2::7c0/123'
   '2603:1020:1502:2::40/122'
   '2603:1020:1602:2::40/122'
+  '2603:1020:1701:2::240/122'
   '2603:1030:f:3::700/123'
   '2603:1030:f:400::900/122'
   '2603:1030:10::7a0/123'

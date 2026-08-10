@@ -3,7 +3,7 @@
 metadata name = 'ActionGroup'
 metadata description = 'This module contains all the service tag IP addresses of ActionGroup for Public.'
 metadata author = 'https://github.com/rdeveen/azure-ip-addresses-bicep'
-metadata created = '2026-07-13'
+metadata created = '2026-08-10'
 
 @description('ActionGroup service tag IP addresses for Public')
 @export()
@@ -152,6 +152,7 @@ var ActionGroup = [
   '158.23.119.232/30'
   '168.61.142.52/30'
   '168.61.239.12/30'
+  '172.129.89.44/30'
   '172.160.216.24/30'
   '172.164.208.220/30'
   '172.182.164.108/30'
@@ -222,6 +223,7 @@ var ActionGroup = [
   '2603:1020:1403:400::100/125'
   '2603:1020:1502:400::40/125'
   '2603:1020:1602:400::1c8/125'
+  '2603:1020:1701:2::650/125'
   '2603:1030:f:4::39c/126'
   '2603:1030:f:400::978/125'
   '2603:1030:10:1::118/126'

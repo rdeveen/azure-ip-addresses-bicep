@@ -3,7 +3,7 @@
 metadata name = 'AzureConnectors'
 metadata description = 'This module contains all the service tag IP addresses of AzureConnectors for Public.'
 metadata author = 'https://github.com/rdeveen/azure-ip-addresses-bicep'
-metadata created = '2026-07-13'
+metadata created = '2026-08-10'
 
 @description('AzureConnectors service tag IP addresses for Public')
 @export()
@@ -501,6 +501,7 @@ var AzureConnectors = [
   '158.23.108.64/26'
   '168.61.140.0/27'
   '168.61.143.64/26'
+  '172.129.84.128/26'
   '172.194.76.192/26'
   '172.198.92.192/26'
   '172.204.164.128/26'
@@ -551,6 +552,7 @@ var AzureConnectors = [
   '2603:1020:1403:2::80/122'
   '2603:1020:1502:1::5c0/122'
   '2603:1020:1602:1::5c0/122'
+  '2603:1020:1701:1::7c0/122'
   '2603:1030:f:400::980/122'
   '2603:1030:10:402::180/122'
   '2603:1030:104:402::180/122'

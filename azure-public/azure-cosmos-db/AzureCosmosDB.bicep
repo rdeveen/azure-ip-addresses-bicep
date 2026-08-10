@@ -3,7 +3,7 @@
 metadata name = 'AzureCosmosDB'
 metadata description = 'This module contains all the service tag IP addresses of AzureCosmosDB for Public.'
 metadata author = 'https://github.com/rdeveen/azure-ip-addresses-bicep'
-metadata created = '2026-07-13'
+metadata created = '2026-08-10'
 
 @description('AzureCosmosDB service tag IP addresses for Public')
 @export()
@@ -598,6 +598,8 @@ var AzureCosmosDB = [
   '157.55.170.133/32'
   '158.23.113.192/26'
   '168.61.142.128/26'
+  '172.129.76.32/27'
+  '172.129.76.64/26'
   '172.167.232.0/25'
   '172.167.232.128/26'
   '172.194.68.32/27'
@@ -683,6 +685,7 @@ var AzureCosmosDB = [
   '2603:1020:1403::1e0/123'
   '2603:1020:1502::1e0/123'
   '2603:1020:1602::1e0/123'
+  '2603:1020:1701::1a0/123'
   '2603:1030:f:2::2a0/123'
   '2603:1030:f:a::40/122'
   '2603:1030:f:400::8c0/122'

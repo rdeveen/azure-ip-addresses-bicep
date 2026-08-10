@@ -3,7 +3,7 @@
 metadata name = 'KustoAnalytics'
 metadata description = 'This module contains all the service tag IP addresses of KustoAnalytics for Public.'
 metadata author = 'https://github.com/rdeveen/azure-ip-addresses-bicep'
-metadata created = '2026-07-13'
+metadata created = '2026-08-10'
 
 @description('KustoAnalytics service tag IP addresses for Public')
 @export()
@@ -92,6 +92,7 @@ var KustoAnalytics = [
   '74.241.227.0/26'
   '134.138.78.64/27'
   '158.23.113.128/27'
+  '172.129.86.64/27'
   '172.194.76.160/27'
   '172.198.92.160/27'
   '172.204.160.224/27'
@@ -125,6 +126,7 @@ var KustoAnalytics = [
   '2603:1020:1403:2::700/121'
   '2603:1020:1502:1::780/121'
   '2603:1020:1602:1::780/121'
+  '2603:1020:1701:2::180/121'
   '2603:1030:f:8::/121'
   '2603:1030:10:4::480/121'
   '2603:1030:104:2::780/121'

@@ -3,7 +3,7 @@
 metadata name = 'AzureSiteRecovery'
 metadata description = 'This module contains all the service tag IP addresses of AzureSiteRecovery for Public.'
 metadata author = 'https://github.com/rdeveen/azure-ip-addresses-bicep'
-metadata created = '2026-07-13'
+metadata created = '2026-08-10'
 
 @description('AzureSiteRecovery service tag IP addresses for Public')
 @export()
@@ -415,6 +415,7 @@ var AzureSiteRecovery = [
   '167.105.228.16/28'
   '167.105.253.96/27'
   '168.61.229.80/28'
+  '172.129.72.0/28'
   '172.164.238.0/29'
   '172.166.246.192/27'
   '172.169.145.80/28'
@@ -613,6 +614,7 @@ var AzureSiteRecovery = [
   '2603:1020:1602:5::120/123'
   '2603:1020:1602:1000::/125'
   '2603:1020:1602:1000::8/127'
+  '2603:1020:1701::/123'
   '2603:1030:f:1::/123'
   '2603:1030:f:10::140/122'
   '2603:1030:f:400::ad0/125'

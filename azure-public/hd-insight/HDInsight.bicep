@@ -3,7 +3,7 @@
 metadata name = 'HDInsight'
 metadata description = 'This module contains all the service tag IP addresses of HDInsight for Public.'
 metadata author = 'https://github.com/rdeveen/azure-ip-addresses-bicep'
-metadata created = '2026-07-13'
+metadata created = '2026-08-10'
 
 @description('HDInsight service tag IP addresses for Public')
 @export()
@@ -188,6 +188,7 @@ var HDInsight = [
   '158.23.103.104/29'
   '168.61.48.131/32'
   '168.61.49.99/32'
+  '172.129.81.200/29'
   '172.182.175.168/29'
   '172.194.73.200/29'
   '172.198.89.208/29'
@@ -239,6 +240,7 @@ var HDInsight = [
   '2603:1020:1403:1::2b0/124'
   '2603:1020:1502:1::2c0/124'
   '2603:1020:1602:1::2c0/124'
+  '2603:1020:1701:1::4b0/124'
   '2603:1030:f:2::4b0/124'
   '2603:1030:f:400::b20/124'
   '2603:1030:10:402::320/124'

@@ -3,7 +3,7 @@
 metadata name = 'MicrosoftContainerRegistry'
 metadata description = 'This module contains all the service tag IP addresses of MicrosoftContainerRegistry for Public.'
 metadata author = 'https://github.com/rdeveen/azure-ip-addresses-bicep'
-metadata created = '2026-07-13'
+metadata created = '2026-08-10'
 
 @description('MicrosoftContainerRegistry service tag IP addresses for Public')
 @export()
@@ -175,6 +175,7 @@ var MicrosoftContainerRegistry = [
   '158.23.122.64/29'
   '158.23.194.64/29'
   '167.105.104.0/29'
+  '172.129.89.96/29'
   '172.194.86.160/29'
   '172.194.112.104/29'
   '172.198.112.0/29'
@@ -256,6 +257,7 @@ var MicrosoftContainerRegistry = [
   '2603:1020:1602:400::/125'
   '2603:1020:1602:800::/125'
   '2603:1020:1602:c00::/125'
+  '2603:1020:1701:2::628/125'
   '2603:1030:f:400::888/125'
   '2603:1030:10:402::88/125'
   '2603:1030:10:802::88/125'

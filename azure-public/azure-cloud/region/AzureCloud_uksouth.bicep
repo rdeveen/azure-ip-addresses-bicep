@@ -3,7 +3,7 @@
 metadata name = 'AzureCloud.uksouth'
 metadata description = 'This module contains all the service tag IP addresses of AzureCloud.uksouth for Public.'
 metadata author = 'https://github.com/rdeveen/azure-ip-addresses-bicep'
-metadata created = '2026-07-13'
+metadata created = '2026-08-10'
 
 @description('AzureCloud.uksouth service tag IP addresses for Public')
 @export()
@@ -14,6 +14,7 @@ var AzureCloud_uksouth = [
   '9.129.52.192/26'
   '9.129.55.0/27'
   '9.129.58.16/28'
+  '9.129.64.128/26'
   '13.87.64.0/19'
   '13.87.96.0/20'
   '13.104.129.128/26'

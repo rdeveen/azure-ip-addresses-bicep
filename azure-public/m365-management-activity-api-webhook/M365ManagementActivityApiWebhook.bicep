@@ -3,7 +3,7 @@
 metadata name = 'M365ManagementActivityApiWebhook'
 metadata description = 'This module contains all the service tag IP addresses of M365ManagementActivityApiWebhook for Public.'
 metadata author = 'https://github.com/rdeveen/azure-ip-addresses-bicep'
-metadata created = '2026-07-13'
+metadata created = '2026-08-10'
 
 @description('M365ManagementActivityApiWebhook service tag IP addresses for Public')
 @export()
@@ -138,6 +138,7 @@ var M365ManagementActivityApiWebhook = [
   '48.195.61.168/30'
   '48.195.61.172/31'
   '48.197.137.44/31'
+  '48.197.139.184/30'
   '48.199.208.204/30'
   '48.199.208.208/28'
   '48.201.165.49/32'
@@ -372,6 +373,7 @@ var M365ManagementActivityApiWebhook = [
   '2603:1040:1602:6::228/126'
   '2603:1040:1802:4::44a/127'
   '2603:1040:1802:7::660/125'
+  '2603:1040:1a02:5::6c4/126'
   '2603:1050:6::34e/127'
   '2603:1050:6:c::3c/126'
   '2603:1050:6:c::60/128'

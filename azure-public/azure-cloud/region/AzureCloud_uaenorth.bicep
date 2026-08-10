@@ -3,13 +3,15 @@
 metadata name = 'AzureCloud.uaenorth'
 metadata description = 'This module contains all the service tag IP addresses of AzureCloud.uaenorth for Public.'
 metadata author = 'https://github.com/rdeveen/azure-ip-addresses-bicep'
-metadata created = '2026-07-27'
+metadata created = '2026-08-10'
 
 @description('AzureCloud.uaenorth service tag IP addresses for Public')
 @export()
 var AzureCloud_uaenorth = [
   '4.161.0.0/16'
   '4.162.0.0/16'
+  '9.129.65.128/26'
+  '9.129.67.0/27'
   '13.104.151.64/26'
   '13.104.151.128/26'
   '13.105.61.16/28'

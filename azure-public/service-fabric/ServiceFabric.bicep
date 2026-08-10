@@ -3,7 +3,7 @@
 metadata name = 'ServiceFabric'
 metadata description = 'This module contains all the service tag IP addresses of ServiceFabric for Public.'
 metadata author = 'https://github.com/rdeveen/azure-ip-addresses-bicep'
-metadata created = '2026-07-13'
+metadata created = '2026-08-10'
 
 @description('ServiceFabric service tag IP addresses for Public')
 @export()
@@ -268,6 +268,7 @@ var ServiceFabric = [
   '158.23.194.72/30'
   '167.105.104.8/30'
   '168.61.142.48/30'
+  '172.129.89.160/29'
   '172.194.86.224/29'
   '172.194.112.240/30'
   '172.198.112.8/30'
@@ -350,6 +351,7 @@ var ServiceFabric = [
   '2603:1020:1602:400::10/125'
   '2603:1020:1602:800::10/125'
   '2603:1020:1602:c00::10/125'
+  '2603:1020:1701:2::658/125'
   '2603:1030:f:400::898/125'
   '2603:1030:10:402::98/125'
   '2603:1030:10:802::98/125'

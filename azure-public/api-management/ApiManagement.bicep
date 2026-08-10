@@ -3,7 +3,7 @@
 metadata name = 'ApiManagement'
 metadata description = 'This module contains all the service tag IP addresses of ApiManagement for Public.'
 metadata author = 'https://github.com/rdeveen/azure-ip-addresses-bicep'
-metadata created = '2026-07-27'
+metadata created = '2026-08-10'
 
 @description('ApiManagement service tag IP addresses for Public')
 @export()
@@ -326,6 +326,7 @@ var ApiManagement = [
   '135.222.50.218/31'
   '137.117.160.56/32'
   '158.23.100.128/28'
+  '172.129.78.16/28'
   '172.165.36.182/31'
   '172.165.36.184/29'
   '172.165.36.208/30'
@@ -390,6 +391,7 @@ var ApiManagement = [
   '2603:1020:1403::5c0/124'
   '2603:1020:1502::520/124'
   '2603:1020:1602::520/124'
+  '2603:1020:1701::720/124'
   '2603:1030:f:2::490/124'
   '2603:1030:f:400::940/124'
   '2603:1030:10:402::140/124'

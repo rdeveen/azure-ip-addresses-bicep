@@ -3,7 +3,7 @@
 metadata name = 'GuestAndHybridManagement'
 metadata description = 'This module contains all the service tag IP addresses of GuestAndHybridManagement for Public.'
 metadata author = 'https://github.com/rdeveen/azure-ip-addresses-bicep'
-metadata created = '2026-07-13'
+metadata created = '2026-08-10'
 
 @description('GuestAndHybridManagement service tag IP addresses for Public')
 @export()
@@ -523,6 +523,7 @@ var GuestAndHybridManagement = [
   '168.61.140.48/28'
   '168.61.240.252/30'
   '168.61.245.82/31'
+  '172.129.78.96/27'
   '172.160.223.202/31'
   '172.179.35.136/31'
   '172.179.35.192/27'
@@ -694,6 +695,7 @@ var GuestAndHybridManagement = [
   '2603:1020:1403::700/123'
   '2603:1020:1502::560/123'
   '2603:1020:1602::560/123'
+  '2603:1020:1701::760/123'
   '2603:1030:f:3::2a0/123'
   '2603:1030:f:a::210/124'
   '2603:1030:f:a::240/122'

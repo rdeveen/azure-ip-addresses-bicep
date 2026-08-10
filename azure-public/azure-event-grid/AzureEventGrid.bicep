@@ -3,7 +3,7 @@
 metadata name = 'AzureEventGrid'
 metadata description = 'This module contains all the service tag IP addresses of AzureEventGrid for Public.'
 metadata author = 'https://github.com/rdeveen/azure-ip-addresses-bicep'
-metadata created = '2026-07-13'
+metadata created = '2026-08-10'
 
 @description('AzureEventGrid service tag IP addresses for Public')
 @export()
@@ -502,6 +502,7 @@ var AzureEventGrid = [
   '167.105.174.128/32'
   '167.105.174.255/32'
   '167.105.175.108/32'
+  '172.129.73.128/25'
   '172.170.112.22/32'
   '172.192.198.0/23'
   '172.194.65.128/25'
@@ -561,6 +562,7 @@ var AzureEventGrid = [
   '2603:1020:1403::280/121'
   '2603:1020:1502::280/121'
   '2603:1020:1602::280/121'
+  '2603:1020:1701::480/121'
   '2603:1030:f:1::380/121'
   '2603:1030:10:1::380/121'
   '2603:1030:104:1::380/121'

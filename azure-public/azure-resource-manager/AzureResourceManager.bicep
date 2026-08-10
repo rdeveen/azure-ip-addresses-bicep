@@ -3,7 +3,7 @@
 metadata name = 'AzureResourceManager'
 metadata description = 'This module contains all the service tag IP addresses of AzureResourceManager for Public.'
 metadata author = 'https://github.com/rdeveen/azure-ip-addresses-bicep'
-metadata created = '2026-07-13'
+metadata created = '2026-08-10'
 
 @description('AzureResourceManager service tag IP addresses for Public')
 @export()
@@ -214,6 +214,7 @@ var AzureResourceManager = [
   '158.23.106.0/23'
   '168.61.138.0/23'
   '168.61.143.192/26'
+  '172.129.82.0/23'
   '172.169.142.0/23'
   '172.194.74.0/23'
   '172.198.90.0/23'
@@ -285,6 +286,7 @@ var AzureResourceManager = [
   '2603:1020:1403:1::400/120'
   '2603:1020:1502:1::300/120'
   '2603:1020:1602:1::300/120'
+  '2603:1020:1701:1::500/120'
   '2603:1030:f:1::6c0/122'
   '2603:1030:f:2::700/120'
   '2603:1030:f:400::a80/122'

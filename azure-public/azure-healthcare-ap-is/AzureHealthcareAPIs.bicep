@@ -3,7 +3,7 @@
 metadata name = 'AzureHealthcareAPIs'
 metadata description = 'This module contains all the service tag IP addresses of AzureHealthcareAPIs for Public.'
 metadata author = 'https://github.com/rdeveen/azure-ip-addresses-bicep'
-metadata created = '2026-07-13'
+metadata created = '2026-08-10'
 
 @description('AzureHealthcareAPIs service tag IP addresses for Public')
 @export()
@@ -295,6 +295,7 @@ var AzureHealthcareAPIs = [
   '134.138.71.32/27'
   '145.191.108.6/31'
   '158.23.101.32/27'
+  '172.129.79.32/27'
   '172.166.4.134/31'
   '172.170.23.64/28'
   '172.186.105.151/32'
@@ -338,6 +339,7 @@ var AzureHealthcareAPIs = [
   '2603:1020:1403::720/123'
   '2603:1020:1502::6a0/123'
   '2603:1020:1602::6a0/123'
+  '2603:1020:1701:1::a0/123'
   '2603:1030:f:2::4e0/123'
   '2603:1030:10:4::320/123'
   '2603:1030:104::7c0/123'

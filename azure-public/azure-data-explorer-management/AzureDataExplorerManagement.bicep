@@ -3,7 +3,7 @@
 metadata name = 'AzureDataExplorerManagement'
 metadata description = 'This module contains all the service tag IP addresses of AzureDataExplorerManagement for Public.'
 metadata author = 'https://github.com/rdeveen/azure-ip-addresses-bicep'
-metadata created = '2026-07-13'
+metadata created = '2026-08-10'
 
 @description('AzureDataExplorerManagement service tag IP addresses for Public')
 @export()
@@ -178,6 +178,7 @@ var AzureDataExplorerManagement = [
   '134.138.73.80/28'
   '135.237.169.128/28'
   '158.23.103.48/28'
+  '172.129.81.128/28'
   '172.173.40.32/28'
   '172.179.35.240/28'
   '172.194.73.128/28'
@@ -240,6 +241,7 @@ var AzureDataExplorerManagement = [
   '2603:1020:1403:1::220/123'
   '2603:1020:1502:1::1e0/123'
   '2603:1020:1602:1::1e0/123'
+  '2603:1020:1701:1::420/123'
   '2603:1030:f:2::380/121'
   '2603:1030:f:400::950/124'
   '2603:1030:10::600/121'

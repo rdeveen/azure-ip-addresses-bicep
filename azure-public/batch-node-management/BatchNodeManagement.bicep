@@ -3,7 +3,7 @@
 metadata name = 'BatchNodeManagement'
 metadata description = 'This module contains all the service tag IP addresses of BatchNodeManagement for Public.'
 metadata author = 'https://github.com/rdeveen/azure-ip-addresses-bicep'
-metadata created = '2026-07-13'
+metadata created = '2026-08-10'
 
 @description('BatchNodeManagement service tag IP addresses for Public')
 @export()
@@ -359,6 +359,7 @@ var BatchNodeManagement = [
   '168.63.36.126/32'
   '168.63.133.23/32'
   '168.63.208.148/32'
+  '172.129.73.96/27'
   '172.194.68.0/27'
   '172.198.84.0/27'
   '172.204.153.64/27'
@@ -412,6 +413,7 @@ var BatchNodeManagement = [
   '2603:1020:1403::300/122'
   '2603:1020:1502::300/122'
   '2603:1020:1602::300/122'
+  '2603:1020:1701::500/122'
   '2603:1030:f:1::400/122'
   '2603:1030:10:1::340/122'
   '2603:1030:104:1::340/122'

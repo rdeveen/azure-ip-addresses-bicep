@@ -3,7 +3,7 @@
 metadata name = 'StorageSyncService'
 metadata description = 'This module contains all the service tag IP addresses of StorageSyncService for Public.'
 metadata author = 'https://github.com/rdeveen/azure-ip-addresses-bicep'
-metadata created = '2026-07-13'
+metadata created = '2026-08-10'
 
 @description('StorageSyncService service tag IP addresses for Public')
 @export()
@@ -123,6 +123,7 @@ var StorageSyncService = [
   '104.214.165.88/29'
   '134.138.79.88/29'
   '158.23.11.176/29'
+  '172.129.87.56/29'
   '172.194.79.136/29'
   '172.195.144.248/29'
   '172.198.95.144/29'
@@ -168,6 +169,7 @@ var StorageSyncService = [
   '2603:1020:1502:400::120/123'
   '2603:1020:1602:4::/123'
   '2603:1020:1602:400::220/123'
+  '2603:1020:1701:2::3a0/123'
   '2603:1030:f:1::340/123'
   '2603:1030:f:400::dc0/123'
   '2603:1030:10:1::300/123'

@@ -3,7 +3,7 @@
 metadata name = 'M365ManagementActivityApi'
 metadata description = 'This module contains all the service tag IP addresses of M365ManagementActivityApi for Public.'
 metadata author = 'https://github.com/rdeveen/azure-ip-addresses-bicep'
-metadata created = '2026-07-13'
+metadata created = '2026-08-10'
 
 @description('M365ManagementActivityApi service tag IP addresses for Public')
 @export()
@@ -147,6 +147,7 @@ var M365ManagementActivityApi = [
   '48.195.98.56/29'
   '48.195.98.80/28'
   '48.197.134.18/31'
+  '48.197.139.180/30'
   '48.201.165.36/30'
   '48.201.165.48/32'
   '48.202.69.246/31'
@@ -424,6 +425,7 @@ var M365ManagementActivityApi = [
   '2603:1040:1802:4::725/128'
   '2603:1040:1802:6::320/126'
   '2603:1040:1802:7::dc/126'
+  '2603:1040:1a02:5::6c0/126'
   '2603:1050:6::34c/127'
   '2603:1050:6:b::579/128'
   '2603:1050:6:c::30/126'

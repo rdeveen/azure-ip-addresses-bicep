@@ -3,7 +3,7 @@
 metadata name = 'EventHub'
 metadata description = 'This module contains all the service tag IP addresses of EventHub for Public.'
 metadata author = 'https://github.com/rdeveen/azure-ip-addresses-bicep'
-metadata created = '2026-07-13'
+metadata created = '2026-08-10'
 
 @description('EventHub service tag IP addresses for Public')
 @export()
@@ -363,6 +363,7 @@ var EventHub = [
   '158.23.123.64/26'
   '158.23.195.64/26'
   '168.61.143.128/26'
+  '172.129.80.0/24'
   '172.170.168.0/25'
   '172.175.14.128/25'
   '172.175.104.0/23'
@@ -490,6 +491,7 @@ var EventHub = [
   '2603:1020:1403:1::/120'
   '2603:1020:1502:1::/120'
   '2603:1020:1602:1::/120'
+  '2603:1020:1701:1::200/120'
   '2603:1030:f:1::240/122'
   '2603:1030:f:3::200/122'
   '2603:1030:f:3::400/120'

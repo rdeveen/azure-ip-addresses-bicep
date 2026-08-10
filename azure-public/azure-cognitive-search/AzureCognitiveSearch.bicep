@@ -3,7 +3,7 @@
 metadata name = 'AzureCognitiveSearch'
 metadata description = 'This module contains all the service tag IP addresses of AzureCognitiveSearch for Public.'
 metadata author = 'https://github.com/rdeveen/azure-ip-addresses-bicep'
-metadata created = '2026-07-13'
+metadata created = '2026-08-10'
 
 @description('AzureCognitiveSearch service tag IP addresses for Public')
 @export()
@@ -87,6 +87,7 @@ var AzureCognitiveSearch = [
   '102.133.217.128/26'
   '134.138.64.192/26'
   '158.23.96.192/26'
+  '172.129.72.192/26'
   '172.193.3.128/25'
   '172.194.64.192/26'
   '172.198.80.192/26'
@@ -122,6 +123,7 @@ var AzureCognitiveSearch = [
   '2603:1020:1403::100/121'
   '2603:1020:1502::100/121'
   '2603:1020:1602::100/121'
+  '2603:1020:1701::100/121'
   '2603:1030:f:1::180/121'
   '2603:1030:10:1::180/121'
   '2603:1030:104:1::180/121'

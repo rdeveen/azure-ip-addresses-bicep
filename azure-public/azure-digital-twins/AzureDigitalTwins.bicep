@@ -3,7 +3,7 @@
 metadata name = 'AzureDigitalTwins'
 metadata description = 'This module contains all the service tag IP addresses of AzureDigitalTwins for Public.'
 metadata author = 'https://github.com/rdeveen/azure-ip-addresses-bicep'
-metadata created = '2026-07-13'
+metadata created = '2026-08-10'
 
 @description('AzureDigitalTwins service tag IP addresses for Public')
 @export()
@@ -277,6 +277,8 @@ var AzureDigitalTwins = [
   '157.55.90.48/29'
   '157.55.90.56/31'
   '158.23.100.96/27'
+  '172.129.78.0/29'
+  '172.129.78.32/27'
   '172.173.44.192/27'
   '172.179.35.128/29'
   '172.179.207.224/27'
@@ -322,6 +324,7 @@ var AzureDigitalTwins = [
   '2603:1020:1403::600/121'
   '2603:1020:1502::580/121'
   '2603:1020:1602::580/121'
+  '2603:1020:1701::780/121'
   '2603:1030:f:2::500/121'
   '2603:1030:104::700/121'
   '2603:1030:107::5c0/122'

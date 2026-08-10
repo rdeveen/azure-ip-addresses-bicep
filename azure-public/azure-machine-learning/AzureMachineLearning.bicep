@@ -3,7 +3,7 @@
 metadata name = 'AzureMachineLearning'
 metadata description = 'This module contains all the service tag IP addresses of AzureMachineLearning for Public.'
 metadata author = 'https://github.com/rdeveen/azure-ip-addresses-bicep'
-metadata created = '2026-07-13'
+metadata created = '2026-08-10'
 
 @description('AzureMachineLearning service tag IP addresses for Public')
 @export()
@@ -469,6 +469,7 @@ var AzureMachineLearning = [
   '158.158.134.202/32'
   '158.158.134.208/28'
   '158.158.134.224/27'
+  '172.129.73.64/27'
   '172.160.154.16/28'
   '172.160.154.192/26'
   '172.166.5.219/32'
@@ -629,6 +630,7 @@ var AzureMachineLearning = [
   '2603:1020:1403:7::580/123'
   '2603:1020:1502::200/122'
   '2603:1020:1602::200/122'
+  '2603:1020:1701::440/122'
   '2603:1030:f:1::300/122'
   '2603:1030:10:1::2c0/122'
   '2603:1030:10:1f::7ad/128'

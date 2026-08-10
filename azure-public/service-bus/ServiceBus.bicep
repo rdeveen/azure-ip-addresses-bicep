@@ -3,7 +3,7 @@
 metadata name = 'ServiceBus'
 metadata description = 'This module contains all the service tag IP addresses of ServiceBus for Public.'
 metadata author = 'https://github.com/rdeveen/azure-ip-addresses-bicep'
-metadata created = '2026-07-13'
+metadata created = '2026-08-10'
 
 @description('ServiceBus service tag IP addresses for Public')
 @export()
@@ -427,6 +427,7 @@ var ServiceBus = [
   '158.23.194.96/28'
   '168.61.142.56/29'
   '168.61.245.192/26'
+  '172.129.79.128/25'
   '172.164.234.128/25'
   '172.173.40.192/26'
   '172.179.209.64/26'
@@ -557,6 +558,7 @@ var ServiceBus = [
   '2603:1020:1403:1::100/121'
   '2603:1020:1502::780/121'
   '2603:1020:1602::780/121'
+  '2603:1020:1701:1::180/121'
   '2603:1030:f:1::220/123'
   '2603:1030:f:3::240/122'
   '2603:1030:f:3::300/120'

@@ -3,7 +3,7 @@
 metadata name = 'AppConfiguration'
 metadata description = 'This module contains all the service tag IP addresses of AppConfiguration for Public.'
 metadata author = 'https://github.com/rdeveen/azure-ip-addresses-bicep'
-metadata created = '2026-07-13'
+metadata created = '2026-08-10'
 
 @description('AppConfiguration service tag IP addresses for Public')
 @export()
@@ -471,6 +471,7 @@ var AppConfiguration = [
   '158.23.195.128/27'
   '167.105.104.192/27'
   '168.61.142.96/27'
+  '172.129.84.0/26'
   '172.194.76.0/26'
   '172.194.112.64/27'
   '172.198.92.0/26'
@@ -585,6 +586,7 @@ var AppConfiguration = [
   '2603:1020:1602:400::20/123'
   '2603:1020:1602:800::20/123'
   '2603:1020:1602:c00::20/123'
+  '2603:1020:1701:1::4c0/122'
   '2603:1030:f:2::680/122'
   '2603:1030:f:400::ae0/123'
   '2603:1030:10:402::2e0/123'
