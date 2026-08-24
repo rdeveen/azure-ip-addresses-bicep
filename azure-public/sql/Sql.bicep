@@ -3,7 +3,7 @@
 metadata name = 'Sql'
 metadata description = 'This module contains all the service tag IP addresses of Sql for Public.'
 metadata author = 'https://github.com/rdeveen/azure-ip-addresses-bicep'
-metadata created = '2026-07-13'
+metadata created = '2026-08-24'
 
 @description('Sql service tag IP addresses for Public')
 @export()
@@ -1058,6 +1058,8 @@ var Sql = [
   '168.62.235.241/32'
   '168.62.239.29/32'
   '168.63.13.214/32'
+  '172.129.96.64/26'
+  '172.129.96.128/26'
   '172.169.140.184/30'
   '172.169.141.32/27'
   '172.169.141.128/26'
@@ -1272,6 +1274,8 @@ var Sql = [
   '2603:1020:1502:2::680/121'
   '2603:1020:1602:2::620/123'
   '2603:1020:1602:2::680/121'
+  '2603:1020:1701:3::500/123'
+  '2603:1020:1701:3::580/121'
   '2603:1030:f:1::280/123'
   '2603:1030:f:2::200/121'
   '2603:1030:f:8::80/121'

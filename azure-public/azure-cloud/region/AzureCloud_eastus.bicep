@@ -3,7 +3,7 @@
 metadata name = 'AzureCloud.eastus'
 metadata description = 'This module contains all the service tag IP addresses of AzureCloud.eastus for Public.'
 metadata author = 'https://github.com/rdeveen/azure-ip-addresses-bicep'
-metadata created = '2026-08-10'
+metadata created = '2026-08-24'
 
 @description('AzureCloud.eastus service tag IP addresses for Public')
 @export()
@@ -284,6 +284,7 @@ var AzureCloud_eastus = [
   '40.97.47.0/25'
   '40.98.0.64/26'
   '40.98.2.0/24'
+  '40.98.6.0/24'
   '40.112.48.0/20'
   '40.114.0.0/17'
   '40.117.32.0/19'
@@ -594,6 +595,7 @@ var AzureCloud_eastus = [
   '2603:1036:903:26::/64'
   '2603:1036:90c:1::/64'
   '2603:1036:90c:5::/64'
+  '2603:1036:90c:8::/64'
   '2603:1036:120d::/48'
   '2603:1036:2404::/48'
   '2603:1036:2500:40::/61'

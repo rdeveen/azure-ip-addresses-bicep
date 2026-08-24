@@ -3,7 +3,7 @@
 metadata name = 'AzureCloud.mexicocentral'
 metadata description = 'This module contains all the service tag IP addresses of AzureCloud.mexicocentral for Public.'
 metadata author = 'https://github.com/rdeveen/azure-ip-addresses-bicep'
-metadata created = '2026-08-10'
+metadata created = '2026-08-24'
 
 @description('AzureCloud.mexicocentral service tag IP addresses for Public')
 @export()
@@ -68,6 +68,7 @@ var AzureCloud_mexicocentral = [
   '68.155.0.0/16'
   '70.152.44.0/24'
   '145.190.84.0/24'
+  '151.206.124.0/24'
   '151.206.184.0/24'
   '158.23.0.0/16'
   '172.195.0.0/16'
@@ -90,6 +91,8 @@ var AzureCloud_mexicocentral = [
   '2603:1061:100c:e0::/61'
   '2603:1061:1312:1400::/54'
   '2603:1061:1736::/48'
+  '2603:1061:2002:dc00::/57'
+  '2603:1061:2004:d800::/57'
   '2603:1061:2010:36::/64'
   '2603:1061:2011:36::/64'
   '2603:1063:44::/56'

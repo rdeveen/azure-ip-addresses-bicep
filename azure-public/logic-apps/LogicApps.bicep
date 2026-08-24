@@ -3,7 +3,7 @@
 metadata name = 'LogicApps'
 metadata description = 'This module contains all the service tag IP addresses of LogicApps for Public.'
 metadata author = 'https://github.com/rdeveen/azure-ip-addresses-bicep'
-metadata created = '2026-07-13'
+metadata created = '2026-08-24'
 
 @description('LogicApps service tag IP addresses for Public')
 @export()
@@ -1647,6 +1647,8 @@ var LogicApps = [
   '168.62.9.74/32'
   '168.62.9.100/32'
   '168.62.28.191/32'
+  '172.129.97.96/28'
+  '172.129.97.128/27'
   '172.160.223.208/28'
   '172.164.215.96/28'
   '172.165.88.82/32'
@@ -1798,6 +1800,8 @@ var LogicApps = [
   '2603:1020:1502:3::460/123'
   '2603:1020:1602:3::440/124'
   '2603:1020:1602:3::460/123'
+  '2603:1020:1701:3::710/124'
+  '2603:1020:1701:3::780/123'
   '2603:1030:f:400::bc0/124'
   '2603:1030:f:400::be0/123'
   '2603:1030:10:402::3c0/124'

@@ -3,7 +3,7 @@
 metadata name = 'AzureSignalR'
 metadata description = 'This module contains all the service tag IP addresses of AzureSignalR for Public.'
 metadata author = 'https://github.com/rdeveen/azure-ip-addresses-bicep'
-metadata created = '2026-08-17'
+metadata created = '2026-08-24'
 
 @description('AzureSignalR service tag IP addresses for Public')
 @export()
@@ -125,7 +125,7 @@ var AzureSignalR = [
   '135.233.94.160/27'
   '135.233.94.192/26'
   '135.235.2.192/27'
-  '172.129.95.64/26'
+  '172.129.103.0/26'
   '172.184.37.192/27'
   '172.184.38.0/25'
   '172.188.178.64/27'

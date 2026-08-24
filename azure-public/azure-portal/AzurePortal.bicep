@@ -3,7 +3,7 @@
 metadata name = 'AzurePortal'
 metadata description = 'This module contains all the service tag IP addresses of AzurePortal for Public.'
 metadata author = 'https://github.com/rdeveen/azure-ip-addresses-bicep'
-metadata created = '2026-07-13'
+metadata created = '2026-08-24'
 
 @description('AzurePortal service tag IP addresses for Public')
 @export()
@@ -246,6 +246,8 @@ var AzurePortal = [
   '134.138.82.160/27'
   '135.224.40.0/27'
   '158.23.112.0/27'
+  '172.129.91.44/30'
+  '172.129.95.192/27'
   '172.194.81.60/30'
   '172.194.82.192/27'
   '172.198.95.156/30'
@@ -296,6 +298,7 @@ var AzurePortal = [
   '2603:1020:1403:2::300/121'
   '2603:1020:1502:2::400/121'
   '2603:1020:1602:2::400/121'
+  '2603:1020:1701:3::300/121'
   '2603:1030:f:1::700/121'
   '2603:1030:10::100/121'
   '2603:1030:10:1::680/121'

@@ -3,7 +3,7 @@
 metadata name = 'AzureWebPubSub'
 metadata description = 'This module contains all the service tag IP addresses of AzureWebPubSub for Public.'
 metadata author = 'https://github.com/rdeveen/azure-ip-addresses-bicep'
-metadata created = '2026-07-13'
+metadata created = '2026-08-24'
 
 @description('AzureWebPubSub service tag IP addresses for Public')
 @export()
@@ -128,6 +128,7 @@ var AzureWebPubSub = [
   '135.232.159.192/27'
   '135.235.2.224/27'
   '168.61.142.64/27'
+  '172.129.103.64/26'
   '172.204.250.0/26'
   '172.208.219.224/27'
   '172.212.135.64/26'
@@ -161,6 +162,7 @@ var AzureWebPubSub = [
   '2603:1020:1302:2::5c0/122'
   '2603:1020:1403:3::680/122'
   '2603:1020:1502:4::3c0/122'
+  '2603:1020:1701:4::540/122'
   '2603:1030:f:3::600/120'
   '2603:1030:10:4::100/120'
   '2603:1030:104:2::500/120'

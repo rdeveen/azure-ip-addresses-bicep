@@ -3,7 +3,7 @@
 metadata name = 'Scuba'
 metadata description = 'This module contains all the service tag IP addresses of Scuba for Public.'
 metadata author = 'https://github.com/rdeveen/azure-ip-addresses-bicep'
-metadata created = '2026-07-13'
+metadata created = '2026-08-24'
 
 @description('Scuba service tag IP addresses for Public')
 @export()
@@ -207,6 +207,7 @@ var Scuba = [
   '145.191.2.72/30'
   '145.191.2.76/31'
   '168.61.240.128/29'
+  '172.129.96.192/29'
   '172.165.73.64/29'
   '172.165.73.72/30'
   '172.165.84.120/29'
@@ -249,6 +250,7 @@ var Scuba = [
   '2603:1020:b04:5::5f0/124'
   '2603:1020:1502:2::640/124'
   '2603:1020:1602:2::640/124'
+  '2603:1020:1701:2::6f0/124'
   '2603:1030:40c:2b::350/124'
   '2603:1030:902:2::660/124'
   '2603:1030:1102:2::5e0/124'
