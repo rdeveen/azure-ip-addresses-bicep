@@ -3,7 +3,7 @@
 metadata name = 'AzureCloud.usdodcentral'
 metadata description = 'This module contains all the service tag IP addresses of AzureCloud.usdodcentral for AzureGovernment.'
 metadata author = 'https://github.com/rdeveen/azure-ip-addresses-bicep'
-metadata created = '2026-07-13'
+metadata created = '2026-08-31'
 
 @description('AzureCloud.usdodcentral service tag IP addresses for AzureGovernment')
 @export()
@@ -41,6 +41,7 @@ var AzureCloud_usdodcentral = [
   '52.245.128.0/21'
   '52.245.152.0/21'
   '52.246.145.0/24'
+  '57.17.32.0/20'
   '104.210.20.0/22'
   '2001:489a:2102:1800::/58'
   '2001:489a:2102:3800::/58'
