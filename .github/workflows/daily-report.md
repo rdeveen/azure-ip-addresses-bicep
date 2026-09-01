@@ -15,6 +15,7 @@ safe-outputs:
     title-prefix: "[repo-status] "
     labels:
       - report
+    close-older-issues: true
 
 tools:
   github:
