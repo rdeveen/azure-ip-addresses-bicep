@@ -3,7 +3,7 @@
 metadata name = 'AzureCloud.australiasoutheast'
 metadata description = 'This module contains all the service tag IP addresses of AzureCloud.australiasoutheast for Public.'
 metadata author = 'https://github.com/rdeveen/azure-ip-addresses-bicep'
-metadata created = '2026-08-31'
+metadata created = '2026-09-07'
 
 @description('AzureCloud.australiasoutheast service tag IP addresses for Public')
 @export()
@@ -121,7 +121,8 @@ var AzureCloud_australiasoutheast = [
   '57.157.168.0/27'
   '57.157.168.32/28'
   '57.157.168.48/29'
-  '57.157.168.56/31'
+  '57.157.168.56/30'
+  '57.157.168.60/31'
   '57.163.56.0/23'
   '68.218.160.0/19'
   '70.152.1.0/24'
@@ -136,6 +137,7 @@ var AzureCloud_australiasoutheast = [
   '135.130.3.0/24'
   '135.130.40.0/24'
   '145.190.182.0/24'
+  '145.190.190.0/24'
   '151.206.89.0/24'
   '151.206.165.0/24'
   '151.206.191.0/24'
@@ -157,6 +159,10 @@ var AzureCloud_australiasoutheast = [
   '2603:1016:2500::/64'
   '2603:1017::/59'
   '2603:1017:0:a0::/59'
+  '2603:101c:3:200::/55'
+  '2603:101c:3:4200::/55'
+  '2603:101c:3:8200::/55'
+  '2603:101c:3:c200::/55'
   '2603:1046:a00:b::/64'
   '2603:1046:a00:30::/63'
   '2603:1046:a00:32::/64'

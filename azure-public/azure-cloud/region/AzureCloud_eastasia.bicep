@@ -3,7 +3,7 @@
 metadata name = 'AzureCloud.eastasia'
 metadata description = 'This module contains all the service tag IP addresses of AzureCloud.eastasia for Public.'
 metadata author = 'https://github.com/rdeveen/azure-ip-addresses-bicep'
-metadata created = '2026-08-31'
+metadata created = '2026-09-07'
 
 @description('AzureCloud.eastasia service tag IP addresses for Public')
 @export()
@@ -227,6 +227,10 @@ var AzureCloud_eastasia = [
   '2603:1046:2000:280::/59'
   '2603:1047:1:40::/59'
   '2603:1047:1:2a0::/59'
+  '2603:104c:3:200::/55'
+  '2603:104c:3:4200::/55'
+  '2603:104c:3:8200::/55'
+  '2603:104c:3:c200::/55'
   '2603:1061:1310:400::/54'
   '2603:1061:170c::/48'
   '2603:1061:2000:7c0::/62'

@@ -3,7 +3,7 @@
 metadata name = 'AzureCloud.northeastus5'
 metadata description = 'This module contains all the service tag IP addresses of AzureCloud.northeastus5 for Public.'
 metadata author = 'https://github.com/rdeveen/azure-ip-addresses-bicep'
-metadata created = '2026-07-13'
+metadata created = '2026-09-07'
 
 @description('AzureCloud.northeastus5 service tag IP addresses for Public')
 @export()
@@ -18,6 +18,7 @@ var AzureCloud_northeastus5 = [
   '57.157.96.128/26'
   '57.157.96.192/27'
   '57.157.96.224/29'
+  '57.157.96.232/30'
   '57.163.0.0/23'
   '57.163.4.0/23'
   '74.149.0.0/17'
@@ -43,9 +44,7 @@ var AzureCloud_northeastus5 = [
   '2603:1037:1:320::/59'
   '2603:1061:101c::/58'
   '2603:1061:101c:40::/59'
-  '2603:1061:101c:60::/61'
-  '2603:1061:101c:68::/62'
-  '2603:1061:101c:6c::/63'
+  '2603:1061:101c:60::/60'
   '2603:1061:174d::/63'
   '2603:1063:2204:14::/64'
 ]

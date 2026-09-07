@@ -3,11 +3,12 @@
 metadata name = 'EventHub.AustraliaSoutheast'
 metadata description = 'This module contains all the service tag IP addresses of EventHub.AustraliaSoutheast for Public.'
 metadata author = 'https://github.com/rdeveen/azure-ip-addresses-bicep'
-metadata created = '2026-07-13'
+metadata created = '2026-09-07'
 
 @description('EventHub.AustraliaSoutheast service tag IP addresses for Public')
 @export()
 var EventHub_AustraliaSoutheast = [
+  '4.199.88.128/26'
   '13.77.50.32/27'
   '20.92.2.0/24'
   '2603:1010:101::240/122'

@@ -3,7 +3,7 @@
 metadata name = 'AzureCloud.canadaeast'
 metadata description = 'This module contains all the service tag IP addresses of AzureCloud.canadaeast for Public.'
 metadata author = 'https://github.com/rdeveen/azure-ip-addresses-bicep'
-metadata created = '2026-07-13'
+metadata created = '2026-09-07'
 
 @description('AzureCloud.canadaeast service tag IP addresses for Public')
 @export()
@@ -104,6 +104,10 @@ var AzureCloud_canadaeast = [
   '2603:1036:2500:34::/64'
   '2603:1036:3000:80::/59'
   '2603:1037:1:80::/59'
+  '2603:103c:1:200::/55'
+  '2603:103c:1:4200::/55'
+  '2603:103c:1:8200::/55'
+  '2603:103c:1:c200::/55'
   '2603:1061:1312:400::/54'
   '2603:1061:1708::/48'
   '2603:1061:2000:748::/62'

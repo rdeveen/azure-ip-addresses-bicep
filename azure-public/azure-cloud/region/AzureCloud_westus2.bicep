@@ -3,7 +3,7 @@
 metadata name = 'AzureCloud.westus2'
 metadata description = 'This module contains all the service tag IP addresses of AzureCloud.westus2 for Public.'
 metadata author = 'https://github.com/rdeveen/azure-ip-addresses-bicep'
-metadata created = '2026-08-24'
+metadata created = '2026-09-07'
 
 @description('AzureCloud.westus2 service tag IP addresses for Public')
 @export()
@@ -303,6 +303,7 @@ var AzureCloud_westus2 = [
   '57.157.73.64/28'
   '57.157.73.80/30'
   '57.163.44.0/23'
+  '57.163.72.0/23'
   '57.166.0.0/17'
   '57.173.128.0/17'
   '65.52.111.0/24'
@@ -416,6 +417,10 @@ var AzureCloud_westus2 = [
   '2603:1036:2500:14::/64'
   '2603:1036:3000:c0::/59'
   '2603:1037:1:c0::/59'
+  '2603:103c:9:200::/55'
+  '2603:103c:9:4200::/55'
+  '2603:103c:9:8200::/55'
+  '2603:103c:9:c200::/55'
   '2603:1061:1312:2800::/54'
   '2603:1061:1720::/48'
   '2603:1061:2002:500::/57'
