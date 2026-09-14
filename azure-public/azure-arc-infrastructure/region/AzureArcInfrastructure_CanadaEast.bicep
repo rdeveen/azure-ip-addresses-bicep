@@ -3,7 +3,7 @@
 metadata name = 'AzureArcInfrastructure.CanadaEast'
 metadata description = 'This module contains all the service tag IP addresses of AzureArcInfrastructure.CanadaEast for Public.'
 metadata author = 'https://github.com/rdeveen/azure-ip-addresses-bicep'
-metadata created = '2026-07-13'
+metadata created = '2026-09-14'
 
 @description('AzureArcInfrastructure.CanadaEast service tag IP addresses for Public')
 @export()
@@ -16,5 +16,6 @@ var AzureArcInfrastructure_CanadaEast = [
   '40.69.116.96/29'
   '40.89.20.128/30'
   '40.89.23.32/30'
+  '145.191.174.144/28'
   '2603:1030:1005:c::2d1/128'
 ]

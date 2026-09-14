@@ -3,7 +3,7 @@
 metadata name = 'VideoIndexer'
 metadata description = 'This module contains all the service tag IP addresses of VideoIndexer for Public.'
 metadata author = 'https://github.com/rdeveen/azure-ip-addresses-bicep'
-metadata created = '2026-08-10'
+metadata created = '2026-09-14'
 
 @description('VideoIndexer service tag IP addresses for Public')
 @export()
@@ -170,6 +170,7 @@ var VideoIndexer = [
   '104.208.199.24/29'
   '104.208.199.48/31'
   '134.138.71.120/30'
+  '145.191.173.20/30'
   '158.23.103.36/30'
   '172.129.81.60/30'
   '172.160.222.50/31'

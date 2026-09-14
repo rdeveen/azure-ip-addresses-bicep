@@ -3,7 +3,7 @@
 metadata name = 'CognitiveServicesManagement'
 metadata description = 'This module contains all the service tag IP addresses of CognitiveServicesManagement for Public.'
 metadata author = 'https://github.com/rdeveen/azure-ip-addresses-bicep'
-metadata created = '2026-08-24'
+metadata created = '2026-09-14'
 
 @description('CognitiveServicesManagement service tag IP addresses for Public')
 @export()
@@ -705,6 +705,7 @@ var CognitiveServicesManagement = [
   '48.196.98.192/27'
   '48.196.100.0/26'
   '48.196.100.88/29'
+  '48.196.153.192/26'
   '48.197.89.208/28'
   '48.197.89.224/27'
   '48.197.90.128/26'

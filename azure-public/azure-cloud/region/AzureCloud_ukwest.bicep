@@ -3,7 +3,7 @@
 metadata name = 'AzureCloud.ukwest'
 metadata description = 'This module contains all the service tag IP addresses of AzureCloud.ukwest for Public.'
 metadata author = 'https://github.com/rdeveen/azure-ip-addresses-bicep'
-metadata created = '2026-09-07'
+metadata created = '2026-09-14'
 
 @description('AzureCloud.ukwest service tag IP addresses for Public')
 @export()
@@ -29,6 +29,7 @@ var AzureCloud_ukwest = [
   '20.95.110.0/24'
   '20.117.0.0/18'
   '20.135.64.0/23'
+  '20.143.240.0/23'
   '20.150.2.0/23'
   '20.150.52.0/24'
   '20.150.110.0/24'
@@ -109,6 +110,7 @@ var AzureCloud_ukwest = [
   '70.152.227.0/24'
   '104.44.90.0/27'
   '145.190.72.0/24'
+  '145.190.87.0/24'
   '172.186.0.0/16'
   '172.187.0.0/18'
   '2603:1020:600::/47'

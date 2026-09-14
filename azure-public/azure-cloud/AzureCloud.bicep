@@ -3,7 +3,7 @@
 metadata name = 'AzureCloud'
 metadata description = 'This module contains all the service tag IP addresses of AzureCloud for Public.'
 metadata author = 'https://github.com/rdeveen/azure-ip-addresses-bicep'
-metadata created = '2026-09-07'
+metadata created = '2026-09-14'
 
 @description('AzureCloud service tag IP addresses for Public')
 @export()
@@ -537,7 +537,7 @@ var AzureCloud = [
   '52.249.128.0/17'
   '52.250.0.0/16'
   '52.251.0.0/17'
-  '52.251.128.0/23'
+  '52.251.128.0/22'
   '52.252.0.0/16'
   '52.253.0.0/17'
   '52.253.128.0/20'
@@ -1295,6 +1295,8 @@ var AzureCloud = [
   '2603:1030:1004::/48'
   '2603:1030:1005::/48'
   '2603:1030:1006::/47'
+  '2603:1030:1008::/62'
+  '2603:1030:1008:4::/64'
   '2603:1030:1101::/48'
   '2603:1030:1102::/47'
   '2603:1030:1104::/48'
@@ -1324,6 +1326,7 @@ var AzureCloud = [
   '2603:1030:1702::/47'
   '2603:1030:1704::/48'
   '2603:1030:1705::/48'
+  '2603:1030:1706::/48'
   '2603:1036:903::/62'
   '2603:1036:903:4::/64'
   '2603:1036:903:6::/63'

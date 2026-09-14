@@ -3,7 +3,7 @@
 metadata name = 'AzureDatabricks'
 metadata description = 'This module contains all the service tag IP addresses of AzureDatabricks for Public.'
 metadata author = 'https://github.com/rdeveen/azure-ip-addresses-bicep'
-metadata created = '2026-08-10'
+metadata created = '2026-09-14'
 
 @description('AzureDatabricks service tag IP addresses for Public')
 @export()
@@ -517,6 +517,7 @@ var AzureDatabricks = [
   '135.235.0.112/28'
   '135.235.2.128/29'
   '138.91.16.64/28'
+  '145.191.173.192/26'
   '158.23.11.224/29'
   '158.23.41.240/28'
   '158.23.50.48/28'
@@ -621,6 +622,7 @@ var AzureDatabricks = [
   '2603:1030:c06:1::160/123'
   '2603:1030:f05:1::160/123'
   '2603:1030:1005::160/123'
+  '2603:1030:1005:11::740/122'
   '2603:1030:1102::1a0/123'
   '2603:1030:1102:3::640/122'
   '2603:1030:1202::1a0/123'

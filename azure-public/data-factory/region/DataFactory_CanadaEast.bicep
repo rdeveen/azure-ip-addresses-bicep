@@ -3,7 +3,7 @@
 metadata name = 'DataFactory.CanadaEast'
 metadata description = 'This module contains all the service tag IP addresses of DataFactory.CanadaEast for Public.'
 metadata author = 'https://github.com/rdeveen/azure-ip-addresses-bicep'
-metadata created = '2026-07-13'
+metadata created = '2026-09-14'
 
 @description('DataFactory.CanadaEast service tag IP addresses for Public')
 @export()
@@ -16,7 +16,9 @@ var DataFactory_CanadaEast = [
   '40.89.20.224/29'
   '52.139.111.64/26'
   '52.242.45.56/29'
+  '145.191.177.0/24'
   '2603:1030:1005::440/122'
   '2603:1030:1005::500/121'
+  '2603:1030:1005:13::100/121'
   '2603:1030:1005:402::330/124'
 ]

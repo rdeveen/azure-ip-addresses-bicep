@@ -3,7 +3,7 @@
 metadata name = 'GatewayManager.CanadaEast'
 metadata description = 'This module contains all the service tag IP addresses of GatewayManager.CanadaEast for Public.'
 metadata author = 'https://github.com/rdeveen/azure-ip-addresses-bicep'
-metadata created = '2026-07-13'
+metadata created = '2026-09-14'
 
 @description('GatewayManager.CanadaEast service tag IP addresses for Public')
 @export()
@@ -14,5 +14,6 @@ var GatewayManager_CanadaEast = [
   '52.139.87.129/32'
   '52.139.87.150/32'
   '52.242.44.0/27'
+  '145.191.173.128/26'
   '2603:1030:1005::40/122'
 ]
