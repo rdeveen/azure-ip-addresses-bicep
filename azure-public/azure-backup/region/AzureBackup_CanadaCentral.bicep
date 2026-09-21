@@ -3,12 +3,13 @@
 metadata name = 'AzureBackup.CanadaCentral'
 metadata description = 'This module contains all the service tag IP addresses of AzureBackup.CanadaCentral for Public.'
 metadata author = 'https://github.com/rdeveen/azure-ip-addresses-bicep'
-metadata created = '2026-07-13'
+metadata created = '2026-09-21'
 
 @description('AzureBackup.CanadaCentral service tag IP addresses for Public')
 @export()
 var AzureBackup_CanadaCentral = [
   '4.172.96.192/26'
+  '4.173.163.0/26'
   '13.71.172.0/26'
   '13.71.172.64/27'
   '20.38.147.0/27'

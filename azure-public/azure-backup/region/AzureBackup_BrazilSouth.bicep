@@ -3,11 +3,12 @@
 metadata name = 'AzureBackup.BrazilSouth'
 metadata description = 'This module contains all the service tag IP addresses of AzureBackup.BrazilSouth for Public.'
 metadata author = 'https://github.com/rdeveen/azure-ip-addresses-bicep'
-metadata created = '2026-07-13'
+metadata created = '2026-09-21'
 
 @description('AzureBackup.BrazilSouth service tag IP addresses for Public')
 @export()
 var AzureBackup_BrazilSouth = [
+  '4.160.3.192/26'
   '4.228.169.144/28'
   '191.233.204.0/26'
   '191.233.204.64/27'

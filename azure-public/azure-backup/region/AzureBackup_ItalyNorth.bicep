@@ -3,7 +3,7 @@
 metadata name = 'AzureBackup.ItalyNorth'
 metadata description = 'This module contains all the service tag IP addresses of AzureBackup.ItalyNorth for Public.'
 metadata author = 'https://github.com/rdeveen/azure-ip-addresses-bicep'
-metadata created = '2026-07-13'
+metadata created = '2026-09-21'
 
 @description('AzureBackup.ItalyNorth service tag IP addresses for Public')
 @export()
@@ -15,6 +15,7 @@ var AzureBackup_ItalyNorth = [
   '4.232.195.0/26'
   '9.235.188.102/31'
   '9.235.190.160/28'
+  '9.235.252.192/26'
   '2603:1020:1204::680/121'
   '2603:1020:1204:400::100/121'
   '2603:1020:1204:800::80/121'
