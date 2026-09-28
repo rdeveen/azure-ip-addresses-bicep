@@ -3,7 +3,7 @@
 metadata name = 'Storage.WestEurope'
 metadata description = 'This module contains all the service tag IP addresses of Storage.WestEurope for Public.'
 metadata author = 'https://github.com/rdeveen/azure-ip-addresses-bicep'
-metadata created = '2026-07-13'
+metadata created = '2026-09-28'
 
 @description('Storage.WestEurope service tag IP addresses for Public')
 @export()
@@ -93,6 +93,7 @@ var Storage_WestEurope = [
   '135.130.204.0/23'
   '145.190.135.0/24'
   '145.190.170.0/24'
+  '145.190.193.0/24'
   '168.61.57.64/26'
   '168.61.57.128/25'
   '168.61.58.0/26'

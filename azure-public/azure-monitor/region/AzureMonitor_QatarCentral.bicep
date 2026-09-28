@@ -3,13 +3,14 @@
 metadata name = 'AzureMonitor.QatarCentral'
 metadata description = 'This module contains all the service tag IP addresses of AzureMonitor.QatarCentral for Public.'
 metadata author = 'https://github.com/rdeveen/azure-ip-addresses-bicep'
-metadata created = '2026-07-13'
+metadata created = '2026-09-28'
 
 @description('AzureMonitor.QatarCentral service tag IP addresses for Public')
 @export()
 var AzureMonitor_QatarCentral = [
   '4.170.6.112/28'
   '4.170.10.240/28'
+  '4.170.31.128/25'
   '4.244.170.0/27'
   '4.244.170.32/28'
   '4.244.175.112/28'
@@ -46,4 +47,5 @@ var AzureMonitor_QatarCentral = [
   '2603:1040:1002:8::460/123'
   '2603:1040:1002:9::7a0/123'
   '2603:1040:1002:a::400/118'
+  '2603:1040:1002:e::/121'
 ]

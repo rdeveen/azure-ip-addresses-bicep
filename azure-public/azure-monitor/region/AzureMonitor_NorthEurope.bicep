@@ -3,7 +3,7 @@
 metadata name = 'AzureMonitor.NorthEurope'
 metadata description = 'This module contains all the service tag IP addresses of AzureMonitor.NorthEurope for Public.'
 metadata author = 'https://github.com/rdeveen/azure-ip-addresses-bicep'
-metadata created = '2026-07-13'
+metadata created = '2026-09-28'
 
 @description('AzureMonitor.NorthEurope service tag IP addresses for Public')
 @export()
@@ -67,6 +67,7 @@ var AzureMonitor_NorthEurope = [
   '74.144.69.32/27'
   '104.41.224.134/32'
   '137.116.226.81/32'
+  '172.129.177.128/25'
   '2603:1020:5::60/123'
   '2603:1020:5::1c0/122'
   '2603:1020:5::300/123'
@@ -81,6 +82,7 @@ var AzureMonitor_NorthEurope = [
   '2603:1020:5:21::180/123'
   '2603:1020:5:21::600/119'
   '2603:1020:5:22::400/119'
+  '2603:1020:5:2b::/121'
   '2603:1020:5:402::500/121'
   '2603:1020:5:802::480/121'
   '2603:1020:5:c02::480/121'

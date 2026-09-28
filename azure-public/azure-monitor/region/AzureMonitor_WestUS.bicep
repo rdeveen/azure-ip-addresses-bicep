@@ -3,7 +3,7 @@
 metadata name = 'AzureMonitor.WestUS'
 metadata description = 'This module contains all the service tag IP addresses of AzureMonitor.WestUS for Public.'
 metadata author = 'https://github.com/rdeveen/azure-ip-addresses-bicep'
-metadata created = '2026-07-13'
+metadata created = '2026-09-28'
 
 @description('AzureMonitor.WestUS service tag IP addresses for Public')
 @export()
@@ -41,6 +41,7 @@ var AzureMonitor_WestUS = [
   '52.250.228.32/31'
   '57.154.128.96/29'
   '65.52.122.208/32'
+  '74.146.46.192/26'
   '104.42.40.28/32'
   '104.45.230.69/32'
   '104.45.232.72/32'
@@ -56,6 +57,7 @@ var AzureMonitor_WestUS = [
   '2603:1030:a07:22::240/122'
   '2603:1030:a07:28::e0/123'
   '2603:1030:a07:29::/118'
+  '2603:1030:a07:30::2c0/122'
   '2603:1030:a07:402::380/121'
   '2603:1030:a07:800::/121'
   '2603:1030:a07:c00::300/121'

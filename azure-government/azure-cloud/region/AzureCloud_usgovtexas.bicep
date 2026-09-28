@@ -3,7 +3,7 @@
 metadata name = 'AzureCloud.usgovtexas'
 metadata description = 'This module contains all the service tag IP addresses of AzureCloud.usgovtexas for AzureGovernment.'
 metadata author = 'https://github.com/rdeveen/azure-ip-addresses-bicep'
-metadata created = '2026-07-13'
+metadata created = '2026-09-28'
 
 @description('AzureCloud.usgovtexas service tag IP addresses for AzureGovernment')
 @export()
@@ -92,6 +92,7 @@ var AzureCloud_usgovtexas = [
   '57.16.97.0/24'
   '57.16.225.0/24'
   '57.16.227.0/24'
+  '57.17.64.0/19'
   '62.10.146.0/23'
   '62.10.149.0/24'
   '62.10.151.0/24'

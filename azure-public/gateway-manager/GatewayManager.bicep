@@ -3,7 +3,7 @@
 metadata name = 'GatewayManager'
 metadata description = 'This module contains all the service tag IP addresses of GatewayManager for Public.'
 metadata author = 'https://github.com/rdeveen/azure-ip-addresses-bicep'
-metadata created = '2026-09-14'
+metadata created = '2026-09-28'
 
 @description('GatewayManager service tag IP addresses for Public')
 @export()
@@ -22,6 +22,7 @@ var GatewayManager = [
   '4.221.233.96/27'
   '4.226.255.128/27'
   '4.232.24.64/26'
+  '4.252.13.64/26'
   '9.160.40.64/26'
   '9.160.171.112/28'
   '9.205.32.64/26'
@@ -263,6 +264,8 @@ var GatewayManager = [
   '57.152.146.144/28'
   '57.156.76.16/28'
   '57.167.184.192/26'
+  '57.173.61.0/26'
+  '57.175.102.64/26'
   '65.52.250.24/29'
   '68.154.160.112/28'
   '68.210.62.16/28'
@@ -275,6 +278,7 @@ var GatewayManager = [
   '74.7.67.192/28'
   '74.7.176.64/26'
   '74.7.202.176/28'
+  '74.159.69.64/26'
   '74.225.47.96/27'
   '74.225.118.0/28'
   '85.211.238.32/28'

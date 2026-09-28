@@ -3,11 +3,12 @@
 metadata name = 'AzureCloud.chinanorth3'
 metadata description = 'This module contains all the service tag IP addresses of AzureCloud.chinanorth3 for China.'
 metadata author = 'https://github.com/rdeveen/azure-ip-addresses-bicep'
-metadata created = '2026-08-10'
+metadata created = '2026-09-28'
 
 @description('AzureCloud.chinanorth3 service tag IP addresses for China')
 @export()
 var AzureCloud_chinanorth3 = [
+  '40.72.48.0/21'
   '40.72.68.0/24'
   '40.72.70.0/25'
   '40.72.70.192/26'

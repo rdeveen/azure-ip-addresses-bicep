@@ -3,7 +3,7 @@
 metadata name = 'AzureActiveDirectory'
 metadata description = 'This module contains all the service tag IP addresses of AzureActiveDirectory for Public.'
 metadata author = 'https://github.com/rdeveen/azure-ip-addresses-bicep'
-metadata created = '2026-08-03'
+metadata created = '2026-09-28'
 
 @description('AzureActiveDirectory service tag IP addresses for Public')
 @export()
@@ -109,7 +109,6 @@ var AzureActiveDirectory = [
   '20.83.195.128/28'
   '20.88.66.0/27'
   '20.89.1.112/30'
-  '20.111.78.128/28'
   '20.150.227.112/28'
   '20.167.247.96/28'
   '20.187.197.32/27'

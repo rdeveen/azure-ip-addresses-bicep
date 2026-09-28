@@ -3,7 +3,7 @@
 metadata name = 'Storage.WestCentralUS'
 metadata description = 'This module contains all the service tag IP addresses of Storage.WestCentralUS for Public.'
 metadata author = 'https://github.com/rdeveen/azure-ip-addresses-bicep'
-metadata created = '2026-09-21'
+metadata created = '2026-09-28'
 
 @description('Storage.WestCentralUS service tag IP addresses for Public')
 @export()
@@ -43,6 +43,7 @@ var Storage_WestCentralUS = [
   '52.239.244.0/23'
   '57.163.30.0/23'
   '57.163.50.0/23'
+  '57.163.84.0/23'
   '135.130.34.192/27'
   '135.130.34.224/27'
   '135.130.60.0/23'
@@ -54,6 +55,7 @@ var Storage_WestCentralUS = [
   '145.190.137.0/24'
   '145.190.177.0/24'
   '145.190.192.0/24'
+  '145.190.194.0/24'
   '2603:1030:b06::/49'
   '2603:1030:b06:8000::/63'
 ]

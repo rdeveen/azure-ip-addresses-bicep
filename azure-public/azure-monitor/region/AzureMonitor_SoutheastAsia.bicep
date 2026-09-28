@@ -3,7 +3,7 @@
 metadata name = 'AzureMonitor.SoutheastAsia'
 metadata description = 'This module contains all the service tag IP addresses of AzureMonitor.SoutheastAsia for Public.'
 metadata author = 'https://github.com/rdeveen/azure-ip-addresses-bicep'
-metadata created = '2026-07-13'
+metadata created = '2026-09-28'
 
 @description('AzureMonitor.SoutheastAsia service tag IP addresses for Public')
 @export()
@@ -13,6 +13,7 @@ var AzureMonitor_SoutheastAsia = [
   '4.145.79.224/27'
   '4.145.218.0/24'
   '4.145.220.240/28'
+  '4.146.87.128/25'
   '4.193.30.0/28'
   '13.67.9.192/28'
   '13.67.10.64/29'
@@ -72,6 +73,7 @@ var AzureMonitor_SoutheastAsia = [
   '2603:1040:5:1a::420/123'
   '2603:1040:5:1b::/119'
   '2603:1040:5:1b::400/119'
+  '2603:1040:5:23::100/121'
   '2603:1040:5:402::500/121'
   '2603:1040:5:802::480/121'
   '2603:1040:5:c02::480/121'

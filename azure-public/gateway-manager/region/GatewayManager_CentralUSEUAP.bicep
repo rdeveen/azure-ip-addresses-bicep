@@ -3,7 +3,7 @@
 metadata name = 'GatewayManager.CentralUSEUAP'
 metadata description = 'This module contains all the service tag IP addresses of GatewayManager.CentralUSEUAP for Public.'
 metadata author = 'https://github.com/rdeveen/azure-ip-addresses-bicep'
-metadata created = '2026-07-13'
+metadata created = '2026-09-28'
 
 @description('GatewayManager.CentralUSEUAP service tag IP addresses for Public')
 @export()
@@ -16,5 +16,6 @@ var GatewayManager_CentralUSEUAP = [
   '52.253.159.209/32'
   '52.253.232.235/32'
   '52.253.239.162/32'
+  '57.173.61.0/26'
   '2603:1030:f:1::40/122'
 ]

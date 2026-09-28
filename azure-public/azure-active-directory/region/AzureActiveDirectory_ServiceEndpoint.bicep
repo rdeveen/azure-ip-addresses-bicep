@@ -3,7 +3,7 @@
 metadata name = 'AzureActiveDirectory.ServiceEndpoint'
 metadata description = 'This module contains all the service tag IP addresses of AzureActiveDirectory.ServiceEndpoint for Public.'
 metadata author = 'https://github.com/rdeveen/azure-ip-addresses-bicep'
-metadata created = '2026-08-10'
+metadata created = '2026-09-28'
 
 @description('AzureActiveDirectory.ServiceEndpoint service tag IP addresses for Public')
 @export()
@@ -139,6 +139,7 @@ var AzureActiveDirectory_ServiceEndpoint = [
   '20.20.57.0/28'
   '20.20.57.32/28'
   '20.20.57.64/28'
+  '20.20.57.96/28'
   '20.72.21.96/27'
   '20.190.128.0/26'
   '20.190.128.64/28'
@@ -899,6 +900,7 @@ var AzureActiveDirectory_ServiceEndpoint = [
   '2603:1026:3000:28::/121'
   '2603:1026:3000:30::/121'
   '2603:1026:3000:38::/121'
+  '2603:1026:3000:40::/121'
   '2603:1026:3000:60::/121'
   '2603:1026:3000:68::/121'
   '2603:1026:3000:70::/121'
