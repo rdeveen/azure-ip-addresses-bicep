@@ -3,7 +3,7 @@
 metadata name = 'MicrosoftDefenderForEndpoint'
 metadata description = 'This module contains all the service tag IP addresses of MicrosoftDefenderForEndpoint for Public.'
 metadata author = 'https://github.com/rdeveen/azure-ip-addresses-bicep'
-metadata created = '2026-09-14'
+metadata created = '2026-10-05'
 
 @description('MicrosoftDefenderForEndpoint service tag IP addresses for Public')
 @export()
@@ -32,6 +32,8 @@ var MicrosoftDefenderForEndpoint = [
   '20.254.173.48/28'
   '40.80.103.192/28'
   '48.196.155.32/28'
+  '48.197.152.240/28'
+  '48.198.197.240/28'
   '51.4.226.144/28'
   '51.57.176.192/28'
   '52.172.85.0/28'

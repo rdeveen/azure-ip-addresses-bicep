@@ -3,11 +3,12 @@
 metadata name = 'AzureDigitalTwins.CanadaEast'
 metadata description = 'This module contains all the service tag IP addresses of AzureDigitalTwins.CanadaEast for Public.'
 metadata author = 'https://github.com/rdeveen/azure-ip-addresses-bicep'
-metadata created = '2026-07-13'
+metadata created = '2026-10-05'
 
 @description('AzureDigitalTwins.CanadaEast service tag IP addresses for Public')
 @export()
 var AzureDigitalTwins_CanadaEast = [
   '52.139.106.96/27'
+  '145.191.182.80/29'
   '2603:1030:1005:3::200/121'
 ]

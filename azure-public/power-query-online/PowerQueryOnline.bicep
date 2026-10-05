@@ -3,7 +3,7 @@
 metadata name = 'PowerQueryOnline'
 metadata description = 'This module contains all the service tag IP addresses of PowerQueryOnline for Public.'
 metadata author = 'https://github.com/rdeveen/azure-ip-addresses-bicep'
-metadata created = '2026-09-14'
+metadata created = '2026-10-05'
 
 @description('PowerQueryOnline service tag IP addresses for Public')
 @export()
@@ -247,12 +247,15 @@ var PowerQueryOnline = [
   '48.196.80.32/29'
   '48.196.102.168/29'
   '48.196.103.128/27'
+  '48.196.161.48/28'
   '48.197.72.32/29'
   '48.197.94.184/29'
   '48.197.95.192/27'
+  '48.197.151.144/28'
   '48.198.80.32/29'
   '48.198.104.40/29'
   '48.198.104.128/27'
+  '48.198.195.208/28'
   '48.199.0.188/30'
   '48.199.8.208/29'
   '48.216.16.40/29'
@@ -370,6 +373,7 @@ var PowerQueryOnline = [
   '135.225.43.0/28'
   '135.225.43.16/29'
   '145.191.173.32/27'
+  '145.191.182.64/28'
   '157.55.90.200/29'
   '157.55.90.208/28'
   '158.23.10.114/31'

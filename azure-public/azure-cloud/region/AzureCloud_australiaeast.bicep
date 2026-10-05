@@ -3,7 +3,7 @@
 metadata name = 'AzureCloud.australiaeast'
 metadata description = 'This module contains all the service tag IP addresses of AzureCloud.australiaeast for Public.'
 metadata author = 'https://github.com/rdeveen/azure-ip-addresses-bicep'
-metadata created = '2026-09-28'
+metadata created = '2026-10-05'
 
 @description('AzureCloud.australiaeast service tag IP addresses for Public')
 @export()
@@ -21,6 +21,10 @@ var AzureCloud_australiaeast = [
   '9.129.48.128/25'
   '9.129.57.144/28'
   '9.129.66.0/27'
+  '9.129.204.0/23'
+  '9.129.238.0/25'
+  '9.129.247.128/27'
+  '9.129.247.192/28'
   '13.70.64.0/18'
   '13.72.224.0/19'
   '13.73.192.0/20'
@@ -213,7 +217,7 @@ var AzureCloud_australiaeast = [
   '145.190.129.0/24'
   '151.206.88.0/24'
   '151.206.142.0/24'
-  '172.136.0.0/17'
+  '172.136.0.0/16'
   '191.238.66.0/23'
   '191.239.64.0/19'
   '2603:1010::/46'

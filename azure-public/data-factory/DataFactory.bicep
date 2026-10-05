@@ -3,7 +3,7 @@
 metadata name = 'DataFactory'
 metadata description = 'This module contains all the service tag IP addresses of DataFactory for Public.'
 metadata author = 'https://github.com/rdeveen/azure-ip-addresses-bicep'
-metadata created = '2026-09-14'
+metadata created = '2026-10-05'
 
 @description('DataFactory service tag IP addresses for Public')
 @export()
@@ -501,6 +501,7 @@ var DataFactory = [
   '74.7.198.208/28'
   '74.7.198.224/27'
   '74.7.218.208/28'
+  '74.144.162.0/25'
   '74.224.33.160/27'
   '74.240.195.144/28'
   '74.240.195.160/29'
@@ -537,6 +538,7 @@ var DataFactory = [
   '135.225.43.96/27'
   '135.225.43.128/29'
   '145.191.177.0/24'
+  '145.191.183.80/28'
   '158.23.15.0/28'
   '158.23.108.208/28'
   '158.23.110.0/23'

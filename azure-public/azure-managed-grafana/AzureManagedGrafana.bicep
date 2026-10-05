@@ -3,7 +3,7 @@
 metadata name = 'AzureManagedGrafana'
 metadata description = 'This module contains all the service tag IP addresses of AzureManagedGrafana for Public.'
 metadata author = 'https://github.com/rdeveen/azure-ip-addresses-bicep'
-metadata created = '2026-09-14'
+metadata created = '2026-10-05'
 
 @description('AzureManagedGrafana service tag IP addresses for Public')
 @export()
@@ -204,6 +204,7 @@ var AzureManagedGrafana = [
   '128.203.48.24/31'
   '134.138.216.0/28'
   '134.138.216.16/30'
+  '145.191.183.72/29'
   '158.158.129.76/30'
   '158.158.129.144/28'
   '167.105.250.44/30'

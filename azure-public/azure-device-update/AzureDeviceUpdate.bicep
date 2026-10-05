@@ -3,7 +3,7 @@
 metadata name = 'AzureDeviceUpdate'
 metadata description = 'This module contains all the service tag IP addresses of AzureDeviceUpdate for Public.'
 metadata author = 'https://github.com/rdeveen/azure-ip-addresses-bicep'
-metadata created = '2026-08-17'
+metadata created = '2026-10-05'
 
 @description('AzureDeviceUpdate service tag IP addresses for Public')
 @export()
@@ -87,6 +87,9 @@ var AzureDeviceUpdate = [
   '20.223.64.64/26'
   '20.228.1.0/26'
   '40.67.53.144/28'
+  '48.196.162.192/28'
+  '48.197.153.176/28'
+  '48.198.199.176/28'
   '48.210.103.32/27'
   '48.210.112.80/28'
   '51.12.46.112/28'
@@ -156,6 +159,7 @@ var AzureDeviceUpdate = [
   '2603:1030:c06:d::40/124'
   '2603:1030:f05:4::510/124'
   '2603:1030:1005:6::1e0/124'
+  '2603:1030:1702:7::2a0/124'
   '2603:1040:5:9::130/124'
   '2603:1040:207:6::d0/124'
   '2603:1040:407:7::410/124'
@@ -175,6 +179,8 @@ var AzureDeviceUpdate = [
   '2603:1040:1402:2::640/124'
   '2603:1040:1503:3::500/124'
   '2603:1040:1602:3::580/124'
+  '2603:1040:1a02:7::3d0/124'
+  '2603:1040:1b02:6::660/124'
   '2603:1050:6:7::60/124'
   '2603:1050:403:5::50/124'
 ]

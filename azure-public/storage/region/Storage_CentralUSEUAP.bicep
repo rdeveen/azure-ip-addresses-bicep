@@ -3,7 +3,7 @@
 metadata name = 'Storage.CentralUSEUAP'
 metadata description = 'This module contains all the service tag IP addresses of Storage.CentralUSEUAP for Public.'
 metadata author = 'https://github.com/rdeveen/azure-ip-addresses-bicep'
-metadata created = '2026-07-13'
+metadata created = '2026-10-05'
 
 @description('Storage.CentralUSEUAP service tag IP addresses for Public')
 @export()
@@ -26,6 +26,7 @@ var Storage_CentralUSEUAP = [
   '52.239.238.0/24'
   '57.150.126.0/23'
   '57.163.8.0/23'
+  '57.163.86.0/23'
   '135.130.247.0/24'
   '135.130.252.0/25'
   '135.130.254.0/23'

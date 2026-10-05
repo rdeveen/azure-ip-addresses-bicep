@@ -3,7 +3,7 @@
 metadata name = 'AzureSignalR.CanadaEast'
 metadata description = 'This module contains all the service tag IP addresses of AzureSignalR.CanadaEast for Public.'
 metadata author = 'https://github.com/rdeveen/azure-ip-addresses-bicep'
-metadata created = '2026-09-14'
+metadata created = '2026-10-05'
 
 @description('AzureSignalR.CanadaEast service tag IP addresses for Public')
 @export()
@@ -13,4 +13,5 @@ var AzureSignalR_CanadaEast = [
   '52.139.107.96/27'
   '145.191.180.128/26'
   '2603:1030:1005:2::100/120'
+  '2603:1030:1005:13::540/122'
 ]

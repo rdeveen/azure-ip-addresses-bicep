@@ -3,7 +3,7 @@
 metadata name = 'AzureCloud.swedencentral'
 metadata description = 'This module contains all the service tag IP addresses of AzureCloud.swedencentral for Public.'
 metadata author = 'https://github.com/rdeveen/azure-ip-addresses-bicep'
-metadata created = '2026-09-28'
+metadata created = '2026-10-05'
 
 @description('AzureCloud.swedencentral service tag IP addresses for Public')
 @export()
@@ -33,6 +33,7 @@ var AzureCloud_swedencentral = [
   '20.135.168.0/23'
   '20.143.134.0/23'
   '20.143.210.0/23'
+  '20.143.246.0/23'
   '20.150.44.0/24'
   '20.150.120.0/24'
   '20.152.114.0/23'
@@ -167,7 +168,7 @@ var AzureCloud_swedencentral = [
   '151.206.112.0/24'
   '151.206.128.0/24'
   '172.130.0.0/16'
-  '172.135.0.0/17'
+  '172.135.0.0/16'
   '172.160.0.0/16'
   '2603:1020:1000::/47'
   '2603:1020:1003::/48'
