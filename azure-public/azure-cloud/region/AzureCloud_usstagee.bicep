@@ -3,7 +3,7 @@
 metadata name = 'AzureCloud.usstagee'
 metadata description = 'This module contains all the service tag IP addresses of AzureCloud.usstagee for Public.'
 metadata author = 'https://github.com/rdeveen/azure-ip-addresses-bicep'
-metadata created = '2026-07-13'
+metadata created = '2026-10-12'
 
 @description('AzureCloud.usstagee service tag IP addresses for Public')
 @export()
@@ -31,6 +31,7 @@ var AzureCloud_usstagee = [
   '40.67.48.0/20'
   '40.67.64.0/19'
   '40.67.96.0/20'
+  '40.81.97.10/32'
   '40.82.80.0/22'
   '40.90.18.16/28'
   '40.90.31.32/27'

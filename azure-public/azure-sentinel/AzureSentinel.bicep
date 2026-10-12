@@ -3,7 +3,7 @@
 metadata name = 'AzureSentinel'
 metadata description = 'This module contains all the service tag IP addresses of AzureSentinel for Public.'
 metadata author = 'https://github.com/rdeveen/azure-ip-addresses-bicep'
-metadata created = '2026-08-10'
+metadata created = '2026-10-12'
 
 @description('AzureSentinel service tag IP addresses for Public')
 @export()
@@ -290,6 +290,7 @@ var AzureSentinel = [
   '72.152.38.48/30'
   '74.7.51.32/29'
   '74.7.183.176/29'
+  '74.159.237.139/32'
   '74.163.73.84/31'
   '74.176.2.246/31'
   '74.177.105.30/31'

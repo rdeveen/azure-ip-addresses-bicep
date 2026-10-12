@@ -3,7 +3,7 @@
 metadata name = 'PowerBI.EastUS2EUAP'
 metadata description = 'This module contains all the service tag IP addresses of PowerBI.EastUS2EUAP for Public.'
 metadata author = 'https://github.com/rdeveen/azure-ip-addresses-bicep'
-metadata created = '2026-07-13'
+metadata created = '2026-10-12'
 
 @description('PowerBI.EastUS2EUAP service tag IP addresses for Public')
 @export()
@@ -20,6 +20,7 @@ var PowerBI_EastUS2EUAP = [
   '20.252.215.12/31'
   '48.223.1.96/28'
   '68.220.126.32/27'
+  '74.151.91.80/28'
   '2603:1030:40b:1::5e0/123'
   '2603:1030:40b:1::600/122'
 ]
