@@ -3,7 +3,7 @@
 metadata name = 'AzureSentinel'
 metadata description = 'This module contains all the service tag IP addresses of AzureSentinel for Public.'
 metadata author = 'https://github.com/rdeveen/azure-ip-addresses-bicep'
-metadata created = '2026-10-12'
+metadata created = '2026-10-19'
 
 @description('AzureSentinel service tag IP addresses for Public')
 @export()
@@ -206,6 +206,7 @@ var AzureSentinel = [
   '48.209.116.224/27'
   '48.214.114.176/28'
   '48.214.114.192/28'
+  '48.214.138.144/29'
   '48.215.92.232/31'
   '48.216.26.104/29'
   '48.219.199.168/29'
@@ -253,6 +254,7 @@ var AzureSentinel = [
   '52.238.16.48/28'
   '52.242.47.152/29'
   '52.251.70.29/32'
+  '52.255.8.64/29'
   '57.151.216.176/29'
   '57.152.113.24/30'
   '57.152.113.32/28'
@@ -288,6 +290,7 @@ var AzureSentinel = [
   '72.152.38.24/29'
   '72.152.38.32/28'
   '72.152.38.48/30'
+  '72.153.16.192/29'
   '74.7.51.32/29'
   '74.7.183.176/29'
   '74.159.237.139/32'
@@ -362,6 +365,7 @@ var AzureSentinel = [
   '135.119.2.40/31'
   '135.171.186.128/28'
   '135.225.179.228/31'
+  '135.232.86.192/29'
   '135.232.169.124/31'
   '135.233.200.32/30'
   '135.234.21.16/28'

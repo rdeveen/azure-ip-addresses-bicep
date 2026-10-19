@@ -3,7 +3,7 @@
 metadata name = 'AzureCloud.southcentralus'
 metadata description = 'This module contains all the service tag IP addresses of AzureCloud.southcentralus for Public.'
 metadata author = 'https://github.com/rdeveen/azure-ip-addresses-bicep'
-metadata created = '2026-10-12'
+metadata created = '2026-10-19'
 
 @description('AzureCloud.southcentralus service tag IP addresses for Public')
 @export()
@@ -486,6 +486,7 @@ var AzureCloud_southcentralus = [
   '157.55.204.33/32'
   '157.55.204.34/31'
   '168.62.128.0/19'
+  '172.143.128.0/17'
   '172.202.128.0/17'
   '172.206.128.0/18'
   '172.215.128.0/18'
