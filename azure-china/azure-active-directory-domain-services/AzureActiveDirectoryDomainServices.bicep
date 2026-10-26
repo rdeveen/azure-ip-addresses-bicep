@@ -3,7 +3,7 @@
 metadata name = 'AzureActiveDirectoryDomainServices'
 metadata description = 'This module contains all the service tag IP addresses of AzureActiveDirectoryDomainServices for China.'
 metadata author = 'https://github.com/rdeveen/azure-ip-addresses-bicep'
-metadata created = '2026-07-20'
+metadata created = '2026-10-26'
 
 @description('AzureActiveDirectoryDomainServices service tag IP addresses for China')
 @export()
@@ -20,4 +20,6 @@ var AzureActiveDirectoryDomainServices = [
   '139.217.171.192/27'
   '2404:7940:101:3::710/124'
   '2404:7940:301::830/124'
+  '2406:e500:5500::120/124'
+  '2406:e500:5500:20::120/124'
 ]

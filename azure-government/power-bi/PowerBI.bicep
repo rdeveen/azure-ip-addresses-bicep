@@ -3,7 +3,7 @@
 metadata name = 'PowerBI'
 metadata description = 'This module contains all the service tag IP addresses of PowerBI for AzureGovernment.'
 metadata author = 'https://github.com/rdeveen/azure-ip-addresses-bicep'
-metadata created = '2026-07-13'
+metadata created = '2026-10-26'
 
 @description('PowerBI service tag IP addresses for AzureGovernment')
 @export()
@@ -40,6 +40,7 @@ var PowerBI = [
   '52.127.55.216/29'
   '52.181.42.128/28'
   '52.235.251.108/30'
+  '57.17.100.128/26'
   '2001:489a:3103::5e0/123'
   '2001:489a:3103::600/122'
   '2001:489a:3103:1::/122'

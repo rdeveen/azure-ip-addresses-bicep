@@ -3,12 +3,24 @@
 metadata name = 'AzureMonitor.Core'
 metadata description = 'This module contains all the service tag IP addresses of AzureMonitor.Core for China.'
 metadata author = 'https://github.com/rdeveen/azure-ip-addresses-bicep'
-metadata created = '2026-07-13'
+metadata created = '2026-10-26'
 
 @description('AzureMonitor.Core service tag IP addresses for China')
 @export()
 var AzureMonitor_Core = [
+  '40.72.48.60/30'
+  '40.72.49.0/29'
+  '40.72.49.8/31'
+  '40.72.49.38/31'
+  '40.72.49.40/29'
+  '40.72.49.48/28'
   '40.72.77.32/28'
+  '40.162.102.54/31'
+  '40.162.103.64/29'
+  '40.162.103.72/30'
+  '40.162.103.98/31'
+  '40.162.103.104/29'
+  '40.162.103.112/28'
   '52.130.5.160/28'
   '52.130.12.240/28'
   '52.130.21.96/28'
@@ -45,6 +57,10 @@ var AzureMonitor_Core = [
   '2404:7940:301:2::440/123'
   '2406:e500:2402::/121'
   '2406:e500:2402:3::1c0/123'
+  '2406:e500:2402:5::768/125'
+  '2406:e500:2402:5::780/123'
   '2406:e500:2602::/121'
   '2406:e500:2602:3::220/123'
+  '2406:e500:2602:8::1e8/125'
+  '2406:e500:2602:8::440/123'
 ]

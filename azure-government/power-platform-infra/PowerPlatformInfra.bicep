@@ -3,7 +3,7 @@
 metadata name = 'PowerPlatformInfra'
 metadata description = 'This module contains all the service tag IP addresses of PowerPlatformInfra for AzureGovernment.'
 metadata author = 'https://github.com/rdeveen/azure-ip-addresses-bicep'
-metadata created = '2026-07-13'
+metadata created = '2026-10-26'
 
 @description('PowerPlatformInfra service tag IP addresses for AzureGovernment')
 @export()
@@ -65,6 +65,9 @@ var PowerPlatformInfra = [
   '52.245.170.221/32'
   '52.245.211.174/32'
   '52.245.239.198/32'
+  '57.17.69.192/26'
+  '57.17.70.0/26'
+  '57.17.99.128/25'
   '62.11.34.32/27'
   '62.11.34.128/28'
   '62.11.34.160/27'

@@ -3,11 +3,17 @@
 metadata name = 'AzureMonitor.ChinaNorth3'
 metadata description = 'This module contains all the service tag IP addresses of AzureMonitor.ChinaNorth3 for China.'
 metadata author = 'https://github.com/rdeveen/azure-ip-addresses-bicep'
-metadata created = '2026-07-13'
+metadata created = '2026-10-26'
 
 @description('AzureMonitor.ChinaNorth3 service tag IP addresses for China')
 @export()
 var AzureMonitor_ChinaNorth3 = [
+  '40.72.48.60/30'
+  '40.72.49.0/29'
+  '40.72.49.8/31'
+  '40.72.49.38/31'
+  '40.72.49.40/29'
+  '40.72.49.48/28'
   '40.162.75.160/28'
   '40.162.75.224/28'
   '40.162.224.64/27'
@@ -39,4 +45,6 @@ var AzureMonitor_ChinaNorth3 = [
   '2406:e500:2602:3::240/122'
   '2406:e500:2602:5::a0/123'
   '2406:e500:2602:6::/123'
+  '2406:e500:2602:8::1e8/125'
+  '2406:e500:2602:8::440/123'
 ]
