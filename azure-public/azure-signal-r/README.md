@@ -97,6 +97,7 @@ This module includes regional variants for the following Azure regions:
 - `SouthCentralUSSTG`
 - `SouthIndia`
 - `SoutheastAsia`
+- `SoutheastAsia3`
 - `SpainCentral`
 - `SwedenCentral`
 - `SwedenSouth`
@@ -114,7 +115,7 @@ This module includes regional variants for the following Azure regions:
 - `WestUS2`
 - `WestUS3`
 
-Total regional variants: 63
+Total regional variants: 64
 
 
 ## Generated Information

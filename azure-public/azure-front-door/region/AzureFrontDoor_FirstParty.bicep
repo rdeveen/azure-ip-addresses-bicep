@@ -3,7 +3,7 @@
 metadata name = 'AzureFrontDoor.FirstParty'
 metadata description = 'This module contains all the service tag IP addresses of AzureFrontDoor.FirstParty for Public.'
 metadata author = 'https://github.com/rdeveen/azure-ip-addresses-bicep'
-metadata created = '2026-07-13'
+metadata created = '2026-11-02'
 
 @description('AzureFrontDoor.FirstParty service tag IP addresses for Public')
 @export()
@@ -30,6 +30,7 @@ var AzureFrontDoor_FirstParty = [
   '13.107.128.0/19'
   '13.107.245.0/24'
   '13.107.254.0/23'
+  '52.107.220.0/22'
   '131.253.3.0/24'
   '131.253.21.0/24'
   '131.253.33.0/24'
@@ -53,6 +54,7 @@ var AzureFrontDoor_FirstParty = [
   '2603:1061:f::/48'
   '2603:1061:10::/48'
   '2603:1061:12::/48'
+  '2603:1061:13e0::/44'
   '2603:10e1:0:100::/56'
   '2603:10e1:1::/48'
   '2620:1ec:4::/46'

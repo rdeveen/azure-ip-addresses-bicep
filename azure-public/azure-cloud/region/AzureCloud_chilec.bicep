@@ -3,7 +3,7 @@
 metadata name = 'AzureCloud.chilec'
 metadata description = 'This module contains all the service tag IP addresses of AzureCloud.chilec for Public.'
 metadata author = 'https://github.com/rdeveen/azure-ip-addresses-bicep'
-metadata created = '2026-10-05'
+metadata created = '2026-11-02'
 
 @description('AzureCloud.chilec service tag IP addresses for Public')
 @export()
@@ -11,7 +11,8 @@ var AzureCloud_chilec = [
   '20.20.32.128/25'
   '20.20.88.0/24'
   '20.20.89.0/25'
-  '20.20.89.128/31'
+  '20.20.89.128/30'
+  '20.20.89.132/31'
   '20.33.85.0/24'
   '20.33.236.0/24'
   '20.33.240.0/24'
@@ -78,7 +79,8 @@ var AzureCloud_chilec = [
   '2603:1061:1013:80::/59'
   '2603:1061:1013:a0::/60'
   '2603:1061:1013:b0::/61'
-  '2603:1061:1013:b8::/64'
+  '2603:1061:1013:b8::/63'
+  '2603:1061:1013:ba::/64'
   '2603:1061:1315:c00::/54'
   '2603:1061:170b::/48'
   '2603:1061:2002:d000::/57'

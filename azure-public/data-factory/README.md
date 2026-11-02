@@ -103,6 +103,7 @@ This module includes regional variants for the following Azure regions:
 - `SouthCentralUS2`
 - `SouthIndia`
 - `SoutheastAsia`
+- `SoutheastAsia3`
 - `SoutheastUS`
 - `SoutheastUS3`
 - `SoutheastUS5`
@@ -125,7 +126,7 @@ This module includes regional variants for the following Azure regions:
 - `WestUS2`
 - `WestUS3`
 
-Total regional variants: 74
+Total regional variants: 75
 
 
 ## Generated Information

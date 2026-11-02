@@ -64,6 +64,7 @@ This module includes regional variants for the following Azure regions:
 - `CentralUS`
 - `CentralUSEUAP`
 - `ChileCentral`
+- `DenmarkEast`
 - `EastAsia`
 - `EastUS`
 - `EastUS2`
@@ -119,7 +120,7 @@ This module includes regional variants for the following Azure regions:
 - `WestUS2`
 - `WestUS3`
 
-Total regional variants: 68
+Total regional variants: 69
 
 
 ## Generated Information

@@ -3,7 +3,7 @@
 metadata name = 'OneDsCollector'
 metadata description = 'This module contains all the service tag IP addresses of OneDsCollector for Public.'
 metadata author = 'https://github.com/rdeveen/azure-ip-addresses-bicep'
-metadata created = '2026-09-21'
+metadata created = '2026-11-02'
 
 @description('OneDsCollector service tag IP addresses for Public')
 @export()
@@ -45,6 +45,8 @@ var OneDsCollector = [
   '20.50.201.200/29'
   '20.52.64.200/29'
   '20.52.72.112/28'
+  '20.66.247.50/31'
+  '20.66.247.52/30'
   '20.89.1.8/29'
   '20.111.117.64/27'
   '20.151.32.144/29'

@@ -3,7 +3,7 @@
 metadata name = 'AzureCloud.usstagec'
 metadata description = 'This module contains all the service tag IP addresses of AzureCloud.usstagec for Public.'
 metadata author = 'https://github.com/rdeveen/azure-ip-addresses-bicep'
-metadata created = '2026-07-13'
+metadata created = '2026-11-02'
 
 @description('AzureCloud.usstagec service tag IP addresses for Public')
 @export()
@@ -45,6 +45,7 @@ var AzureCloud_usstagec = [
   '40.123.164.140/30'
   '40.123.165.0/30'
   '40.123.165.28/31'
+  '40.123.165.46/31'
   '40.123.165.62/31'
   '40.123.165.64/30'
   '40.123.165.152/31'
@@ -75,6 +76,7 @@ var AzureCloud_usstagec = [
   '2603:1030:804:287::/64'
   '2603:1030:804:288::/63'
   '2603:1030:804:2b4::/64'
+  '2603:1030:804:30d::/64'
   '2603:1030:804:332::/64'
   '2603:1030:804:458::/62'
   '2603:1030:804:4b6::/63'

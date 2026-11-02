@@ -3,7 +3,7 @@
 metadata name = 'AzureSecurityCenter'
 metadata description = 'This module contains all the service tag IP addresses of AzureSecurityCenter for Public.'
 metadata author = 'https://github.com/rdeveen/azure-ip-addresses-bicep'
-metadata created = '2026-10-26'
+metadata created = '2026-11-02'
 
 @description('AzureSecurityCenter service tag IP addresses for Public')
 @export()
@@ -62,6 +62,8 @@ var AzureSecurityCenter = [
   '9.160.68.0/24'
   '9.160.69.0/26'
   '9.160.69.64/27'
+  '9.205.223.96/27'
+  '9.205.223.128/29'
   '9.223.161.0/24'
   '9.223.162.0/23'
   '9.223.164.0/25'
