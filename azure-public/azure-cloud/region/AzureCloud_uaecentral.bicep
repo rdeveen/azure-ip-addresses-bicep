@@ -3,7 +3,7 @@
 metadata name = 'AzureCloud.uaecentral'
 metadata description = 'This module contains all the service tag IP addresses of AzureCloud.uaecentral for Public.'
 metadata author = 'https://github.com/rdeveen/azure-ip-addresses-bicep'
-metadata created = '2026-11-02'
+metadata created = '2026-11-09'
 
 @description('AzureCloud.uaecentral service tag IP addresses for Public')
 @export()
@@ -69,7 +69,17 @@ var AzureCloud_uaecentral = [
   '70.152.216.0/24'
   '70.152.218.0/24'
   '74.150.0.0/17'
-  '74.243.0.0/17'
+  '74.243.0.0/19'
+  '74.243.32.0/20'
+  '74.243.48.0/23'
+  '74.243.50.0/24'
+  '74.243.51.0/27'
+  '74.243.51.48/28'
+  '74.243.51.64/26'
+  '74.243.51.128/25'
+  '74.243.52.0/22'
+  '74.243.56.0/21'
+  '74.243.64.0/18'
   '74.243.128.0/21'
   '74.243.144.0/20'
   '74.243.160.0/19'

@@ -3,12 +3,22 @@
 metadata name = 'AzureCloud.japanwest'
 metadata description = 'This module contains all the service tag IP addresses of AzureCloud.japanwest for Public.'
 metadata author = 'https://github.com/rdeveen/azure-ip-addresses-bicep'
-metadata created = '2026-11-02'
+metadata created = '2026-11-09'
 
 @description('AzureCloud.japanwest service tag IP addresses for Public')
 @export()
 var AzureCloud_japanwest = [
-  '4.190.128.0/17'
+  '4.190.128.0/18'
+  '4.190.192.0/19'
+  '4.190.224.0/20'
+  '4.190.240.0/22'
+  '4.190.244.0/24'
+  '4.190.245.0/26'
+  '4.190.245.64/28'
+  '4.190.245.96/27'
+  '4.190.245.128/25'
+  '4.190.246.0/23'
+  '4.190.248.0/21'
   '9.129.43.0/25'
   '9.129.58.0/28'
   '9.129.118.64/27'

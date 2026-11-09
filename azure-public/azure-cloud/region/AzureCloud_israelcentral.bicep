@@ -3,7 +3,7 @@
 metadata name = 'AzureCloud.israelcentral'
 metadata description = 'This module contains all the service tag IP addresses of AzureCloud.israelcentral for Public.'
 metadata author = 'https://github.com/rdeveen/azure-ip-addresses-bicep'
-metadata created = '2026-11-02'
+metadata created = '2026-11-09'
 
 @description('AzureCloud.israelcentral service tag IP addresses for Public')
 @export()
@@ -51,6 +51,7 @@ var AzureCloud_israelcentral = [
   '40.123.137.0/26'
   '40.123.137.64/28'
   '40.123.137.80/29'
+  '40.123.137.88/30'
   '40.123.173.0/24'
   '48.212.29.0/24'
   '48.212.155.0/24'
@@ -87,6 +88,7 @@ var AzureCloud_israelcentral = [
   '2603:1061:1007::/56'
   '2603:1061:1007:100::/59'
   '2603:1061:1007:120::/62'
+  '2603:1061:1007:124::/63'
   '2603:1061:1310:800::/54'
   '2603:1061:1737::/48'
   '2603:1061:2000:720::/62'

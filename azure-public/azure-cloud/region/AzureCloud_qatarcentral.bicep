@@ -3,12 +3,24 @@
 metadata name = 'AzureCloud.qatarcentral'
 metadata description = 'This module contains all the service tag IP addresses of AzureCloud.qatarcentral for Public.'
 metadata author = 'https://github.com/rdeveen/azure-ip-addresses-bicep'
-metadata created = '2026-11-02'
+metadata created = '2026-11-09'
 
 @description('AzureCloud.qatarcentral service tag IP addresses for Public')
 @export()
 var AzureCloud_qatarcentral = [
-  '4.170.0.0/15'
+  '4.170.0.0/16'
+  '4.171.0.0/19'
+  '4.171.32.0/21'
+  '4.171.40.0/23'
+  '4.171.42.0/24'
+  '4.171.43.0/25'
+  '4.171.43.128/26'
+  '4.171.43.192/27'
+  '4.171.43.224/28'
+  '4.171.44.0/22'
+  '4.171.48.0/20'
+  '4.171.64.0/18'
+  '4.171.128.0/17'
   '4.244.0.0/16'
   '13.105.99.64/27'
   '13.105.99.96/28'

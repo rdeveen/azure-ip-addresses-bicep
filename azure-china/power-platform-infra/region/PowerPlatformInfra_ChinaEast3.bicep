@@ -3,11 +3,12 @@
 metadata name = 'PowerPlatformInfra.ChinaEast3'
 metadata description = 'This module contains all the service tag IP addresses of PowerPlatformInfra.ChinaEast3 for China.'
 metadata author = 'https://github.com/rdeveen/azure-ip-addresses-bicep'
-metadata created = '2026-07-13'
+metadata created = '2026-11-09'
 
 @description('PowerPlatformInfra.ChinaEast3 service tag IP addresses for China')
 @export()
 var PowerPlatformInfra_ChinaEast3 = [
+  '40.72.56.96/27'
   '163.228.59.64/26'
   '163.228.59.128/27'
   '163.228.66.162/32'

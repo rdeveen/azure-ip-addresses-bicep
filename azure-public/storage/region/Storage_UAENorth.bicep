@@ -3,7 +3,7 @@
 metadata name = 'Storage.UAENorth'
 metadata description = 'This module contains all the service tag IP addresses of Storage.UAENorth for Public.'
 metadata author = 'https://github.com/rdeveen/azure-ip-addresses-bicep'
-metadata created = '2026-07-27'
+metadata created = '2026-11-09'
 
 @description('Storage.UAENorth service tag IP addresses for Public')
 @export()
@@ -21,5 +21,6 @@ var Storage_UAENorth = [
   '52.239.233.128/25'
   '57.150.230.0/23'
   '57.163.54.0/23'
+  '145.190.202.0/24'
   '2603:1040:905::/48'
 ]
