@@ -3,11 +3,12 @@
 metadata name = 'PowerPlatformPlex.CentralIndia'
 metadata description = 'This module contains all the service tag IP addresses of PowerPlatformPlex.CentralIndia for Public.'
 metadata author = 'https://github.com/rdeveen/azure-ip-addresses-bicep'
-metadata created = '2026-07-13'
+metadata created = '2026-11-16'
 
 @description('PowerPlatformPlex.CentralIndia service tag IP addresses for Public')
 @export()
 var PowerPlatformPlex_CentralIndia = [
+  '4.186.249.0/25'
   '4.213.28.0/29'
   '20.193.248.192/26'
   '20.204.192.108/30'

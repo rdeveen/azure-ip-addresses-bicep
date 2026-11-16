@@ -3,13 +3,14 @@
 metadata name = 'PowerPlatformInfra.SwitzerlandWest'
 metadata description = 'This module contains all the service tag IP addresses of PowerPlatformInfra.SwitzerlandWest for Public.'
 metadata author = 'https://github.com/rdeveen/azure-ip-addresses-bicep'
-metadata created = '2026-07-13'
+metadata created = '2026-11-16'
 
 @description('PowerPlatformInfra.SwitzerlandWest service tag IP addresses for Public')
 @export()
 var PowerPlatformInfra_SwitzerlandWest = [
   '20.199.206.120/29'
   '20.199.207.48/28'
+  '20.199.234.128/25'
   '51.107.96.36/32'
   '51.107.96.48/29'
   '51.107.96.104/32'

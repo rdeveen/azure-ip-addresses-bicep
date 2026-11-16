@@ -97,6 +97,7 @@ This module includes regional variants for the following Azure regions:
 - `norwayw`
 - `polandcentral`
 - `qatarcentral`
+- `saudiarabiaeast`
 - `southafricanorth`
 - `southafricawest`
 - `southcentralus`
@@ -129,7 +130,7 @@ This module includes regional variants for the following Azure regions:
 - `westus2`
 - `westus3`
 
-Total regional variants: 78
+Total regional variants: 79
 
 
 ## Generated Information

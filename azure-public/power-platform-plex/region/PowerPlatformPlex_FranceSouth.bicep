@@ -3,7 +3,7 @@
 metadata name = 'PowerPlatformPlex.FranceSouth'
 metadata description = 'This module contains all the service tag IP addresses of PowerPlatformPlex.FranceSouth for Public.'
 metadata author = 'https://github.com/rdeveen/azure-ip-addresses-bicep'
-metadata created = '2026-07-13'
+metadata created = '2026-11-16'
 
 @description('PowerPlatformPlex.FranceSouth service tag IP addresses for Public')
 @export()
@@ -16,5 +16,6 @@ var PowerPlatformPlex_FranceSouth = [
   '40.80.96.192/30'
   '52.136.140.96/28'
   '52.136.191.248/29'
+  '98.66.43.0/25'
   '2603:1061:2004:4100::/57'
 ]

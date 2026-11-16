@@ -3,11 +3,12 @@
 metadata name = 'PowerPlatformPlex.UAENorth'
 metadata description = 'This module contains all the service tag IP addresses of PowerPlatformPlex.UAENorth for Public.'
 metadata author = 'https://github.com/rdeveen/azure-ip-addresses-bicep'
-metadata created = '2026-07-13'
+metadata created = '2026-11-16'
 
 @description('PowerPlatformPlex.UAENorth service tag IP addresses for Public')
 @export()
 var PowerPlatformPlex_UAENorth = [
+  '4.161.191.0/25'
   '20.74.196.12/30'
   '20.74.196.64/30'
   '20.74.196.104/29'

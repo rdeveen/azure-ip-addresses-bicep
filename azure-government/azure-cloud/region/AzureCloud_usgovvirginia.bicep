@@ -3,7 +3,7 @@
 metadata name = 'AzureCloud.usgovvirginia'
 metadata description = 'This module contains all the service tag IP addresses of AzureCloud.usgovvirginia for AzureGovernment.'
 metadata author = 'https://github.com/rdeveen/azure-ip-addresses-bicep'
-metadata created = '2026-10-26'
+metadata created = '2026-11-16'
 
 @description('AzureCloud.usgovvirginia service tag IP addresses for AzureGovernment')
 @export()
@@ -101,7 +101,17 @@ var AzureCloud_usgovvirginia = [
   '52.245.150.0/23'
   '52.245.192.0/18'
   '52.247.128.0/18'
-  '57.16.0.0/24'
+  '57.16.0.0/22'
+  '57.16.64.0/24'
+  '57.16.66.0/24'
+  '57.16.98.0/24'
+  '57.16.100.0/24'
+  '57.16.102.0/24'
+  '57.16.104.0/24'
+  '57.16.106.0/24'
+  '57.16.108.0/24'
+  '57.16.110.0/24'
+  '57.16.112.0/24'
   '57.17.96.0/19'
   '57.17.128.0/19'
   '62.10.0.0/17'

@@ -97,6 +97,7 @@ This module includes regional variants for the following Azure regions:
 - `NorwayWest`
 - `PolandCentral`
 - `QatarCentral`
+- `SaudiArabiaEast`
 - `SouthAfricaNorth`
 - `SouthAfricaWest`
 - `SouthCentralUS`
@@ -126,7 +127,7 @@ This module includes regional variants for the following Azure regions:
 - `WestUS2`
 - `WestUS3`
 
-Total regional variants: 75
+Total regional variants: 76
 
 
 ## Generated Information

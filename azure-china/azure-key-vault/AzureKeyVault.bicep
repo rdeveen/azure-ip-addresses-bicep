@@ -3,11 +3,13 @@
 metadata name = 'AzureKeyVault'
 metadata description = 'This module contains all the service tag IP addresses of AzureKeyVault for China.'
 metadata author = 'https://github.com/rdeveen/azure-ip-addresses-bicep'
-metadata created = '2026-07-13'
+metadata created = '2026-11-16'
 
 @description('AzureKeyVault service tag IP addresses for China')
 @export()
 var AzureKeyVault = [
+  '40.72.49.232/30'
+  '40.72.49.236/31'
   '40.72.79.152/29'
   '40.73.24.214/31'
   '40.73.72.185/32'

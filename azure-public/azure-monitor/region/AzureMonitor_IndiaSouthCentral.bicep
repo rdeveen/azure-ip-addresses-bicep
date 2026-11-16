@@ -3,11 +3,12 @@
 metadata name = 'AzureMonitor.IndiaSouthCentral'
 metadata description = 'This module contains all the service tag IP addresses of AzureMonitor.IndiaSouthCentral for Public.'
 metadata author = 'https://github.com/rdeveen/azure-ip-addresses-bicep'
-metadata created = '2026-08-03'
+metadata created = '2026-11-16'
 
 @description('AzureMonitor.IndiaSouthCentral service tag IP addresses for Public')
 @export()
 var AzureMonitor_IndiaSouthCentral = [
+  '172.128.3.192/27'
   '172.198.96.216/29'
   '172.198.98.160/29'
   '172.198.98.168/31'

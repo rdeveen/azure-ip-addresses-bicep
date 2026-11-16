@@ -3,13 +3,14 @@
 metadata name = 'PowerBI.KoreaSouth'
 metadata description = 'This module contains all the service tag IP addresses of PowerBI.KoreaSouth for Public.'
 metadata author = 'https://github.com/rdeveen/azure-ip-addresses-bicep'
-metadata created = '2026-07-13'
+metadata created = '2026-11-16'
 
 @description('PowerBI.KoreaSouth service tag IP addresses for Public')
 @export()
 var PowerBI_KoreaSouth = [
   '4.243.117.16/29'
   '4.243.139.160/28'
+  '4.243.188.240/28'
   '20.200.166.224/28'
   '40.80.168.122/31'
   '40.80.168.124/30'

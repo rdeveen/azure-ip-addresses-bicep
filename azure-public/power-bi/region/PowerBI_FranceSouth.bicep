@@ -3,7 +3,7 @@
 metadata name = 'PowerBI.FranceSouth'
 metadata description = 'This module contains all the service tag IP addresses of PowerBI.FranceSouth for Public.'
 metadata author = 'https://github.com/rdeveen/azure-ip-addresses-bicep'
-metadata created = '2026-07-13'
+metadata created = '2026-11-16'
 
 @description('PowerBI.FranceSouth service tag IP addresses for Public')
 @export()
@@ -16,6 +16,10 @@ var PowerBI_FranceSouth = [
   '51.105.88.208/28'
   '52.136.186.112/30'
   '52.136.190.184/29'
+  '98.66.42.122/31'
+  '98.66.42.124/30'
+  '98.66.43.208/32'
+  '98.66.43.224/27'
   '2603:1020:905::620/123'
   '2603:1020:905::640/122'
 ]
